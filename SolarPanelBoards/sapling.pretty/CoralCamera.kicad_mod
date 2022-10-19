@@ -1,0 +1,17 @@
+(module CoralCamera (layer F.Cu) (tedit 62737A7D)
+  (fp_text reference REF** (at 0 10.16) (layer Dwgs.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CoralCamera (at 0 7.62) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -12.5 1.27) (end 12.5 1.27) (layer F.SilkS) (width 0.3))
+  (fp_line (start 12.5 26.27) (end 12.5 1.27) (layer F.SilkS) (width 0.3))
+  (fp_line (start -12.5 26.27) (end 12.5 26.27) (layer F.SilkS) (width 0.3))
+  (fp_line (start -12.5 26.27) (end -12.5 1.27) (layer F.SilkS) (width 0.3))
+  (model C:/Users/grant/Downloads/Coral-Camera_v2.step
+    (offset (xyz 0 -13.8 -3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

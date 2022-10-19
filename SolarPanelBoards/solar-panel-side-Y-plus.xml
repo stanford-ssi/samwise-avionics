@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\grant\Desktop\Sapling\solar-panel-side-x\solar-panel-side-x.sch</source>
+    <date>8/1/2021 12:02:47 AM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SolarPanel+-Y</title>
+        <company>SSI Satellite Team</company>
+        <rev>0</rev>
+        <date>2021-07-30</date>
+        <source>solar-panel-side-x.sch</source>
+        <comment number="1" value="Screw terminals to be taken off after this test board!"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>CDBA240LL-HF</value>
+      <footprint>sapling:DO-214AC</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61067859</tstamp>
+    </comp>
+    <comp ref="SC1">
+      <value>SM141K08L</value>
+      <footprint>sapling:SM141K08L</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Solar_Cells" description="Multiple solar cells"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61064997</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Power_Output_Screw_Terminal</value>
+      <footprint>sapling:SCREWTERMINAL-3.5MM-2_LOCK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6106A28C</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>sapling:SM141K08L</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6108F293</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>sapling:SM141K08L</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6109F65F</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>sapling:SM141K08L</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610A16DC</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>CDBA240LL-HF</value>
+      <footprint>sapling:DO-214AC</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61086D6C</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>CDBA240LL-HF</value>
+      <footprint>sapling:DO-214AC</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61069888</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>CDBA240LL-HF</value>
+      <footprint>sapling:DO-214AC</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61069345</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>CDBA240LL-HF</value>
+      <footprint>sapling:DO-214AC</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610688C1</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Bypass_Screw_Terminal</value>
+      <footprint>sapling:SCREWTERMINAL-3.5MM-2_LOCK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610B862E</tstamp>
+    </comp>
+    <comp ref="SC4">
+      <value>SM141K08L</value>
+      <footprint>sapling:SM141K08L</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Solar_Cells" description="Multiple solar cells"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61063D92</tstamp>
+    </comp>
+    <comp ref="SC5">
+      <value>SM141K08L</value>
+      <footprint>sapling:SM141K08L</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Solar_Cells" description="Multiple solar cells"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610661A9</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>sapling:SM141K08L</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61091743</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>sapling:SM141K08L</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6109D6A1</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>sapling:SM141K08L</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6109EF11</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>sapling:SM141K08L</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610A0B28</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Bypass_Screw_Terminal</value>
+      <footprint>sapling:SCREWTERMINAL-3.5MM-2_LOCK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610D78DB</tstamp>
+    </comp>
+    <comp ref="SC2">
+      <value>SM141K08L</value>
+      <footprint>sapling:SM141K08L</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Solar_Cells" description="Multiple solar cells"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610621B2</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Bypass_Screw_Terminal</value>
+      <footprint>sapling:SCREWTERMINAL-3.5MM-2_LOCK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610DE0BE</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Bypass_Screw_Terminal</value>
+      <footprint>sapling:SCREWTERMINAL-3.5MM-2_LOCK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610E37AD</tstamp>
+    </comp>
+    <comp ref="SC3">
+      <value>SM141K08L</value>
+      <footprint>sapling:SM141K08L</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Solar_Cells" description="Multiple solar cells"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61062BDA</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Bypass_Screw_Terminal</value>
+      <footprint>sapling:SCREWTERMINAL-3.5MM-2_LOCK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610E86FE</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Blocking_Screw_Terminal</value>
+      <footprint>sapling:SCREWTERMINAL-3.5MM-2_LOCK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610EBB4F</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Blocking_Screw_Terminal</value>
+      <footprint>sapling:SCREWTERMINAL-3.5MM-2_LOCK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610F14DD</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>CDBA240LL-HF</value>
+      <footprint>sapling:DO-214AC</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6108B315</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Solar_Cells">
+      <description>Multiple solar cells</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SC</field>
+        <field name="Value">Solar_Cells</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="SC4" pin="1"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="SC3" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D2-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="SC2" pin="2"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="SC3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad2)">
+      <node ref="SC1" pin="2"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="SC2" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D6-Pad1)">
+      <node ref="TP7" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="SC5" pin="1"/>
+      <node ref="SC4" pin="2"/>
+      <node ref="TP6" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D5-Pad2)">
+      <node ref="J8" pin="2"/>
+      <node ref="SC5" pin="2"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="SC1" pin="1"/>
+      <node ref="TP1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+  </nets>
+</export>
