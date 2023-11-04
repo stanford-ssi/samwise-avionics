@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid dddbd34d-b360-4825-a919-5d8ff5c31ff3)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 96.52 48.26) (size 30.48 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 39686c6d-dd5e-408e-a5df-6252b4e4ae76)
+    (property "Sheetname" "Balancer" (at 96.52 47.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BatteryBalancer.kicad_sch" (at 96.52 78.0546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "batteryBalencerAndCounter"
+        (path "/dddbd34d-b360-4825-a919-5d8ff5c31ff3" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
