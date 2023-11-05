@@ -62,145 +62,105 @@
       )
     )
     (symbol "FlexDeploySidePanels:SM141K08TFV" (in_bom yes) (on_board yes)
-      (property "Reference" "SC1" (at -3.556 0 0)
-        (effects (font (size 1.27 1.27)) (justify right))
+      (property "Reference" "SC" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (at 0 0 0)
+      (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "SM141K08TFV_0_1"
-        (rectangle (start -2.032 0.508) (end 2.032 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -1.3208 -0.0762) (end 1.27 -0.5842)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
         (polyline
           (pts
-            (xy -2.032 1.016)
-            (xy -3.556 2.54)
+            (xy 4.318 1.016)
+            (xy 2.794 2.54)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy -0.762 1.524)
-            (xy -2.286 3.048)
+            (xy 5.588 1.524)
+            (xy 4.064 3.048)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0 -0.508)
-            (xy 0 -1.27)
+            (xy 6.35 -0.508)
+            (xy 6.35 -1.27)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0 0.508)
-            (xy 0 1.27)
+            (xy 6.35 0.508)
+            (xy 6.35 1.27)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0.254 1.397)
-            (xy 1.27 1.397)
+            (xy 6.604 1.397)
+            (xy 7.62 1.397)
           )
           (stroke (width 0.254) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0.762 1.905)
-            (xy 0.762 0.889)
+            (xy 7.112 1.905)
+            (xy 7.112 0.889)
           )
           (stroke (width 0.254) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy -2.032 1.778)
-            (xy -2.032 1.016)
-            (xy -2.794 1.016)
+            (xy 4.318 1.778)
+            (xy 4.318 1.016)
+            (xy 3.556 1.016)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy -0.762 2.286)
-            (xy -0.762 1.524)
-            (xy -1.524 1.524)
+            (xy 5.588 2.286)
+            (xy 5.588 1.524)
+            (xy 4.826 1.524)
           )
           (stroke (width 0) (type default))
           (fill (type none))
+        )
+        (rectangle (start 4.318 0.508) (end 8.382 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 5.0292 -0.0762) (end 7.62 -0.5842)
+          (stroke (width 0) (type default))
+          (fill (type outline))
         )
       )
       (symbol "SM141K08TFV_1_1"
-        (text "SM141K08TFV" (at 10.16 0 0)
+        (text "SM141K08TFV" (at 16.51 0 0)
           (effects (font (size 1.27 1.27)))
         )
-        (pin passive line (at 0 -3.81 90) (length 2.54)
+        (pin passive line (at 6.35 -3.81 90) (length 2.54)
           (name "" (effects (font (size 1.27 1.27))))
           (number "" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 3.81 270) (length 2.54)
+        (pin passive line (at 6.35 3.81 270) (length 2.54)
           (name "" (effects (font (size 1.27 1.27))))
           (number "" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "GND_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND_1" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_1_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -239,109 +199,6 @@
         )
       )
     )
-    (symbol "SM141K08TFV_1" (in_bom yes) (on_board yes)
-      (property "Reference" "SC1" (at -5.08 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SM141K08TFV_1_0_1"
-        (rectangle (start -2.032 0.508) (end 2.032 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -1.3208 -0.0762) (end 1.27 -0.5842)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy -2.032 1.016)
-            (xy -3.556 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.762 1.524)
-            (xy -2.286 3.048)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.508)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.508)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 1.397)
-            (xy 1.27 1.397)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.905)
-            (xy 0.762 0.889)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 1.778)
-            (xy -2.032 1.016)
-            (xy -2.794 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.762 2.286)
-            (xy -0.762 1.524)
-            (xy -1.524 1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "SM141K08TFV_1_1_1"
-        (text "SM141K08TFV" (at 10.16 0 0)
-          (effects (font (size 1.27 1.27)))
-        )
-        (pin passive line (at 0 3.81 270) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -355,7 +212,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
@@ -831,14 +688,14 @@
     (property "Value" "~" (at 52.07 158.242 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 158.242 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 158.242 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 158.242 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 3294c8c9-7d94-4f5b-88a5-b60f4d063727))
-    (pin "" (uuid 94fc5838-b2ec-456d-a450-c3835e569570))
+    (pin "" (uuid 94fc5838-b2ec-456d-a450-c3835e569571))
+    (pin "" (uuid 94fc5838-b2ec-456d-a450-c3835e569571))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -857,14 +714,14 @@
     (property "Value" "~" (at 52.07 120.142 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 120.142 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 120.142 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 120.142 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid aed493f6-b99c-4c9b-bd85-c3298877126a))
-    (pin "" (uuid af95b0ae-aa22-4e31-a3d2-bebd6437f92e))
+    (pin "" (uuid af95b0ae-aa22-4e31-a3d2-bebd6437f92f))
+    (pin "" (uuid af95b0ae-aa22-4e31-a3d2-bebd6437f92f))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -883,14 +740,14 @@
     (property "Value" "~" (at 99.314 112.522 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 112.522 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 112.522 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 112.522 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 48e865d9-01e1-48d0-8d40-087d39992a1a))
-    (pin "" (uuid 7515fbd4-ab7f-4948-9a15-d8df94bfd66d))
+    (pin "" (uuid 7515fbd4-ab7f-4948-9a15-d8df94bfd66e))
+    (pin "" (uuid 7515fbd4-ab7f-4948-9a15-d8df94bfd66e))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -915,8 +772,8 @@
     (property "Datasheet" "" (at 37.338 158.242 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid d64547a2-34b1-4377-a185-3cf8a31c216b))
-    (pin "" (uuid 3a38e06a-3ed8-4b8b-8b3c-466873c906ca))
+    (pin "" (uuid 3a38e06a-3ed8-4b8b-8b3c-466873c906cb))
+    (pin "" (uuid 3a38e06a-3ed8-4b8b-8b3c-466873c906cb))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -935,14 +792,14 @@
     (property "Value" "~" (at 52.07 165.862 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 165.862 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 165.862 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 165.862 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 67d5286f-168d-46c0-942f-0034c0c281cb))
-    (pin "" (uuid b6282284-3764-488d-9a51-7745ca0b8cb9))
+    (pin "" (uuid b6282284-3764-488d-9a51-7745ca0b8cba))
+    (pin "" (uuid b6282284-3764-488d-9a51-7745ca0b8cba))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -961,14 +818,14 @@
     (property "Value" "~" (at 52.07 43.942 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 43.942 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 43.942 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 43.942 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 7bd0729e-2b28-4c16-bf6a-779f3b586cf2))
-    (pin "" (uuid 0bec22d1-6acb-4c5e-b6af-65918095162c))
+    (pin "" (uuid 0bec22d1-6acb-4c5e-b6af-65918095162d))
+    (pin "" (uuid 0bec22d1-6acb-4c5e-b6af-65918095162d))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -993,8 +850,8 @@
     (property "Datasheet" "" (at 84.582 43.942 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid de206107-40dd-493c-94ca-1fce6faa9f0c))
-    (pin "" (uuid f679153a-5f97-4dc7-ba1f-6ffa8e61336f))
+    (pin "" (uuid f679153a-5f97-4dc7-ba1f-6ffa8e613370))
+    (pin "" (uuid f679153a-5f97-4dc7-ba1f-6ffa8e613370))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1019,8 +876,8 @@
     (property "Datasheet" "" (at 37.338 104.902 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 3d19652a-dab5-4a80-8d66-0017d801b7cc))
-    (pin "" (uuid 11ae37f6-8f59-4885-87a1-b6414e42d940))
+    (pin "" (uuid 11ae37f6-8f59-4885-87a1-b6414e42d941))
+    (pin "" (uuid 11ae37f6-8f59-4885-87a1-b6414e42d941))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1039,14 +896,14 @@
     (property "Value" "~" (at 99.314 74.422 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 74.422 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 74.422 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 74.422 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 56a8257d-aec7-46f2-a038-3af110e2dae6))
-    (pin "" (uuid 5dfbc464-1bb4-4f3d-a534-5d11a2c96047))
+    (pin "" (uuid 5dfbc464-1bb4-4f3d-a534-5d11a2c96048))
+    (pin "" (uuid 5dfbc464-1bb4-4f3d-a534-5d11a2c96048))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1071,8 +928,8 @@
     (property "Datasheet" "" (at 84.582 74.422 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid b01e06d5-d30d-4e66-8dad-4f1c9c54e3ed))
-    (pin "" (uuid fd830210-8c72-4508-a15c-86e0cb04e741))
+    (pin "" (uuid fd830210-8c72-4508-a15c-86e0cb04e742))
+    (pin "" (uuid fd830210-8c72-4508-a15c-86e0cb04e742))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1091,14 +948,14 @@
     (property "Value" "~" (at 99.314 59.182 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 59.182 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 59.182 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 59.182 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid eae65b46-0eb5-4879-bb8e-da96407aa6cc))
-    (pin "" (uuid 2fc21ae2-03ce-4e33-ba25-b4f8c7032bc3))
+    (pin "" (uuid 2fc21ae2-03ce-4e33-ba25-b4f8c7032bc4))
+    (pin "" (uuid 2fc21ae2-03ce-4e33-ba25-b4f8c7032bc4))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1117,14 +974,14 @@
     (property "Value" "~" (at 99.314 150.622 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 150.622 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 150.622 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 150.622 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 52c1f15d-84b7-4ed7-bd61-4385a5c88df3))
-    (pin "" (uuid 65862e8e-a966-4c3b-83f7-6130e53544fe))
+    (pin "" (uuid 65862e8e-a966-4c3b-83f7-6130e53544ff))
+    (pin "" (uuid 65862e8e-a966-4c3b-83f7-6130e53544ff))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1149,8 +1006,8 @@
     (property "Datasheet" "" (at 37.338 135.382 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid a8acc24a-879b-4648-bf45-7c759c1eac76))
-    (pin "" (uuid 07abae9f-c822-48d1-90be-747deed308e8))
+    (pin "" (uuid 07abae9f-c822-48d1-90be-747deed308e9))
+    (pin "" (uuid 07abae9f-c822-48d1-90be-747deed308e9))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1169,14 +1026,14 @@
     (property "Value" "~" (at 52.07 51.562 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 51.562 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 51.562 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 51.562 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid afc69301-f0d2-4184-ae49-09ea2e3a0065))
-    (pin "" (uuid dbaac13a-a328-47f5-a406-c91043a8f42b))
+    (pin "" (uuid dbaac13a-a328-47f5-a406-c91043a8f42c))
+    (pin "" (uuid dbaac13a-a328-47f5-a406-c91043a8f42c))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1201,8 +1058,8 @@
     (property "Datasheet" "" (at 37.338 66.802 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 282bbd74-1bcc-491b-8c9c-cd25e4ed81b2))
-    (pin "" (uuid bd1c0801-7277-4475-948f-aa4195f299d6))
+    (pin "" (uuid bd1c0801-7277-4475-948f-aa4195f299d7))
+    (pin "" (uuid bd1c0801-7277-4475-948f-aa4195f299d7))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1227,8 +1084,8 @@
     (property "Datasheet" "" (at 37.338 143.002 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 3e436ae2-bef9-42f7-b40a-76b362676ed5))
-    (pin "" (uuid bdd89c43-f32f-47b5-aea2-3875432b554a))
+    (pin "" (uuid bdd89c43-f32f-47b5-aea2-3875432b554b))
+    (pin "" (uuid bdd89c43-f32f-47b5-aea2-3875432b554b))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1283,8 +1140,8 @@
     (property "Datasheet" "" (at 37.338 173.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 6ed8ad71-2784-46a8-87f6-f4e9805c893b))
-    (pin "" (uuid c93fbc68-926e-4d17-87f6-3b25922747ba))
+    (pin "" (uuid c93fbc68-926e-4d17-87f6-3b25922747bb))
+    (pin "" (uuid c93fbc68-926e-4d17-87f6-3b25922747bb))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1309,8 +1166,8 @@
     (property "Datasheet" "" (at 84.582 51.562 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 089a76e6-fdbe-40f5-9849-77719046dd6f))
-    (pin "" (uuid f6bc8590-c9ab-4282-bced-b19ae544466c))
+    (pin "" (uuid f6bc8590-c9ab-4282-bced-b19ae544466d))
+    (pin "" (uuid f6bc8590-c9ab-4282-bced-b19ae544466d))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1365,8 +1222,8 @@
     (property "Datasheet" "" (at 84.582 173.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid d1d0a4c9-4a00-47de-a7d2-bb8627b02d0a))
-    (pin "" (uuid 3ee41849-93eb-44e8-b483-4792e6c817ef))
+    (pin "" (uuid 3ee41849-93eb-44e8-b483-4792e6c817f0))
+    (pin "" (uuid 3ee41849-93eb-44e8-b483-4792e6c817f0))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1385,14 +1242,14 @@
     (property "Value" "~" (at 52.07 112.522 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 112.522 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 112.522 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 112.522 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid c17d1064-fcde-449a-a7d9-8cce99d4180b))
-    (pin "" (uuid 2e2b3a16-6ad7-4d8a-ad30-01d974857e95))
+    (pin "" (uuid 2e2b3a16-6ad7-4d8a-ad30-01d974857e96))
+    (pin "" (uuid 2e2b3a16-6ad7-4d8a-ad30-01d974857e96))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1411,14 +1268,14 @@
     (property "Value" "~" (at 52.07 173.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 173.482 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 173.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 173.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid ad58e0ec-0311-4ced-ad2b-8c7d65e5c7a9))
-    (pin "" (uuid c82e6518-2000-401e-a62b-266623f950f6))
+    (pin "" (uuid c82e6518-2000-401e-a62b-266623f950f7))
+    (pin "" (uuid c82e6518-2000-401e-a62b-266623f950f7))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1473,8 +1330,8 @@
     (property "Datasheet" "" (at 37.338 89.662 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 559f605e-e4a6-44e9-8d6a-eef985bbc230))
-    (pin "" (uuid be55c1f1-3d1d-4fd7-9494-65a567038472))
+    (pin "" (uuid be55c1f1-3d1d-4fd7-9494-65a567038473))
+    (pin "" (uuid be55c1f1-3d1d-4fd7-9494-65a567038473))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1493,14 +1350,14 @@
     (property "Value" "~" (at 99.314 143.002 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 143.002 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 143.002 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 143.002 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 61e69f35-295a-40e0-bf76-8290bcd5f747))
-    (pin "" (uuid 150b93cc-a48d-48f5-86b5-e5328b3bf54c))
+    (pin "" (uuid 150b93cc-a48d-48f5-86b5-e5328b3bf54d))
+    (pin "" (uuid 150b93cc-a48d-48f5-86b5-e5328b3bf54d))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1555,8 +1412,8 @@
     (property "Datasheet" "" (at 37.338 51.562 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid f0188da1-9f3f-4abf-ac65-30ba8f72f60d))
-    (pin "" (uuid 457dc8b7-731c-4280-857d-5f3292431273))
+    (pin "" (uuid 457dc8b7-731c-4280-857d-5f3292431274))
+    (pin "" (uuid 457dc8b7-731c-4280-857d-5f3292431274))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1581,8 +1438,8 @@
     (property "Datasheet" "" (at 37.338 127.762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 4f803795-2af2-40a5-9312-f5713e390568))
-    (pin "" (uuid d4dd14bc-f95a-4f70-a8bd-6c467ff62814))
+    (pin "" (uuid d4dd14bc-f95a-4f70-a8bd-6c467ff62815))
+    (pin "" (uuid d4dd14bc-f95a-4f70-a8bd-6c467ff62815))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1607,8 +1464,8 @@
     (property "Datasheet" "" (at 84.582 112.522 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 120507db-9ae8-4901-8505-3efe01cbdf6d))
-    (pin "" (uuid 27d40dbb-a204-4dd7-a52f-90bff1b27ece))
+    (pin "" (uuid 27d40dbb-a204-4dd7-a52f-90bff1b27ecf))
+    (pin "" (uuid 27d40dbb-a204-4dd7-a52f-90bff1b27ecf))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1633,8 +1490,8 @@
     (property "Datasheet" "" (at 99.314 89.662 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 918277cb-349f-4b17-8ba1-3bc574c37468))
-    (pin "" (uuid c416a38a-8742-48e7-a802-91c9cd0115a2))
+    (pin "" (uuid c416a38a-8742-48e7-a802-91c9cd0115a3))
+    (pin "" (uuid c416a38a-8742-48e7-a802-91c9cd0115a3))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1653,14 +1510,14 @@
     (property "Value" "~" (at 52.07 135.382 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 135.382 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 135.382 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 135.382 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 152f3559-08bd-4ff8-8f92-f03b10346664))
-    (pin "" (uuid f3de326d-1506-4fb3-aaa6-ba5c64e05a37))
+    (pin "" (uuid f3de326d-1506-4fb3-aaa6-ba5c64e05a38))
+    (pin "" (uuid f3de326d-1506-4fb3-aaa6-ba5c64e05a38))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1679,14 +1536,14 @@
     (property "Value" "~" (at 52.07 89.662 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 89.662 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 89.662 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 89.662 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 576d8688-d84e-45aa-92c5-43f89a1c42b2))
-    (pin "" (uuid ef9c2b5a-f459-4a5d-a7a1-663ddb07cc08))
+    (pin "" (uuid ef9c2b5a-f459-4a5d-a7a1-663ddb07cc09))
+    (pin "" (uuid ef9c2b5a-f459-4a5d-a7a1-663ddb07cc09))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1711,8 +1568,8 @@
     (property "Datasheet" "" (at 37.338 112.522 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 952465f4-8b29-46af-b3ea-6fe252f724fb))
-    (pin "" (uuid f22f5d7a-ce40-4443-8787-72118b0062da))
+    (pin "" (uuid f22f5d7a-ce40-4443-8787-72118b0062db))
+    (pin "" (uuid f22f5d7a-ce40-4443-8787-72118b0062db))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1737,8 +1594,8 @@
     (property "Datasheet" "" (at 84.582 104.902 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 837595e0-3319-4456-9334-85f6c24ba211))
-    (pin "" (uuid 814abd37-4ca7-429d-a5bc-7c7d102d1cf0))
+    (pin "" (uuid 814abd37-4ca7-429d-a5bc-7c7d102d1cf1))
+    (pin "" (uuid 814abd37-4ca7-429d-a5bc-7c7d102d1cf1))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1757,14 +1614,14 @@
     (property "Value" "~" (at 99.314 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 97.282 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 6103bb0d-7fd0-486c-b939-71f80529a27a))
-    (pin "" (uuid 8ae3775e-850b-47a4-a727-41eef0d8d8e1))
+    (pin "" (uuid 8ae3775e-850b-47a4-a727-41eef0d8d8e2))
+    (pin "" (uuid 8ae3775e-850b-47a4-a727-41eef0d8d8e2))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1789,8 +1646,8 @@
     (property "Datasheet" "" (at 37.338 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 5a396585-8063-4dd5-88f0-3fa412c82f57))
-    (pin "" (uuid 58fab269-6aca-461a-a682-5b782bc86426))
+    (pin "" (uuid 58fab269-6aca-461a-a682-5b782bc86427))
+    (pin "" (uuid 58fab269-6aca-461a-a682-5b782bc86427))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1815,8 +1672,8 @@
     (property "Datasheet" "" (at 84.582 127.762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 5ba2e935-f77c-4ff1-978e-37bee5dc0569))
-    (pin "" (uuid f7cbe33b-2bac-4d85-8c2f-47a01d55d193))
+    (pin "" (uuid f7cbe33b-2bac-4d85-8c2f-47a01d55d194))
+    (pin "" (uuid f7cbe33b-2bac-4d85-8c2f-47a01d55d194))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1841,8 +1698,8 @@
     (property "Datasheet" "" (at 37.338 165.862 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 7d735a75-3a96-4e92-ae4a-aeb00b0a8e3b))
-    (pin "" (uuid a4b61a62-893e-4134-b1d8-29ab8b1d4080))
+    (pin "" (uuid a4b61a62-893e-4134-b1d8-29ab8b1d4081))
+    (pin "" (uuid a4b61a62-893e-4134-b1d8-29ab8b1d4081))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1861,14 +1718,14 @@
     (property "Value" "~" (at 99.314 165.862 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 165.862 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 165.862 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 165.862 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 2ce2d88f-fd68-4a92-8095-29a167d2e8dd))
-    (pin "" (uuid c9ec4d91-af21-4cb5-b990-fc6da8bbe569))
+    (pin "" (uuid c9ec4d91-af21-4cb5-b990-fc6da8bbe56a))
+    (pin "" (uuid c9ec4d91-af21-4cb5-b990-fc6da8bbe56a))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1893,8 +1750,8 @@
     (property "Datasheet" "" (at 84.582 165.862 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 2c21a036-24ca-48ed-adac-6f47805a3437))
-    (pin "" (uuid bcc3bcde-7b4b-4338-9941-0094faee3f04))
+    (pin "" (uuid bcc3bcde-7b4b-4338-9941-0094faee3f05))
+    (pin "" (uuid bcc3bcde-7b4b-4338-9941-0094faee3f05))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1913,14 +1770,14 @@
     (property "Value" "~" (at 99.314 135.382 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 135.382 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 135.382 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 135.382 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid ad40ab78-7dc8-4ee0-9ec8-3db4a83ff6af))
-    (pin "" (uuid 68cf00df-ee02-415f-bb01-c94fd22b1c2f))
+    (pin "" (uuid 68cf00df-ee02-415f-bb01-c94fd22b1c30))
+    (pin "" (uuid 68cf00df-ee02-415f-bb01-c94fd22b1c30))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -1969,14 +1826,14 @@
     (property "Value" "~" (at 99.314 173.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 173.482 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 173.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 173.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 4b81119f-c0d3-44fb-aac6-30e54591a9a8))
-    (pin "" (uuid 03f5bc1c-e684-4d82-96b6-8c38b9b76eee))
+    (pin "" (uuid 03f5bc1c-e684-4d82-96b6-8c38b9b76eef))
+    (pin "" (uuid 03f5bc1c-e684-4d82-96b6-8c38b9b76eef))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2001,8 +1858,8 @@
     (property "Datasheet" "" (at 84.582 36.322 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 51d285f9-d92f-4c1f-98b0-f76c399cf83a))
-    (pin "" (uuid c87b426e-02f2-40bc-b4c8-33b502ccba68))
+    (pin "" (uuid c87b426e-02f2-40bc-b4c8-33b502ccba69))
+    (pin "" (uuid c87b426e-02f2-40bc-b4c8-33b502ccba69))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2021,14 +1878,14 @@
     (property "Value" "~" (at 99.314 66.802 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 66.802 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 66.802 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 66.802 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 6e6e9acc-210b-41c5-b683-227e01e57fad))
-    (pin "" (uuid 193b239b-99d6-4e8b-8cb9-79c988336474))
+    (pin "" (uuid 193b239b-99d6-4e8b-8cb9-79c988336475))
+    (pin "" (uuid 193b239b-99d6-4e8b-8cb9-79c988336475))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2047,14 +1904,14 @@
     (property "Value" "~" (at 52.07 82.042 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 82.042 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 82.042 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 82.042 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 79f1980e-e2a6-4252-922a-99bb3670a37f))
-    (pin "" (uuid aeece78a-dd42-40be-88b2-cf9f31c7b3ab))
+    (pin "" (uuid aeece78a-dd42-40be-88b2-cf9f31c7b3ac))
+    (pin "" (uuid aeece78a-dd42-40be-88b2-cf9f31c7b3ac))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2079,8 +1936,8 @@
     (property "Datasheet" "" (at 84.582 158.242 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 8d1d5662-be4b-45f6-b0aa-c9cb80094e8b))
-    (pin "" (uuid afbbfe5f-850e-43bd-9560-3152b3a17a30))
+    (pin "" (uuid afbbfe5f-850e-43bd-9560-3152b3a17a31))
+    (pin "" (uuid afbbfe5f-850e-43bd-9560-3152b3a17a31))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2099,14 +1956,14 @@
     (property "Value" "~" (at 99.314 104.902 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 104.902 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 104.902 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 104.902 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid c037165c-ce41-44f0-86ed-835fa16d67fc))
-    (pin "" (uuid 3695c9ca-9b70-471b-84f3-9570fd15fbc6))
+    (pin "" (uuid 3695c9ca-9b70-471b-84f3-9570fd15fbc7))
+    (pin "" (uuid 3695c9ca-9b70-471b-84f3-9570fd15fbc7))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2125,14 +1982,14 @@
     (property "Value" "~" (at 99.314 43.942 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 43.942 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 43.942 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 43.942 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 15f1b3a3-091c-476b-b00c-2cf913a17c9c))
-    (pin "" (uuid ed2d8709-c2d8-4d86-a7bd-082da26c6bb3))
+    (pin "" (uuid ed2d8709-c2d8-4d86-a7bd-082da26c6bb4))
+    (pin "" (uuid ed2d8709-c2d8-4d86-a7bd-082da26c6bb4))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2151,14 +2008,14 @@
     (property "Value" "~" (at 52.07 143.002 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 143.002 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 143.002 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 143.002 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 545144cb-4998-4ef5-b3ae-1116d2a432a5))
-    (pin "" (uuid 73fdc322-aa87-4e43-ac19-36bcd26950a4))
+    (pin "" (uuid 73fdc322-aa87-4e43-ac19-36bcd26950a5))
+    (pin "" (uuid 73fdc322-aa87-4e43-ac19-36bcd26950a5))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2177,14 +2034,14 @@
     (property "Value" "~" (at 99.314 120.142 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 120.142 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 120.142 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 120.142 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid bbec7f70-5a0f-4a9d-9460-f0bc7a018255))
-    (pin "" (uuid 0b75d761-3f8c-4567-93dd-7ba4005c8f26))
+    (pin "" (uuid 0b75d761-3f8c-4567-93dd-7ba4005c8f27))
+    (pin "" (uuid 0b75d761-3f8c-4567-93dd-7ba4005c8f27))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2209,8 +2066,8 @@
     (property "Datasheet" "" (at 84.582 89.662 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 6fd6c60d-1aee-411c-aba8-1074ae383b9e))
-    (pin "" (uuid 88ac4551-1b8a-444a-b1ac-0524d81343fe))
+    (pin "" (uuid 88ac4551-1b8a-444a-b1ac-0524d81343ff))
+    (pin "" (uuid 88ac4551-1b8a-444a-b1ac-0524d81343ff))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2235,8 +2092,8 @@
     (property "Datasheet" "" (at 84.582 82.042 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid a7b5826d-2b70-4aa7-826c-caa47573e1eb))
-    (pin "" (uuid ac1b633c-9b6b-4948-afe1-beb685f273f3))
+    (pin "" (uuid ac1b633c-9b6b-4948-afe1-beb685f273f4))
+    (pin "" (uuid ac1b633c-9b6b-4948-afe1-beb685f273f4))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2261,8 +2118,8 @@
     (property "Datasheet" "" (at 37.338 150.622 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid b18af96c-b310-447f-952c-7c7869d24a0b))
-    (pin "" (uuid 0ca66e9b-8509-4958-8379-4bcaec3631bf))
+    (pin "" (uuid 0ca66e9b-8509-4958-8379-4bcaec3631c0))
+    (pin "" (uuid 0ca66e9b-8509-4958-8379-4bcaec3631c0))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2287,8 +2144,8 @@
     (property "Datasheet" "" (at 84.582 143.002 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid fe477f88-c16e-43ea-9fad-4156f6fbdd87))
-    (pin "" (uuid ca0e9a6f-75ff-46ea-95f2-abfa7d272fa2))
+    (pin "" (uuid ca0e9a6f-75ff-46ea-95f2-abfa7d272fa3))
+    (pin "" (uuid ca0e9a6f-75ff-46ea-95f2-abfa7d272fa3))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2313,8 +2170,8 @@
     (property "Datasheet" "" (at 37.338 120.142 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid e9eeef7a-bfca-4048-9fe3-2ee024ad63d2))
-    (pin "" (uuid 212564c7-a318-4b0d-bda8-0ff5d0993a91))
+    (pin "" (uuid 212564c7-a318-4b0d-bda8-0ff5d0993a92))
+    (pin "" (uuid 212564c7-a318-4b0d-bda8-0ff5d0993a92))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2333,14 +2190,14 @@
     (property "Value" "~" (at 52.07 127.762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 127.762 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 127.762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 127.762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid ad1a089e-8984-47cc-b552-b70cd3d8cb5d))
-    (pin "" (uuid 93a47f91-183f-4ffa-9875-0c925291a4d6))
+    (pin "" (uuid 93a47f91-183f-4ffa-9875-0c925291a4d7))
+    (pin "" (uuid 93a47f91-183f-4ffa-9875-0c925291a4d7))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2365,8 +2222,8 @@
     (property "Datasheet" "" (at 84.582 150.622 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 0be4f3d6-28c6-4dc5-97fb-5364cbba766c))
-    (pin "" (uuid ae5ce30b-d7f5-437e-b91f-8c4f497d9177))
+    (pin "" (uuid ae5ce30b-d7f5-437e-b91f-8c4f497d9178))
+    (pin "" (uuid ae5ce30b-d7f5-437e-b91f-8c4f497d9178))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2391,8 +2248,8 @@
     (property "Datasheet" "" (at 37.338 59.182 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid ac5e2ec5-a604-4dc3-8198-c0f367dd04d4))
-    (pin "" (uuid 28b7a9ed-2547-4db2-9a9f-176e74355ab7))
+    (pin "" (uuid 28b7a9ed-2547-4db2-9a9f-176e74355ab8))
+    (pin "" (uuid 28b7a9ed-2547-4db2-9a9f-176e74355ab8))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2411,14 +2268,14 @@
     (property "Value" "~" (at 52.07 74.422 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 74.422 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 74.422 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 74.422 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid d0f2ca61-2e9e-4cb9-914b-67e148714436))
-    (pin "" (uuid df4bca72-0a39-49e1-97fb-448ca020aa52))
+    (pin "" (uuid df4bca72-0a39-49e1-97fb-448ca020aa53))
+    (pin "" (uuid df4bca72-0a39-49e1-97fb-448ca020aa53))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2437,14 +2294,14 @@
     (property "Value" "~" (at 52.07 66.802 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 66.802 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 66.802 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 66.802 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid c6d3d809-a17c-486f-9653-33f36ac3a6f9))
-    (pin "" (uuid d9aa782f-ee5a-4794-b28b-d3559ef3846b))
+    (pin "" (uuid d9aa782f-ee5a-4794-b28b-d3559ef3846c))
+    (pin "" (uuid d9aa782f-ee5a-4794-b28b-d3559ef3846c))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2469,8 +2326,8 @@
     (property "Datasheet" "" (at 84.582 66.802 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 84955455-6176-49db-9fa4-b62fd134e54d))
-    (pin "" (uuid 87bde60f-dc58-477b-98f9-d13e69851e35))
+    (pin "" (uuid 87bde60f-dc58-477b-98f9-d13e69851e36))
+    (pin "" (uuid 87bde60f-dc58-477b-98f9-d13e69851e36))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2489,14 +2346,14 @@
     (property "Value" "~" (at 52.07 150.622 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 150.622 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 150.622 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 150.622 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 2cb5bd4f-fe56-471e-b0bf-05b5999778fa))
-    (pin "" (uuid 9f3e90ef-def2-4156-9af6-0f0cc3782dbe))
+    (pin "" (uuid 9f3e90ef-def2-4156-9af6-0f0cc3782dbf))
+    (pin "" (uuid 9f3e90ef-def2-4156-9af6-0f0cc3782dbf))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2515,14 +2372,14 @@
     (property "Value" "~" (at 99.314 82.042 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 82.042 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 82.042 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 82.042 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid af8f0675-54c7-496e-8cb4-bec82d87ca09))
-    (pin "" (uuid 42b8e772-53b9-4c69-b809-e9b21494a076))
+    (pin "" (uuid 42b8e772-53b9-4c69-b809-e9b21494a077))
+    (pin "" (uuid 42b8e772-53b9-4c69-b809-e9b21494a077))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2607,8 +2464,8 @@
     (property "Datasheet" "" (at 84.582 120.142 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 46483634-d055-4c8e-ba3f-a28b654e6cd7))
-    (pin "" (uuid 8a230373-c8ae-4d70-b093-e47648b9914d))
+    (pin "" (uuid 8a230373-c8ae-4d70-b093-e47648b9914e))
+    (pin "" (uuid 8a230373-c8ae-4d70-b093-e47648b9914e))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2627,14 +2484,14 @@
     (property "Value" "~" (at 52.07 59.182 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 59.182 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 59.182 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 59.182 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid d3f809f0-ca4a-4e20-9d44-ae02f80cb2e7))
-    (pin "" (uuid c604f939-bd29-406e-b7c0-e5a7e4118f6a))
+    (pin "" (uuid c604f939-bd29-406e-b7c0-e5a7e4118f6b))
+    (pin "" (uuid c604f939-bd29-406e-b7c0-e5a7e4118f6b))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2653,14 +2510,14 @@
     (property "Value" "~" (at 52.07 36.322 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 36.322 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 36.322 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 36.322 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 6b3a8f7a-d7c7-45cf-917f-88bee88c979b))
-    (pin "" (uuid 6b3a8f7a-d7c7-45cf-917f-88bee88c979b))
+    (pin "" (uuid 6b3a8f7a-d7c7-45cf-917f-88bee88c979d))
+    (pin "" (uuid 6b3a8f7a-d7c7-45cf-917f-88bee88c979d))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2670,7 +2527,7 @@
     )
   )
 
-  (symbol (lib_name "SM141K08TFV_1") (lib_id "FlexDeploySidePanels:SM141K08TFV") (at 99.314 36.322 0) (unit 1)
+  (symbol (lib_id "FlexDeploySidePanels:SM141K08TFV") (at 99.314 36.322 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de92e88b-3e9e-431f-8f4a-ae4924f965da)
     (property "Reference" "SC20" (at 95.758 36.322 0)
@@ -2679,14 +2536,14 @@
     (property "Value" "~" (at 99.314 36.322 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 36.322 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 36.322 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 36.322 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6c37543f-98cf-4826-ae31-a737a802bec5))
-    (pin "2" (uuid 5e7af1da-28dd-4e91-8014-df2273cd3795))
+    (pin "" (uuid c3fc155d-2b93-4f59-8a7e-de2a479053c7))
+    (pin "" (uuid d3cd2abb-81a8-46a1-be33-b45cd9918661))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2705,14 +2562,14 @@
     (property "Value" "~" (at 52.07 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 97.282 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid ce8ae19e-d4ae-4beb-a008-6bed16c47f8b))
-    (pin "" (uuid d1ff220e-4b0d-4b86-9843-d47b149f7476))
+    (pin "" (uuid d1ff220e-4b0d-4b86-9843-d47b149f7477))
+    (pin "" (uuid d1ff220e-4b0d-4b86-9843-d47b149f7477))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2731,14 +2588,14 @@
     (property "Value" "~" (at 99.314 127.762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 127.762 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 127.762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 127.762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 14bf5aac-5418-4d59-a467-e05b010999ca))
-    (pin "" (uuid 03e30aea-0dc9-4066-8862-5bb8772da8ef))
+    (pin "" (uuid 03e30aea-0dc9-4066-8862-5bb8772da8f0))
+    (pin "" (uuid 03e30aea-0dc9-4066-8862-5bb8772da8f0))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2763,8 +2620,8 @@
     (property "Datasheet" "" (at 37.338 74.422 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 30063a62-1646-438d-9965-b470b6258f3d))
-    (pin "" (uuid 94dfc564-d0f4-46d5-8bf3-fd6ab726efc3))
+    (pin "" (uuid 94dfc564-d0f4-46d5-8bf3-fd6ab726efc4))
+    (pin "" (uuid 94dfc564-d0f4-46d5-8bf3-fd6ab726efc4))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2783,14 +2640,14 @@
     (property "Value" "~" (at 99.314 51.562 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 51.562 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 51.562 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 51.562 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 96012a99-a8ee-485d-a58e-4662c8b5d502))
-    (pin "" (uuid a565e6d2-f283-4f26-82ac-7c086bfa3801))
+    (pin "" (uuid a565e6d2-f283-4f26-82ac-7c086bfa3802))
+    (pin "" (uuid a565e6d2-f283-4f26-82ac-7c086bfa3802))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2815,8 +2672,8 @@
     (property "Datasheet" "" (at 84.582 135.382 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 2b9e1583-0db3-4d08-8098-d394373521f8))
-    (pin "" (uuid 188eae9d-e1d9-45e0-a706-dac8b28a3204))
+    (pin "" (uuid 188eae9d-e1d9-45e0-a706-dac8b28a3205))
+    (pin "" (uuid 188eae9d-e1d9-45e0-a706-dac8b28a3205))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2865,14 +2722,14 @@
     (property "Value" "~" (at 99.314 158.242 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 99.314 158.242 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 99.314 158.242 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 99.314 158.242 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 72e97a1b-8589-4d6e-a6c5-ea3577a84eb1))
-    (pin "" (uuid f3580e01-b0e0-4e44-be7f-ba6c03028714))
+    (pin "" (uuid f3580e01-b0e0-4e44-be7f-ba6c03028715))
+    (pin "" (uuid f3580e01-b0e0-4e44-be7f-ba6c03028715))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2882,7 +2739,7 @@
     )
   )
 
-  (symbol (lib_name "GND_1") (lib_id "power:GND") (at 44.704 177.292 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 44.704 177.292 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ede380eb-d31a-4927-b72a-9d62a4172723)
     (property "Reference" "#PWR05" (at 44.704 183.642 0)
@@ -2922,8 +2779,8 @@
     (property "Datasheet" "" (at 37.338 82.042 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 40c015cd-e17e-4341-a439-8164fec8e856))
-    (pin "" (uuid 66d778ce-5889-4185-9f80-8da70066da91))
+    (pin "" (uuid 66d778ce-5889-4185-9f80-8da70066da92))
+    (pin "" (uuid 66d778ce-5889-4185-9f80-8da70066da92))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2948,8 +2805,8 @@
     (property "Datasheet" "" (at 37.338 43.942 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 8efc621f-2f78-4938-9791-0c6761264bba))
-    (pin "" (uuid 3266f3e1-04f8-49c7-b9fd-0d38184b5e00))
+    (pin "" (uuid 3266f3e1-04f8-49c7-b9fd-0d38184b5e01))
+    (pin "" (uuid 3266f3e1-04f8-49c7-b9fd-0d38184b5e01))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -2974,8 +2831,8 @@
     (property "Datasheet" "" (at 84.582 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 2b87e119-931a-4833-9c5e-be88405cfe2a))
-    (pin "" (uuid bdcacf47-22f7-4a52-8254-67d9d9c8c25e))
+    (pin "" (uuid bdcacf47-22f7-4a52-8254-67d9d9c8c25f))
+    (pin "" (uuid bdcacf47-22f7-4a52-8254-67d9d9c8c25f))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -3000,8 +2857,8 @@
     (property "Datasheet" "" (at 84.582 59.182 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid e81fe8db-3e76-4c67-8dfc-f2af064713fd))
-    (pin "" (uuid b410dc82-27b6-4e23-a90c-7df105fbf236))
+    (pin "" (uuid b410dc82-27b6-4e23-a90c-7df105fbf237))
+    (pin "" (uuid b410dc82-27b6-4e23-a90c-7df105fbf237))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -3026,8 +2883,8 @@
     (property "Datasheet" "" (at 37.338 36.322 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid e032ec08-0cef-4df3-a012-f452c0e1294e))
-    (pin "" (uuid e032ec08-0cef-4df3-a012-f452c0e1294e))
+    (pin "" (uuid e032ec08-0cef-4df3-a012-f452c0e12950))
+    (pin "" (uuid e032ec08-0cef-4df3-a012-f452c0e12950))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
@@ -3046,14 +2903,14 @@
     (property "Value" "~" (at 52.07 104.902 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 104.902 0)
+    (property "Footprint" "FlexDeploySidePanels:SM141K08TFV" (at 52.07 104.902 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 52.07 104.902 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid b7b84afe-d6df-4bbc-b601-0a874e1564cf))
-    (pin "" (uuid 54615394-70b0-45c2-9bda-512572355324))
+    (pin "" (uuid 54615394-70b0-45c2-9bda-512572355325))
+    (pin "" (uuid 54615394-70b0-45c2-9bda-512572355325))
     (instances
       (project "FlexDeploySidePanels"
         (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
