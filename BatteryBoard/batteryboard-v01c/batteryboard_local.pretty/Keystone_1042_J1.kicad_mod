@@ -50,14 +50,14 @@
   (pad "" np_thru_hole circle (at 35.9537 8.001) (size 2.6416 2.6416) (drill 2.6416) (layers "*.Cu" "*.Mask") (tstamp da598772-46c9-4e92-a0c9-ae34b356ca8b))
   (pad "1" smd rect (at -41.91 0) (size 9.4676 6.477) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3af82101-5ea5-411b-ab16-9d2099796416))
   (pad "2" smd rect (at 41.91 -0.6) (size 9.4676 5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e137e7b8-06de-4a05-9b4a-5a8af984d5d8))
-  (model "C:/Users/grant/Downloads/keystone-PN1042.STEP"
+  (model "${SAMWISE_AVIONICS}/3D_models/batteryboard/keystone-PN1042.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))
   )
-  (model "C:/Users/grant/Downloads/Battery.step"
-    (offset (xyz -32.5 0 9.5))
+  (model "${SAMWISE_AVIONICS}/3D_models/batteryboard/18650 battery.STEP"
+    (offset (xyz 0 0 9.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 -90 0))
+    (rotate (xyz 0 0 0))
   )
 )
