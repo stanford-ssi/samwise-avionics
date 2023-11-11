@@ -1,6 +1,6 @@
 (footprint "2053380002" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at -0.999998 -11.43) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c70c3110-57bb-4bbc-90ef-398b25e50976)
@@ -105,4 +105,9 @@
   (pad "2" smd rect (at -2.000001 0) (size 1.1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cc373e6e-3c2a-46b8-a1f7-131ae4ea5079))
   (pad "3" smd rect (at 2.894998 -5.974999) (size 1.35 2.899999) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 45c7f860-49ea-44e4-bbb2-e63837101c31))
   (pad "4" smd rect (at -4.894997 -5.974999) (size 1.35 2.899999) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e41db89f-a5cd-443b-ad96-e7a0e8a8f7dd))
+  (model "${SAMWISE_AVIONICS}/3D_models/panels/2053380002.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
