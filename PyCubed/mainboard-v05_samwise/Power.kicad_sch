@@ -2786,7 +2786,7 @@
     (uuid 2e45eec3-5548-4618-8032-cf03c4f2cf42)
   )
   (text "Remove both jumpers before flight to remove\nrisk of unknown BQ25883 radiation failure modes\n"
-    (at 248.92 83.82 0)
+    (at 220.98 50.8 0)
     (effects (font (size 0.889 0.889)) (justify left bottom))
     (uuid 2f52f546-11bd-4bd5-bc62-e598ed0efde6)
   )
@@ -2795,7 +2795,7 @@
     (uuid 30bfeb15-3765-4254-9c90-3216bc749f45)
   )
   (text "TODO: Use Old 6 Pin Molex Connector so that \nwe can connect to side panels instead of jumpers\n"
-    (at 237.49 66.04 0)
+    (at 353.06 55.88 0)
     (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
     (uuid 3bc6454e-22f4-43d2-be87-555052d5cba2)
   )
@@ -2839,7 +2839,7 @@
     (uuid 74229494-bda1-4781-afc6-88e5e877ba5c)
   )
   (text "Add jumper to allow\nUSB to power the board\n(even inside P-Pod).\n"
-    (at 264.16 78.74 0)
+    (at 236.22 45.72 0)
     (effects (font (size 0.889 0.889)) (justify right bottom))
     (uuid 96dec623-21ed-41fb-b6e9-344af04436e9)
   )
@@ -2866,12 +2866,12 @@
     (effects (font (size 1.651 1.651)) (justify left bottom))
     (uuid c6e8b959-613a-455e-a506-ae484e0d0f18)
   )
-  (text "RBF Jumpers" (at 256.54 72.39 0)
+  (text "RBF Jumpers" (at 228.6 39.37 0)
     (effects (font (size 2.159 2.159)) (justify left bottom))
     (uuid d4848428-b846-41cb-98fa-764cc462635a)
   )
   (text "Add jumper to allow\nUSB battery charging\n(even inside P-Pod).\n"
-    (at 269.24 78.74 0)
+    (at 241.3 45.72 0)
     (effects (font (size 0.889 0.889)) (justify left bottom))
     (uuid daa2b686-827f-403d-a8d0-f164e67c7dbb)
   )
@@ -5751,6 +5751,36 @@
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "#GND0129") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x06") (at 264.16 58.42 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid dba064fe-42d4-4ca7-8619-a9b2e9b0fe79)
+    (property "Reference" "J19" (at 265.43 52.07 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x06" (at 265.43 54.61 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 264.16 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 264.16 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 44f54245-70a2-4e6a-b7dc-96ce565d161d))
+    (pin "2" (uuid 9c53529f-0316-4080-a2c1-5c307f1e4039))
+    (pin "3" (uuid 01ebc73e-b465-4e1c-8c8b-8cd4c2877c75))
+    (pin "4" (uuid 83d4cb65-dbd9-4350-8a50-388a31a66783))
+    (pin "5" (uuid 76595e37-eb57-497b-afb6-8b3d728b2c84))
+    (pin "6" (uuid cad33f5c-0a32-4b13-b6ec-e9c6dbd3f41a))
+    (instances
+      (project "mainboard"
+        (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
+          (reference "J19") (unit 1)
         )
       )
     )
