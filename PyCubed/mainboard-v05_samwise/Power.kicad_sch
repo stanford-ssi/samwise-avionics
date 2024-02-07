@@ -1304,7 +1304,7 @@
       (symbol "MPPT_module_1_1"
         (rectangle (start -8.89 16.51) (end 6.35 -21.59)
           (stroke (width 0) (type default))
-          (fill (type background))
+          (fill (type none))
         )
         (pin power_in line (at -11.43 -12.7 0) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
@@ -3206,6 +3206,11 @@
   (text "\"VUSB\"" (at 262.89 55.245 0)
     (effects (font (size 0.889 0.889)) (justify right bottom))
     (uuid 32cd5c87-d2fd-4cab-84f4-a31d65ee7eda)
+  )
+  (text "TODO: Should we disconnect \nSDA/SCL with an RBF before \nflight?"
+    (at 175.26 118.745 0)
+    (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
+    (uuid 386ac569-7b0c-4f0d-b600-77e5c9d28481)
   )
   (text "Battery Power Monitor" (at 130.81 86.36 0)
     (effects (font (size 2.159 2.159)) (justify left bottom))
