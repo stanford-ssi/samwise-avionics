@@ -1397,11 +1397,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 09df3f86-76ec-418f-8d51-841685ff7b1d)
   )
-  (text "circles, pads, and 2x20 are having keepout errors \n\nthere was some weird thermal errors \n\nGround vias aren't working for some reason??  \n\nI have a tiny space violation \n\nAnd then one of them has different net violation on same footprint which I think is related to GND vias not working for some reason.\n\n"
-    (at 31.75 146.05 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0e35e296-9264-4c98-80e2-0ac2503cf52f)
-  )
   (text "PCM_CLK/GPIO_18" (at 101.6 73.66 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 108fbf19-870a-41ac-aa6e-a4f363d58e01)
@@ -2320,7 +2315,7 @@
     (property "Datasheet" "" (at 165.354 117.856 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6dd50329-3eb5-46ff-8e82-5304efb49d2e))
+    (pin "1" (uuid cce6ff7b-4831-43ea-a507-88e53cac3143))
     (instances
       (project "RPi_interface"
         (path "/604129f5-2c20-4ff8-a7f7-facd5755a5bc"
