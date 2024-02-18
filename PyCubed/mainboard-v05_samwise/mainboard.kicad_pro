@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15239999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -196,6 +196,10 @@
         {
           "diameter": 0.5842,
           "drill": 0.381
+        },
+        {
+          "diameter": 1.1684,
+          "drill": 0.762
         }
       ],
       "zones_allow_external_fillets": false,
@@ -462,6 +466,23 @@
         "via_diameter": 0.5842,
         "via_drill": 0.381,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.3675,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.23495,
+        "via_diameter": 0.5842,
+        "via_drill": 0.381,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -471,7 +492,12 @@
     "netclass_assignments": {
       "/RF and GPS/RF1_ANT": "50"
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "USB_D*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
