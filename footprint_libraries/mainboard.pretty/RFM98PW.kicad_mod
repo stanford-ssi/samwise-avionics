@@ -13,6 +13,10 @@
       (effects (font (size 1.59258 1.59258) (thickness 0.25146)) (justify right bottom))
     (tstamp 7f489e4d-6d13-4d2a-8d4c-179d4230060f)
   )
+  (fp_text user "https://grabcad.com/library/rfm98pw-rfm95pw-1" (at 0 0) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp f9350284-e08e-4072-ab21-20e9205b4259)
+  )
   (fp_line (start -17.7 -9) (end 17.7 -9)
     (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp e9edd0e4-b291-4780-b949-0f15965e4b5e))
   (fp_line (start -17.7 9) (end -17.7 -9)
@@ -129,4 +133,9 @@
     (solder_mask_margin 0.0635) (zone_connect 2) (tstamp 07bcceed-38cf-40d0-a123-fdfe43ac6d63))
   (pad "17" smd rect (at 3.1561 2.9921) (size 11.5122 4.7842) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.0635) (zone_connect 2) (tstamp 1b7e1be5-6152-4ada-a611-7bc42c9d92eb))
+  (model "${SAMWISE_AVIONICS}/3D_models/mainboard/RFM98PW_RFM95PW.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
