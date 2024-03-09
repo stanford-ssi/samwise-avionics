@@ -57,4 +57,9 @@
     (solder_mask_margin 0.0762) (tstamp d66a5972-d11e-4044-a852-61a41b8bffa9))
   (pad "4" thru_hole circle (at 3 0) (size 1.15 1.15) (drill 0.8) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.0762) (tstamp 072a03bb-1573-4447-8576-c08a445a7616))
+  (model "${SAMWISE_AVIONICS}/3D_models/mainboard/35362-0450.step"
+    (offset (xyz 0 -0.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 5 0 180))
+  )
 )

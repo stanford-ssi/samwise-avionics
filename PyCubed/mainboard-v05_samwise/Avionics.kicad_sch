@@ -1131,6 +1131,7 @@
     )
   )
 
+
   (junction (at 179.07 140.97) (diameter 0) (color 0 0 0 0)
     (uuid 02a3e94d-4e68-40de-bda5-89bfbc1785b3)
   )
@@ -1255,6 +1256,7 @@
     (uuid f96d098c-eff1-4dc8-b31f-027025fe86df)
   )
 
+  (no_connect (at 127 123.19) (uuid 4e459c2b-3b55-4a14-bad8-3d850d0e6e77))
   (no_connect (at 64.77 43.18) (uuid b0cecea4-3449-423e-b520-e40b8e43719a))
   (no_connect (at 34.29 158.75) (uuid c33058b1-d8a7-4da3-a957-260e0a083681))
 
@@ -1941,15 +1943,6 @@
     (effects (font (size 0.889 0.889)) (justify left bottom))
     (uuid c514fe25-50bd-44c6-bbfd-1715b5370dfb)
   )
-  (text "TODO: Check pinout\nChekc that everything is connected"
-    (at 86.36 71.12 0)
-    (effects (font (size 1.27 1.27) (color 255 2 0 1)) (justify left bottom))
-    (uuid da79efe2-52d1-4e2c-9b29-09238362d996)
-  )
-  (text "TODO: See if this needs a pull up" (at 152.4 121.92 0)
-    (effects (font (size 1.27 1.27) (color 255 2 0 1)) (justify left bottom))
-    (uuid dc5b0045-84e6-47c8-a7ec-422293c1ceae)
-  )
   (text "Status LED" (at 16.51 145.415 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e7f3a084-f39f-4665-887d-b6b83a019aef)
@@ -2109,13 +2102,6 @@
     (uuid 33fec996-95d9-401b-a63f-9fd64cd609dd)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 75.8382 133.35 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ENAB_THERM" (shape output) (at 127 123.19 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 3666279d-7261-4a30-9175-0128d87e206d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 141.3052 123.19 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "RF1_CS" (shape output) (at 127 158.75 0) (fields_autoplaced)
