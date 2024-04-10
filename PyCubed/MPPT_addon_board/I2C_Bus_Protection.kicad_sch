@@ -245,45 +245,6 @@
         )
       )
     )
-    (symbol "mainboard:3.3V" (power) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "#P+" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "3.3V" (at -1.016 3.556 0)
-        (effects (font (size 1.4986 1.4986)) (justify left bottom))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "3.3V_1_0"
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy -0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin power_in line (at 0 0 90) (length 2.54)
-          (name "3.3V" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-      )
-    )
     (symbol "mainboard:BSS138DWQ-7" (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at -2.54 5.08 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1316,6 +1277,37 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3V") (at 161.29 99.06 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 28cbc3dd-ea08-42d4-a574-483c4601e76d)
+    (property "Reference" "#PWR013" (at 161.29 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 161.29 93.98 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 161.29 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 161.29 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6b5e7f52-f5c6-4b2f-8c2a-73a20073a768))
+    (instances
+      (project "MPPT_addon_board"
+        (path "/280ad1e7-2eb5-41ea-be76-321f07a5cb3e"
+          (reference "#PWR013") (unit 1)
+        )
+        (path "/280ad1e7-2eb5-41ea-be76-321f07a5cb3e/a97d995e-917b-41f4-9661-8c7144aef3a0"
+          (reference "#PWR029") (unit 1)
+        )
+        (path "/280ad1e7-2eb5-41ea-be76-321f07a5cb3e/1dd5e6ef-f776-430d-a9d1-2ebf08cb48f4"
+          (reference "#PWR030") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_US") (at 93.98 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30b33a16-4fd6-44ca-853c-a24ba1a3a430)
@@ -1786,44 +1778,6 @@
     )
   )
 
-  (symbol (lib_id "mainboard:3.3V") (at 161.29 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid abb12da4-4474-4e79-b655-e1985f9404dd)
-    (property "Reference" "#P+03" (at 161.29 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "3.3V" (at 160.02 95.25 0)
-      (effects (font (size 1.4986 1.4986)))
-    )
-    (property "Footprint" "" (at 161.29 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 161.29 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b819ecab-9db8-4ea1-a0e2-bc5620e5bcb4))
-    (instances
-      (project "MPPT_addon_board"
-        (path "/280ad1e7-2eb5-41ea-be76-321f07a5cb3e/a97d995e-917b-41f4-9661-8c7144aef3a0"
-          (reference "#P+03") (unit 1)
-        )
-        (path "/280ad1e7-2eb5-41ea-be76-321f07a5cb3e/1dd5e6ef-f776-430d-a9d1-2ebf08cb48f4"
-          (reference "#P+07") (unit 1)
-        )
-      )
-      (project "mainboard"
-        (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005ede7915"
-          (reference "#P+018") (unit 1)
-        )
-      )
-      (project "Bus_Protection"
-        (path "/f2189f39-8c4f-4ba9-ad84-3f7968aa0ded"
-          (reference "#P+018") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Transistor_BJT:MBT2222ADW1T1") (at 100.33 78.74 90) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b63835d1-7afa-4583-bc3e-6830a45ac1f2)
@@ -1977,44 +1931,6 @@
       (project "Bus_Protection"
         (path "/f2189f39-8c4f-4ba9-ad84-3f7968aa0ded"
           (reference "R83") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "mainboard:3.3V") (at 92.71 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e7f09cd2-27b9-4611-bb71-270c52c1821e)
-    (property "Reference" "#P+01" (at 92.71 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "3.3V" (at 91.44 95.25 0)
-      (effects (font (size 1.4986 1.4986)))
-    )
-    (property "Footprint" "" (at 92.71 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 92.71 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ef7148c4-4a3b-4e36-9cc9-8fc33d47888d))
-    (instances
-      (project "MPPT_addon_board"
-        (path "/280ad1e7-2eb5-41ea-be76-321f07a5cb3e/a97d995e-917b-41f4-9661-8c7144aef3a0"
-          (reference "#P+01") (unit 1)
-        )
-        (path "/280ad1e7-2eb5-41ea-be76-321f07a5cb3e/1dd5e6ef-f776-430d-a9d1-2ebf08cb48f4"
-          (reference "#P+05") (unit 1)
-        )
-      )
-      (project "mainboard"
-        (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005ede7915"
-          (reference "#P+017") (unit 1)
-        )
-      )
-      (project "Bus_Protection"
-        (path "/f2189f39-8c4f-4ba9-ad84-3f7968aa0ded"
-          (reference "#P+017") (unit 1)
         )
       )
     )
@@ -2232,6 +2148,37 @@
       (project "Bus_Protection"
         (path "/f2189f39-8c4f-4ba9-ad84-3f7968aa0ded"
           (reference "Q18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 92.71 99.06 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fb83f140-67e7-4449-a023-7f591e273a8f)
+    (property "Reference" "#PWR013" (at 92.71 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 92.71 93.98 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 92.71 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 92.71 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 128ab22f-70ad-452e-ac0b-9d8d753d120a))
+    (instances
+      (project "MPPT_addon_board"
+        (path "/280ad1e7-2eb5-41ea-be76-321f07a5cb3e"
+          (reference "#PWR013") (unit 1)
+        )
+        (path "/280ad1e7-2eb5-41ea-be76-321f07a5cb3e/a97d995e-917b-41f4-9661-8c7144aef3a0"
+          (reference "#PWR027") (unit 1)
+        )
+        (path "/280ad1e7-2eb5-41ea-be76-321f07a5cb3e/1dd5e6ef-f776-430d-a9d1-2ebf08cb48f4"
+          (reference "#PWR028") (unit 1)
         )
       )
     )
