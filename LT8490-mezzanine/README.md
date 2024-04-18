@@ -1,5 +1,6 @@
 # LT8490-mezzanine
-Castellated mezzanine board for LT8490 solar charging buck/boost charger
+Castellated mezzanine board for LT8490 solar charging buck/boost charger.
+Has tracking capabilities so more competent than our old LT3652 solar charger.
 
 ### Modular solar energy harvester and battery charger
 - High power (>600W)
