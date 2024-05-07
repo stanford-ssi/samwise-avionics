@@ -727,6 +727,10 @@
     (stroke (width 0) (type default))
     (uuid 419262cd-fe94-4e4e-ab03-ee95b96bcc18)
   )
+  (wire (pts (xy 167.6908 214.8078) (xy 167.6908 214.4268))
+    (stroke (width 0) (type default))
+    (uuid 42633ed5-44df-46c0-80f1-9af40bcc4e54)
+  )
   (wire (pts (xy 186.2836 120.7516) (xy 210.4136 120.7516))
     (stroke (width 0) (type default))
     (uuid 48dc12ac-2f8c-490b-9ce6-babb0a080372)
@@ -755,9 +759,17 @@
     (stroke (width 0) (type default))
     (uuid 5cc3da60-eab3-4a93-ad89-8009bfebd4ca)
   )
+  (wire (pts (xy 167.6908 230.3018) (xy 167.6908 229.6668))
+    (stroke (width 0) (type default))
+    (uuid 61a92944-372f-402d-b49a-5439c45fb87a)
+  )
   (wire (pts (xy 186.2836 113.1316) (xy 210.4136 113.1316))
     (stroke (width 0) (type default))
     (uuid 6ab012d6-6182-4712-a822-577a480ca6b5)
+  )
+  (wire (pts (xy 191.5668 232.0798) (xy 191.5668 229.6668))
+    (stroke (width 0) (type default))
+    (uuid 6ea831e3-de63-45e3-b0f6-5a287daa2636)
   )
   (wire (pts (xy 190.7286 184.7596) (xy 190.7286 182.3466))
     (stroke (width 0) (type default))
@@ -858,6 +870,10 @@
   (wire (pts (xy 140.4366 97.8916) (xy 164.5412 97.8916))
     (stroke (width 0) (type default))
     (uuid f491cb71-7f91-44c4-9f1c-fe9290bf481a)
+  )
+  (wire (pts (xy 191.5668 215.0618) (xy 191.5668 214.4268))
+    (stroke (width 0) (type default))
+    (uuid f6439c4e-b6c3-46de-a3cf-4ffedbdd4a5c)
   )
   (wire (pts (xy 140.4366 75.0316) (xy 152.4 75.0316))
     (stroke (width 0) (type default))
@@ -1516,6 +1532,41 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 191.5668 211.8868 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 017356fc-2e99-4957-99e4-ff224217b457)
+    (property "Reference" "H13" (at 194.1068 210.6422 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 194.1068 212.9536 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom" (at 191.5668 211.8868 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 191.5668 211.8868 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 57c80865-7427-4f2a-ab1d-3412c076bea2))
+    (instances
+      (project "FlexDeploySidePanels"
+        (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
+          (reference "H13") (unit 1)
+        )
+      )
+      (project "solar-panel-side-X-minus"
+        (path "/8ee68930-8473-409d-b7b7-833759c443f5"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "new_X_Y_Panels"
+        (path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+          (reference "H5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "sidepanels:CDBA240LL-HF") (at 140.4366 101.7016 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e07c9c7-808a-4554-8d4f-3c8afdb99170)
@@ -1629,6 +1680,41 @@
       (project "new_X_Y_Panels"
         (path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
           (reference "SC6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 167.6908 214.8078 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 17d6f384-2a58-46c5-90e9-798ee7c26f4c)
+    (property "Reference" "#PWR010" (at 167.6908 221.1578 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 167.8178 219.202 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 167.6908 214.8078 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 167.6908 214.8078 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fd2d7893-0629-46b2-bd15-aa1f45fb6ae2))
+    (instances
+      (project "FlexDeploySidePanels"
+        (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "solar-panel-side-X-minus"
+        (path "/8ee68930-8473-409d-b7b7-833759c443f5"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "new_X_Y_Panels"
+        (path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1829,6 +1915,41 @@
       (project "new_X_Y_Panels"
         (path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
           (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 191.5668 227.1268 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 31494a43-0668-4b27-badf-3d1f0f25ff7b)
+    (property "Reference" "H14" (at 194.1068 225.8822 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 194.1068 228.1936 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom" (at 191.5668 227.1268 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 191.5668 227.1268 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9a00e5d3-6576-4877-bf09-a6e2fc9bda69))
+    (instances
+      (project "FlexDeploySidePanels"
+        (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
+          (reference "H14") (unit 1)
+        )
+      )
+      (project "solar-panel-side-X-minus"
+        (path "/8ee68930-8473-409d-b7b7-833759c443f5"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "new_X_Y_Panels"
+        (path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+          (reference "H6") (unit 1)
         )
       )
     )
@@ -2138,6 +2259,41 @@
       (project "new_X_Y_Panels"
         (path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
           (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 191.5668 232.0798 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 60747ede-3faf-4948-9568-2264a19a4431)
+    (property "Reference" "#PWR015" (at 191.5668 238.4298 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 191.6938 236.474 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 191.5668 232.0798 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 191.5668 232.0798 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5f59f66d-0290-4b5f-a04a-ad64dc24189d))
+    (instances
+      (project "FlexDeploySidePanels"
+        (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "solar-panel-side-X-minus"
+        (path "/8ee68930-8473-409d-b7b7-833759c443f5"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "new_X_Y_Panels"
+        (path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2607,6 +2763,41 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 167.6908 230.3018 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bc8c777c-7cd8-44ca-ac77-2c4c01fdc775)
+    (property "Reference" "#PWR011" (at 167.6908 236.6518 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 167.8178 234.696 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 167.6908 230.3018 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 167.6908 230.3018 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7a88859c-34e9-4e12-9127-8721b3dc226f))
+    (instances
+      (project "FlexDeploySidePanels"
+        (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "solar-panel-side-X-minus"
+        (path "/8ee68930-8473-409d-b7b7-833759c443f5"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "new_X_Y_Panels"
+        (path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "sidepanels:CDBA240LL-HF") (at 140.4366 86.4616 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0a45ac9-49e9-4fca-8e2d-504a285ed15d)
@@ -2726,6 +2917,41 @@
       (project "new_X_Y_Panels"
         (path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
           (reference "SC12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 167.6908 211.8868 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid c6d1daac-f8d8-4c97-8a9e-ee765eb1c2a5)
+    (property "Reference" "H9" (at 170.2308 210.6422 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 170.2308 212.9536 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom" (at 167.6908 211.8868 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 167.6908 211.8868 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ca41cf49-3c94-4992-898c-254c0cf24058))
+    (instances
+      (project "FlexDeploySidePanels"
+        (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
+          (reference "H9") (unit 1)
+        )
+      )
+      (project "solar-panel-side-X-minus"
+        (path "/8ee68930-8473-409d-b7b7-833759c443f5"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "new_X_Y_Panels"
+        (path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -3019,6 +3245,76 @@
       (project "new_X_Y_Panels"
         (path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
           (reference "H10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 167.6908 227.1268 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid f5a4978d-30f8-43ee-ad24-bfa33a7c9d55)
+    (property "Reference" "H10" (at 170.2308 225.8822 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 170.2308 228.1936 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom" (at 167.6908 227.1268 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 167.6908 227.1268 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dce00a00-129a-41b7-8662-5992bf59282a))
+    (instances
+      (project "FlexDeploySidePanels"
+        (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
+          (reference "H10") (unit 1)
+        )
+      )
+      (project "solar-panel-side-X-minus"
+        (path "/8ee68930-8473-409d-b7b7-833759c443f5"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "new_X_Y_Panels"
+        (path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+          (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 191.5668 215.0618 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f6bd3a47-d09c-4138-9145-55f5058e5b51)
+    (property "Reference" "#PWR014" (at 191.5668 221.4118 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 191.6938 219.456 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 191.5668 215.0618 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 191.5668 215.0618 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7638993f-cb7a-41df-855e-34fc3024a687))
+    (instances
+      (project "FlexDeploySidePanels"
+        (path "/7c71387c-e05e-4505-8a0a-e2df06580c59"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "solar-panel-side-X-minus"
+        (path "/8ee68930-8473-409d-b7b7-833759c443f5"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "new_X_Y_Panels"
+        (path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+          (reference "#PWR04") (unit 1)
         )
       )
     )
