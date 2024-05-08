@@ -1,0 +1,100 @@
+(footprint "IRF7404TRPBF" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<b>Small Outline Package</b> Fits JEDEC packages (narrow SOIC-8)")
+  (attr smd)
+  (fp_text reference "Q" (at -1.8 4.5 180) (layer "F.SilkS")
+      (effects (font (size 0.762 0.762) (thickness 0.127) bold))
+    (tstamp 9a062bef-8b0f-46f0-ae1e-96a5518d7d77)
+  )
+  (fp_text value "IRF7404TRPBF" (at -0.254493 0.432628) (layer "F.SilkS") hide
+      (effects (font (size 0.320613 0.320613) (thickness 0.05)))
+    (tstamp d641cf88-d021-4a4e-801a-0b078b5f8dde)
+  )
+  (fp_line (start -2.6836 1.85) (end -2.6836 2.54)
+    (stroke (width 0.3) (type solid)) (layer "F.SilkS") (tstamp 0f606945-1b5a-443d-943c-9b892236cfe2))
+  (fp_poly
+    (pts
+      (xy -2.08677 1.8542)
+      (xy -1.7272 1.8542)
+      (xy -1.7272 2.87568)
+      (xy -2.08677 2.87568)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp bda56df0-0243-405f-a8ad-6905b7c00f37))
+  (fp_poly
+    (pts
+      (xy -2.08389 -2.8702)
+      (xy -1.7272 -2.8702)
+      (xy -1.7272 -1.85517)
+      (xy -2.08389 -1.85517)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp 4f6f3d98-0649-420d-92bd-b3ff851b6f73))
+  (fp_poly
+    (pts
+      (xy -0.813201 -2.8702)
+      (xy -0.4572 -2.8702)
+      (xy -0.4572 -1.85511)
+      (xy -0.813201 -1.85511)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp b65ef218-c420-4369-bd52-c424d76a099a))
+  (fp_poly
+    (pts
+      (xy -0.813186 1.8542)
+      (xy -0.4572 1.8542)
+      (xy -0.4572 2.87156)
+      (xy -0.813186 2.87156)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp 0bc54f10-b167-4d16-b3aa-d76eae503bcf))
+  (fp_poly
+    (pts
+      (xy 0.457335 -2.8702)
+      (xy 0.8128 -2.8702)
+      (xy 0.8128 -1.85475)
+      (xy 0.457335 -1.85475)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp 4e935afe-2be1-43e6-b3f2-edb11a927837))
+  (fp_poly
+    (pts
+      (xy 0.457555 1.8542)
+      (xy 0.8128 1.8542)
+      (xy 0.8128 2.87243)
+      (xy 0.457555 2.87243)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp 95f70787-0f01-4cc6-8232-b8f6f6b2d152))
+  (fp_poly
+    (pts
+      (xy 1.7279 1.8542)
+      (xy 2.0828 1.8542)
+      (xy 2.0828 2.87136)
+      (xy 1.7279 2.87136)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp f5729c18-b0ce-47fb-a3a5-85e67a87d062))
+  (fp_poly
+    (pts
+      (xy 1.73027 -2.8702)
+      (xy 2.0828 -2.8702)
+      (xy 2.0828 -1.85749)
+      (xy 1.73027 -1.85749)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp fcbfaa02-a4f5-4cd0-88d2-2e499bb197c3))
+  (pad "1" smd rect (at -1.905 2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a43774e4-bbfd-4ae3-ab8a-29fa51b1f75c))
+  (pad "2" smd rect (at -0.635 2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e680ec86-e85e-4c49-8345-4bc4fd402386))
+  (pad "3" smd rect (at 0.635 2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8bf74836-a9da-48be-bbb8-b65608c3fd8a))
+  (pad "4" smd rect (at 1.905 2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c5e63787-46be-4b66-82b5-15808a040d0a))
+  (pad "5" smd rect (at 1.905 -2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 301bf136-09a8-4784-b80a-ac8c303b8e45))
+  (pad "6" smd rect (at 0.635 -2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 81422e14-ddc6-448e-af6b-0621181914f2))
+  (pad "7" smd rect (at -0.635 -2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 13a97f13-feb3-4991-9aa0-a1c0be8abd65))
+  (pad "8" smd rect (at -1.905 -2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9b834b70-abc6-48e6-8626-7f706cb65980))
+  (model "${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
+)
