@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Magnemite ")
+    (date "2024-05-07")
+    (rev "2.0")
+    (comment 1 "Designed by: Eric Liu")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" signal)
@@ -208,7 +215,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e4774c7e-b08f-4d73-93a0-9a766cf089e4)
     )
-    (fp_text user "*" (at 0 0 -90) (layer "B.SilkS")
+    (fp_text user "*" (at 0 0 90) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 726633ec-69a6-4952-8db7-c85951e6642c)
     )
@@ -268,10 +275,10 @@
       (net 9 "unconnected-(J1-SHIELD1-Pad3)") (pinfunction "SHIELD1") (pintype "passive+no_connect") (tstamp b4a8e1e4-4a49-4cd9-a20a-3be492fcc531))
     (pad "4" smd rect locked (at 4.894997 -5.974999 270) (size 1.35 2.899999) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 10 "unconnected-(J1-SHIELD2-Pad4)") (pinfunction "SHIELD2") (pintype "passive+no_connect") (tstamp d3a28a4b-b625-4f66-9016-35f06fab5c11))
-    (model "${SAMWISE_AVIONICS}/3D_models/panels/2053380002.step"
-      (offset (xyz 0 0 0))
+    (model "${SAMWISE_AVIONICS}/3D_models/panels/205338-0002.step"
+      (offset (xyz 2 11.5 -1))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 180 180))
     )
   )
 
@@ -492,7 +499,7 @@
 
   (footprint "panels:logo_magtorquer" (layer "B.Cu")
     (tstamp 944a7fb7-2eb0-41a3-8146-9e530318cbbd)
-    (at 208.28 107.95 180)
+    (at 208.28 106.934 180)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -2343,7 +2350,10 @@
     (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp fa900c0a-9d59-4ff0-bd01-cad1f20abf1d))
   (gr_line locked (start 80.659631 79.4899) (end 80.659631 111.5239)
     (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp fd9931a7-1da0-48e9-8504-b9f9c2fb3535))
-  (gr_text "Eric Liu" (at 221.996 122.682) (layer "B.SilkS") (tstamp bcf86047-88d7-48eb-aaf6-880266d4f57c)
+  (gr_text "<<< Out of board\n<<< Into board" (at 101.6 90.678) (layer "B.SilkS") (tstamp 02786bc1-2042-43c0-b3c4-f2cef7732fb2)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
+  )
+  (gr_text "XY UNIVERSAL COIL\nMAGNEMITE \nERIC LIU" (at 221.488 122.682) (layer "B.SilkS") (tstamp bcf86047-88d7-48eb-aaf6-880266d4f57c)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
   )
 
