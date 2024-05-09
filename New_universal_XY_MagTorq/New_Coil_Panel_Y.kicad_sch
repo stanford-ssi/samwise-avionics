@@ -6,7 +6,7 @@
 
   (title_block
     (title "Magnemite")
-    (date "2024-05-07")
+    (date "2024-05-08")
     (rev "2.0")
     (comment 1 "Designed by: Eric Liu")
   )
@@ -374,7 +374,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 185.42 68.58 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32d47209-b409-45da-aa68-d2bbc40eda27)
     (property "Reference" "NT1" (at 185.42 63.5 0)
       (effects (font (size 1.27 1.27)))
@@ -405,7 +405,7 @@
   )
 
   (symbol (lib_id "sidepanels:TestPointConnection") (at 186.69 77.47 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 637582b7-6a28-4a0d-854c-0694224c04a3)
     (property "Reference" "TP1" (at 186.69 74.93 0)
       (effects (font (size 1.27 1.27)))
