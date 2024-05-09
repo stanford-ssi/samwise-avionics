@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.2-0"
     },
-    "CreationDate": "2024-05-08T11:48:59-07:00"
+    "CreationDate": "2024-05-08T22:34:26-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -18,8 +18,8 @@
       "Y": 215.7
     },
     "LayerNumber": 4,
-    "BoardThickness": 0.259,
-    "Finish": "None"
+    "BoardThickness": 0.659,
+    "Finish": "ENIG"
   },
   "DesignRules": [
     {
@@ -27,14 +27,14 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 1.0,
+      "MinLineWidth": 0.2,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
@@ -161,16 +161,24 @@
       "Type": "Dielectric",
       "Thickness": 0.013,
       "Material": "Pure Gum",
-      "Name": "In2.Cu/B.Cu (1/2)",
-      "Notes": "Type: dielectric layer 3 - 1/2 (from In2.Cu to B.Cu)"
+      "Name": "In2.Cu/B.Cu (1/3)",
+      "Notes": "Type: dielectric layer 3 - 1/3 (from In2.Cu to B.Cu)"
     },
     {
       "Type": "Dielectric",
       "Color": "R205G130B0",
       "Thickness": 0.025,
       "Material": "PI",
-      "Name": "In2.Cu/B.Cu (2/2)",
-      "Notes": "Type: dielectric layer 3 - 2/2 (from In2.Cu to B.Cu)"
+      "Name": "In2.Cu/B.Cu (2/3)",
+      "Notes": "Type: dielectric layer 3 - 2/3 (from In2.Cu to B.Cu)"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.4,
+      "Material": "FR4",
+      "Name": "In2.Cu/B.Cu (3/3)",
+      "Notes": "Type: dielectric layer 3 - 3/3 (from In2.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
