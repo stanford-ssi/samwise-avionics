@@ -3,22 +3,22 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.8"
+      "Version": "7.0.2-0"
     },
-    "CreationDate": "2024-03-08T21:51:05-08:00"
+    "CreationDate": "2024-05-09T13:19:14-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "New_Coil_Panel_Y",
       "GUID": "4e65775f-436f-4696-9c5f-50616e656c5f",
-      "Revision": "rev?"
+      "Revision": "2.0"
     },
     "Size": {
       "X": 215.7,
       "Y": 81.7
     },
     "LayerNumber": 6,
-    "BoardThickness": 0.8,
+    "BoardThickness": 1.6,
     "Finish": "None"
   },
   "DesignRules": [
@@ -27,14 +27,14 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.305
+      "MinLineWidth": 0.45
     },
     {
       "Layers": "Inner",
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.306
+      "MinLineWidth": 0.45
     }
   ],
   "FilesAttributes": [
@@ -125,7 +125,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.0743,
+      "Thickness": 0.1,
       "Material": "FR4",
       "Name": "F.Cu/In1.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
@@ -137,7 +137,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.0743,
+      "Thickness": 0.4357,
       "Material": "FR4",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
@@ -149,7 +149,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.0743,
+      "Thickness": 0.1,
       "Material": "FR4",
       "Name": "In2.Cu/In3.Cu",
       "Notes": "Type: dielectric layer 3 (from In2.Cu to In3.Cu)"
@@ -161,7 +161,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.0743,
+      "Thickness": 0.4357,
       "Material": "FR4",
       "Name": "In3.Cu/In4.Cu",
       "Notes": "Type: dielectric layer 4 (from In3.Cu to In4.Cu)"
@@ -173,7 +173,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.0743,
+      "Thickness": 0.1,
       "Material": "FR4",
       "Name": "In4.Cu/B.Cu",
       "Notes": "Type: dielectric layer 5 (from In4.Cu to B.Cu)"
