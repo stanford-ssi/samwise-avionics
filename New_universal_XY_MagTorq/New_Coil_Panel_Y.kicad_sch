@@ -274,7 +274,6 @@
   )
 
 
-
   (no_connect (at 130.81 66.04) (uuid 59747bea-41dd-4257-b9fb-55cacaf940e4))
   (no_connect (at 119.38 66.04) (uuid 676dbf10-22da-4c15-9601-40e685e234dc))
   (no_connect (at 130.81 73.66) (uuid 74d4d04e-99b9-4e46-9c9d-9ce98c30774d))
@@ -322,7 +321,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2d5df10f-2de1-4b77-86ea-f03c959680c1)
   )
-  (text "This board takes in 12V from port 1 & 2 via \nthe Molex connector and runs the current through \nthe embedded coils in the five copper layers. \nIt will generate 0.35 A of current each board and \n0.3 Am^2 magnetic moment."
+  (text "This board takes in 12V from port 1 & 2 via \nthe Molex connector and runs the current through \nthe embedded coils in the five copper layers. \n2 of the identical PCB boards will be soldered \ntogether to generate the desired amount of moment. \nThis schemetics represents only *1* of the boards. \n\nPer PCB board: \naverage x coil length (mm) = 113.54499999999999\naverage y coil length (mm) = 47.83999999999999\nnumber of turns n = 29-30\ncurrent per board (A) = 0.45630724992366367\nmoment generated per board (A⋅m2)= 0.3594053659451054"
     (at 205.74 133.35 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 3d745632-a348-40ae-ab75-3833c7a200f2)
