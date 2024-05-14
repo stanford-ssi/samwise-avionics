@@ -603,10 +603,10 @@
       )
     )
     (symbol "sidepanels:UHF_Dipole_Antenna" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "AE1" (at 0 5.461 0)
+      (property "Reference" "AE" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "UHF_Dipole_Antenna" (at 0 3.1496 0)
+      (property "Value" "UHF_Dipole_Antenna" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "panels:UHF_Dipole_Antenna_Mount" (at 0 0 0)
@@ -618,23 +618,7 @@
       (symbol "UHF_Dipole_Antenna_0_1"
         (polyline
           (pts
-            (xy -5.08 -8.89)
-            (xy -5.08 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 1.27 -3.81)
-            (xy 5.08 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 -8.89)
             (xy 5.08 -5.08)
           )
           (stroke (width 0) (type default))
@@ -685,21 +669,10 @@
           (name "~" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -7.62 -8.89 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -8.89 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
       )
     )
   )
 
-  (junction (at 267.97 110.49) (diameter 0) (color 0 0 0 0)
-    (uuid 141d306a-5305-4968-ab49-b656da3711e4)
-  )
   (junction (at 80.01 106.68) (diameter 0) (color 0 0 0 0)
     (uuid 175a86b5-5a92-4bdf-ad50-f633b52c3e3e)
   )
@@ -741,9 +714,6 @@
   )
   (junction (at 142.24 193.04) (diameter 0) (color 0 0 0 0)
     (uuid b4c24680-4709-4a42-9b7a-deecb13af2e4)
-  )
-  (junction (at 267.97 95.25) (diameter 0) (color 0 0 0 0)
-    (uuid bae24100-2dd1-40ea-a1d8-a94750a57835)
   )
   (junction (at 149.86 172.72) (diameter 0) (color 0 0 0 0)
     (uuid d755410e-1cd7-4f75-a6d7-ee073af3880b)
@@ -804,10 +774,6 @@
   (wire (pts (xy 121.92 106.68) (xy 127 106.68))
     (stroke (width 0) (type default))
     (uuid 447bafbf-d68a-4cc7-b619-83820fd16020)
-  )
-  (wire (pts (xy 264.16 95.25) (xy 267.97 95.25))
-    (stroke (width 0) (type default))
-    (uuid 459a2f19-3e59-48ab-bd5c-f273481e2c0e)
   )
   (wire (pts (xy 190.5 50.8) (xy 190.5 53.34))
     (stroke (width 0) (type default))
@@ -925,10 +891,6 @@
   (wire (pts (xy 80.01 60.96) (xy 109.22 60.96))
     (stroke (width 0) (type default))
     (uuid d8aafc36-6d12-4313-b0ed-69b85c836555)
-  )
-  (wire (pts (xy 264.16 110.49) (xy 267.97 110.49))
-    (stroke (width 0) (type default))
-    (uuid d9c7b92a-69c5-430a-9396-dff9e0c7a755)
   )
   (wire (pts (xy 195.58 58.42) (xy 207.01 58.42))
     (stroke (width 0) (type default))
@@ -1088,7 +1050,7 @@
     (property "Datasheet" "~" (at 238.76 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 08c23bd4-79a9-49e2-b225-58e457555a56))
+    (pin "1" (uuid f1d12d30-4357-4f1d-a8b7-198fe94661c2))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1113,8 +1075,8 @@
     (property "Datasheet" "~" (at 130.556 172.72 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 26ee726c-b503-4caa-a437-12f69c504b2e))
-    (pin "2" (uuid f967725f-3ccc-42c6-97cc-150b168dde4c))
+    (pin "1" (uuid 1097b289-64ca-438a-a59b-d2956bceb388))
+    (pin "2" (uuid 9e539796-adef-4588-93d6-dbc317e4e850))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1139,8 +1101,8 @@
     (property "Datasheet" "~" (at 111.76 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bcb1d688-c85e-4021-b6de-34cbed0aee9b))
-    (pin "2" (uuid 6d26faff-9f96-437e-8f13-91ee49a9109d))
+    (pin "1" (uuid 2af91a99-6f04-443f-b2fc-03997b2b1e0e))
+    (pin "2" (uuid 43fc34c5-9123-43ee-92a9-300750d76238))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1165,8 +1127,8 @@
     (property "Datasheet" "~" (at 138.176 172.72 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8ad62f72-7108-441f-9b97-95096180336b))
-    (pin "2" (uuid 93f49db1-13de-464d-8b11-75bf1f7b7c48))
+    (pin "1" (uuid 543148d4-bfbf-4bec-8292-49c309f1f0a0))
+    (pin "2" (uuid 20525096-e94b-42d9-a83c-b31d3e9aaa99))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1241,11 +1203,11 @@
     (property "Datasheet" "~" (at 190.5 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "4" (uuid d8b9e2e1-15d9-4a8c-8547-702dd9332c8b))
-    (pin "2" (uuid eb4797dc-17eb-4e18-ac1c-48aeae73d4d7))
-    (pin "MP" (uuid aeeb7d63-766e-4c1e-9b42-0918a0be4576))
-    (pin "3" (uuid 42d375fa-924a-486c-9c3b-7e76e980f9ed))
-    (pin "1" (uuid d547b5cf-e224-424b-8e41-91a3beae2158))
+    (pin "1" (uuid d216b9bf-78dc-4009-a8ba-d2809cfed3b9))
+    (pin "2" (uuid 13857c8d-6fad-4a08-afe8-9259d37c0b85))
+    (pin "3" (uuid 48284d7b-2094-4c67-a0d4-622cb22bf987))
+    (pin "4" (uuid fcc7d6b6-17fe-4eb5-886b-17f755a2c9ff))
+    (pin "MP" (uuid 174a8660-8d88-4e28-9b1f-98fdca64941f))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1295,11 +1257,11 @@
     (property "Datasheet" "~" (at 74.93 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "4" (uuid 33acb71a-c2c4-4b69-8574-5f6889e3e71d))
-    (pin "2" (uuid 6d09717f-215f-41af-9068-0273c96817d1))
-    (pin "MP" (uuid b17700b8-bad5-4010-941a-95b7701ecf67))
-    (pin "3" (uuid 2c2b2fa2-adb2-4100-947c-d73a984cad48))
-    (pin "1" (uuid a2031728-8d88-40db-9640-151b6aa6f238))
+    (pin "1" (uuid cd993839-306a-4966-9689-8759e9f2eb8a))
+    (pin "2" (uuid 261ed968-9b48-40ba-b792-45f09dd40d14))
+    (pin "3" (uuid 0a04da4c-d0ea-4204-94f3-8f933f7b545d))
+    (pin "4" (uuid 206871af-da24-465e-bbc1-8bd183f69784))
+    (pin "MP" (uuid af860ee6-a173-4fe0-a141-e0d16e1fec4a))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1324,7 +1286,7 @@
     (property "Datasheet" "~" (at 238.76 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8efb2412-671f-4cba-98c3-8154b22c64c8))
+    (pin "1" (uuid dfd8330f-7c36-4543-bf90-879283531c71))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1399,8 +1361,8 @@
     (property "Datasheet" "~" (at 123.19 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 43b4eb17-1371-42aa-abc1-8fedeacad793))
-    (pin "2" (uuid 2ddcb37a-88b4-485b-9940-35bb9fa3aa82))
+    (pin "1" (uuid 66782d2b-77be-48b0-a9ec-6cc359107dbd))
+    (pin "2" (uuid 8eb21616-97e4-4ff7-ba46-c5bc63f6fbe4))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1450,7 +1412,7 @@
     (property "Datasheet" "~" (at 254 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 225d2b4a-9054-4df1-aafc-533ac772076e))
+    (pin "1" (uuid 831dbe31-5158-46d8-885a-42565ef23761))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1475,7 +1437,7 @@
     (property "Datasheet" "~" (at 254 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 25377076-5c9d-4ed3-a117-a371c14dc213))
+    (pin "1" (uuid b5ac5c82-444b-4abb-8b18-2231318af29d))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1500,8 +1462,8 @@
     (property "Datasheet" "~" (at 153.67 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cbb91577-0821-45c7-88cf-9a41f3aa88e2))
-    (pin "2" (uuid 0ee8fbe8-ffe3-4f39-8b6d-eae34fe3d635))
+    (pin "1" (uuid 704cc47e-91b0-4ac6-b2a8-d7764db19f2d))
+    (pin "2" (uuid e63d15d6-ad42-43c4-8ed7-45c10838cd58))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1651,7 +1613,7 @@
     (property "Datasheet" "~" (at 254 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5eb1f7b8-1b7c-49e9-9b56-b648121babb3))
+    (pin "1" (uuid 5a2c9475-17c1-456c-8569-2ab51530125c))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1676,8 +1638,8 @@
     (property "Datasheet" "~" (at 115.316 172.72 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5e98ad76-ee30-40ef-be65-4615e76ba3f7))
-    (pin "2" (uuid f373f251-c481-4efe-b748-13e0ae049c4e))
+    (pin "1" (uuid ffefb939-884d-49a7-9f15-0a41bca3559a))
+    (pin "2" (uuid bb6b8a67-9ec8-4ac7-9301-8bf5969ee78d))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1727,8 +1689,8 @@
     (property "Datasheet" "~" (at 122.936 172.72 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 22019e07-2d79-43f1-905c-fc5d5800809f))
-    (pin "2" (uuid 368e4d46-6eac-4790-abfd-5b2f4a8e9c77))
+    (pin "1" (uuid 143144d8-3062-4664-8f5e-c2a7d8deebbe))
+    (pin "2" (uuid 045d8998-60a1-43cf-b6ee-919fb75ce3be))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1753,8 +1715,8 @@
     (property "Datasheet" "~" (at 138.43 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1af50fb1-14de-49e0-9acf-7f2ea402ab2d))
-    (pin "2" (uuid b1c274b0-4884-445b-9000-7660b1240b43))
+    (pin "1" (uuid ce549d61-03b2-4175-af91-13cd28a9cd65))
+    (pin "2" (uuid 4f8ec272-eab3-4f03-8319-119e04ac4b07))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1779,7 +1741,7 @@
     (property "Datasheet" "~" (at 238.76 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e54e530d-c5df-4ea6-a2d7-c47ed2b9590c))
+    (pin "1" (uuid 642a72a5-4ebb-4ce1-9f84-a846a4bad914))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1804,8 +1766,8 @@
     (property "Datasheet" " ~" (at 220.98 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c7883b60-60a5-4e2b-bad7-d6df962617d8))
-    (pin "2" (uuid 177f4353-3e86-4ccf-9777-f2dea62823e0))
+    (pin "1" (uuid c9e41c3e-30a2-453d-b053-75eae2cd9237))
+    (pin "2" (uuid 207ee3d3-8ba3-439c-ba6e-77fc5500d693))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1855,8 +1817,8 @@
     (property "Datasheet" "~" (at 145.796 172.72 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0e681a46-09e0-489d-b70e-e465ffd07414))
-    (pin "2" (uuid 8516d60c-4e64-4db6-ad00-f147d791fefe))
+    (pin "1" (uuid 5b516cf8-1205-402b-88bd-4f2ef992658f))
+    (pin "2" (uuid 608e0d2e-0587-47b0-b83f-3231007392c2))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1881,8 +1843,8 @@
     (property "Datasheet" "~" (at 153.416 172.72 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7f5cb7d0-118e-4385-96f4-8fd48f11b1cb))
-    (pin "2" (uuid e92eb994-4e4c-4eab-9ee6-b2ff5da827b0))
+    (pin "1" (uuid 550e8e57-fc05-42ae-8e08-2da67d471b66))
+    (pin "2" (uuid 103c874e-e9b1-4b80-a61b-85fd957a3eab))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1932,10 +1894,8 @@
     (property "Datasheet" "" (at 273.05 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6d8d1621-a4ac-4285-ac35-faeeb1a01180))
-    (pin "2" (uuid 4ec7df0e-92b5-4a16-8489-08124cbbe0a6))
-    (pin "4" (uuid 412cc073-5b01-4e3e-8b62-4b77da72acb8))
-    (pin "3" (uuid cfad6766-38fd-466d-96d1-b52e0530e209))
+    (pin "1" (uuid f83e3da3-c3cb-42a1-81c6-676542aa7333))
+    (pin "2" (uuid 918938e0-2ac6-44ba-ae35-5a62ca44128a))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -1993,14 +1953,14 @@
     (property "MANUFACTURER_PART_NUMBER" "ltc2051is8" (at 81.28 101.6 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (pin "1" (uuid e040416a-9287-4f69-82ea-cb73ff448040))
-    (pin "3" (uuid d41bee5d-7254-4437-9476-6dcee54042f7))
-    (pin "4" (uuid dbc36963-dd51-4c01-9cf0-009541dbea70))
-    (pin "5" (uuid 1a62e8ca-dd58-4bba-8c25-72562c02354f))
-    (pin "6" (uuid 8af4ffd9-b14c-4ff1-a9f6-87c3b9abcae1))
-    (pin "7" (uuid 34cd7da3-7b6b-4c94-9d90-6812d558ce71))
-    (pin "8" (uuid 7e52c241-fe22-4444-be42-4aa62cd42aa8))
-    (pin "2" (uuid c19665ab-6d22-4e0b-9230-d3d31bddc212))
+    (pin "1" (uuid 2b026b01-592e-43fc-8add-afd1b0551490))
+    (pin "2" (uuid 17fc8499-15eb-494d-bdf9-119992350d0c))
+    (pin "3" (uuid 0f4d3f7f-919d-422a-bdf4-972366e9453e))
+    (pin "4" (uuid 741576fb-b65e-4f64-82b1-6b4ad341dcea))
+    (pin "5" (uuid d41b9d53-5342-4e4b-8816-63e3a75cb2c4))
+    (pin "6" (uuid 853b802c-fb81-4831-9840-a178d803f921))
+    (pin "7" (uuid 564afb40-e4b4-4fab-8bb3-e2e802f2b87b))
+    (pin "8" (uuid 8c2f3df4-ef91-4ea3-8920-ee8f894dc48e))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -2025,8 +1985,8 @@
     (property "Datasheet" "~" (at 115.57 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 55e506cc-88aa-456d-a1b0-863bacf2d046))
-    (pin "2" (uuid 19b67bf4-54fa-4406-abdd-c37ce8a6a6ff))
+    (pin "1" (uuid dca715c1-4039-47cc-ab97-c72bbd7122a4))
+    (pin "2" (uuid c00ea50d-eb80-47ae-9186-1ec310e03053))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -2051,7 +2011,7 @@
     (property "Datasheet" "~" (at 254 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1ca3801d-9b03-4382-b366-0ff773a5a459))
+    (pin "1" (uuid 19a789d4-27e8-4a97-9097-4c24a03c7f27))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -2101,7 +2061,7 @@
     (property "Datasheet" "~" (at 238.76 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2a090b51-e93a-4358-b329-149602908663))
+    (pin "1" (uuid c0a80fa8-c84c-4d7d-9873-6ed60e3e81bc))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -2151,12 +2111,12 @@
     (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/rf/rf/balun/catalog/rf_balun_hhm1589d1_en.pdf" (at 248.92 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 73a47125-7646-4c40-90d4-6a3f98238035))
-    (pin "2" (uuid d66c85f2-a918-4015-9805-cdde8f822240))
-    (pin "3" (uuid 15e8127d-95a8-49cc-91bc-41acc824811b))
-    (pin "4" (uuid 46aaede3-4b8b-4f3a-9355-db727360c5ff))
-    (pin "5" (uuid 04b568ed-7b7c-4d8e-8442-4441ba555696))
-    (pin "6" (uuid 7b095f64-3b07-41d0-8fb9-2828e1b6fd3d))
+    (pin "1" (uuid fe1775c9-99c5-4ee0-910e-e62df8c3aaa3))
+    (pin "2" (uuid 2e3e9e55-494a-4812-87a1-a779b3269ba8))
+    (pin "3" (uuid 89bd20f9-c450-4beb-a3e3-ef549980c2c1))
+    (pin "4" (uuid 8ee1c6a4-649c-4b03-b634-7094f1e93152))
+    (pin "5" (uuid cb5bdf32-7222-4aa9-b99c-af11cad82c5a))
+    (pin "6" (uuid 06471486-75a3-48b4-9053-94fb261ccfe5))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -2231,8 +2191,8 @@
     (property "Datasheet" "~" (at 130.81 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 20e77973-1333-4408-bc54-19ef10e108d7))
-    (pin "2" (uuid 65eadf22-1615-4746-97e8-b1d1222802ae))
+    (pin "1" (uuid 56448d30-e020-4089-8e1c-b2f92e8a3f38))
+    (pin "2" (uuid 6ba2d00c-3274-4879-81b7-3b527f139d52))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
@@ -2282,8 +2242,8 @@
     (property "Datasheet" "~" (at 146.05 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3c8e9d40-3f19-4ab4-876d-700b29dffb66))
-    (pin "2" (uuid a136fba1-d2a1-4d95-916b-92045915b53e))
+    (pin "1" (uuid 68ce1c69-f550-4271-a36e-04d5e1358df4))
+    (pin "2" (uuid 4c33f3a5-b85a-4400-81f7-e3918031918f))
     (instances
       (project "Z_Panels"
         (path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3"
