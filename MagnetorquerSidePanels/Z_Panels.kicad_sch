@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Z+ Panel")
+    (date "5/4/2024")
+    (rev "v1b")
+    (company "Stanford Student Space Initiative")
+    (comment 1 "Kaitlyn Letherer")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_Coaxial" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0.254 3.048 0)
@@ -939,10 +947,6 @@
     (effects (font (size 3 3) italic) (justify right bottom))
     (uuid 38f6c5ec-f0a5-4e50-b223-b493cb8a704f)
   )
-  (text "Z Side Panel Magnetorquer" (at 185.039 176.911 0)
-    (effects (font (size 4 4)) (justify left bottom))
-    (uuid 45e0f2b6-2365-4ca7-9547-96f643e89232)
-  )
   (text "Photo Diodes " (at 118.11 86.36 0)
     (effects (font (size 3 3) italic) (justify right bottom))
     (uuid 9a2091a9-1f0b-4529-8cf3-c4fdca8e3526)
@@ -1757,7 +1761,7 @@
     (property "Reference" "J1" (at 207.01 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SMA Connector Male" (at 210.82 104.14 90)
+    (property "Value" "Amphenol_901-144" (at 210.82 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "panels:SMA_Amphenol_901-144_Vertical" (at 220.98 104.14 0)

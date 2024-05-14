@@ -1,0 +1,43 @@
+(footprint "WPC.25A" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "AE**" (at 0.145 -1.15 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 97eb8cd5-781c-40fb-8c00-f177b8aef23c)
+  )
+  (fp_text value "WPC.25A" (at 0.145 0.35 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 887e874d-79c8-4702-9d79-e5722a55165f)
+  )
+  (fp_rect (start -12.5 -12.5) (end 12.5 12.5)
+    (stroke (width 0.15) (type default)) (fill none) (layer "F.SilkS") (tstamp 6e08bb49-26bf-4f4e-8cea-cf330bec82cb))
+  (fp_line (start -7.3 -5.15) (end -7.3 5.15)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 8ee93c66-3c39-4037-a241-0dcade3c33a5))
+  (fp_line (start -7.3 -5.15) (end 12.475 -5.15)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 30b21aa7-29ae-4faf-af62-4cfa10c5cf87))
+  (fp_line (start -7.3 5.15) (end 12.475 5.15)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp e4aca120-7af9-40ca-b1c9-8b129d353b10))
+  (fp_arc (start 12.475 -5.15) (mid 17.627054 0) (end 12.475 5.15)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp de03670f-9b4e-44ab-8dbf-7e8d46d10083))
+  (zone (net 0) (net_name "") (layers "*.Cu") (tstamp 16734c07-8fcc-45ac-9e9c-2ab7aa027555) (hatch edge 0.5)
+    (connect_pads (clearance 0))
+    (min_thickness 0.25) (filled_areas_thickness no)
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
+    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
+    (polygon
+      (pts
+        (xy -12.5 -12.5)
+        (xy 12.5 -12.5)
+        (xy 12.5 12.5)
+        (xy -12.5 12.5)
+      )
+    )
+  )
+  (group "" (id 3d63fef6-c5eb-4892-8ce9-b300690ff2a5)
+    (members
+      30b21aa7-29ae-4faf-af62-4cfa10c5cf87
+      8ee93c66-3c39-4037-a241-0dcade3c33a5
+      de03670f-9b4e-44ab-8dbf-7e8d46d10083
+      e4aca120-7af9-40ca-b1c9-8b129d353b10
+    )
+  )
+)
