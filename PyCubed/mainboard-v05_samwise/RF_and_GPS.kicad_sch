@@ -6,9 +6,10 @@
 
   (title_block
     (title "PyCubed Mainboard")
-    (date "2024-05-04")
+    (date "2024-05-14")
     (rev "v06b")
-    (company "SSI")
+    (company "Stanford Student Space Initiative")
+    (comment 1 "Ethan Brinser")
   )
 
   (lib_symbols
@@ -654,6 +655,10 @@
     (effects (font (size 1.651 1.651)) (justify left bottom))
     (uuid ace618c9-a817-4de5-98ad-9f0ca5d115db)
   )
+  (text "Jumper for running radio off of 3.3V" (at 88.9 80.01 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid af62557c-35a9-42dd-b70f-d6a508dfde86)
+  )
   (text "Radio, GPS, Payloads" (at 193.04 176.53 0)
     (effects (font (size 5.08 5.08) (thickness 1.016) bold) (justify left bottom))
     (uuid f0e86874-a5bf-410c-b1ca-aaa95e9b48c4)
@@ -825,7 +830,7 @@
     (property "Reference" "R5" (at 120.1928 85.0138 90)
       (effects (font (size 1.4986 1.4986)) (justify right))
     )
-    (property "Value" "10K" (at 120.1928 87.6808 90)
+    (property "Value" "10k" (at 120.1928 87.6808 90)
       (effects (font (size 1.4986 1.4986)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 121.92 86.36 0)
