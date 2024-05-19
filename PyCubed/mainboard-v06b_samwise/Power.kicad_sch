@@ -2939,6 +2939,10 @@
     (effects (font (size 1.0668 1.0668)) (justify left bottom))
     (uuid 4986d49c-7d9c-4ca7-89b5-b84446138041)
   )
+  (text "I_CHGMAX = 370 mA" (at 165.1 39.37 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 51affa5b-7b57-48dc-b5a9-04cbad7107e9)
+  )
   (text "RF Regulator" (at 62.23 87.63 0)
     (effects (font (size 2.159 2.159)) (justify left bottom))
     (uuid 54abe985-6220-40c0-a632-763ff28b3b4e)
@@ -2957,12 +2961,8 @@
     (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
     (uuid 70ed2ffc-3833-497e-9889-190a2e04713a)
   )
-  (text "TODO: Change FPPT to new X panel voltage\n (not currently specified, might be the same)"
-    (at 13.97 27.94 0)
-    (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
-    (uuid 70fe75ac-fe99-4963-9fea-a59c04e45ddd)
-  )
-  (text "V_FPPT = 17.4828054299" (at 13.97 22.86 0)
+  (text "V_FPPT = 19.035. For logic, see SAMWISE\nX panel LT3652 Calculations document\nin Google Drive"
+    (at 13.97 22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 74229494-bda1-4781-afc6-88e5e877ba5c)
   )
@@ -3263,6 +3263,11 @@
     (pin "1" (uuid 763d18cf-29da-444b-90d1-0c200d32e2a0))
     (pin "2" (uuid f8487b9f-5468-4dff-a63e-6f312c6a0659))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C21") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C21") (unit 1)
@@ -3292,6 +3297,11 @@
     (pin "1" (uuid 2c75212b-da8f-4134-bc68-2a2d2f3fed24))
     (pin "2" (uuid 0a3fc2e5-1b36-485f-b6ff-b55910d6f3c0))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R14") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R14") (unit 1)
@@ -3321,6 +3331,11 @@
     (pin "1" (uuid 093cc147-a7e4-4116-99b9-e9c94ae038c0))
     (pin "2" (uuid 40148dbc-5d66-49a2-8529-7f824d48e6c1))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R8") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R8") (unit 1)
@@ -3350,6 +3365,11 @@
     (pin "1" (uuid ca4d4f3f-19cb-47f5-9834-851c6d9f0f4d))
     (pin "2" (uuid f7399700-f0e5-4c34-8d29-51ebc6d8d51c))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C27") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C27") (unit 1)
@@ -3379,6 +3399,11 @@
     (pin "1" (uuid eb605ff2-326f-4714-ad21-00898528b7cf))
     (pin "2" (uuid edb1fd1e-5a4e-4105-ad01-dbc961494b70))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C17") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C17") (unit 1)
@@ -3408,6 +3433,11 @@
     (pin "1" (uuid 9a16dfa9-fda3-4322-a253-5db6761b68a3))
     (pin "2" (uuid 371434f0-4296-408d-8825-e4f82a164df4))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R15") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R15") (unit 1)
@@ -3449,6 +3479,11 @@
     (pin "1" (uuid adbd73f2-c8b5-4c93-a3a7-ddd050d5d0d1))
     (pin "2" (uuid c7e01a96-4b3c-417b-850d-39fc180582fa))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "L2") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "L2") (unit 1)
@@ -3474,6 +3509,11 @@
     )
     (pin "1" (uuid 2f18c7ba-73b0-494d-bb17-312613fc6b5f))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR0102") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "#PWR0102") (unit 1)
@@ -3499,6 +3539,11 @@
     )
     (pin "1" (uuid 43d27f74-7fd9-474d-b598-8d909a30bcfa))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR0103") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "#PWR0103") (unit 1)
@@ -3528,6 +3573,11 @@
     (pin "1" (uuid aad89cac-ff66-453b-9e29-f1f20a3d6bc5))
     (pin "2" (uuid 9d4c2553-b92b-41b8-b8ad-f3a1e1f9b9e7))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C36") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C36") (unit 1)
@@ -3557,6 +3607,11 @@
     (pin "1" (uuid 64683e4c-d042-4d15-845c-325bae182a3d))
     (pin "2" (uuid be55bd01-4331-441b-9f4f-bf4e94a739c9))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C37") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C37") (unit 1)
@@ -3582,6 +3637,11 @@
     )
     (pin "1" (uuid 51b56cb8-3946-4113-8f25-3342d2f27ef3))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR0104") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "#PWR0104") (unit 1)
@@ -3611,6 +3671,11 @@
     (pin "1" (uuid 17afdfbf-9f62-4613-9b8b-e44f7b28202f))
     (pin "2" (uuid ab8cdb3a-6fa7-4c63-8f0e-d40b3c1e58ae))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C39") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C39") (unit 1)
@@ -3636,6 +3701,11 @@
     )
     (pin "1" (uuid 99b17fc0-2a4c-44e8-9562-6ac5ed8ffc21))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR0105") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "#PWR0105") (unit 1)
@@ -3665,6 +3735,11 @@
     (pin "1" (uuid 5af59be0-3234-4681-9058-347bef153dda))
     (pin "2" (uuid 8afe8dc2-6d8b-4017-8289-1df97250c65e))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R31") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R31") (unit 1)
@@ -3694,6 +3769,11 @@
     (pin "1" (uuid a772da33-5e7a-45d2-b803-ec1822dcd380))
     (pin "2" (uuid 288d8a67-e8f9-4959-9c44-9fdfdab6f726))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C34") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C34") (unit 1)
@@ -3719,6 +3799,11 @@
     )
     (pin "1" (uuid a78ccb4f-cc05-44c3-850a-ca7e44ad10ee))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR0106") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "#PWR0106") (unit 1)
@@ -3748,6 +3833,11 @@
     (pin "1" (uuid 1a1f93b7-954a-48ea-ba2d-5622925de2ad))
     (pin "2" (uuid a719b40a-77e1-4eb6-9187-11ebab270c4c))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C33") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C33") (unit 1)
@@ -3789,6 +3879,11 @@
     (pin "1" (uuid b2fd34c7-d9ba-47b6-99f1-72715534bd5f))
     (pin "2" (uuid 8a985327-0e33-469c-9e70-4b57b5a93c93))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "L4") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "L4") (unit 1)
@@ -3838,6 +3933,11 @@
     (pin "8" (uuid ad0d46a4-c33d-458f-ad83-eea3d27cd861))
     (pin "9" (uuid cd67893d-0002-4e1e-adcc-8c0753587671))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "U4") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "U4") (unit 1)
@@ -3867,6 +3967,11 @@
     (pin "1" (uuid 58b97de7-8af7-4103-b9ce-a98177ffb612))
     (pin "2" (uuid 078c51d1-714e-46d7-9294-09edb6a282f2))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C35") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C35") (unit 1)
@@ -3896,6 +4001,11 @@
     (pin "1" (uuid 54e22b0f-e2df-4f37-ba87-a66d47d55db1))
     (pin "2" (uuid 93c3bc78-dcb7-4a32-9d88-f4b92a5e34de))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C38") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C38") (unit 1)
@@ -3925,6 +4035,11 @@
     (pin "1" (uuid de101b37-6302-447e-b896-a20ce72837a0))
     (pin "2" (uuid f6b61c0e-984b-4725-a772-5c433a98bdfc))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R34") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R34") (unit 1)
@@ -3954,6 +4069,11 @@
     (pin "1" (uuid 328573a9-3bc4-4a92-bcfe-d53402a9d2ef))
     (pin "2" (uuid fc343cd0-25ab-4aa3-891d-06cebb9b3b5f))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R35") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R35") (unit 1)
@@ -3983,6 +4103,11 @@
     (pin "1" (uuid 27dd0813-651e-448e-a455-0557c6747ebe))
     (pin "2" (uuid 40e355f1-d94c-49e8-9e21-cec388958924))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R26") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R26") (unit 1)
@@ -4012,6 +4137,11 @@
     (pin "1" (uuid dcda4d98-25c4-4d31-9bf8-483cbab343ca))
     (pin "2" (uuid 01ec5446-d29c-4030-b114-91d22db3302b))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C32") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C32") (unit 1)
@@ -4076,6 +4206,11 @@
     (pin "8" (uuid 52503d60-48c3-418b-871a-1eb1010cf0b7))
     (pin "9" (uuid 8153dd10-884e-4df7-b881-c55390bb93b7))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "U17") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "U17") (unit 1)
@@ -4105,6 +4240,11 @@
     (pin "1" (uuid 78999386-2aff-4b4c-80b1-b80a6000a1de))
     (pin "2" (uuid 2d005c9c-be07-4688-a89c-c7a7d61898d2))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R36") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R36") (unit 1)
@@ -4134,6 +4274,11 @@
     (pin "1" (uuid 4c8b0ccb-bc37-4941-a868-c15bc0ead4dd))
     (pin "2" (uuid f3b76d3b-768c-4806-86fa-9c25790d4dc8))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R46") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R46") (unit 1)
@@ -4175,6 +4320,11 @@
     (pin "1" (uuid ea7adccc-2741-45ce-a831-2497f57ad611))
     (pin "2" (uuid d370d53a-4f28-4292-b1cf-58b3122ad138))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "D5") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "D5") (unit 1)
@@ -4220,6 +4370,11 @@
     (pin "4" (uuid 0ab3196a-a187-40e4-9fe1-04c76d6fae27))
     (pin "5" (uuid 3b7d9193-692c-46de-ae4b-a653f9bf9e14))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "Q3") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "Q3") (unit 1)
@@ -4265,6 +4420,11 @@
     (pin "4" (uuid 2fa4c7eb-cdce-4d5e-b87c-899dcd3ce765))
     (pin "5" (uuid 8589dc6f-0f0f-48c1-bcb8-a7b7885cce80))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "Q2") (unit 2)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "Q2") (unit 2)
@@ -4310,6 +4470,11 @@
     (pin "4" (uuid bb4d028e-b3b6-4007-a9d4-59934f710b64))
     (pin "5" (uuid 429f9edc-b8e9-4167-a974-cec3317f5231))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "Q2") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "Q2") (unit 1)
@@ -4355,6 +4520,11 @@
     (pin "4" (uuid 6be46f66-35d2-4a0b-9fbc-429566cc977e))
     (pin "5" (uuid 9feef206-6bc8-4425-b712-c3e128e1b0fb))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "Q3") (unit 2)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "Q3") (unit 2)
@@ -4384,6 +4554,11 @@
     (pin "1" (uuid 20b5997d-39da-438b-9bc2-945dc4684ae4))
     (pin "2" (uuid ed01420f-d55e-41a8-b58e-35fcb7855cdf))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R52") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R52") (unit 1)
@@ -4413,6 +4588,11 @@
     (pin "1" (uuid 0c6b0212-b59d-4bf8-a2bb-ec8d79676754))
     (pin "2" (uuid 38fbabd3-ebea-4b0a-bbdd-537feaa178b8))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R49") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R49") (unit 1)
@@ -4442,6 +4622,11 @@
     (pin "1" (uuid 3151b4f3-f2a6-4595-8bd1-83fc96f411f3))
     (pin "2" (uuid 42cd8a0d-8bfb-4eeb-a48b-645f3ad9065e))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R47") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R47") (unit 1)
@@ -4471,6 +4656,11 @@
     (pin "1" (uuid 38c62c44-ca7e-411e-8414-d644dffb6784))
     (pin "2" (uuid f5052d0b-dffe-4939-b98b-3b834a9c3ba0))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R30") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R30") (unit 1)
@@ -4500,6 +4690,11 @@
     (pin "1" (uuid 7143070a-ada0-4a2a-b727-43df6535d233))
     (pin "2" (uuid ac244f8d-df78-4327-823b-44d07f33b92b))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R29") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R29") (unit 1)
@@ -4529,6 +4724,11 @@
     (pin "1" (uuid 77bed083-a8df-4b71-9b31-d0f9944ff713))
     (pin "2" (uuid 3ef574f3-b31e-4a11-8efd-1354f983927a))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C19") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C19") (unit 1)
@@ -4558,6 +4758,11 @@
     (pin "1" (uuid bda71cb1-2cc1-47ea-8184-a978b944c011))
     (pin "2" (uuid 35b5d48c-bd2d-41fb-8dc0-957493b2b09c))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C6") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C6") (unit 1)
@@ -4594,6 +4799,11 @@
     (pin "5" (uuid 94787e7d-8bdc-4ba5-830e-0e9a92de1cb4))
     (pin "6" (uuid 3f5fe370-ffa4-4d4a-a56a-a4f2b0c1ad13))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "J14") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "J14") (unit 1)
@@ -4619,6 +4829,11 @@
     )
     (pin "1" (uuid 545bfbb5-a1ca-4430-8b56-ad6ccd5c687c))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR01") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "#PWR01") (unit 1)
@@ -4648,6 +4863,11 @@
     (pin "1" (uuid 9943934b-1771-4414-8c26-2fe7578e2d2a))
     (pin "2" (uuid 95124095-684e-4956-a750-cf9020308f5a))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R110") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R110") (unit 1)
@@ -4708,6 +4928,11 @@
     (pin "5" (uuid 66221ec0-cf08-49cd-b3a9-bad4cbb32653))
     (pin "6" (uuid ed50e8b9-9a3d-4a80-8af9-a9846c84f78f))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "U21") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "U21") (unit 1)
@@ -4737,6 +4962,11 @@
     (pin "1" (uuid bf4aeb0d-55c2-4320-b5ef-cc995f881dfa))
     (pin "2" (uuid 120a02d2-0c1f-412a-908d-1e6de902c793))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C43") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C43") (unit 1)
@@ -4766,6 +4996,11 @@
     (pin "1" (uuid f081cf62-9071-4bda-bc07-643ca952852f))
     (pin "2" (uuid 16c07ecd-415b-47d4-8e17-6aed3b745453))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R55") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R55") (unit 1)
@@ -4795,6 +5030,11 @@
     (pin "1" (uuid 90082dd6-4483-4f55-88d0-8b907819c530))
     (pin "2" (uuid a4d41807-9b4c-49e9-8a1d-baad8928ed21))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R59") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R59") (unit 1)
@@ -4827,6 +5067,11 @@
     (pin "1" (uuid 612768d2-46a8-4376-9cfc-7ea61aff39c1))
     (pin "2" (uuid cb603f7b-7923-4f9b-ba1f-7334c985ef74))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "JP6") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "JP6") (unit 1)
@@ -4856,6 +5101,11 @@
     (pin "1" (uuid 74d9ce25-5885-4591-b931-db43821a0e58))
     (pin "2" (uuid f823cf8d-883b-4f1d-838c-8c27c4f266bb))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R13") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R13") (unit 1)
@@ -4885,6 +5135,11 @@
     (pin "1" (uuid 235a191c-3421-4102-a580-c3cc241dc79b))
     (pin "2" (uuid 9fa2115d-221f-45a7-9699-b16d2411c438))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C26") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C26") (unit 1)
@@ -4914,6 +5169,11 @@
     (pin "1" (uuid 1780b82d-5cb8-42eb-96c6-3e3e79d8b20d))
     (pin "2" (uuid 01cfcfe8-0839-4ef5-90bf-404721572df3))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C18") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C18") (unit 1)
@@ -4943,6 +5203,11 @@
     (pin "1" (uuid 63c415a1-53e6-4061-baa8-1ad75ca51723))
     (pin "2" (uuid 852ad376-a559-48da-8cb6-bd21123e962d))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C20") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C20") (unit 1)
@@ -4997,6 +5262,11 @@
     (pin "8" (uuid 43bec4e2-8f55-45d7-8aac-1a3331955f5e))
     (pin "9" (uuid 5ffbe9e2-83ac-4575-8621-e59f87677960))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "U5") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "U5") (unit 1)
@@ -5022,6 +5292,11 @@
     )
     (pin "1" (uuid 0093e27a-e523-441a-aa07-6f379e90f597))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5050,6 +5325,11 @@
     )
     (pin "1" (uuid 501838b1-9679-4a68-8673-efc4ba0906b1))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5082,6 +5362,11 @@
     (pin "1" (uuid e3c572f4-515b-4461-beaf-4d9b40f6d8b5))
     (pin "2" (uuid f60d9330-0e73-43e7-a89e-400b76ff5a37))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C9") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C9") (unit 1)
@@ -5107,6 +5392,11 @@
     )
     (pin "1" (uuid ff42ceb0-7da7-407b-8158-f1cbc4cfbb95))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5135,6 +5425,11 @@
     )
     (pin "1" (uuid b219092b-779c-49c4-9fa8-093c67d722a3))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5167,6 +5462,11 @@
     (pin "1" (uuid 13f45fea-d257-432c-a5c2-f89e4231de53))
     (pin "2" (uuid 16fb66ef-187c-4869-bbe5-e7a717f2a3f4))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C23") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C23") (unit 1)
@@ -5192,6 +5492,11 @@
     )
     (pin "1" (uuid 514d4683-462b-4994-960e-5a358e1c9b5a))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5220,6 +5525,11 @@
     )
     (pin "1" (uuid 51f4e954-71e8-49c7-9dfb-7fbcc7b18841))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5248,6 +5558,11 @@
     )
     (pin "1" (uuid f7b7da92-b344-46c9-8af8-65792498489b))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR02") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "#PWR02") (unit 1)
@@ -5274,6 +5589,11 @@
     (pin "1" (uuid 4b697635-d91b-4434-b536-5fa22be3ed36))
     (pin "2" (uuid 54cd583b-75d2-41fd-8a76-d1a043f96b35))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R19") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R19") (unit 1)
@@ -5299,6 +5619,11 @@
     )
     (pin "1" (uuid 6ceb15c4-8d48-45a0-a3b8-7a9103b1fc01))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5328,6 +5653,11 @@
     (pin "1" (uuid a63cea4f-70d2-452e-b3a3-5b8258ba6dac))
     (pin "2" (uuid fc093d3c-6d49-4ec8-bc56-df011cab157c))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R16") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R16") (unit 1)
@@ -5353,6 +5683,11 @@
     )
     (pin "1" (uuid d5474ac6-ec60-49ef-acd6-221294fd66f1))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5382,6 +5717,11 @@
     (pin "1" (uuid dec5e75c-42a4-4459-b482-ed97f7287b30))
     (pin "2" (uuid 70edf8e8-53c4-4625-a924-204a95053c72))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "D3") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "D3") (unit 1)
@@ -5411,6 +5751,11 @@
     (pin "1" (uuid 9a058d11-b2f6-4c35-a7f3-787ad6c6f6b5))
     (pin "2" (uuid 4c3eabe1-2340-40ad-ac41-aa064cfc3802))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R10") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R10") (unit 1)
@@ -5436,6 +5781,11 @@
     )
     (pin "1" (uuid 5dc42113-37a0-4432-95b0-8eae70c94649))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5465,6 +5815,11 @@
     (pin "1" (uuid 33a26bb9-34d5-45cc-815b-3c68bac4ec30))
     (pin "2" (uuid ba0377ea-67bf-4563-b5c2-c5c934d4309d))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "L3") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "L3") (unit 1)
@@ -5491,6 +5846,11 @@
     (pin "1" (uuid e15afeb4-2d5e-4a06-9809-ab450ee09e17))
     (pin "2" (uuid a472c087-6587-4fe1-b5cd-536964b49f8f))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "D2") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "D2") (unit 1)
@@ -5517,6 +5877,11 @@
     (pin "1" (uuid 925215d7-3093-4965-8a19-1fc74592e78e))
     (pin "2" (uuid 99a47dd8-1b83-41b1-8a30-fc760dcd7c6b))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R18") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R18") (unit 1)
@@ -5542,6 +5907,11 @@
     )
     (pin "1" (uuid bfa2784d-991d-4cd3-88d6-0d1f1107ca2e))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5570,6 +5940,11 @@
     )
     (pin "1" (uuid 1cfd15a4-00b5-4af8-9fb7-5509dabd0df5))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5602,6 +5977,11 @@
     (pin "1" (uuid 9586f8a7-5da4-4569-bcf4-9d27d99044af))
     (pin "2" (uuid bf328e1c-2ec4-4e2e-bf99-48ae6058747e))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R12") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R12") (unit 1)
@@ -5631,6 +6011,11 @@
     (pin "1" (uuid cc3c8b62-6e75-4b90-8c78-6887cf310716))
     (pin "2" (uuid 02cd5a11-824c-4c73-b962-d2e94cd9c58e))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C25") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C25") (unit 1)
@@ -5656,6 +6041,11 @@
     )
     (pin "1" (uuid b6e5f07b-9c22-42d0-be1e-8611fe70fa9d))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5684,6 +6074,11 @@
     )
     (pin "1" (uuid 492d9775-07d5-4973-9c8a-b8c8fa9918c9))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5716,6 +6111,11 @@
     (pin "1" (uuid 93edf2b4-df16-4ae3-9ef7-373dd04b0cae))
     (pin "2" (uuid 7aea93c8-d3af-41ff-ab6d-42b84a3a6dea))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R9") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R9") (unit 1)
@@ -5759,6 +6159,11 @@
     (pin "8" (uuid f83e8755-d256-4597-b9a1-aca1cd5cfae2))
     (pin "9" (uuid daac792c-2ffa-404b-8c4c-9533834b818a))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "U6") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "U6") (unit 1)
@@ -5785,6 +6190,11 @@
     (pin "1" (uuid 7b3e34c9-f0e8-472d-b7bd-f42a45db42a9))
     (pin "2" (uuid 9a690aa9-0a8c-4836-bb58-02ddd3df1fca))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R17") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R17") (unit 1)
@@ -5810,6 +6220,11 @@
     )
     (pin "1" (uuid 2209feac-3600-4ec8-b68f-a151eddb1d4c))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5838,6 +6253,11 @@
     )
     (pin "1" (uuid 0679918a-c4b0-443b-94e6-cac691826a3f))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5866,6 +6286,11 @@
     )
     (pin "1" (uuid 386ad2ff-d2a7-4c3e-b034-47f2ec2fc4da))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#P+0101") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "#P+0101") (unit 1)
@@ -5891,6 +6316,11 @@
     )
     (pin "1" (uuid f8df35f9-4da5-4b10-97a5-52bd7c8510f2))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5919,6 +6349,11 @@
     )
     (pin "1" (uuid 02691947-0afa-415a-9b1f-2bbb5368ebf4))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -5951,6 +6386,11 @@
     (pin "1" (uuid 5fdb84e5-a712-4bf3-b5df-8b4134cd7341))
     (pin "2" (uuid ea71da64-c77e-43d0-9014-a06132850151))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "R11") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "R11") (unit 1)
@@ -5981,6 +6421,11 @@
     (pin "5" (uuid 76595e37-eb57-497b-afb6-8b3d728b2c84))
     (pin "6" (uuid cad33f5c-0a32-4b13-b6ec-e9c6dbd3f41a))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "J19") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "J19") (unit 1)
@@ -6006,6 +6451,11 @@
     )
     (pin "1" (uuid 353c9672-3f88-4b55-b7a3-9dbc4f9bb5b8))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -6034,6 +6484,11 @@
     )
     (pin "1" (uuid a7e30a23-e6ce-426b-bdeb-4eb5007779e0))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -6062,6 +6517,11 @@
     )
     (pin "1" (uuid ef05e1da-665a-4d5c-a244-afe78c3dbd99))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72"
           (reference "#PWR03") (unit 1)
@@ -6094,11 +6554,20 @@
     (pin "1" (uuid 428e5f22-d403-434a-8184-ab856e70f310))
     (pin "2" (uuid 86cf0e3c-34de-4895-809c-59c31908841c))
     (instances
+      (project "Power"
+        (path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
+          (reference "C22") (unit 1)
+        )
+      )
       (project "mainboard"
         (path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
           (reference "C22") (unit 1)
         )
       )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
