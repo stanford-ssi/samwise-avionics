@@ -1,0 +1,239 @@
+(footprint "HHM1589D1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://product.tdk.com/en/system/files?file=dam/doc/product/rf/rf/balun/catalog/rf_balun_hhm1589d1_en.pdf")
+	(tags "balun RF")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "f2a90c77-5115-4d50-a3c4-3dc0d1f98694")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HHM1589D1"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "92f21a00-c695-4894-bcca-d5918b1282e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbaf44e2-0779-49be-8d4b-23572b3500ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0ca6116-5e51-4577-9800-3ec71d328ec6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08d5540b-58ff-41fd-800a-8dea7b7e7a6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 -1.05)
+		(end 0.6 -1.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b2d6365-5ad6-4081-9b63-865b32e85bf1")
+	)
+	(fp_line
+		(start -0.6 1.05)
+		(end 0.6 1.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39a702cb-4d70-436c-90c9-cdc510c94d0f")
+	)
+	(fp_line
+		(start -1.65 -1.25)
+		(end -1.65 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b68924e-9217-49d5-b188-59de96c303ef")
+	)
+	(fp_line
+		(start -1.65 1.25)
+		(end 1.65 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3dcad58-1513-4a30-8bb9-b878b888e953")
+	)
+	(fp_line
+		(start 1.65 -1.25)
+		(end -1.65 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae6e9920-e193-48ac-b068-b32b6619623d")
+	)
+	(fp_line
+		(start 1.65 1.25)
+		(end 1.65 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e78937ee-1ae7-409e-9b64-4df7ed48827a")
+	)
+	(fp_line
+		(start -0.625 1)
+		(end -0.625 -0.6875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9a2c666-7f35-4b6e-b7cf-2a628b627e02")
+	)
+	(fp_line
+		(start -0.3125 -1)
+		(end -0.625 -0.6875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10d4a513-c9d4-4998-a920-185fb71dac11")
+	)
+	(fp_line
+		(start -0.3125 -1)
+		(end 0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e837c296-8220-4cdc-82c9-9cf59445e03b")
+	)
+	(fp_line
+		(start 0.625 -1)
+		(end 0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60b17f73-40d8-458f-8ad2-82bde81126de")
+	)
+	(fp_line
+		(start 0.625 1)
+		(end -0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b7cf181-eea3-4ca9-8ae4-0adbb0574277")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 -0.1 90)
+		(layer "F.Fab")
+		(uuid "8fd55b7c-d155-4d5e-9d0a-de0cca0c2fdf")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 -0.65)
+		(size 1 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "5ad6aa36-5d76-482f-8efe-7f706e332def")
+	)
+	(pad "2" smd rect
+		(at -0.9 0)
+		(size 1 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eb425021-41bc-4643-b88a-ebf5b0a448a0")
+	)
+	(pad "3" smd rect
+		(at -0.9 0.65)
+		(size 1 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "a98c6af2-2382-4da4-ba22-1bda45e01cb7")
+	)
+	(pad "4" smd rect
+		(at 0.9 0.65)
+		(size 1 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "d14b1c39-9154-42a2-9051-bc4dfb1b26b6")
+	)
+	(pad "5" smd rect
+		(at 0.9 0)
+		(size 1 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b4d4b648-aca2-4cbe-8205-6b79560e4953")
+	)
+	(pad "6" smd rect
+		(at 0.9 -0.65)
+		(size 1 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "b3fadbdd-9683-4225-a786-c8d24c4d2132")
+	)
+	(model "${SAMWISE_AVIONICS}/3D_models/ssi_IC/HHM1589D1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

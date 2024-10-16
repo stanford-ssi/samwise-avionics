@@ -1,0 +1,154 @@
+(footprint "SM101K07TF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(uuid "030b40ad-8aa9-46ea-bcf6-89d178ce70ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SM101K07TF"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "25a0527f-7073-483d-9878-63ac52b8a52d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d680bd7-9588-43eb-bbf2-5290c3b684f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e0d3e89-c813-4a85-b650-dd8d9bb856af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41465fcb-6652-475e-8df3-b680da2c61c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -17.5 -11)
+		(end 17.5 -11)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a610dd8-5250-4291-8a27-2f1b4768d117")
+	)
+	(fp_line
+		(start -17.5 11)
+		(end -17.5 -11)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "207d6130-8af5-4859-9e95-d0da91be2ae7")
+	)
+	(fp_line
+		(start 17.5 -11)
+		(end 17.5 11)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2401dac-6788-479b-bf0d-fb3a4f74ece0")
+	)
+	(fp_line
+		(start 17.5 11)
+		(end -17.5 11)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c446b77a-2a26-45c8-b542-7599c1c18dc7")
+	)
+	(fp_text user "+"
+		(at 8.89 -5.08 0)
+		(layer "F.SilkS")
+		(uuid "312ceb6c-122b-4028-9f09-fb686374baf7")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 8.89 5.08 90)
+		(layer "F.SilkS")
+		(uuid "f015d544-e7ff-4d13-ba5d-26bbb88f52a0")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 13 -4.5)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f5b2ea9b-6a32-4b9f-8367-0e2ef885db4b")
+	)
+	(pad "2" thru_hole circle
+		(at 13 4.5)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "38821b32-7840-405c-a97a-c8191ef2a207")
+	)
+	(model "${SAMWISE_AVIONICS}/3D_models/ssi_solar/SM101K07TF.step"
+		(offset
+			(xyz 17.5 -11 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
