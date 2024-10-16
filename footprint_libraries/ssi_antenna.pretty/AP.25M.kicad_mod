@@ -1,0 +1,182 @@
+(footprint "AP.25M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "AE1"
+		(at 10.31 -15.69 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "adff8262-2701-4094-848b-fb38c64898ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AP.25M"
+		(at 10.31 -14.19 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8fcc1cb7-9b55-4960-bbad-a95e1725788f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7e31bda-1e90-4ee4-ab8e-e42514b3f463")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8b46429-64bd-46c4-9de4-54f059176948")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af284cc7-7374-465c-ae4c-a4e4a3abe7dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -13 -13)
+		(end 13 -13)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "283e3bca-1acb-4ef3-81ce-a0c8d86a1bd8")
+	)
+	(fp_line
+		(start -13 13)
+		(end -13 -13)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4bb48f82-3cf5-4bf1-9d5b-fadeeaef5596")
+	)
+	(fp_line
+		(start -13 13)
+		(end 13 13)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b848c195-cf9e-415b-9cde-de24b170de6f")
+	)
+	(fp_line
+		(start 13 -13)
+		(end 13 13)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "436b630b-7f80-4f3a-a4ad-51780649a6e4")
+	)
+	(fp_line
+		(start -10 9)
+		(end -10 -11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "91a144cd-27a4-4918-9492-ceb38c68ad57")
+	)
+	(fp_line
+		(start -10 9)
+		(end 10 9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "86c3c5b0-0e86-43f2-a201-0b36c4bccc91")
+	)
+	(fp_line
+		(start -5 -11)
+		(end -10 -11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "caebe943-d336-4645-a8ff-05895a303304")
+	)
+	(fp_line
+		(start 5 -11)
+		(end 10 -11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "848861a4-f25a-41f1-b06d-ef2399f24aab")
+	)
+	(fp_line
+		(start 10 -11)
+		(end 10 9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "025032a6-4b29-45fa-8863-be5332f6c79f")
+	)
+	(fp_arc
+		(start -5 -11)
+		(mid 0 -16)
+		(end 5 -11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "11c25b7d-b6c8-4c5e-915f-92fdf37b3c5a")
+	)
+	(fp_text user "Polygon in User.Drawings must be redrawn in Edge.Cuts upon placement"
+		(at -27.41 10.96 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "7094acb0-68d9-48cd-a09e-9233b18717a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+)
