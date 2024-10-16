@@ -1,129 +1,261 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid db20b18b-d25a-428e-8229-70a189e1de75)
-
-  (paper "A4")
-
-  (title_block
-    (title "PyCubed Mainboard")
-    (date "2024-05-14")
-    (rev "v06b")
-    (company "Stanford Student Space Initiative")
-    (comment 1 "Ethan Brinser")
-  )
-
-  (lib_symbols
-  )
-
-
-  (text "PyCubed" (at 212.09 177.8 0)
-    (effects (font (size 5.08 5.08) (thickness 1.016) bold) (justify left bottom))
-    (uuid 7b5099dd-420b-44c2-b627-49f3bf6e2c57)
-  )
-
-  (sheet (at 34.29 67.31) (size 30.48 20.32) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005cec5a72)
-    (property "Sheetname" "Avionics" (at 34.29 65.9634 0)
-      (effects (font (size 2.54 2.54)) (justify left bottom))
-    )
-    (property "Sheetfile" "Avionics.kicad_sch" (at 34.29 88.7226 0)
-      (effects (font (size 2.54 2.54)) (justify left top))
-    )
-    (instances
-      (project "mainboard"
-        (path "/db20b18b-d25a-428e-8229-70a189e1de75" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 132.08 67.31) (size 30.48 20.32) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005cec5dde)
-    (property "Sheetname" "Power" (at 132.08 65.9634 0)
-      (effects (font (size 2.54 2.54)) (justify left bottom))
-    )
-    (property "Sheetfile" "Power.kicad_sch" (at 132.08 88.7226 0)
-      (effects (font (size 2.54 2.54)) (justify left top))
-    )
-    (instances
-      (project "mainboard"
-        (path "/db20b18b-d25a-428e-8229-70a189e1de75" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 82.55 67.31) (size 30.48 20.32) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005cec60eb)
-    (property "Sheetname" "Connectors" (at 82.55 65.9634 0)
-      (effects (font (size 2.54 2.54)) (justify left bottom))
-    )
-    (property "Sheetfile" "Connectors.kicad_sch" (at 82.55 88.7226 0)
-      (effects (font (size 2.54 2.54)) (justify left top))
-    )
-    (instances
-      (project "mainboard"
-        (path "/db20b18b-d25a-428e-8229-70a189e1de75" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 224.79 67.31) (size 30.48 20.32) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005cec6281)
-    (property "Sheetname" "RF" (at 224.79 65.9634 0)
-      (effects (font (size 2.54 2.54)) (justify left bottom))
-    )
-    (property "Sheetfile" "RF_and_GPS.kicad_sch" (at 224.79 88.7226 0)
-      (effects (font (size 2.54 2.54)) (justify left top))
-    )
-    (instances
-      (project "mainboard"
-        (path "/db20b18b-d25a-428e-8229-70a189e1de75" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 177.8 67.31) (size 30.48 20.32) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005cec6476)
-    (property "Sheetname" "Burn Wires" (at 177.8 65.9634 0)
-      (effects (font (size 2.54 2.54)) (justify left bottom))
-    )
-    (property "Sheetfile" "Burn_Wires.kicad_sch" (at 177.8 88.7226 0)
-      (effects (font (size 2.54 2.54)) (justify left top))
-    )
-    (instances
-      (project "mainboard"
-        (path "/db20b18b-d25a-428e-8229-70a189e1de75" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 34.29 106.68) (size 30.48 20.32) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005ede7915)
-    (property "Sheetname" "Bus Protection" (at 34.29 105.3334 0)
-      (effects (font (size 2.54 2.54)) (justify left bottom))
-    )
-    (property "Sheetfile" "Bus_Protection.kicad_sch" (at 34.29 128.0926 0)
-      (effects (font (size 2.54 2.54)) (justify left top))
-    )
-    (instances
-      (project "mainboard"
-        (path "/db20b18b-d25a-428e-8229-70a189e1de75" (page "3"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "db20b18b-d25a-428e-8229-70a189e1de75")
+	(paper "A4")
+	(title_block
+		(title "PyCubed Mainboard")
+		(date "2024-05-14")
+		(rev "v06b")
+		(company "Stanford Student Space Initiative")
+		(comment 1 "Ethan Brinser")
+	)
+	(lib_symbols)
+	(text "PyCubed"
+		(exclude_from_sim no)
+		(at 212.09 177.8 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b5099dd-420b-44c2-b627-49f3bf6e2c57")
+	)
+	(sheet
+		(at 34.29 67.31)
+		(size 30.48 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005cec5a72")
+		(property "Sheetname" "Avionics"
+			(at 34.29 65.9634 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Avionics.kicad_sch"
+			(at 34.29 88.7226 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 67.31)
+		(size 30.48 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005cec5dde")
+		(property "Sheetname" "Power"
+			(at 132.08 65.9634 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 132.08 88.7226 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 67.31)
+		(size 30.48 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005cec60eb")
+		(property "Sheetname" "Connectors"
+			(at 82.55 65.9634 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 82.55 88.7226 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 67.31)
+		(size 30.48 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005cec6281")
+		(property "Sheetname" "RF"
+			(at 224.79 65.9634 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF_and_GPS.kicad_sch"
+			(at 224.79 88.7226 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 67.31)
+		(size 30.48 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005cec6476")
+		(property "Sheetname" "Burn Wires"
+			(at 177.8 65.9634 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Burn_Wires.kicad_sch"
+			(at 177.8 88.7226 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 106.68)
+		(size 30.48 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005ede7915")
+		(property "Sheetname" "Bus Protection"
+			(at 34.29 105.3334 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Bus_Protection.kicad_sch"
+			(at 34.29 128.0926 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
