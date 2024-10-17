@@ -4652,7 +4652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rpi_interface:LORA128XF27"
+		(property "Footprint" "ssi_IC:LORA128XF27"
 			(at 27.94 6.096 0)
 			(effects
 				(font
@@ -7858,7 +7858,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 -10.16 180)
 				(length 5.08)
 				(name "EP"
@@ -9808,7 +9808,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "mainboard:PWP14_2P31X2P46-L"
+		(property "Footprint" "ssi_IC:PWP14_2P31X2P46-L"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10336,24 +10336,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 0 -7.62 0)
-				(length 5.08)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 0 -10.16 0)
 				(length 5.08)
@@ -10402,6 +10384,26 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+		(symbol "TPS7A4501DCQT_1_0"
+			(pin power_out line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)

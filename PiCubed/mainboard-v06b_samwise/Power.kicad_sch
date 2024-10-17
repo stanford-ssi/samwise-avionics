@@ -267,6 +267,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1492,586 +1628,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "mainboard:1.0UF-0603-16V-10%"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.524 2.921 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "1.0UF-0603-16V-10%"
-				(at 1.524 -2.159 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1.0UF-0603-16V-10%_1_0"
-				(rectangle
-					(start -2.032 0.508)
-					(end 2.032 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 1.524)
-					(end 2.032 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "mainboard:22UF-0805-6.3V-20%"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.524 2.921 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "22UF-0805-6.3V-20%"
-				(at 1.524 -2.159 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "22UF-0805-6.3V-20%_1_0"
-				(rectangle
-					(start -2.032 0.508)
-					(end 2.032 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 1.524)
-					(end 2.032 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "mainboard:22UF-1210-16V-20%"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.524 2.921 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "22UF-1210-16V-20%"
-				(at 1.524 -2.159 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "22UF-1210-16V-20%_1_0"
-				(rectangle
-					(start -2.032 0.508)
-					(end 2.032 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 1.524)
-					(end 2.032 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "mainboard:3.3NF-0603-100V-10%"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.524 2.921 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "3.3NF-0603-100V-10%"
-				(at 1.524 -2.159 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3.3NF-0603-100V-10%_1_0"
-				(rectangle
-					(start -2.032 0.508)
-					(end 2.032 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 1.524)
-					(end 2.032 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -4526,24 +4082,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 0 -10.16 0)
 					(length 5.08)
@@ -4595,7 +4133,33 @@
 					)
 				)
 			)
+			(symbol "TPS7A4501DCQT_1_0"
+				(pin power_out line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 		)
+	)
+	(junction
+		(at 46.99 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "001f45a1-aa81-41b2-a7f2-3a16f0fca3c4")
 	)
 	(junction
 		(at 142.24 129.54)
@@ -4614,12 +4178,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0849b6b9-4f91-4f81-8d15-b0cf48e95d6f")
-	)
-	(junction
-		(at 36.83 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f7a3048-9200-4389-851d-ad77189ad8fe")
 	)
 	(junction
 		(at 54.61 163.83)
@@ -4680,6 +4238,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f27d709-02d3-4f8a-98f5-aa76af9cedd1")
+	)
+	(junction
+		(at 36.83 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f764f23-235a-4ea1-85f7-851d6eeab03e")
 	)
 	(junction
 		(at 133.35 186.69)
@@ -4754,12 +4318,6 @@
 		(uuid "5760e31c-cd69-487f-a880-f06cb8a3b371")
 	)
 	(junction
-		(at 46.99 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b61d5a4-c948-45dc-9a49-c896dcaaef90")
-	)
-	(junction
 		(at 125.73 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4778,6 +4336,12 @@
 		(uuid "5dd5920d-9464-4f8c-92e7-47a41b15e95b")
 	)
 	(junction
+		(at 36.83 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e7b4f91-8ffd-4281-a3a5-af07968aa0df")
+	)
+	(junction
 		(at 241.3 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4787,7 +4351,7 @@
 		(at 143.51 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "657b68c2-4248-4429-9fe0-c304e07dcc3d")
+		(uuid "66745f3d-f6a0-436b-b206-5ba880732a97")
 	)
 	(junction
 		(at 148.59 176.53)
@@ -4832,6 +4396,18 @@
 		(uuid "76328eda-bfa7-42e2-a1f5-0993d8b38c48")
 	)
 	(junction
+		(at 29.21 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c605fed-6729-41ae-95cb-3d9c5f26c415")
+	)
+	(junction
+		(at 148.59 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f482731-a1b0-4685-b95a-0f6ebed08dc9")
+	)
+	(junction
 		(at 250.19 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4844,6 +4420,12 @@
 		(uuid "95506f01-c50a-4eb3-abe9-5977824cf515")
 	)
 	(junction
+		(at 36.83 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b942a59-3f3a-48b3-b7ac-1f9cc75d6d15")
+	)
+	(junction
 		(at 119.38 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4854,12 +4436,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6a5d679-ea37-4852-97a9-4eb72317f68c")
-	)
-	(junction
-		(at 148.59 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6a9d11d-b9a8-48a2-8b05-07ae6a809698")
 	)
 	(junction
 		(at 49.53 127)
@@ -4910,12 +4486,6 @@
 		(uuid "c5c9a72c-014e-4383-a125-3997c3fd6c84")
 	)
 	(junction
-		(at 36.83 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c69dd0fb-97ef-4893-9ce2-756ca9da0da7")
-	)
-	(junction
 		(at 157.48 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4940,12 +4510,6 @@
 		(uuid "d143cb97-c5f6-4dab-a0bb-b4fa1e095df7")
 	)
 	(junction
-		(at 29.21 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1745353-8b36-441b-af80-038cded884be")
-	)
-	(junction
 		(at 233.68 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4962,12 +4526,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd6b6b3b-9935-4852-8a67-297a5baf1562")
-	)
-	(junction
-		(at 36.83 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e035413d-3f6b-4ee8-a92b-fdaa98a1c742")
 	)
 	(junction
 		(at 73.66 33.02)
@@ -5467,6 +5025,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 158.75) (xy 49.53 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f9a6ca-6bbe-4e5a-8478-b970bf9e5591")
+	)
+	(wire
+		(pts
 			(xy 118.11 29.21) (xy 118.11 33.02)
 		)
 		(stroke
@@ -5855,6 +5423,16 @@
 		)
 		(uuid "548e7449-955d-4fc4-8b54-3824ac6fe416")
 	)
+	(wire
+		(pts
+			(xy 46.99 176.53) (xy 62.23 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592cdd4e-a90a-4cf7-909d-b2292c49a42b")
+	)
 	(polyline
 		(pts
 			(xy 276.86 67.31) (xy 276.86 55.88)
@@ -5884,16 +5462,6 @@
 			(type default)
 		)
 		(uuid "5c242bcc-c78d-479b-b08e-d365cd588aae")
-	)
-	(wire
-		(pts
-			(xy 36.83 158.75) (xy 49.53 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e639aa2-64c9-4086-b555-eba3222e2637")
 	)
 	(wire
 		(pts
@@ -5934,16 +5502,6 @@
 			(type default)
 		)
 		(uuid "5f96b42b-58bf-44ff-8c2a-f7bf4ec41359")
-	)
-	(wire
-		(pts
-			(xy 143.51 173.99) (xy 143.51 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fd3caed-a47e-4727-a5b1-ed9da2f57c2c")
 	)
 	(wire
 		(pts
@@ -6397,6 +5955,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 176.53) (xy 46.99 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f92508f-20bb-4d13-8704-a2c58ec62d40")
+	)
+	(wire
+		(pts
 			(xy 149.86 38.1) (xy 149.86 43.18)
 		)
 		(stroke
@@ -6767,16 +6335,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 176.53) (xy 46.99 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1254444-6e4a-46d3-b1ea-68981e03c714")
-	)
-	(wire
-		(pts
 			(xy 267.97 64.77) (xy 267.97 82.55)
 		)
 		(stroke
@@ -6957,16 +6515,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 176.53) (xy 62.23 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7f36aea-eba6-4603-99d1-98f1add38c83")
-	)
-	(wire
-		(pts
 			(xy 204.47 146.05) (xy 204.47 152.4)
 		)
 		(stroke
@@ -7097,16 +6645,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 166.37) (xy 41.91 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d81fc528-97f5-43e4-a80b-7cc6e41595a9")
-	)
-	(wire
-		(pts
 			(xy 62.23 171.45) (xy 59.69 171.45)
 		)
 		(stroke
@@ -7114,6 +6652,16 @@
 			(type default)
 		)
 		(uuid "d8690d55-8982-49f6-85df-d110b37bd97e")
+	)
+	(wire
+		(pts
+			(xy 143.51 173.99) (xy 143.51 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3e5a29-29cd-42bb-b58c-67d735040a3f")
 	)
 	(wire
 		(pts
@@ -7427,6 +6975,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 166.37) (xy 41.91 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef44f9c6-b960-4402-8219-52f05914ad56")
+	)
+	(wire
+		(pts
 			(xy 55.88 119.38) (xy 55.88 107.95)
 		)
 		(stroke
@@ -7497,7 +7055,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 176.53) (xy 29.21 176.53)
+			(xy 29.21 176.53) (xy 36.83 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8579,8 +8137,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:1.0UF-0603-16V-10%")
-		(at 57.15 173.99 90)
+		(lib_id "Device:C")
+		(at 55.88 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8588,7 +8146,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000005a8be12")
 		(property "Reference" "C21"
-			(at 58.42 167.64 90)
+			(at 58.42 166.624 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8597,7 +8155,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 59.69 170.18 90)
+			(at 59.69 169.164 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8606,7 +8164,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 57.15 173.99 0)
+			(at 59.69 173.0248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,8 +8172,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 57.15 173.99 0)
+		(property "Datasheet" "~"
+			(at 55.88 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8623,8 +8181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1uF +-10% 50V X7R 0603"
-			(at 57.15 173.99 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 55.88 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,8 +8360,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:1.0UF-0603-16V-10%")
-		(at 148.59 189.23 0)
+		(lib_id "Device:C")
+		(at 148.59 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8811,7 +8369,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000416d5d6d")
 		(property "Reference" "C27"
-			(at 151.3332 186.4106 0)
+			(at 151.3332 185.1406 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8820,7 +8378,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 151.3332 189.484 0)
+			(at 151.3332 188.214 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8829,7 +8387,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 148.59 189.23 0)
+			(at 149.5552 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8837,8 +8395,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 148.59 189.23 0)
+		(property "Datasheet" "~"
+			(at 148.59 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8846,8 +8404,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF 0603 X7R"
-			(at 148.59 189.23 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8877,8 +8435,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:22UF-0805-6.3V-20%")
-		(at 29.21 163.83 0)
+		(lib_id "Device:C")
+		(at 29.21 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8886,7 +8444,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000046b7b6f7")
 		(property "Reference" "C17"
-			(at 30.734 160.909 0)
+			(at 29.21 161.036 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8895,7 +8453,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 30.734 165.989 0)
+			(at 29.21 165.862 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8904,7 +8462,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 29.21 163.83 0)
+			(at 30.1752 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,8 +8470,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 29.21 163.83 0)
+		(property "Datasheet" "~"
+			(at 29.21 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8921,8 +8479,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF +-20% 10V X5R"
-			(at 29.21 163.83 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 29.21 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10086,6 +9644,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Power Monitor"
@@ -11981,8 +11540,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:22UF-1210-16V-20%")
-		(at 36.83 181.61 0)
+		(lib_id "Device:C")
+		(at 36.83 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11990,7 +11549,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f2bdd0c")
 		(property "Reference" "C19"
-			(at 38.354 178.689 0)
+			(at 36.83 178.816 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -11999,7 +11558,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 38.354 183.769 0)
+			(at 36.83 183.896 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -12008,7 +11567,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 36.83 181.61 0)
+			(at 37.7952 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12016,8 +11575,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 181.61 0)
+		(property "Datasheet" "~"
+			(at 36.83 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12025,8 +11584,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF +-20% 50V X7R"
-			(at 36.83 181.61 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12934,8 +12493,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:3.3NF-0603-100V-10%")
-		(at 140.97 173.99 90)
+		(lib_id "Device:C")
+		(at 139.7 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12943,7 +12502,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000a91c7a5b")
 		(property "Reference" "C26"
-			(at 135.89 172.72 90)
+			(at 141.224 166.624 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -12952,7 +12511,7 @@
 			)
 		)
 		(property "Value" "3.3nF"
-			(at 138.43 175.26 90)
+			(at 143.764 169.164 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -12961,7 +12520,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 140.97 173.99 0)
+			(at 143.51 173.0248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12969,8 +12528,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 140.97 173.99 0)
+		(property "Datasheet" "~"
+			(at 139.7 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12978,8 +12537,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3nF +-10% 100V X7R 0603"
-			(at 140.97 173.99 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13009,8 +12568,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:22UF-0805-6.3V-20%")
-		(at 36.83 163.83 0)
+		(lib_id "Device:C")
+		(at 36.83 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13018,7 +12577,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000dd051d17")
 		(property "Reference" "C18"
-			(at 38.354 160.909 0)
+			(at 36.83 161.036 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -13027,7 +12586,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 38.354 165.989 0)
+			(at 37.084 165.862 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -13036,7 +12595,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 36.83 163.83 0)
+			(at 37.7952 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13044,8 +12603,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 163.83 0)
+		(property "Datasheet" "~"
+			(at 36.83 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13053,8 +12612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF +-20% 10V X5R"
-			(at 36.83 163.83 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13084,8 +12643,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:22UF-1210-16V-20%")
-		(at 46.99 181.61 0)
+		(lib_id "Device:C")
+		(at 46.99 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13093,7 +12652,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000f3f07366")
 		(property "Reference" "C20"
-			(at 48.514 178.689 0)
+			(at 46.99 178.816 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -13102,7 +12661,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 48.514 183.769 0)
+			(at 46.99 183.896 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -13111,7 +12670,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 46.99 181.61 0)
+			(at 47.9552 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13119,8 +12678,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.99 181.61 0)
+		(property "Datasheet" "~"
+			(at 46.99 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13128,8 +12687,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF +-20% 50V X7R"
-			(at 46.99 181.61 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
