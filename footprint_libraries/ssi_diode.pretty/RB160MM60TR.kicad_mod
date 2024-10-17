@@ -1,0 +1,245 @@
+(footprint "RB160MM60TR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "RB160MM-60TR-1")
+	(tags "Schottky Diode")
+	(property "Reference" "D**"
+		(at 0 -0.8 90)
+		(layer "F.SilkS")
+		(uuid "0c03c680-1e70-49de-9edf-f6302301634c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "RB160MM60TR"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "482001e8-6a5d-4dc6-a170-885744226c22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4819856-b31a-4be0-8513-0fd6e9fef3cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "597be782-2f4e-44a0-b027-d636471eff64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e89baae-004e-457c-8ec6-3d19c5527360")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 0)
+		(end -2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b3c8137-a567-4800-9574-0625387d4566")
+	)
+	(fp_line
+		(start -2.4 0)
+		(end -2.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae2356f4-980a-403b-abdc-748e1f824114")
+	)
+	(fp_line
+		(start -0.8 -0.8)
+		(end 0.8 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4b1787d-20cf-48ee-9794-c695ce303908")
+	)
+	(fp_line
+		(start -0.8 0.8)
+		(end 0.8 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9c3a61c-9552-426a-b47b-7dba46168201")
+	)
+	(fp_arc
+		(start -2.5 0)
+		(mid -2.45 -0.05)
+		(end -2.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfe1b10c-d073-4a5e-8986-ffa9c84c71b4")
+	)
+	(fp_arc
+		(start -2.4 0)
+		(mid -2.45 0.05)
+		(end -2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a338db94-bf83-4f82-8fe0-2a28f4456a62")
+	)
+	(fp_line
+		(start -2.95 -1.8)
+		(end 2.95 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b99466b-50c5-4b40-96db-a9a1a12aebf6")
+	)
+	(fp_line
+		(start -2.95 1.8)
+		(end -2.95 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43f90ca9-e7e9-454c-bd4e-508fa79b1b47")
+	)
+	(fp_line
+		(start 2.95 -1.8)
+		(end 2.95 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8402d36-4b30-4982-909c-229d9ff9c807")
+	)
+	(fp_line
+		(start 2.95 1.8)
+		(end -2.95 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "feeff968-fe60-4018-92d6-fab293df367e")
+	)
+	(fp_line
+		(start -1.3 -0.8)
+		(end 1.3 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ab17a36-d3cf-4c15-b136-8fe1124c025a")
+	)
+	(fp_line
+		(start -1.3 0.8)
+		(end -1.3 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a798582-0a46-4e97-94de-2ecbbe48c900")
+	)
+	(fp_line
+		(start 1.3 -0.8)
+		(end 1.3 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abac94fd-a5c6-414a-8e92-70b6395a481a")
+	)
+	(fp_line
+		(start 1.3 0.8)
+		(end -1.3 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e620e0ad-45b8-494e-90de-0740e9262ecf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "e3ff33fe-bdf3-400f-ad5b-66a544014a43")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.525 0 180)
+		(size 0.85 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e3c066a9-7e3b-41b9-a192-253e85f8e71d")
+	)
+	(pad "2" smd rect
+		(at 1.525 0 180)
+		(size 0.85 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9e26b3fc-0f8f-477c-98a1-e48b24ad0e1b")
+	)
+	(model "${SAMWISE_AVIONICS}/3D_models/ssi_diode/RB160MM-60TR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

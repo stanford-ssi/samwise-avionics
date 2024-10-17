@@ -1,0 +1,156 @@
+(footprint "SM141K08TFV"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SC1"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8e30f7f1-c915-473b-bb44-468da6bb078b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SM141K08TFV"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a43a697d-8ed3-45f6-9466-f4ad2b3b8840")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86a682a0-c9e6-443f-a0b9-5597d940b5b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b3f2113-de5c-4536-a689-b2ba17d6d521")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "030b0327-1a56-4480-a041-3395cef7cee1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -22.5 -14.5)
+		(end 22.5 -14.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80e30639-754a-4c28-bf1f-3bc3e79dc8a8")
+	)
+	(fp_line
+		(start -22.5 14.5)
+		(end -22.5 -14.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54881cd3-50a5-4f27-88d2-99537fb74616")
+	)
+	(fp_line
+		(start 22.5 -14.5)
+		(end 22.5 14.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71592c8f-3756-4a33-8d31-aaf1a2588fcf")
+	)
+	(fp_line
+		(start 22.5 14.5)
+		(end -22.5 14.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3fadb707-c2ba-4d6e-926d-bc0d6086815d")
+	)
+	(fp_text user "-"
+		(at -15 0 180)
+		(layer "F.SilkS")
+		(uuid "63e711e6-0d07-4656-af97-813c41053c47")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 15.5 0 180)
+		(layer "F.SilkS")
+		(uuid "b86667e1-5aa9-458f-84d5-e151fe4c9ba3")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+		)
+	)
+	(pad "0" thru_hole circle
+		(at -19.5 0)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "650c8b77-7cef-44e9-a7e1-339329a17fa7")
+	)
+	(pad "1" thru_hole circle
+		(at 19.5 0)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef86c9e2-2f65-4e85-aa24-6dd394338a49")
+	)
+	(model "${SAMWISE_AVIONICS}/3D_models/ssi_solar/SM141K08TFV.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
