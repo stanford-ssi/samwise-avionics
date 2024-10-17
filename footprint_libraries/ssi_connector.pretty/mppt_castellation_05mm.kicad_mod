@@ -1,0 +1,113 @@
+(footprint "mppt_castellation_05mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J12"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b260ec8e-f2b6-49f9-a56f-cfc05f3b5f26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x01"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "18d9080e-7f83-4aeb-a4c7-9503f6d1ea44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6b6361d-74fe-439d-936f-b4650916bafa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48a69622-f248-4a40-b20a-332fc8af2204")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3765768a-0bd8-4a69-811e-5ce22620eaec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DNI" "DNI"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a08565c7-f93d-49f5-99a6-97fadd95e73a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr through_hole exclude_from_pos_files)
+	(pad "1" thru_hole circle
+		(at -1.4 0)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "8261305d-e465-4f25-981b-a060a13c2c03")
+	)
+	(pad "1" smd rect
+		(at -0.7 0)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "c33b79f5-77c9-4aac-8b42-9fff6bc2d93e")
+	)
+	(pad "1" smd rect
+		(at -0.7 0)
+		(size 1.4 1.4)
+		(layers "B.Cu" "B.Mask")
+		(zone_connect 2)
+		(uuid "e53d8083-691d-437c-9223-2173f9988b7f")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "2724f7a0-192c-4aa7-b6b6-0e5f0d99d85f")
+	)
+)
