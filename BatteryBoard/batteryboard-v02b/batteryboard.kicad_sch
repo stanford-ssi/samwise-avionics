@@ -777,213 +777,6 @@
 				)
 			)
 		)
-		(symbol "mainboard:RESISTOR0603"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "RESISTOR0603"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RESISTOR0603_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -3476,12 +3269,6 @@
 		(uuid "0f7a43a1-5ed6-45ce-95ed-f1e992e4bf9f")
 	)
 	(junction
-		(at 34.29 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19acc66a-12a4-433d-b02d-b6984ce31fc1")
-	)
-	(junction
 		(at 139.7 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3624,6 +3411,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2fc4f10-b319-4f38-892e-b6e45dc1510f")
+	)
+	(junction
+		(at 34.29 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8dd35e8-42ca-4599-bd62-0ea0d1618f13")
 	)
 	(junction
 		(at 148.59 40.64)
@@ -3783,7 +3576,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 50.8) (xy 30.48 50.8)
+			(xy 30.48 50.8) (xy 35.56 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4373,6 +4166,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 53.34) (xy 34.29 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d648399-c997-4682-8ed5-999ee451bd83")
+	)
+	(wire
+		(pts
 			(xy 72.39 72.39) (xy 67.31 72.39)
 		)
 		(stroke
@@ -4460,6 +4263,16 @@
 			(type default)
 		)
 		(uuid "9963e065-4ea3-4f1f-bd16-8f451d58230e")
+	)
+	(wire
+		(pts
+			(xy 34.29 62.23) (xy 34.29 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998a73bd-727e-4aa2-a67e-c976d7ff5ff0")
 	)
 	(wire
 		(pts
@@ -4603,7 +4416,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 60.96) (xy 52.07 63.5)
+			(xy 52.07 59.69) (xy 52.07 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4783,7 +4596,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 48.26) (xy 52.07 50.8)
+			(xy 52.07 48.26) (xy 52.07 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4960,6 +4773,16 @@
 			(type default)
 		)
 		(uuid "fe391f37-290f-48a4-85b1-a4adb240d800")
+	)
+	(wire
+		(pts
+			(xy 43.18 50.8) (xy 44.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5a1cc8-9511-4ca0-9919-c18d0bd5b3e4")
 	)
 	(text "Connections"
 		(exclude_from_sim no)
@@ -7998,8 +7821,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:RESISTOR0603")
-		(at 39.37 50.8 180)
+		(lib_id "Device:R_US")
+		(at 39.37 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8007,7 +7830,7 @@
 		(dnp no)
 		(uuid "07b209d2-f2a0-4978-bbdd-2fbb6a8b109f")
 		(property "Reference" "R9"
-			(at 35.56 50.8 0)
+			(at 38.862 46.228 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8016,7 +7839,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 44.45 50.8 0)
+			(at 38.862 46.228 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8025,6 +7848,15 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 39.116 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 39.37 50.8 0)
 			(effects
 				(font
@@ -8033,17 +7865,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "Resistor, US symbol"
 			(at 39.37 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7k 0603"
-			(at 39.37 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8208,8 +8031,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:RESISTOR0603")
-		(at 34.29 58.42 270)
+		(lib_id "Device:R_US")
+		(at 34.29 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8217,7 +8040,7 @@
 		(dnp no)
 		(uuid "31db6e6a-a87e-4675-b0b2-f073f337c2b2")
 		(property "Reference" "R8"
-			(at 35.814 55.88 0)
+			(at 31.75 56.896 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8226,7 +8049,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 32.766 58.42 0)
+			(at 31.242 57.658 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8235,6 +8058,15 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.306 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 34.29 58.42 0)
 			(effects
 				(font
@@ -8243,17 +8075,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "Resistor, US symbol"
 			(at 34.29 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10k 0603"
-			(at 38.354 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,7 +8402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f4bb9d0-1d0e-421e-9a3d-47cb0ce7747c")
-		(property "Reference" "U2"
+		(property "Reference" "Q3"
 			(at 68.58 16.8326 0)
 			(effects
 				(font
@@ -8681,7 +8504,7 @@
 		(instances
 			(project "batteryboard"
 				(path "/4311e62b-bfdb-4997-ad9b-6c1b8542881a"
-					(reference "U2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -9158,8 +8981,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:RESISTOR0603")
-		(at 52.07 55.88 90)
+		(lib_id "Device:R_US")
+		(at 52.07 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9167,7 +8990,7 @@
 		(dnp no)
 		(uuid "f31acc31-e1e6-455c-a7e0-966dbff2f095")
 		(property "Reference" "R10"
-			(at 50.546 55.88 0)
+			(at 48.006 54.102 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -9176,7 +8999,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 53.594 55.88 0)
+			(at 48.006 58.42 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -9185,6 +9008,15 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 51.054 55.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 52.07 55.88 0)
 			(effects
 				(font
@@ -9193,17 +9025,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100K 0603"
-			(at 48.006 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

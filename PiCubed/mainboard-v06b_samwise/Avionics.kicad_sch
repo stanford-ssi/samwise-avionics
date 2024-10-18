@@ -12,6 +12,141 @@
 		(comment 1 "Ethan Brinser")
 	)
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Crystal"
 			(pin_numbers hide)
 			(pin_names
@@ -162,6 +297,163 @@
 				)
 				(pin passive line
 					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
 					(length 1.27)
 					(name "2"
 						(effects
@@ -604,135 +896,29 @@
 				)
 			)
 		)
-		(symbol "mainboard:3.3V"
+		(symbol "power:+3.3V"
 			(power)
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#P+"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "3.3V"
-				(at -1.016 3.556 0)
-				(effects
-					(font
-						(size 1.4986 1.4986)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3.3V_1_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(name "3.3V"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "mainboard:C_Small"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -753,7 +939,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -762,7 +948,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -771,13 +957,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Small_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -786,10 +972,22 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -797,10 +995,10 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
 					(name "~"
 						(effects
 							(font
@@ -812,400 +1010,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "mainboard:INDUCTOR-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.0668 1.0668)
-					)
-				)
-			)
-			(property "Value" "INDUCTOR-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.0668 1.0668)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "INDUCTOR-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue_1_0"
-				(arc
-					(start -1.27 0.3048)
-					(mid -1.905 0.9149)
-					(end -2.54 0.3048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.3048) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.3048) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.3048)
-					(mid -0.635 0.9149)
-					(end -1.27 0.3048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 0.3048)
-					(mid 0.635 0.9149)
-					(end 0 0.3048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0.3048)
-					(mid 1.905 0.9149)
-					(end 1.27 0.3048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "mainboard:R-US_R0603"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(effects
-					(font
-						(size 1.4986 1.4986)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R-US_R0603"
-				(at -3.81 -3.302 0)
-				(effects
-					(font
-						(size 1.4986 1.4986)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R-US_R0603_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -3241,6 +3045,12 @@
 		)
 	)
 	(junction
+		(at 76.2 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0164ec4e-07f8-4e94-9de4-e9021f69e0e1")
+	)
+	(junction
 		(at 179.07 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3481,12 +3291,6 @@
 		(uuid "efa50a17-c1c8-4a87-9ee5-3f99e92b8fbf")
 	)
 	(junction
-		(at 76.2 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f61c2e28-65a7-4567-a755-3ffe46a2dba7")
-	)
-	(junction
 		(at 160.02 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3655,6 +3459,16 @@
 			(type default)
 		)
 		(uuid "10111521-6748-4d35-a7a0-45bc5e03097c")
+	)
+	(wire
+		(pts
+			(xy 76.2 163.83) (xy 76.2 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11dd2a58-c6e3-46d3-b129-e491339740b1")
 	)
 	(polyline
 		(pts
@@ -3858,6 +3672,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 100.33) (xy 124.46 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf3b820-a873-4be3-8a30-040d7fea94cc")
+	)
+	(wire
+		(pts
 			(xy 142.24 102.87) (xy 152.4 102.87)
 		)
 		(stroke
@@ -3998,7 +3822,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 163.83) (xy 73.66 163.83)
+			(xy 73.66 163.83) (xy 76.2 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4035,6 +3859,16 @@
 			(type default)
 		)
 		(uuid "4d048dc5-82e5-4b6b-a8c5-4f5f83677d6e")
+	)
+	(wire
+		(pts
+			(xy 76.2 172.72) (xy 76.2 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f237c11-b44a-4909-8e3e-73342c4593e2")
 	)
 	(polyline
 		(pts
@@ -4468,6 +4302,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 100.33) (xy 133.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd0419a-ca9a-49f1-952b-06dc53c28e8e")
+	)
+	(wire
+		(pts
 			(xy 123.19 95.25) (xy 125.73 95.25)
 		)
 		(stroke
@@ -4665,16 +4509,6 @@
 			(type default)
 		)
 		(uuid "aa0ee0a1-9ad0-4365-bcb9-052a016887ae")
-	)
-	(wire
-		(pts
-			(xy 92.71 163.83) (xy 76.2 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aba13ed3-e1c2-4c68-bfb5-e8b62ad5b69d")
 	)
 	(wire
 		(pts
@@ -4975,6 +4809,16 @@
 			(type default)
 		)
 		(uuid "e91c5e7a-fb31-4af3-bb46-ff0d35c6ffb7")
+	)
+	(wire
+		(pts
+			(xy 76.2 163.83) (xy 92.71 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed38ae92-7027-45bf-a6d6-8eda8902a989")
 	)
 	(wire
 		(pts
@@ -6426,7 +6270,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:3.3V")
+		(lib_id "power:+3.3V")
 		(at 115.57 30.48 0)
 		(mirror y)
 		(unit 1)
@@ -6471,7 +6315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 115.57 30.48 0)
 			(effects
 				(font
@@ -6493,7 +6337,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:C_Small")
+		(lib_id "Device:C_Small")
 		(at 152.4 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6528,7 +6372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 152.4 87.63 0)
 			(effects
 				(font
@@ -6537,7 +6381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF +-20% 10V X5R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 152.4 87.63 0)
 			(effects
 				(font
@@ -6562,7 +6406,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:C_Small")
+		(lib_id "Device:C_Small")
 		(at 147.32 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6597,7 +6441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 147.32 87.63 0)
 			(effects
 				(font
@@ -6606,7 +6450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF 0603 X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 147.32 87.63 0)
 			(effects
 				(font
@@ -6631,7 +6475,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:C_Small")
+		(lib_id "Device:C_Small")
 		(at 142.24 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6666,7 +6510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 142.24 87.63 0)
 			(effects
 				(font
@@ -6675,7 +6519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF 0603 X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 142.24 87.63 0)
 			(effects
 				(font
@@ -6700,7 +6544,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:C_Small")
+		(lib_id "Device:C_Small")
 		(at 66.04 87.63 0)
 		(mirror x)
 		(unit 1)
@@ -6736,7 +6580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 66.04 87.63 0)
 			(effects
 				(font
@@ -6745,7 +6589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF 0603 X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 66.04 87.63 0)
 			(effects
 				(font
@@ -6770,7 +6614,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:C_Small")
+		(lib_id "Device:C_Small")
 		(at 137.16 97.79 0)
 		(mirror x)
 		(unit 1)
@@ -6806,7 +6650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 137.16 97.79 0)
 			(effects
 				(font
@@ -6815,7 +6659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF 0603 X7R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 137.16 97.79 0)
 			(effects
 				(font
@@ -6840,9 +6684,9 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:INDUCTOR-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue")
-		(at 128.27 100.33 0)
-		(mirror y)
+		(lib_id "Device:L")
+		(at 128.27 100.33 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6850,7 +6694,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf0d253")
 		(property "Reference" "L1"
-			(at 128.27 101.6 0)
+			(at 128.524 101.346 90)
 			(effects
 				(font
 					(size 1.0668 1.0668)
@@ -6858,7 +6702,7 @@
 			)
 		)
 		(property "Value" "10uH"
-			(at 128.27 102.87 0)
+			(at 128.524 102.616 90)
 			(effects
 				(font
 					(size 1.0668 1.0668)
@@ -6874,7 +6718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 128.27 100.33 0)
 			(effects
 				(font
@@ -6883,7 +6727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uH Unshielded 0805"
+		(property "Description" "Inductor"
 			(at 128.27 100.33 0)
 			(effects
 				(font
@@ -6911,7 +6755,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MGFL2012F100MT-LF"
-			(at 128.27 99.06 0)
+			(at 129.54 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,7 +6788,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:C_Small")
+		(lib_id "Device:C_Small")
 		(at 142.24 97.79 0)
 		(mirror y)
 		(unit 1)
@@ -6980,7 +6824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 142.24 97.79 0)
 			(effects
 				(font
@@ -6989,7 +6833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF +-20% 10V X5R"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 142.24 97.79 0)
 			(effects
 				(font
@@ -7126,7 +6970,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:C_Small")
+		(lib_id "Device:C_Small")
 		(at 41.91 105.41 270)
 		(mirror x)
 		(unit 1)
@@ -7160,7 +7004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 41.91 105.41 0)
 			(effects
 				(font
@@ -7169,7 +7013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8pF +-0.25pF 50V C0G 0603"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 41.91 105.41 0)
 			(effects
 				(font
@@ -7194,7 +7038,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:C_Small")
+		(lib_id "Device:C_Small")
 		(at 41.91 113.03 270)
 		(mirror x)
 		(unit 1)
@@ -7228,7 +7072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 41.91 113.03 0)
 			(effects
 				(font
@@ -7237,7 +7081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8pF +-0.25pF 50V C0G 0603"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 41.91 113.03 0)
 			(effects
 				(font
@@ -7872,7 +7716,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:C_Small")
+		(lib_id "Device:C_Small")
 		(at 137.16 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7907,7 +7751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 137.16 87.63 0)
 			(effects
 				(font
@@ -7916,7 +7760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1uF +-10% 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 137.16 87.63 0)
 			(effects
 				(font
@@ -7941,7 +7785,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:3.3V")
+		(lib_id "power:+3.3V")
 		(at 125.73 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7985,7 +7829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -8007,7 +7851,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:3.3V")
+		(lib_id "power:+3.3V")
 		(at 78.74 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8051,7 +7895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 78.74 73.66 0)
 			(effects
 				(font
@@ -8073,7 +7917,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:C_Small")
+		(lib_id "Device:C_Small")
 		(at 60.96 132.08 0)
 		(mirror y)
 		(unit 1)
@@ -8109,7 +7953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 60.96 132.08 0)
 			(effects
 				(font
@@ -8118,7 +7962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1uF +-10% 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 60.96 132.08 0)
 			(effects
 				(font
@@ -8143,7 +7987,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:3.3V")
+		(lib_id "power:+3.3V")
 		(at 69.85 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8187,7 +8031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 69.85 113.03 0)
 			(effects
 				(font
@@ -8314,7 +8158,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:C_Small")
+		(lib_id "Device:C_Small")
 		(at 132.08 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8349,7 +8193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 132.08 87.63 0)
 			(effects
 				(font
@@ -8358,7 +8202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1uF +-10% 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 132.08 87.63 0)
 			(effects
 				(font
@@ -8836,7 +8680,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:3.3V")
+		(lib_id "power:+3.3V")
 		(at 41.91 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8880,7 +8724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 41.91 151.13 0)
 			(effects
 				(font
@@ -8902,7 +8746,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:3.3V")
+		(lib_id "power:+3.3V")
 		(at 166.37 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8946,7 +8790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 166.37 130.81 0)
 			(effects
 				(font
@@ -8968,7 +8812,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:C_Small")
+		(lib_id "Device:C_Small")
 		(at 27.94 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9003,7 +8847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 27.94 160.02 0)
 			(effects
 				(font
@@ -9012,7 +8856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1uF +-10% 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 27.94 160.02 0)
 			(effects
 				(font
@@ -9037,7 +8881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:3.3V")
+		(lib_id "power:+3.3V")
 		(at 179.07 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9081,7 +8925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 179.07 133.35 0)
 			(effects
 				(font
@@ -9103,8 +8947,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:R-US_R0603")
-		(at 76.2 168.91 270)
+		(lib_id "Device:R_US")
+		(at 76.2 168.91 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9113,7 +8957,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000d5c8dafa")
 		(property "Reference" "R7"
-			(at 69.85 167.8686 90)
+			(at 70.612 166.624 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -9122,7 +8966,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 69.85 170.688 90)
+			(at 70.612 169.4434 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -9131,6 +8975,15 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 77.216 168.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 76.2 168.91 0)
 			(effects
 				(font
@@ -9139,17 +8992,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "Resistor, US symbol"
 			(at 76.2 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10k 0603"
-			(at 72.39 167.8686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9636,7 +9480,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:3.3V")
+		(lib_id "power:+3.3V")
 		(at 148.59 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9680,7 +9524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 148.59 109.22 0)
 			(effects
 				(font
@@ -10106,7 +9950,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:3.3V")
+		(lib_id "power:+3.3V")
 		(at 160.02 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10150,7 +9994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 160.02 109.22 0)
 			(effects
 				(font

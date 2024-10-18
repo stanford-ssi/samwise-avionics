@@ -5,6 +5,142 @@
 	(uuid "56806b59-44e6-4270-87fd-423ea30576ea")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -369,151 +505,6 @@
 				)
 			)
 		)
-		(symbol "mainboard:22UF-1210-16V-20%"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.524 2.921 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "22UF-1210-16V-20%"
-				(at 1.524 -2.159 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "22UF-1210-16V-20%_1_0"
-				(rectangle
-					(start -2.032 0.508)
-					(end 2.032 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 1.524)
-					(end 2.032 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 140.97 93.98)
@@ -830,8 +821,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:22UF-1210-16V-20%")
-		(at 133.35 93.98 90)
+		(lib_id "Device:C")
+		(at 132.08 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -839,7 +830,7 @@
 		(dnp no)
 		(uuid "3625072c-e215-4961-957b-78ddeebb93ec")
 		(property "Reference" "C4"
-			(at 131.2164 88.2396 90)
+			(at 130.81 88.138 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -848,7 +839,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 140.7668 88.2396 90)
+			(at 139.4968 88.2396 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -857,7 +848,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 133.35 93.98 0)
+			(at 135.89 93.0148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -865,8 +856,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 133.35 93.98 0)
+		(property "Datasheet" "~"
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,8 +865,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100uF 16V X5R 1210"
-			(at 133.35 93.98 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,7 +875,7 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
-			(at 133.35 93.98 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -893,7 +884,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 133.35 93.98 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,7 +892,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 133.35 93.98 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,8 +941,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:22UF-1210-16V-20%")
-		(at 133.35 83.82 90)
+		(lib_id "Device:C")
+		(at 132.08 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -959,7 +950,7 @@
 		(dnp no)
 		(uuid "45da7994-476f-40c7-b663-4ba0c7433dc8")
 		(property "Reference" "C3"
-			(at 131.5974 79.0194 90)
+			(at 130.3274 79.0194 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -968,7 +959,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 137.5156 79.0194 90)
+			(at 136.2456 79.0194 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -977,7 +968,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 133.35 83.82 0)
+			(at 135.89 82.8548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,8 +976,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 133.35 83.82 0)
+		(property "Datasheet" "~"
+			(at 132.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,8 +985,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100uF 16V X5R 1210"
-			(at 133.35 83.82 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,7 +995,7 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
-			(at 133.35 83.82 0)
+			(at 132.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,7 +1004,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 133.35 83.82 0)
+			(at 132.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1012,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 133.35 83.82 0)
+			(at 132.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
