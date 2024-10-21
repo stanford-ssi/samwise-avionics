@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -17,13 +17,13 @@
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
-      "graphics": true,
+      "graphics": false,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
-      "pads": true,
-      "text": true,
-      "tracks": true,
+      "pads": false,
+      "text": false,
+      "tracks": false,
       "vias": true,
       "zones": true
     },
@@ -38,6 +38,7 @@
       9,
       10,
       11,
+      12,
       13,
       15,
       16,
@@ -63,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "fffffff_fffffff9",
     "zone_display_mode": 0
   },
   "git": {
@@ -73,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Groundstation_Hat.kicad_prl",
+    "filename": "Groundstation_2400_Hat.kicad_prl",
     "version": 3
   },
   "project": {
