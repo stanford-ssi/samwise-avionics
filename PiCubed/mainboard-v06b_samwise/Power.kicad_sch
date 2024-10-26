@@ -7481,6 +7481,28 @@
 	)
 	(global_label "VBATT"
 		(shape bidirectional)
+		(at 265.43 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "360a4ede-5ef6-41b4-90c5-9bf021488d81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.43 107.7259 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBATT"
+		(shape bidirectional)
 		(at 29.21 176.53 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7896,50 +7918,6 @@
 			)
 		)
 	)
-	(global_label "VBATT_SENSE"
-		(shape bidirectional)
-		(at 265.43 99.06 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dd13a423-3df6-4a1e-82f5-aa1fef281027")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.43 114.741 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBATT_SENSE"
-		(shape bidirectional)
-		(at 262.89 68.58 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4ce6230-8e11-4766-ae71-7c055f034555")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.89 84.261 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "~{FIXED_SOLAR_CHRG}"
 		(shape output)
 		(at 87.63 71.12 0)
@@ -7958,6 +7936,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBATT"
+		(shape bidirectional)
+		(at 262.89 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3f52fa4-242f-4518-bf5c-dafb1142d870")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.89 77.2459 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
