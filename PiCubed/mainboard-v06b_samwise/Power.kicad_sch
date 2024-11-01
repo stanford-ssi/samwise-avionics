@@ -4177,12 +4177,6 @@
 		(uuid "369a2e9d-0a6d-4d73-a07d-887288ee543d")
 	)
 	(junction
-		(at 208.28 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39f55694-4366-4fe6-a208-164bb1c12484")
-	)
-	(junction
 		(at 254 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4295,12 +4289,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "759c5c9f-ea4d-4ee8-84fb-31bd8ee504c9")
-	)
-	(junction
-		(at 243.84 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76328eda-bfa7-42e2-a1f5-0993d8b38c48")
 	)
 	(junction
 		(at 29.21 166.37)
@@ -4417,6 +4405,12 @@
 		(uuid "d320bc16-1e70-4fed-940e-3b0c891dfecd")
 	)
 	(junction
+		(at 246.38 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcef0565-dab3-489d-bf23-319aad2dc18e")
+	)
+	(junction
 		(at 45.72 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4475,12 +4469,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9921f91-a7af-4b57-96a4-45afb7f4799c")
-	)
-	(junction
-		(at 208.28 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fec7b4e5-4a52-4bae-884f-f5bac81f025c")
 	)
 	(no_connect
 		(at 210.82 115.57)
@@ -4679,6 +4667,16 @@
 			(type default)
 		)
 		(uuid "182a08f2-7514-460e-9cf0-e185f27fa8e9")
+	)
+	(wire
+		(pts
+			(xy 246.38 101.6) (xy 246.38 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ee5c6c-e964-41da-8e9a-966f4831e328")
 	)
 	(wire
 		(pts
@@ -5302,16 +5300,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 146.05) (xy 208.28 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eba912c-1745-478a-9482-555e6f8dcf08")
-	)
-	(wire
-		(pts
 			(xy 210.82 120.65) (xy 207.01 120.65)
 		)
 		(stroke
@@ -5332,7 +5320,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 105.41) (xy 243.84 83.82)
+			(xy 246.38 93.98) (xy 246.38 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5362,7 +5350,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 83.82) (xy 237.49 83.82)
+			(xy 246.38 83.82) (xy 237.49 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5412,7 +5400,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 146.05) (xy 204.47 146.05)
+			(xy 204.47 146.05) (xy 209.55 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5502,7 +5490,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 138.43) (xy 208.28 138.43)
+			(xy 204.47 138.43) (xy 218.44 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5689,16 +5677,6 @@
 			(type default)
 		)
 		(uuid "7844da44-90aa-47db-9872-59ab5b2fe0f6")
-	)
-	(wire
-		(pts
-			(xy 208.28 138.43) (xy 204.47 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79adeb7a-44c2-47c4-8447-97d9c39653b3")
 	)
 	(polyline
 		(pts
@@ -6240,16 +6218,6 @@
 		)
 		(uuid "bd2152a0-5c50-417f-86c3-565fc327400d")
 	)
-	(wire
-		(pts
-			(xy 243.84 113.03) (xy 264.16 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be77d383-5081-45c4-a62b-b11c04bc3633")
-	)
 	(polyline
 		(pts
 			(xy 156.21 144.78) (xy 156.21 124.46)
@@ -6542,7 +6510,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 113.03) (xy 243.84 113.03)
+			(xy 241.3 113.03) (xy 246.38 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6939,6 +6907,16 @@
 			(type default)
 		)
 		(uuid "fa320a9b-920c-48b0-ab79-b7a03282df72")
+	)
+	(wire
+		(pts
+			(xy 246.38 113.03) (xy 264.16 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfbf84b-243b-4fa2-ab73-6f5dc4a6f732")
 	)
 	(wire
 		(pts
@@ -8843,7 +8821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 243.84 138.43 0)
 			(effects
 				(font
@@ -8936,7 +8914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 250.19 119.38 0)
 			(effects
 				(font
@@ -9100,7 +9078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 254 130.81 0)
 			(effects
 				(font
@@ -9263,7 +9241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 232.41 146.05 0)
 			(effects
 				(font
@@ -9356,7 +9334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 212.09 146.05 0)
 			(effects
 				(font
@@ -9520,7 +9498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 205.74 86.36 0)
 			(effects
 				(font
@@ -9579,7 +9557,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 243.84 109.22 0)
+		(at 246.38 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9587,7 +9565,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005def010f")
 		(property "Reference" "L4"
-			(at 246.38 109.22 0)
+			(at 248.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9595,7 +9573,7 @@
 			)
 		)
 		(property "Value" "1uH"
-			(at 246.38 110.49 0)
+			(at 248.92 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +9581,7 @@
 			)
 		)
 		(property "Footprint" "ssi_inductor:L_2510"
-			(at 243.84 109.22 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +9590,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_PSA-Prosperity-Dielectrics-MCS25GD-1R0MMP_C375955.pdf"
-			(at 243.84 109.22 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9621,7 +9599,7 @@
 			)
 		)
 		(property "Description" "1uH Shielded Inductor"
-			(at 243.84 109.22 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9630,7 +9608,7 @@
 			)
 		)
 		(property "Flight" "DFE252012F-1R0M"
-			(at 243.84 109.22 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9639,7 +9617,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Prosperity Dielectrics"
-			(at 243.84 109.22 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9648,7 +9626,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCS25GD-1R0MMP"
-			(at 246.38 106.68 0)
+			(at 248.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9657,7 +9635,7 @@
 			)
 		)
 		(property "Proto" "MCS25GD-1R0MMP"
-			(at 243.84 109.22 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9666,7 +9644,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 243.84 109.22 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,7 +9653,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 243.84 109.22 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9891,7 +9869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 237.49 86.36 0)
 			(effects
 				(font
@@ -9984,7 +9962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 254 119.38 0)
 			(effects
 				(font
@@ -10060,7 +10038,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.23k"
+		(property "Value" "10k"
 			(at 202.7682 135.763 0)
 			(effects
 				(font
@@ -10078,7 +10056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 204.47 134.62 0)
 			(effects
 				(font
@@ -10154,7 +10132,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "30.1k"
+		(property "Value" "10k"
 			(at 202.7682 143.383 0)
 			(effects
 				(font
@@ -10172,7 +10150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 204.47 142.24 0)
 			(effects
 				(font
@@ -10264,7 +10242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 125.73 101.6 0)
 			(effects
 				(font
@@ -10355,7 +10333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 172.72 95.25 0)
 			(effects
 				(font
@@ -10682,7 +10660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 217.17 152.4 0)
 			(effects
 				(font
@@ -10734,99 +10712,6 @@
 			(project "mainboard"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 208.28 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e4d557c")
-		(property "Reference" "R46"
-			(at 210.0072 141.0716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 210.0072 143.383 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 207.264 141.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10K 0603"
-			(at 210.0072 143.6116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 208.28 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 208.28 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c8b0ccb-bc37-4941-a868-c15bc0ead4dd")
-		)
-		(pin "2"
-			(uuid "f3b76d3b-768c-4806-86fa-9c25790d4dc8")
-		)
-		(instances
-			(project "Power"
-				(path "/1183485e-52bc-4e72-a5e4-2c2c3b144530"
-					(reference "R46")
-					(unit 1)
-				)
-			)
-			(project "mainboard"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
-					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -11566,7 +11451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 176.53 151.13 0)
 			(effects
 				(font
@@ -11660,7 +11545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 161.29 133.35 0)
 			(effects
 				(font
@@ -11754,7 +11639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 151.13 133.35 0)
 			(effects
 				(font
@@ -11848,7 +11733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 142.24 133.35 0)
 			(effects
 				(font
@@ -11942,7 +11827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 130.81 133.35 0)
 			(effects
 				(font
@@ -12126,7 +12011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 153.67 142.24 0)
 			(effects
 				(font
@@ -12201,7 +12086,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x06_Horizontal"
+		(property "Value" "Conn_01x08_Horizontal"
 			(at 275.2852 94.6658 90)
 			(effects
 				(font
@@ -12411,7 +12296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 149.86 153.67 0)
 			(effects
 				(font
@@ -12503,7 +12388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://docs-emea.rs-online.com/webdocs/130f/0900766b8130f550.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a45.pdf"
 			(at 87.63 97.79 0)
 			(effects
 				(font
@@ -12698,7 +12583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 44.45 113.03 0)
 			(effects
 				(font
@@ -12792,7 +12677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 49.53 115.57 0)
 			(effects
 				(font
@@ -12886,7 +12771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 49.53 123.19 0)
 			(effects
 				(font
@@ -13765,7 +13650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 45.72 96.52 0)
 			(effects
 				(font
@@ -14002,7 +13887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 125.73 35.56 0)
 			(effects
 				(font
@@ -14894,7 +14779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SDE0604A.pdf"
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -14986,7 +14871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.comchiptech.com/admin/files/product/CDBA240LL-HF%20RevD765674.pdf"
 			(at 137.16 38.1 0)
 			(effects
 				(font
@@ -15410,7 +15295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 149.86 45.72 0)
 			(effects
 				(font
@@ -16750,7 +16635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 54.61 35.56 0)
 			(effects
 				(font
