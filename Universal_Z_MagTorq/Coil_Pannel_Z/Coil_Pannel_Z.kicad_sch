@@ -9,6 +9,7 @@
 		(date "2024-05-07")
 		(rev "2.0")
 		(comment 1 "Designed by: Eric Liu")
+		(comment 2 "Retrofitted by: River Dowdy")
 	)
 	(lib_symbols
 		(symbol "Device:NetTie_2"
@@ -695,15 +696,15 @@
 		)
 	)
 	(no_connect
-		(at 130.81 66.04)
+		(at 135.89 64.77)
 		(uuid "59747bea-41dd-4257-b9fb-55cacaf940e4")
 	)
 	(no_connect
-		(at 119.38 66.04)
+		(at 124.46 64.77)
 		(uuid "676dbf10-22da-4c15-9601-40e685e234dc")
 	)
 	(no_connect
-		(at 130.81 73.66)
+		(at 135.89 72.39)
 		(uuid "74d4d04e-99b9-4e46-9c9d-9ce98c30774d")
 	)
 	(no_connect
@@ -711,19 +712,11 @@
 		(uuid "8f269174-dfb6-4dce-90c8-204bc938ade3")
 	)
 	(no_connect
-		(at 143.51 73.66)
-		(uuid "a41d8feb-24f6-46a5-a8a7-99e7fd6e8131")
-	)
-	(no_connect
 		(at 142.24 110.49)
 		(uuid "ad1a6ef1-d11f-45bb-9f64-3aeefb03b1e7")
 	)
 	(no_connect
-		(at 142.24 66.04)
-		(uuid "deffb90d-24a9-41f3-9f7d-e80b539c49a9")
-	)
-	(no_connect
-		(at 119.38 73.66)
+		(at 124.46 72.39)
 		(uuid "ee76d7bd-1b92-465e-97c3-ea29350510d7")
 	)
 	(wire
@@ -765,16 +758,6 @@
 			(type default)
 		)
 		(uuid "be52487a-f79f-4a5f-b057-625d1f7fba11")
-	)
-	(wire
-		(pts
-			(xy 143.51 73.66) (xy 142.24 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c183b3ee-5844-42fc-ab05-cfaa97edac47")
 	)
 	(wire
 		(pts
@@ -1273,85 +1256,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 139.7 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "775d937e-30df-412f-beb0-07ed48e15902")
-		(property "Reference" "H1"
-			(at 139.7254 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 140.7668 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 139.7 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba145675-c343-4f6e-8cd9-8aabbb6a454a")
-		)
-		(instances
-			(project "Coil_Panels_XY"
-				(path "/13496f48-fa97-4653-a0b9-9353956ed823"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-			(project "New_Coil_Panel_Y"
-				(path "/449cf8c5-c442-4941-a52d-7a3f158a508b"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-			(project "New_Coil_Panels_X"
-				(path "/9f851740-63af-4aec-b886-77b0325af0dd"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 128.27 66.04 90)
+		(at 133.35 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1359,7 +1264,7 @@
 		(dnp no)
 		(uuid "abbfeabb-7249-4677-9001-fed4817fb0d4")
 		(property "Reference" "H3"
-			(at 127.0254 63.5 0)
+			(at 132.1054 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1368,7 +1273,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 129.3368 63.5 0)
+			(at 134.4168 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1377,7 +1282,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 128.27 66.04 0)
+			(at 133.35 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1386,7 +1291,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 66.04 0)
+			(at 133.35 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1300,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 66.04 0)
+			(at 133.35 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1334,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 116.84 73.66 90)
+		(at 121.92 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1437,7 +1342,7 @@
 		(dnp no)
 		(uuid "befce6b8-1ac4-45d1-88c2-7273f5cb6f31")
 		(property "Reference" "H1"
-			(at 115.5954 71.12 0)
+			(at 120.6754 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1351,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 117.9068 71.12 0)
+			(at 122.9868 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +1360,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 116.84 73.66 0)
+			(at 121.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +1369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 73.66 0)
+			(at 121.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +1378,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 73.66 0)
+			(at 121.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +1412,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 116.84 66.04 90)
+		(at 121.92 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1515,7 +1420,7 @@
 		(dnp no)
 		(uuid "cd734931-074f-44fd-9332-351c777236eb")
 		(property "Reference" "H4"
-			(at 115.5954 63.5 0)
+			(at 120.6754 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +1429,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 117.9068 63.5 0)
+			(at 122.9868 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +1438,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 116.84 66.04 0)
+			(at 121.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,7 +1447,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 66.04 0)
+			(at 121.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,7 +1456,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 66.04 0)
+			(at 121.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1585,7 +1490,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 128.27 73.66 90)
+		(at 133.35 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1593,7 +1498,7 @@
 		(dnp no)
 		(uuid "cedd2955-b0de-4ca9-a60c-4b89bb914524")
 		(property "Reference" "H2"
-			(at 127.0254 71.12 0)
+			(at 132.1054 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +1507,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 129.3368 71.12 0)
+			(at 134.4168 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1516,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 128.27 73.66 0)
+			(at 133.35 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1525,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 73.66 0)
+			(at 133.35 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1534,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 73.66 0)
+			(at 133.35 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,84 +1561,6 @@
 			(project "New_Coil_Panels_X"
 				(path "/9f851740-63af-4aec-b886-77b0325af0dd"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 139.7 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7861f87-c398-409e-b8d1-81cf914a36d9")
-		(property "Reference" "H4"
-			(at 139.7254 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 140.7668 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 139.7 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85b0cd32-f796-4cbb-bb97-20cda145774d")
-		)
-		(instances
-			(project "Coil_Panels_XY"
-				(path "/13496f48-fa97-4653-a0b9-9353956ed823"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-			(project "New_Coil_Panel_Y"
-				(path "/449cf8c5-c442-4941-a52d-7a3f158a508b"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-			(project "New_Coil_Panels_X"
-				(path "/9f851740-63af-4aec-b886-77b0325af0dd"
-					(reference "H5")
 					(unit 1)
 				)
 			)
