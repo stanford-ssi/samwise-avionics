@@ -6,10 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "Groundstation Hat")
-		(date "1/22/24")
+		(date "2024-11-01")
 		(rev "v1.0")
 		(company "Stanford University")
-		(comment 1 "Jacob Rintamaki")
+		(comment 1 "Kristopher Luo")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
@@ -298,6 +298,176 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -2437,6 +2607,12 @@
 		(uuid "8cc9a1c7-168d-4d6d-8040-c638f0639e70")
 	)
 	(junction
+		(at 182.88 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ffd988c-da24-46b6-8add-ddedd2ef1a16")
+	)
+	(junction
 		(at 87.63 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2618,7 +2794,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 72.39) (xy 190.5 72.39)
+			(xy 179.07 72.39) (xy 182.88 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2665,6 +2841,16 @@
 			(type default)
 		)
 		(uuid "1d8fca4e-2df3-4d72-9b4d-a71d754ffc63")
+	)
+	(wire
+		(pts
+			(xy 182.88 59.69) (xy 182.88 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb4cfdf-9715-4b1f-96ef-d339be5657c2")
 	)
 	(wire
 		(pts
@@ -2735,6 +2921,16 @@
 			(type default)
 		)
 		(uuid "3b2ea698-4533-4fae-90bd-b5bf8d4b8d51")
+	)
+	(wire
+		(pts
+			(xy 182.88 72.39) (xy 190.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f754ce-eb24-4467-a2a9-52266d650842")
 	)
 	(wire
 		(pts
@@ -3045,6 +3241,16 @@
 			(type default)
 		)
 		(uuid "98685921-726f-4ece-9754-703fc3d19615")
+	)
+	(wire
+		(pts
+			(xy 182.88 69.85) (xy 182.88 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a82c0a0-c2b9-43d4-86a2-c209df7197c3")
 	)
 	(wire
 		(pts
@@ -5026,6 +5232,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 182.88 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7be40329-8d2b-44a8-a9b4-7e043e22caa4")
+		(property "Reference" "#PWR03"
+			(at 182.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 182.88 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c166fee9-7d23-4e57-a632-2cd4b6968210")
+		)
+		(instances
+			(project "Groundstation_2400_Hat"
+				(path "/deae285c-e877-4514-b3c9-6562b2efd015"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ssi_IC:LORA1280F27-TCXO")
 		(at 190.5 69.85 0)
 		(unit 1)
@@ -5277,6 +5548,75 @@
 			(project "Groundstation_2400_Hat"
 				(path "/deae285c-e877-4514-b3c9-6562b2efd015"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 182.88 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a6e7d07-b8cc-4ef7-a370-889460c68eeb")
+		(property "Reference" "R1"
+			(at 185.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 185.166 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 183.896 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 182.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcedf89b-9f9e-4357-b401-509cd0d3d47a")
+		)
+		(pin "2"
+			(uuid "254f7612-54d5-4bdb-aba4-0019b26325ae")
+		)
+		(instances
+			(project ""
+				(path "/deae285c-e877-4514-b3c9-6562b2efd015"
+					(reference "R1")
 					(unit 1)
 				)
 			)
