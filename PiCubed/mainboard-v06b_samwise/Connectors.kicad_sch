@@ -366,6 +366,193 @@
 				)
 			)
 		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -4024,169 +4211,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-		)
-		(symbol "ssi_connector:1985807"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 5.842 0)
-				(effects
-					(font
-						(size 1.4986 1.4986)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "1985807"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.4986 1.4986)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "ssi_connector:1985807"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2-pin Screw Terminal - Side Entry"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1985807_1_0"
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -10521,8 +10545,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ssi_connector:1985807")
-		(at 261.62 68.58 270)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 261.62 66.04 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10531,7 +10555,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062857866")
 		(property "Reference" "J9"
-			(at 271.78 64.77 90)
+			(at 261.112 68.834 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -10540,7 +10564,7 @@
 			)
 		)
 		(property "Value" "1985807"
-			(at 276.86 67.31 90)
+			(at 259.334 71.12 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -10549,7 +10573,7 @@
 			)
 		)
 		(property "Footprint" "ssi_connector:1985807"
-			(at 261.62 68.58 0)
+			(at 261.62 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10558,7 +10582,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf"
-			(at 261.62 68.58 0)
+			(at 261.62 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10567,7 +10591,7 @@
 			)
 		)
 		(property "Description" "2-pin Screw Terminal - Side Entry"
-			(at 261.62 68.58 0)
+			(at 261.62 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10576,7 +10600,7 @@
 			)
 		)
 		(property "Flight" "1985807"
-			(at 261.62 68.58 0)
+			(at 261.62 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10585,7 +10609,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 261.62 68.58 0)
+			(at 261.62 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10594,7 +10618,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1985807"
-			(at 260.9342 64.4906 0)
+			(at 262.3058 70.1294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,7 +10627,7 @@
 			)
 		)
 		(property "Proto" "1985807"
-			(at 261.62 68.58 0)
+			(at 261.62 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10612,7 +10636,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 261.62 68.58 0)
+			(at 261.62 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10621,7 +10645,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 261.62 68.58 0)
+			(at 261.62 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10645,8 +10669,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ssi_connector:1985807")
-		(at 220.98 83.82 180)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 199.39 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10654,7 +10678,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062873cd6")
 		(property "Reference" "J8"
-			(at 220.98 90.17 0)
+			(at 202.184 84.074 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -10663,7 +10687,7 @@
 			)
 		)
 		(property "Value" "1985807"
-			(at 228.6 92.71 0)
+			(at 201.422 87.122 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -10672,7 +10696,7 @@
 			)
 		)
 		(property "Footprint" "ssi_connector:1985807"
-			(at 220.98 83.82 0)
+			(at 199.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10681,7 +10705,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf"
-			(at 220.98 83.82 0)
+			(at 199.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10690,7 +10714,7 @@
 			)
 		)
 		(property "Description" "2-pin Screw Terminal - Side Entry"
-			(at 220.98 83.82 0)
+			(at 199.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10699,7 +10723,7 @@
 			)
 		)
 		(property "Flight" "1985807"
-			(at 220.98 83.82 0)
+			(at 199.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10708,7 +10732,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 220.98 83.82 0)
+			(at 199.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10717,7 +10741,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1985807"
-			(at 228.6 85.09 0)
+			(at 191.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10726,7 +10750,7 @@
 			)
 		)
 		(property "Proto" "1985807"
-			(at 220.98 83.82 0)
+			(at 199.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10735,7 +10759,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 220.98 83.82 0)
+			(at 199.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10744,7 +10768,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 220.98 83.82 0)
+			(at 199.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10768,8 +10792,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ssi_connector:1985807")
-		(at 250.19 68.58 270)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 250.19 66.04 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10778,7 +10802,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006f37a4ee")
 		(property "Reference" "J16"
-			(at 246.9642 64.4906 90)
+			(at 249.174 69.088 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -10787,7 +10811,7 @@
 			)
 		)
 		(property "Value" "1985807"
-			(at 246.9642 67.1576 90)
+			(at 246.888 71.374 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -10796,7 +10820,7 @@
 			)
 		)
 		(property "Footprint" "ssi_connector:1985807"
-			(at 250.19 68.58 0)
+			(at 250.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10805,7 +10829,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf"
-			(at 250.19 68.58 0)
+			(at 250.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10814,7 +10838,7 @@
 			)
 		)
 		(property "Description" "2-pin Screw Terminal - Side Entry"
-			(at 250.19 68.58 0)
+			(at 250.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10823,7 +10847,7 @@
 			)
 		)
 		(property "Flight" "1985807"
-			(at 250.19 68.58 0)
+			(at 250.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10832,7 +10856,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 250.19 68.58 0)
+			(at 250.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10841,7 +10865,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1985807"
-			(at 249.5042 64.4906 0)
+			(at 250.8758 70.1294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10850,7 +10874,7 @@
 			)
 		)
 		(property "Proto" "1985807"
-			(at 250.19 68.58 0)
+			(at 250.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10859,7 +10883,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 250.19 68.58 0)
+			(at 250.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,7 +10892,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 250.19 68.58 0)
+			(at 250.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10958,8 +10982,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ssi_connector:1985807")
-		(at 201.93 83.82 180)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 218.44 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10967,7 +10991,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000edd14ca3")
 		(property "Reference" "J18"
-			(at 203.2 90.17 0)
+			(at 220.726 83.566 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -10976,7 +11000,7 @@
 			)
 		)
 		(property "Value" "1985807"
-			(at 208.28 92.71 0)
+			(at 220.218 86.868 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -10985,7 +11009,7 @@
 			)
 		)
 		(property "Footprint" "ssi_connector:1985807"
-			(at 201.93 83.82 0)
+			(at 218.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10994,7 +11018,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf"
-			(at 201.93 83.82 0)
+			(at 218.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11003,7 +11027,7 @@
 			)
 		)
 		(property "Description" "2-pin Screw Terminal - Side Entry"
-			(at 201.93 83.82 0)
+			(at 218.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11012,7 +11036,7 @@
 			)
 		)
 		(property "Flight" "1985807"
-			(at 201.93 83.82 0)
+			(at 218.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11021,7 +11045,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 201.93 83.82 0)
+			(at 218.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11030,7 +11054,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1985807"
-			(at 209.55 85.09 0)
+			(at 210.82 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,7 +11063,7 @@
 			)
 		)
 		(property "Proto" "1985807"
-			(at 201.93 83.82 0)
+			(at 218.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11048,7 +11072,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 201.93 83.82 0)
+			(at 218.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11057,7 +11081,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 201.93 83.82 0)
+			(at 218.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
