@@ -4972,29 +4972,7 @@
 			)
 		)
 	)
-	(global_label "PyCubed_AIN5"
-		(shape output)
-		(at 218.44 100.33 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0a33842e-c66d-4bad-b29e-032717276aeb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 115.9052 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PyCubed_HIN"
+	(global_label "PyCubed_ENABLE"
 		(shape input)
 		(at 215.9 100.33 270)
 		(fields_autoplaced yes)
@@ -5006,7 +4984,7 @@
 		)
 		(uuid "13c874b1-1876-4604-92ea-5ff6e737cb21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.9 114.9376 90)
+			(at 215.9 118.687 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,6 +5029,28 @@
 		(uuid "3a4dad78-85ed-4279-a459-7de183255ae3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 202.4149 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PyCubed_ENABLE"
+		(shape input)
+		(at 30.48 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d63960a-deb7-4a01-98d0-e9f824776c3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.123 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,6 +5280,50 @@
 			)
 		)
 	)
+	(global_label "PyCubed_SENSE"
+		(shape input)
+		(at 218.44 100.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2bf6de4-4f49-4e57-8ec9-3fcbffc1f142")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.44 117.7193 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PyCubed_SENSE"
+		(shape input)
+		(at 236.22 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b66f79a0-c1e6-4de8-b181-303a1be512cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.6093 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PYCUBED_GND"
 		(shape bidirectional)
 		(at 26.67 90.17 270)
@@ -5293,28 +5337,6 @@
 		(uuid "c05cd7c4-66ac-4579-9aa3-4deddf3d7c72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 26.67 106.8603 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PyCubed_HIN"
-		(shape input)
-		(at 30.48 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c295c0f4-03dc-4116-a400-4d03db6a88d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.8724 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,28 +5425,6 @@
 		(uuid "f62b954b-b1d6-405e-b785-1c8f95946010")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 192.5551 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PyCubed_AIN5"
-		(shape output)
-		(at 236.22 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f88a8e98-f3c1-4c0d-ab4d-1c5addf0a8a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.7952 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
