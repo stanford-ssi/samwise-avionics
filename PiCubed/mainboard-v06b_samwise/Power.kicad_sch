@@ -1492,6 +1492,172 @@
 				)
 			)
 		)
+		(symbol "externalLibrary:INDUCTOR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -1.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit Feather M4 Express:INDUCTOR_1007"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductors\n\n0603:\n\n• 10nH Ceramic Inductor - microwire antenna/RF (Digikey: 712-1434-2-ND)\n\n0805:\n\n• 560nH Ceramic Inductor - RF (Digikey: 553-1047-1-ND)\n• 270nH Ceramic Inductor - Q = 40@250MHz, +-5%, 1 Ohm DC Resistance (Digikey: 535-10506-2-ND)\n\n1007 (2518 Metric) SMT:\n\n• 10µH 10% 250mOhm 820mA 1007 Inductor (Digikey: 587-2189-1-ND)\n• 22µH 10% 500mOhm 580mA 1007 Inductor (Digikey: 587-2190-1-ND)\n• 47µH 10% 950mOhm 420mA 1007 Inductor (Digikey: 587-2191-1-ND)\n• 47µH 5% 100mOhm 1A 1008 Inductor (Digikey: 732-1816-1-ND)\n\n5.0x5.0mm (Taiyo Yuden NR5040 Series)\n\n• 6.8µH 20% 2.3A 64mOhm Inductor (Digikey: 587-2374-2-ND)\n\n5.0x5.0mm (TDK VLC5045 Series)\n\n• 4.7µH 20% 3.3A 34mOhm Inductor (Digikey: 445-6526-1-ND)\n• 6.8µH 20% 2.7A 46mOhm Inductor (Digikey: 445-6527-1-ND)\n\n6.0x6.0mm (TDK VLC6045 Series)\n\n• 4.7µH 20% 3.8A 27mOhm Inductor (Digikey: 445-6538-2-ND)\n• 6.8µH 20% 3A 41mOhm Inductor (Digikey: 445-6540-1-ND)\n• 6.2µH 30% 2.2A 45mOhm Inductor (Digikey: SRR5028-6R2YCT-ND) - Not TDK VLC6045 but footprint should match\n\n6.0x6.0mm (TDK SLF6045 Series)\n\n• 6.8uH 30% 2A 33mOhm Inductor (Digikey: 445-4572-1-ND, Mouser: 810-SLF645T6R8N2R0PF)\n\n6.0x6.0mm (Sumida CDRH5D28 Series)\n\n• 6.2uH 30% 1.8A 45mOhm Inductor (Digikey: 308-1542-1-ND)\n\nTaiyo Yuden NR3015T2R2M - 2.2uH 20% 1.5A (Digikey: 587-1648-2-ND, Mouser: 963-NR3015T2R2M) - Used with TI TPS62172\n\nCoilCraft RFID Transponder Coil - MA5532-AE (For use with AS3935 Lightning Sensor)\n\nTaiyo Yuden NRH2412T2R2MNGH - 2.2uH 20% 1AA (Digikey: 587-3443-1-ND) - Used with TI LM3671\n\nVishay IHLP\n\n• 1.0uH Molded Inductor - 24mOhm DCR, 5A, +/-20%, -55°C-125°C (Digikey: 541-1319-1-ND)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "INDUCTOR_1_0"
+				(arc
+					(start -1.27 0.3173)
+					(mid -1.9049 0.9524)
+					(end -2.54 0.3175)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.3175) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.3175) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.3173)
+					(mid -0.6349 0.9524)
+					(end -1.27 0.3175)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0.3173)
+					(mid 0.6351 0.9524)
+					(end 0 0.3175)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0.3173)
+					(mid 1.9051 0.9524)
+					(end 1.27 0.3175)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -4047,6 +4213,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 102.87) (xy 246.38 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f01c635-65f5-488f-88f6-0e9a91c0eefe")
+	)
+	(wire
+		(pts
 			(xy 125.73 168.91) (xy 123.19 168.91)
 		)
 		(stroke
@@ -4117,16 +4293,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 101.6) (xy 246.38 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ee5c6c-e964-41da-8e9a-966f4831e328")
-	)
-	(wire
-		(pts
 			(xy 44.45 127) (xy 49.53 127)
 		)
 		(stroke
@@ -4167,7 +4333,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 33.02) (xy 137.16 33.02)
+			(xy 125.73 33.02) (xy 135.89 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4687,6 +4853,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 33.02) (xy 157.48 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c32a562-eecd-4590-b7b0-ac5d4b3dc151")
+	)
+	(wire
+		(pts
 			(xy 210.82 120.65) (xy 207.01 120.65)
 		)
 		(stroke
@@ -4707,7 +4883,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 93.98) (xy 246.38 83.82)
+			(xy 246.38 83.82) (xy 246.38 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6235,16 +6411,6 @@
 		)
 		(uuid "fd0b0237-b6fd-4114-920d-25766fd5360f")
 	)
-	(wire
-		(pts
-			(xy 144.78 33.02) (xy 157.48 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fddf9486-36d0-4578-8a34-d389b66ea016")
-	)
 	(text "Addr: 0x94"
 		(exclude_from_sim no)
 		(at 138.43 100.33 0)
@@ -6403,7 +6569,7 @@
 		)
 		(uuid "7f35d21f-175d-4e0e-9b2f-36d995b79689")
 	)
-	(text "RBF jumpers features:\n - Turn on system:\n    - \"GND\" bypasses ground switch. On J19 short 5 & 6. On J14 short 7 & 8\n    - \"VCC\" bypasses power switch. On J19 short 2 & 3. On J14 short 4 & 5 or (3 & 4 and 5 & 6)\n - \"VUSB\" enables USB charging. On J19 short 3 & 4. On J14 short 5 & 6\n - \"RFB_DET\" tells RP2350 status of RBF connector. On J19 short 1 & 5. On J14 short 1 & 2\nRBF_DET should only be removed once in launch pod\nAll jumpers should be removed prior to flight"
+	(text "RBF jumpers features:\n - Turn on system:\n    - \"GND\" bypasses ground switch. On J19 short 5 & 6. On J14 short 5 & 6\n    - \"VCC\" bypasses power switch. On J19 short 2 & 3. On J14 short 4 & 5 or (3 & 4 and 5 & 6)\n - \"VUSB\" enables USB charging. On J19 short 3 & 4. On J14 short 5 & 6\n - \"RFB_DET\" tells RP2350 status of RBF connector. On J19 short 1 & 5. On J14 short 1 & 2\nRBF_DET should only be removed once in launch pod\nAll jumpers should be removed prior to flight"
 		(exclude_from_sim no)
 		(at 188.468 48.006 0)
 		(effects
@@ -7763,7 +7929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ssi_inductor:L_2141"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 45.72 166.37 0)
 			(effects
 				(font
@@ -7772,7 +7938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2009171412_TAI-TECH-HPC5040NF-3R3MTH_C304367.pdf"
+		(property "Datasheet" "~"
 			(at 45.72 166.37 0)
 			(effects
 				(font
@@ -7781,7 +7947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3uH Shielded Inductor"
+		(property "Description" "Inductor"
 			(at 45.72 166.37 0)
 			(effects
 				(font
@@ -7791,7 +7957,7 @@
 			)
 		)
 		(property "Flight" "SPM5030T-3R3M-HZ"
-			(at 45.72 166.37 90)
+			(at 45.72 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,7 +7975,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "HPC5040NF-3R3MTH"
-			(at 48.26 167.64 0)
+			(at 46.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,7 +7984,7 @@
 			)
 		)
 		(property "Proto" "HPC5040NF-3R3MTH"
-			(at 45.72 166.37 90)
+			(at 45.72 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,6 +8002,96 @@
 			)
 		)
 		(property "Field6" ""
+			(at 45.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr " ""
+			(at 45.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N " ""
+			(at 45.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 " ""
+			(at 45.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 P/N " ""
+			(at 45.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Unit Price " ""
+			(at 45.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Price @ Qty " ""
+			(at 45.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 " ""
+			(at 45.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 P/N vv " ""
+			(at 45.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Unit Price " ""
+			(at 45.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Price @ Qty " ""
 			(at 45.72 166.37 0)
 			(effects
 				(font
@@ -8776,8 +9032,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 246.38 97.79 0)
+		(lib_id "externalLibrary:INDUCTOR")
+		(at 246.38 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8785,7 +9041,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005def010f")
 		(property "Reference" "L4"
-			(at 248.92 97.79 0)
+			(at 242.824 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8793,14 +9049,14 @@
 			)
 		)
 		(property "Value" "1uH"
-			(at 248.92 99.06 0)
+			(at 242.57 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssi_inductor:L_2510"
+		(property "Footprint" "Adafruit Feather M4 Express:INDUCTOR_1007"
 			(at 246.38 97.79 0)
 			(effects
 				(font
@@ -8809,7 +9065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_PSA-Prosperity-Dielectrics-MCS25GD-1R0MMP_C375955.pdf"
+		(property "Datasheet" "https://abracon.com/datasheets/AOTA-B201610S3R3-101-T.pdf"
 			(at 246.38 97.79 0)
 			(effects
 				(font
@@ -8818,7 +9074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uH Shielded Inductor"
+		(property "Description" "Inductors\n\n0603:\n\n• 10nH Ceramic Inductor - microwire antenna/RF (Digikey: 712-1434-2-ND)\n\n0805:\n\n• 560nH Ceramic Inductor - RF (Digikey: 553-1047-1-ND)\n• 270nH Ceramic Inductor - Q = 40@250MHz, +-5%, 1 Ohm DC Resistance (Digikey: 535-10506-2-ND)\n\n1007 (2518 Metric) SMT:\n\n• 10µH 10% 250mOhm 820mA 1007 Inductor (Digikey: 587-2189-1-ND)\n• 22µH 10% 500mOhm 580mA 1007 Inductor (Digikey: 587-2190-1-ND)\n• 47µH 10% 950mOhm 420mA 1007 Inductor (Digikey: 587-2191-1-ND)\n• 47µH 5% 100mOhm 1A 1008 Inductor (Digikey: 732-1816-1-ND)\n\n5.0x5.0mm (Taiyo Yuden NR5040 Series)\n\n• 6.8µH 20% 2.3A 64mOhm Inductor (Digikey: 587-2374-2-ND)\n\n5.0x5.0mm (TDK VLC5045 Series)\n\n• 4.7µH 20% 3.3A 34mOhm Inductor (Digikey: 445-6526-1-ND)\n• 6.8µH 20% 2.7A 46mOhm Inductor (Digikey: 445-6527-1-ND)\n\n6.0x6.0mm (TDK VLC6045 Series)\n\n• 4.7µH 20% 3.8A 27mOhm Inductor (Digikey: 445-6538-2-ND)\n• 6.8µH 20% 3A 41mOhm Inductor (Digikey: 445-6540-1-ND)\n• 6.2µH 30% 2.2A 45mOhm Inductor (Digikey: SRR5028-6R2YCT-ND) - Not TDK VLC6045 but footprint should match\n\n6.0x6.0mm (TDK SLF6045 Series)\n\n• 6.8uH 30% 2A 33mOhm Inductor (Digikey: 445-4572-1-ND, Mouser: 810-SLF645T6R8N2R0PF)\n\n6.0x6.0mm (Sumida CDRH5D28 Series)\n\n• 6.2uH 30% 1.8A 45mOhm Inductor (Digikey: 308-1542-1-ND)\n\nTaiyo Yuden NR3015T2R2M - 2.2uH 20% 1.5A (Digikey: 587-1648-2-ND, Mouser: 963-NR3015T2R2M) - Used with TI TPS62172\n\nCoilCraft RFID Transponder Coil - MA5532-AE (For use with AS3935 Lightning Sensor)\n\nTaiyo Yuden NRH2412T2R2MNGH - 2.2uH 20% 1AA (Digikey: 587-3443-1-ND) - Used with TI LM3671\n\nVishay IHLP\n\n• 1.0uH Molded Inductor - 24mOhm DCR, 5A, +/-20%, -55°C-125°C (Digikey: 541-1319-1-ND)"
 			(at 246.38 97.79 0)
 			(effects
 				(font
@@ -8846,7 +9102,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCS25GD-1R0MMP"
-			(at 248.92 95.25 0)
+			(at 247.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8881,10 +9137,100 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "Mfr " ""
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N " ""
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 " ""
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 P/N " ""
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Unit Price " ""
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Price @ Qty " ""
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 " ""
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 P/N vv " ""
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Unit Price " ""
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Price @ Qty " ""
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
 			(uuid "b2fd34c7-d9ba-47b6-99f1-72715534bd5f")
 		)
-		(pin "2"
+		(pin "P$2"
 			(uuid "8a985327-0e33-469c-9e70-4b57b5a93c93")
 		)
 		(instances
@@ -12517,8 +12863,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 140.97 33.02 90)
+		(lib_id "externalLibrary:INDUCTOR")
+		(at 140.97 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12527,7 +12873,7 @@
 		(fields_autoplaced yes)
 		(uuid "69e5be6a-b965-442d-a841-7b0141f96e25")
 		(property "Reference" "L3"
-			(at 140.97 26.67 90)
+			(at 140.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12535,14 +12881,14 @@
 			)
 		)
 		(property "Value" "68uH"
-			(at 140.97 29.21 90)
+			(at 140.97 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ssi_inductor:SDE06004A-680K"
+		(property "Footprint" "Adafruit Feather M4 Express:INDUCTOR_1007"
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -12551,7 +12897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SDE0604A.pdf"
+		(property "Datasheet" "https://abracon.com/datasheets/AOTA-B201610S3R3-101-T.pdf"
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -12560,7 +12906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductors\n\n0603:\n\n• 10nH Ceramic Inductor - microwire antenna/RF (Digikey: 712-1434-2-ND)\n\n0805:\n\n• 560nH Ceramic Inductor - RF (Digikey: 553-1047-1-ND)\n• 270nH Ceramic Inductor - Q = 40@250MHz, +-5%, 1 Ohm DC Resistance (Digikey: 535-10506-2-ND)\n\n1007 (2518 Metric) SMT:\n\n• 10µH 10% 250mOhm 820mA 1007 Inductor (Digikey: 587-2189-1-ND)\n• 22µH 10% 500mOhm 580mA 1007 Inductor (Digikey: 587-2190-1-ND)\n• 47µH 10% 950mOhm 420mA 1007 Inductor (Digikey: 587-2191-1-ND)\n• 47µH 5% 100mOhm 1A 1008 Inductor (Digikey: 732-1816-1-ND)\n\n5.0x5.0mm (Taiyo Yuden NR5040 Series)\n\n• 6.8µH 20% 2.3A 64mOhm Inductor (Digikey: 587-2374-2-ND)\n\n5.0x5.0mm (TDK VLC5045 Series)\n\n• 4.7µH 20% 3.3A 34mOhm Inductor (Digikey: 445-6526-1-ND)\n• 6.8µH 20% 2.7A 46mOhm Inductor (Digikey: 445-6527-1-ND)\n\n6.0x6.0mm (TDK VLC6045 Series)\n\n• 4.7µH 20% 3.8A 27mOhm Inductor (Digikey: 445-6538-2-ND)\n• 6.8µH 20% 3A 41mOhm Inductor (Digikey: 445-6540-1-ND)\n• 6.2µH 30% 2.2A 45mOhm Inductor (Digikey: SRR5028-6R2YCT-ND) - Not TDK VLC6045 but footprint should match\n\n6.0x6.0mm (TDK SLF6045 Series)\n\n• 6.8uH 30% 2A 33mOhm Inductor (Digikey: 445-4572-1-ND, Mouser: 810-SLF645T6R8N2R0PF)\n\n6.0x6.0mm (Sumida CDRH5D28 Series)\n\n• 6.2uH 30% 1.8A 45mOhm Inductor (Digikey: 308-1542-1-ND)\n\nTaiyo Yuden NR3015T2R2M - 2.2uH 20% 1.5A (Digikey: 587-1648-2-ND, Mouser: 963-NR3015T2R2M) - Used with TI TPS62172\n\nCoilCraft RFID Transponder Coil - MA5532-AE (For use with AS3935 Lightning Sensor)\n\nTaiyo Yuden NRH2412T2R2MNGH - 2.2uH 20% 1AA (Digikey: 587-3443-1-ND) - Used with TI LM3671\n\nVishay IHLP\n\n• 1.0uH Molded Inductor - 24mOhm DCR, 5A, +/-20%, -55°C-125°C (Digikey: 541-1319-1-ND)"
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -12587,10 +12933,136 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "Mfr " ""
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N " ""
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 " ""
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 P/N " ""
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Unit Price " ""
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Price @ Qty " ""
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 " ""
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 P/N vv " ""
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Unit Price " ""
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Price @ Qty " ""
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" ""
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" ""
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
 			(uuid "33a26bb9-34d5-45cc-815b-3c68bac4ec30")
 		)
-		(pin "2"
+		(pin "P$2"
 			(uuid "ba0377ea-67bf-4563-b5c2-c5c934d4309d")
 		)
 		(instances
