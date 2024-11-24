@@ -59,7 +59,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|155024999|68431001|00000000-0000-0000-0000-00005da732c6|00000000-0000-0000-0000-00005ee7673b",
+        "footprint_type_mismatch|146052000|55018000|00000000-0000-0000-0000-000061c47b99|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|150460000|104143333|641daece-676b-4e24-b687-2365a4caf64d|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|155700000|142920000|d43c8d27-72f2-4636-a0d4-ec792f033129|f4995dfb-76e2-41fa-be16-7374cdd42ba9",
+        "silk_overlap|168650000|142920000|63db1d43-8d84-4d15-8b7e-21d75495e67e|a3493736-ed1d-4e87-be89-cc67aee2e3e2",
+        "silk_overlap|168714000|142920000|63db1d43-8d84-4d15-8b7e-21d75495e67e|a51c76ae-6442-4cf2-852f-060d942ff9ec",
+        "silk_overlap|178250001|82174838|540b9f4d-c0b3-45be-9815-5b394e806c26|00000000-0000-0000-0000-0000627a65d8",
+        "unconnected_items|147800000|94050000|545895f1-3615-4408-8de3-e7248e20d571|f7f2e0cf-8ba4-4320-8c8d-791b0de3f928"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -123,17 +132,17 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.09,
-        "min_connection": 0.09,
-        "min_copper_edge_clearance": 0.3,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.4,
+        "min_connection": 0.16,
+        "min_copper_edge_clearance": 0.2,
+        "min_hole_clearance": 0.1,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.5,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.25,
@@ -546,7 +555,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "mainboard.net",
-      "plot": "",
+      "plot": "gerbers_20240514/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "mainboard.step",
@@ -721,6 +730,24 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet 2",
+          "name": "Datasheet 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -788,10 +815,6 @@
       "Avionics"
     ],
     [
-      "00000000-0000-0000-0000-00005ede7915",
-      "Bus Protection"
-    ],
-    [
       "00000000-0000-0000-0000-00005cec60eb",
       "Connectors"
     ],
@@ -802,6 +825,10 @@
     [
       "00000000-0000-0000-0000-00005cec6476",
       "Burn Wires"
+    ],
+    [
+      "a393ea4a-5f4e-4c0f-917f-6d28e91dd546",
+      "Watchdog"
     ],
     [
       "00000000-0000-0000-0000-00005cec6281",

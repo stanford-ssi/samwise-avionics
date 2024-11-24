@@ -6,13 +6,13 @@
 	(paper "A4")
 	(title_block
 		(title "PyCubed Mainboard")
-		(date "2024-05-14")
-		(rev "v06b")
+		(date "2024-11-05")
+		(rev "TBD")
 		(company "Stanford Student Space Initiative")
 		(comment 1 "Ethan Brinser")
 	)
 	(lib_symbols)
-	(text "PyCubed"
+	(text "PiCubed"
 		(exclude_from_sim no)
 		(at 212.09 177.8 0)
 		(effects
@@ -216,19 +216,19 @@
 		)
 	)
 	(sheet
-		(at 34.29 106.68)
-		(size 30.48 20.32)
+		(at 33.02 104.14)
+		(size 29.21 22.86)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type solid)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "00000000-0000-0000-0000-00005ede7915")
-		(property "Sheetname" "Bus Protection"
-			(at 34.29 105.3334 0)
+		(uuid "a393ea4a-5f4e-4c0f-917f-6d28e91dd546")
+		(property "Sheetname" "Watchdog"
+			(at 33.02 102.7934 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -236,8 +236,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Bus_Protection.kicad_sch"
-			(at 34.29 128.0926 0)
+		(property "Sheetfile" "watchdog.kicad_sch"
+			(at 33.02 128.0926 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -248,7 +248,7 @@
 		(instances
 			(project "mainboard"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
-					(page "3")
+					(page "7")
 				)
 			)
 		)
