@@ -143,7 +143,7 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk yes)
-			(outputformat 4)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -3791,6 +3791,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "2400 Groundstation\nKristopher Luo, Austin Chan\nVer 1.1"
+		(at 157.125 154 0)
+		(layer "F.SilkS")
+		(uuid "6dd7e52d-103b-4ef8-92ce-2a137f0b6d70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
 	(gr_text "3.3V"
 		(at 105.25 106.5 0)
 		(layer "F.SilkS")
@@ -3876,7 +3888,7 @@
 		)
 	)
 	(gr_text "RF_RST"
-		(at 124.75 107.25 0)
+		(at 124.75 107 0)
 		(layer "F.SilkS")
 		(uuid "a396850c-0e17-46d7-b924-eb70dfccecec")
 		(effects
