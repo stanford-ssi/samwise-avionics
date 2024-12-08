@@ -64,16 +64,89 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
-		(start -0.001533 0.012724)
-		(end 25.398467 29.222724)
+	(fp_line
+		(start -0.001533 27.222724)
+		(end -0.001533 2.012724)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
 		(layer "F.SilkS")
-		(uuid "92b5231b-9c3c-456d-88e7-cb3d95db2be3")
+		(uuid "069a5688-1efc-4740-8e4f-2bdf992fb412")
+	)
+	(fp_line
+		(start 1.998467 0.012724)
+		(end 23.398467 0.012724)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ec40885b-a9c9-4995-9fab-b76935fbdddf")
+	)
+	(fp_line
+		(start 23.398467 29.222724)
+		(end 1.998467 29.222724)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "71d51cfb-f592-450c-80e8-c8e0cb8c0749")
+	)
+	(fp_line
+		(start 25.398467 2.012724)
+		(end 25.398467 27.222724)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7315b0fa-d5ba-47aa-927f-c067d8f817b2")
+	)
+	(fp_arc
+		(start -0.001533 2.012724)
+		(mid 0.584253 0.59851)
+		(end 1.998467 0.012724)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b1247933-3928-4916-9c24-ab5c61681e1a")
+	)
+	(fp_arc
+		(start 1.998467 29.222724)
+		(mid 0.584253 28.636938)
+		(end -0.001533 27.222724)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4961f26f-0c9c-4229-9221-f2f49b44d998")
+	)
+	(fp_arc
+		(start 23.398467 0.012724)
+		(mid 24.812681 0.59851)
+		(end 25.398467 2.012724)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b7e2bd01-3c5f-470f-be86-559f4ce363d3")
+	)
+	(fp_arc
+		(start 25.398467 27.222724)
+		(mid 24.812681 28.636938)
+		(end 23.398467 29.222724)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1b5254f1-ceb5-4d5e-9656-94c76a9cf57a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
@@ -206,5 +279,16 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "5589b162-b32e-48ee-ba69-5fe8da088ecb")
+	)
+	(model "${SAMWISE_AVIONICS}/3D_models/ssi_IC/RFM95W v5.step"
+		(offset
+			(xyz 0 -29.2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )
