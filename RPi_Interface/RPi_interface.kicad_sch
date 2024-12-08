@@ -7301,7 +7301,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.54 92.71) (xy 129.54 114.3)
+			(xy 128.27 92.71) (xy 128.27 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7871,7 +7871,7 @@
 	)
 	(polyline
 		(pts
-			(xy 115.57 92.71) (xy 129.54 92.71)
+			(xy 115.57 92.71) (xy 128.27 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8093,17 +8093,6 @@
 		)
 		(uuid "2e6ea1c4-b083-4b99-a7fc-93b9d3dff8ea")
 	)
-	(text "Note: H2 requires\nthinner copper plate\nto fit 5V trace"
-		(exclude_from_sim no)
-		(at 224.79 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e94a7b8-bc0d-4bf9-a9fe-aa1549823a60")
-	)
 	(text "GPIO_19, PCM_FS"
 		(exclude_from_sim no)
 		(at 16.51 78.74 0)
@@ -8317,7 +8306,7 @@
 		(at 115.57 99.06 0)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 0.8636 0.8636)
 			)
 			(justify left bottom)
 		)
@@ -8630,7 +8619,7 @@
 			)
 		)
 	)
-	(global_label "PyCubed_AIN4"
+	(global_label "PyCubed_SENSE"
 		(shape output)
 		(at 140.97 182.88 90)
 		(fields_autoplaced yes)
@@ -8642,7 +8631,7 @@
 		)
 		(uuid "2b1bc63f-d2d1-4348-8af9-16ffecb00977")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 166.73 90)
+			(at 140.97 164.8365 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9224,7 +9213,7 @@
 			)
 		)
 	)
-	(global_label "PyCubed_AIN4"
+	(global_label "PyCubed_SENSE"
 		(shape input)
 		(at 48.26 128.27 0)
 		(fields_autoplaced yes)
@@ -9236,7 +9225,7 @@
 		)
 		(uuid "94a9541d-e1f9-4ac5-a671-4c6516d047f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.41 128.27 0)
+			(at 66.3035 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,7 +9434,7 @@
 		)
 	)
 	(global_label "TX"
-		(shape bidirectional)
+		(shape input)
 		(at 48.26 138.43 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9456,7 +9445,7 @@
 		)
 		(uuid "b7388006-3c64-4637-8b05-5903a26efde0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.4542 138.43 0)
+			(at 53.4223 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9577,7 +9566,7 @@
 		)
 	)
 	(global_label "RX"
-		(shape bidirectional)
+		(shape output)
 		(at 48.26 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9588,7 +9577,7 @@
 		)
 		(uuid "cf1efc4d-e22a-4b26-aa38-bbb85ad8a705")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.7566 135.89 0)
+			(at 53.7247 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9632,7 @@
 		)
 	)
 	(global_label "TX"
-		(shape bidirectional)
+		(shape input)
 		(at 63.5 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9654,7 +9643,7 @@
 		)
 		(uuid "e389a8c9-4597-4ab7-8f8a-1d2c650e385b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.6942 43.18 0)
+			(at 68.6623 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9687,7 +9676,7 @@
 		)
 	)
 	(global_label "RX"
-		(shape bidirectional)
+		(shape output)
 		(at 63.5 45.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9698,7 +9687,7 @@
 		)
 		(uuid "f2c2c726-912f-4d89-834c-a9abb4b5bbb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.9966 45.72 0)
+			(at 68.9647 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11231,6 +11220,96 @@
 			)
 		)
 		(property "Proto" "2302"
+			(at 45.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr " ""
+			(at 45.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N " ""
+			(at 45.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 " ""
+			(at 45.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 P/N " ""
+			(at 45.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Unit Price " ""
+			(at 45.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Price @ Qty " ""
+			(at 45.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 " ""
+			(at 45.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 P/N vv " ""
+			(at 45.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Unit Price " ""
+			(at 45.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Price @ Qty " ""
 			(at 45.72 179.07 0)
 			(effects
 				(font
@@ -14035,6 +14114,96 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr " ""
+			(at 247.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N " ""
+			(at 247.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 " ""
+			(at 247.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 P/N " ""
+			(at 247.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Unit Price " ""
+			(at 247.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Price @ Qty " ""
+			(at 247.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 " ""
+			(at 247.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 P/N vv " ""
+			(at 247.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Unit Price " ""
+			(at 247.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Price @ Qty " ""
+			(at 247.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f858b89f-39b1-4b05-95d3-7014ff78e12b")
 		)
@@ -14403,7 +14572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "rpi-interface_local:MountingHole_2.7mm_M2.5_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
 			(at 251.46 157.48 0)
 			(effects
 				(font
@@ -14431,6 +14600,96 @@
 			)
 		)
 		(property "DNI" "DNI"
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr " ""
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N " ""
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 " ""
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 P/N " ""
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Unit Price " ""
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Price @ Qty " ""
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 " ""
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 P/N vv " ""
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Unit Price " ""
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Price @ Qty " ""
 			(at 251.46 157.48 0)
 			(effects
 				(font
