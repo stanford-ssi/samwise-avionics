@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Magneton")
-		(date "2024-10-09")
+		(date "2024-12-07")
 		(rev "1.0")
 		(comment 1 "Designed by: Eric Liu      ")
 		(comment 2 "Retrofitted by: River Dowdy")
@@ -1421,7 +1421,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/cedd2955-b0de-4ca9-a60c-4b89bb914524")
 		(sheetname "Root")
-		(sheetfile "Coil_Pannel_Z.kicad_sch")
+		(sheetfile "Coil_Panel_Z.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1556,7 +1556,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/befce6b8-1ac4-45d1-88c2-7273f5cb6f31")
 		(sheetname "Root")
-		(sheetfile "Coil_Pannel_Z.kicad_sch")
+		(sheetfile "Coil_Panel_Z.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1692,7 +1692,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/cd734931-074f-44fd-9332-351c777236eb")
 		(sheetname "Root")
-		(sheetfile "Coil_Pannel_Z.kicad_sch")
+		(sheetfile "Coil_Panel_Z.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1827,7 +1827,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/abbfeabb-7249-4677-9001-fed4817fb0d4")
 		(sheetname "Root")
-		(sheetfile "Coil_Pannel_Z.kicad_sch")
+		(sheetfile "Coil_Panel_Z.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1965,8 +1965,8 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/637582b7-6a28-4a0d-854c-0694224c04a3")
 		(sheetname "Root")
-		(sheetfile "Coil_Pannel_Z.kicad_sch")
-		(attr through_hole)
+		(sheetfile "Coil_Panel_Z.kicad_sch")
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -5.42 -1.1)
 			(end 5.48 -1.1)
@@ -2206,7 +2206,7 @@
 		)
 		(path "/6ca6a894-c29e-4a0d-a1a8-1ae0b5d0651e")
 		(sheetname "Root")
-		(sheetfile "Coil_Pannel_Z.kicad_sch")
+		(sheetfile "Coil_Panel_Z.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 5.152992 -0.635)
@@ -2538,7 +2538,7 @@
 	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
 		(layer "B.Cu")
 		(uuid "a32064e5-9fe6-4183-bdd0-7385ac918b63")
-		(at 130.304 133.174 90)
+		(at 130.304 133.174 -90)
 		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
 		(tags "net tie")
 		(property "Reference" "NT1"
@@ -2603,6 +2603,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Net*Tie*")
+		(path "/32d47209-b409-45da-aa68-d2bbc40eda27")
+		(sheetname "Root")
+		(sheetfile "Coil_Panel_Z.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
@@ -2618,19 +2622,19 @@
 			(uuid "0a2e8b8f-4171-4f54-90b3-a4407439547e")
 		)
 		(pad "1" smd circle
-			(at -0.5 0 90)
+			(at -0.5 0 270)
 			(size 0.5 0.5)
 			(layers "B.Cu")
-			(net 2 "COIL_1")
+			(net 3 "COIL_2")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "23c5e493-4be0-47b6-96db-c5d3e46ff943")
 		)
 		(pad "2" smd circle
-			(at 0.5 0 90)
+			(at 0.5 0 270)
 			(size 0.5 0.5)
 			(layers "B.Cu")
-			(net 3 "COIL_2")
+			(net 2 "COIL_1")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "0ca1b4b3-c4d7-4e46-97f8-ec1321766662")
@@ -27871,22 +27875,6 @@
 		(layer "B.Cu")
 		(net 3)
 		(uuid "f5acc349-14c0-4ba2-be26-6977c3d89b48")
-	)
-	(group ""
-		(uuid "2515443b-ff12-4186-9e67-9d53cb16e7f8")
-		(members "e4a3f5ec-06f2-49a5-ba76-2ddce2f7b025")
-	)
-	(group ""
-		(uuid "50e2b631-2348-4f43-a97b-306b0a7b885c")
-		(members "4ef96dba-23a9-465e-a2d7-27fb8b11829d")
-	)
-	(group ""
-		(uuid "62a13b45-8d14-4cf0-908b-abd7b7e6458f")
-		(members "7021a286-54ba-4ad3-9fa7-27fb0251ed75")
-	)
-	(group ""
-		(uuid "f0f28679-0602-4958-ad17-a98b7f55135c")
-		(members "c1fda883-03d4-458b-8741-3b9b04703e01")
 	)
 	(group ""
 		(uuid "b175f82c-0c2a-424f-bdf3-06c10a11c8ca")
