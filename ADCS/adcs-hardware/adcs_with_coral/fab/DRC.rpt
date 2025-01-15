@@ -1,0 +1,42 @@
+** Drc report for sqrt_of_g_temp.kicad_pcb **
+** Created on 2024-08-05T20:20:32-0500 **
+
+** Found 8 DRC violations **
+[clearance]: Clearance violation (netclass 'Fanout' clearance 0.2000 mm; actual 0.1964 mm)
+    Rule: netclass 'Fanout'; error
+    @(125.6584 mm, 136.2486 mm): Track [GND] on F.Cu, length 0.0216 mm
+    @(125.6584 mm, 135.7486 mm): Pad 26 [Net-(J9-In)] of U8 on F.Cu
+[clearance]: Clearance violation (netclass 'Fanout' clearance 0.2000 mm; actual 0.1952 mm)
+    Rule: netclass 'Fanout'; error
+    @(123.9084 mm, 131.9986 mm): Pad 3 [GND] of U8 on F.Cu
+    @(123.4084 mm, 131.9986 mm): Pad 4 [/GPS/RF_IN] of U8 on F.Cu
+[clearance]: Clearance violation (netclass 'Fanout' clearance 0.2000 mm; actual 0.1952 mm)
+    Rule: netclass 'Fanout'; error
+    @(123.4084 mm, 131.9986 mm): Pad 4 [/GPS/RF_IN] of U8 on F.Cu
+    @(122.9084 mm, 131.9986 mm): Pad 5 [GND] of U8 on F.Cu
+[clearance]: Clearance violation (netclass 'Fanout' clearance 0.2000 mm; actual 0.1952 mm)
+    Rule: netclass 'Fanout'; error
+    @(120.6584 mm, 135.2486 mm): Pad 14 [GND] of U8 on F.Cu
+    @(120.6584 mm, 135.7486 mm): Pad 15 [Net-(J13-In)] of U8 on F.Cu
+[clearance]: Clearance violation (netclass 'Fanout' clearance 0.2000 mm; actual 0.1952 mm)
+    Rule: netclass 'Fanout'; error
+    @(120.6584 mm, 135.7486 mm): Pad 15 [Net-(J13-In)] of U8 on F.Cu
+    @(120.6584 mm, 136.2486 mm): Pad 16 [GND] of U8 on F.Cu
+[clearance]: Clearance violation (netclass 'Fanout' clearance 0.2000 mm; actual 0.1952 mm)
+    Rule: netclass 'Fanout'; error
+    @(125.6584 mm, 136.2486 mm): Pad 25 [GND] of U8 on F.Cu
+    @(125.6584 mm, 135.7486 mm): Pad 26 [Net-(J9-In)] of U8 on F.Cu
+[clearance]: Clearance violation (netclass 'Fanout' clearance 0.2000 mm; actual 0.1952 mm)
+    Rule: netclass 'Fanout'; error
+    @(125.6584 mm, 135.7486 mm): Pad 26 [Net-(J9-In)] of U8 on F.Cu
+    @(125.6584 mm, 135.2486 mm): Pad 27 [GND] of U8 on F.Cu
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(136.2300 mm, 110.0080 mm): Footprint J7
+    @(160.2300 mm, 110.0080 mm): Footprint J6
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

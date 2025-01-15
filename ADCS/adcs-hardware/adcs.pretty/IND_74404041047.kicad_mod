@@ -1,0 +1,19 @@
+(footprint "IND_74404041047" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+      (effects (font (size 1.524 1.524) (thickness 0.05)))
+    (tstamp 682baf46-dc54-45fb-b623-d6972afd7c41)
+  )
+  (fp_text value "IND, WIREWOUND, SEMI-SHIELDED, 4.7uH, 1.55A, 20%, DCR 0.091, SMD" (at 0 0) (layer "F.SilkS") hide
+      (effects (font (size 1.524 1.524) (thickness 0.05)))
+    (tstamp f6c27e7e-cca0-47b2-92cf-3cc7a1355c8d)
+  )
+  (pad "1" smd rect (at -1.525 0 180) (size 1.5 3.6) (layers "F.Cu") (tstamp 05bbb334-cff7-4656-aa6b-7ce18ff443d4))
+  (pad "2" smd rect (at 1.525 0) (size 1.5 3.6) (layers "F.Cu") (tstamp 21d29b2f-dc1b-43a0-8687-ba29d40f10c1))
+  (model "./wrlshp/721EE1B9-9D94.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

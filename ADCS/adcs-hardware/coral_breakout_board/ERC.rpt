@@ -1,0 +1,64 @@
+ERC report (2024-08-06T12:27:05-0500, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(563.8800 mm, 370.8400 mm): Symbol #PWR010 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(546.1000 mm, 370.8400 mm): Symbol #PWR09 [GND]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(534.6700 mm, 295.9100 mm): Symbol #PWR01 Pin 1 [Power input, Line]
+[multiple_net_names]: Both VDD_3V3 and +3V3 are attached to the same items; VDD_3V3 will be used in the netlist
+    ; warning
+    @(231.1400 mm, 273.0500 mm): Global Label 'VDD_3V3'
+    @(226.0600 mm, 265.4300 mm): Symbol #PWR013 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(226.0600 mm, 265.4300 mm): Symbol #PWR013 Pin 1 [Power input, Line]
+[multiple_net_names]: Both VDD_1V8 and +1V8 are attached to the same items; VDD_1V8 will be used in the netlist
+    ; warning
+    @(276.8600 mm, 283.2100 mm): Global Label 'VDD_1V8'
+    @(284.4800 mm, 273.0500 mm): Symbol #PWR012 Pin 1 [Power input, Line]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(63.5000 mm, 370.8400 mm): Symbol #PWR08 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(83.8200 mm, 370.8400 mm): Symbol #PWR07 [GND]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(295.9100 mm, 563.8800 mm): Symbol #VDD_COIN_3V_01 Hidden pin 1 [VDD, Power input, Line]
+[lib_symbol_issues]: Symbol 'VDD' has been modified in library 'power'
+    ; warning
+    @(295.9100 mm, 563.8800 mm): Symbol #VDD_COIN_3V_01 [VDD]
+[no_connect_dangling]: Unconnected "no connection" flag
+    ; warning
+    @(400.0500 mm, 447.0400 mm): No Connect
+[no_connect_dangling]: Unconnected "no connection" flag
+    ; warning
+    @(389.8900 mm, 447.0400 mm): No Connect
+[no_connect_dangling]: Unconnected "no connection" flag
+    ; warning
+    @(372.1100 mm, 447.0400 mm): No Connect
+[no_connect_dangling]: Unconnected "no connection" flag
+    ; warning
+    @(374.6500 mm, 447.0400 mm): No Connect
+[no_connect_dangling]: Unconnected "no connection" flag
+    ; warning
+    @(384.8100 mm, 447.0400 mm): No Connect
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(279.4000 mm, 668.0200 mm): Symbol #PWR06 [GND]
+[lib_symbol_issues]: The current configuration does not include the library 'mainboard'
+    ; warning
+    @(447.0400 mm, 786.1300 mm): Symbol #GND02 [GND]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(447.0400 mm, 816.6100 mm): Symbol #GND01 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the library 'mainboard'
+    ; warning
+    @(447.0400 mm, 819.1500 mm): Symbol #GND01 [GND]
+
+ ** ERC messages: 19  Errors 4  Warnings 15

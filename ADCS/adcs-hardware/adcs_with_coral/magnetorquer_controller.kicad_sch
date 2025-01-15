@@ -1,0 +1,43 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 77b4f9ed-cbf1-44f4-b1cb-bc08c9c77a90)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 63.2714 54.5592) (size 21.9202 12.7)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bee5acb8-1eff-4b83-b52e-1fa4ae41872c)
+    (property "Sheetname" "Coil Power Enable" (at 63.2714 53.8476 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_enable.kicad_sch" (at 63.2206 69.9008 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "source_resistor" "100k" (at 74.2188 62.1284 0) (show_name)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "VBUS_IN" input (at 63.2714 57.0992 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 32a9fdee-04a7-4b3b-a5f4-45f524c81d31)
+    )
+    (pin "EN" bidirectional (at 63.2714 59.6392 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 51962c86-87b1-4819-8170-70257a4857e0)
+    )
+    (pin "VBUS_OUT" input (at 63.2714 64.7192 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid e03d7e49-f821-49ce-9765-e454c8f0e5f7)
+    )
+    (instances
+      (project "adcs-hardware"
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50" (page "3"))
+        (path "/2bf29f96-8e90-4c56-8856-49bc3b5fab50/5d6ab21b-fecf-4734-b5d3-932491695f1a" (page "3"))
+      )
+    )
+  )
+)

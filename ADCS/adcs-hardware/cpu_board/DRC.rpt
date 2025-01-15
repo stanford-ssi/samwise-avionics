@@ -1,0 +1,223 @@
+** Drc report for Soldermander.kicad_pcb **
+** Created on 2024-08-01T16:35:16-0500 **
+
+** Found 7 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.1270 mm; actual 0.0751 mm)
+    Rule: board setup constraints hole; error
+    @(106.2133 mm, 43.3322 mm): NPTH pad of J1
+    @(106.5233 mm, 44.3072 mm): Pad A1 [GNDREF] of J1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.1270 mm; actual 0.1178 mm)
+    Rule: board setup constraints hole; error
+    @(106.2133 mm, 43.3322 mm): NPTH pad of J1
+    @(105.7233 mm, 44.3072 mm): Pad A4 [VUSB] of J1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.1270 mm; actual 0.1178 mm)
+    Rule: board setup constraints hole; error
+    @(100.4333 mm, 43.3322 mm): NPTH pad of J1
+    @(100.9233 mm, 44.3072 mm): Pad A9 [VUSB] of J1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.1270 mm; actual 0.0751 mm)
+    Rule: board setup constraints hole; error
+    @(100.4333 mm, 43.3322 mm): NPTH pad of J1
+    @(100.1233 mm, 44.3072 mm): Pad A12 [GNDREF] of J1 on F.Cu
+[footprint_type_mismatch]: Footprint component type doesn't match footprint pads (expected 'SMD'; actual 'Through hole')
+    Local override; error
+    @(113.9208 mm, 53.3296 mm): Footprint U8
+[footprint_type_mismatch]: Footprint component type doesn't match footprint pads (expected 'SMD'; actual 'Through hole')
+    Local override; error
+    @(126.7385 mm, 68.4836 mm): Footprint U7
+[footprint_type_mismatch]: Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')
+    Local override; error
+    @(103.8233 mm, 39.2872 mm): Footprint J1
+
+** Found 47 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.0400 mm, 70.0900 mm): Track [GPIO_AD_27] on F.Cu, length 0.0020 mm
+    @(107.2358 mm, 94.2432 mm): Pad 91 [GPIO_AD_27] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.4358 mm, 68.4876 mm): Pad L14 [GPIO_AD_26] of U2 on F.Cu
+    @(108.0358 mm, 94.2432 mm): Pad 87 [GPIO_AD_26] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.8358 mm, 70.0842 mm): Track [GPIO_LPSR_04] on F.Cu, length 0.0036 mm
+    @(123.2358 mm, 94.2432 mm): Pad 11 [GPIO_LPSR_04] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.0358 mm, 68.4876 mm): Pad L1 [GPIO_EMC_B1_41] of U2 on F.Cu
+    @(114.8358 mm, 91.5332 mm): Pad 54 [GPIO_EMC_B1_41] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.2358 mm, 94.2432 mm): Pad 41 [GPIO_EMC_B2_00] of J7 on B.Cu
+    @(97.8358 mm, 67.6875 mm): Pad K2 [GPIO_EMC_B2_00] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.2381 mm, 69.2900 mm): Track [GPIO_SNVS_03] on F.Cu, length 0.0033 mm
+    @(96.8358 mm, 94.2432 mm): Pad 23 [GPIO_SNVS_03] of J7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.0300 mm, 71.6900 mm): Track [GPIO_SNVS_09] on F.Cu, length 0.0038 mm
+    @(94.0358 mm, 94.2432 mm): Pad 37 [GPIO_SNVS_09] of J7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.2358 mm, 71.6842 mm): Track [GPIO_SNVS_00] on F.Cu, length 0.0038 mm
+    @(98.0358 mm, 94.2432 mm): Pad 17 [GPIO_SNVS_00] of J7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.4400 mm, 70.8900 mm): Track [GPIO_SNVS_05] on F.Cu, length 0.0021 mm
+    @(95.6358 mm, 94.2432 mm): Pad 29 [GPIO_SNVS_05] of J7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.8358 mm, 94.2432 mm): Pad 73 [GPIO_EMC_B2_14] of J7 on B.Cu
+    @(99.4358 mm, 69.2877 mm): Pad M4 [GPIO_EMC_B2_14] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.0358 mm, 94.2432 mm): Pad 77 [GPIO_EMC_B2_15] of J7 on B.Cu
+    @(97.8358 mm, 68.4876 mm): Pad L2 [GPIO_EMC_B2_15] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.0358 mm, 67.6875 mm): Pad K16 [GPIO_AD_32] of U2 on F.Cu
+    @(107.2358 mm, 91.5332 mm): Pad 92 [GPIO_AD_32] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(89.6358 mm, 94.2432 mm): Pad 59 [GPIO_EMC_B2_08] of J7 on B.Cu
+    @(97.0358 mm, 70.8879 mm): Pad P1 [GPIO_EMC_B2_08] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.4500 mm, 70.0900 mm): Track [GPIO_SNVS_08] on F.Cu, length 0.0120 mm
+    @(94.4358 mm, 94.2432 mm): Pad 35 [GPIO_SNVS_08] of J7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.4358 mm, 94.2432 mm): Pad 25 [GPIO_SNVS_04] of J7 on B.Cu
+    @(104.2358 mm, 70.0742 mm): Track [GPIO_SNVS_04] on F.Cu, length 0.0136 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(89.2358 mm, 94.2432 mm): Pad 61 [GPIO_EMC_B2_09] of J7 on B.Cu
+    @(97.8358 mm, 70.0878 mm): Pad N2 [GPIO_EMC_B2_09] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(91.6358 mm, 94.2432 mm): Pad 49 [GPIO_EMC_B2_04] of J7 on B.Cu
+    @(97.0358 mm, 69.2877 mm): Pad M1 [GPIO_EMC_B2_04] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.4358 mm, 94.2432 mm): Pad 15 [GPIO_LPSR_06] of J6 on B.Cu
+    @(102.6400 mm, 70.8900 mm): Track [GPIO_LPSR_06] on F.Cu, length 0.0021 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.2358 mm, 94.2432 mm): Pad 21 [GPIO_SNVS_02] of J7 on B.Cu
+    @(103.4358 mm, 68.4876 mm): Pad L9 [GPIO_SNVS_02] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.8400 mm, 65.2900 mm): Track [GPIO_AD_35] on F.Cu, length 0.0014 mm
+    @(106.0358 mm, 91.5332 mm): Pad 98 [GPIO_AD_35] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.0384 mm, 66.8900 mm): Track [GPIO_AD_34] on F.Cu, length 0.0037 mm
+    @(106.4358 mm, 91.5332 mm): Pad 96 [GPIO_AD_34] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(92.4358 mm, 94.2432 mm): Pad 45 [GPIO_EMC_B2_02] of J7 on B.Cu
+    @(98.6358 mm, 67.6875 mm): Pad K3 [GPIO_EMC_B2_02] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0358 mm, 94.2432 mm): Pad 87 [ENET_RGMII_MDIO] of J7 on B.Cu
+    @(98.6358 mm, 71.6880 mm): Pad R3 [ENET_RGMII_MDIO] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.2400 mm, 63.6900 mm): Track [ENET_RGMII_RXD2] on F.Cu, length 0.0012 mm
+    @(96.0358 mm, 91.5332 mm): Pad 28 [ENET_RGMII_RXD2] of J7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.0300 mm, 63.6900 mm): Track [ENET_RGMII_RXD1] on F.Cu, length 0.0028 mm
+    @(96.4358 mm, 91.5332 mm): Pad 26 [ENET_RGMII_RXD1] of J7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.0300 mm, 62.8900 mm): Track [ENET_RGMII_RXD0] on F.Cu, length 0.0027 mm
+    @(96.8358 mm, 91.5332 mm): Pad 24 [ENET_RGMII_RXD0] of J7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.8300 mm, 69.2900 mm): Track [GPIO_AD_29] on F.Cu, length 0.0035 mm
+    @(106.4358 mm, 94.2432 mm): Pad 95 [GPIO_AD_29] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.0300 mm, 62.0900 mm): Track [ENET_RGMII_RXD3] on F.Cu, length 0.0026 mm
+    @(95.6358 mm, 91.5332 mm): Pad 30 [ENET_RGMII_RXD3] of J7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.8358 mm, 67.6875 mm): Pad K17 [GPIO_AD_30] of U2 on F.Cu
+    @(106.0358 mm, 94.2432 mm): Pad 97 [GPIO_AD_30] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.8300 mm, 66.8900 mm): Track [GPIO_AD_31] on F.Cu, length 0.0032 mm
+    @(107.6358 mm, 91.5332 mm): Pad 90 [GPIO_AD_31] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.4300 mm, 63.6900 mm): Track [USDHC2_CMD] on F.Cu, length 0.0028 mm
+    @(116.0358 mm, 91.5332 mm): Pad 48 [USDHC2_CMD] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.4300 mm, 64.4900 mm): Track [USDHC2_CLK] on F.Cu, length 0.0029 mm
+    @(116.4358 mm, 91.5332 mm): Pad 46 [USDHC2_CLK] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.6358 mm, 66.0873 mm): Pad H13 [USDHC2_DATA1] of U2 on F.Cu
+    @(117.2358 mm, 91.5332 mm): Pad 42 [USDHC2_DATA1] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.8358 mm, 66.8842 mm): Track [GPIO_AD_23] on F.Cu, length 0.0032 mm
+    @(109.2358 mm, 94.2432 mm): Pad 81 [GPIO_AD_23] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.4358 mm, 66.8874 mm): Pad J14 [USDHC2_DATA2] of U2 on F.Cu
+    @(117.6358 mm, 91.5332 mm): Pad 40 [USDHC2_DATA2] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.2358 mm, 66.8874 mm): Pad J15 [USDHC2_DATA3] of U2 on F.Cu
+    @(118.0358 mm, 91.5332 mm): Pad 38 [USDHC2_DATA3] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.8358 mm, 67.6875 mm): Pad K12 [GPIO_AD_22] of U2 on F.Cu
+    @(108.8358 mm, 94.2432 mm): Pad 83 [GPIO_AD_22] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.6358 mm, 67.6875 mm): Pad K13 [GPIO_AD_20] of U2 on F.Cu
+    @(110.4358 mm, 94.2432 mm): Pad 75 [GPIO_AD_20] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.4358 mm, 67.6875 mm): Pad K14 [GPIO_AD_21] of U2 on F.Cu
+    @(110.0358 mm, 94.2432 mm): Pad 77 [GPIO_AD_21] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(88.0358 mm, 94.2432 mm): Pad 67 [GPIO_EMC_B2_11] of J7 on B.Cu
+    @(99.4358 mm, 68.4876 mm): Pad L4 [GPIO_EMC_B2_11] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.8358 mm, 68.4876 mm): Pad L12 [GPIO_AD_13] of U2 on F.Cu
+    @(114.0358 mm, 94.2432 mm): Pad 57 [GPIO_AD_13] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.0334 mm, 68.4900 mm): Track [GPIO_AD_19] on F.Cu, length 0.0034 mm
+    @(110.8358 mm, 94.2432 mm): Pad 73 [GPIO_AD_19] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(87.6358 mm, 94.2432 mm): Pad 69 [GPIO_EMC_B2_12] of J7 on B.Cu
+    @(97.8358 mm, 69.2877 mm): Pad M2 [GPIO_EMC_B2_12] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.6358 mm, 69.2877 mm): Pad M13 [GPIO_AD_04] of U2 on F.Cu
+    @(118.4358 mm, 94.2432 mm): Pad 35 [GPIO_AD_04] of J6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(85.2358 mm, 94.2432 mm): Pad 81 [CAMERA_TRIG] of J7 on B.Cu
+    @(97.8358 mm, 72.4881 mm): Pad T2 [CAMERA_TRIG] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(98.6358 mm, 70.8879 mm): Pad P3 [/RT1176 #1/DCDC_PSWITCH] of U2 on F.Cu
+    @(98.6000 mm, 70.0900 mm): Track [/RT1176 #1/DCDC_PSWITCH] on B.Cu, length 0.7800 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.4358 mm, 70.0878 mm): Pad N4 [/RT1176 #1/DCDC_MODE] of U2 on F.Cu
+    @(98.9700 mm, 69.5900 mm): Track [/RT1176 #1/DCDC_MODE] on B.Cu, length 0.5940 mm
+
+** Found 0 Footprint errors **
+
+** End of Report **
