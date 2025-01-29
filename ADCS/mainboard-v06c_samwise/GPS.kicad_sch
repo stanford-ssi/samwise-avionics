@@ -2218,7 +2218,6 @@
 	)
 	(label "3V3_GPS"
 		(at 214.63 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2229,7 +2228,6 @@
 	)
 	(label "RF_IN"
 		(at 193.04 87.63 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2240,7 +2238,6 @@
 	)
 	(label "3V3_GPS"
 		(at 115.57 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2274,7 +2271,6 @@
 	(hierarchical_label "TX_TO_MICRO"
 		(shape output)
 		(at 153.67 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2286,7 +2282,6 @@
 	(hierarchical_label "RX_FROM_MICRO"
 		(shape input)
 		(at 153.67 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2298,7 +2293,6 @@
 	(hierarchical_label "V_BCKP"
 		(shape input)
 		(at 152.4 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2368,6 +2362,12 @@
 			(project "GPS"
 				(path "/58914ca9-9cbb-49da-9107-4d99a1c17ed3"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2588,6 +2588,12 @@
 			(project "GPS"
 				(path "/58914ca9-9cbb-49da-9107-4d99a1c17ed3"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3182,6 +3188,12 @@
 			(project "GPS"
 				(path "/58914ca9-9cbb-49da-9107-4d99a1c17ed3"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)

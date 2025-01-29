@@ -1275,7 +1275,6 @@
 	)
 	(label "3V3_MAGNMETER2"
 		(at 101.6 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1286,7 +1285,6 @@
 	)
 	(label "3V3_IMU"
 		(at 190.5 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1297,7 +1295,6 @@
 	)
 	(label "3V3_MAGNMETER1"
 		(at 101.6 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1308,7 +1305,6 @@
 	)
 	(label "3V3_MAGNMETER2"
 		(at 76.2 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1319,7 +1315,6 @@
 	)
 	(label "3V3_IMU"
 		(at 76.2 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1330,7 +1325,6 @@
 	)
 	(label "3V3_MAGNMETER1"
 		(at 76.2 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2158,6 +2152,12 @@
 					(unit 1)
 				)
 			)
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2287,6 +2287,12 @@
 			(project "IMU_and_Magnetometer"
 				(path "/88747ed5-15ba-47f3-a278-87f5eabf9389"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2491,6 +2497,12 @@
 			(project "IMU_and_Magnetometer"
 				(path "/88747ed5-15ba-47f3-a278-87f5eabf9389"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
