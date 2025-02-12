@@ -12,6 +12,142 @@
 		(comment 1 "Re: Hunter Liu")
 	)
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -1457,16 +1593,16 @@
 		)
 	)
 	(junction
+		(at 102.87 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "058d4e04-d57c-48f9-b204-0ec68fd7481a")
+	)
+	(junction
 		(at 186.69 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b99d58e-b4f5-4fb0-855c-8b7870bffdc5")
-	)
-	(junction
-		(at 177.8 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "412cd746-db4c-4208-a34d-950aa6ebee40")
 	)
 	(junction
 		(at 186.69 96.52)
@@ -1499,18 +1635,6 @@
 		(uuid "955ca0da-5d8f-4de9-abe2-59a2d0578d74")
 	)
 	(junction
-		(at 175.26 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a266a7b4-9ec8-424a-be08-974930ce96e3")
-	)
-	(junction
-		(at 111.76 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5d8da46-0f84-4c4f-9bfe-6a711a21e83a")
-	)
-	(junction
 		(at 33.02 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1522,25 +1646,9 @@
 		(color 0 0 0 0)
 		(uuid "b7309564-1e54-400e-a7f4-bad05eb62608")
 	)
-	(junction
-		(at 111.76 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1ae2df4-7aea-4c1f-a9c0-b346907715a1")
-	)
 	(wire
 		(pts
-			(xy 111.76 104.14) (xy 111.76 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02e684e1-a58b-4099-bbd2-af5b2fe61519")
-	)
-	(wire
-		(pts
-			(xy 95.25 104.14) (xy 111.76 104.14)
+			(xy 95.25 104.14) (xy 114.3 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1600,7 +1708,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 104.14) (xy 193.04 104.14)
+			(xy 175.26 104.14) (xy 193.04 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1617,16 +1725,6 @@
 			(type default)
 		)
 		(uuid "33ae0380-4816-46eb-872e-7280bf3045a4")
-	)
-	(wire
-		(pts
-			(xy 175.26 85.09) (xy 175.26 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3daf76e2-f70a-4142-8416-0d026414d87c")
 	)
 	(wire
 		(pts
@@ -1650,6 +1748,26 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 74.93) (xy 102.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f906193-059a-4dc8-8e87-6983065514c1")
+	)
+	(wire
+		(pts
+			(xy 106.68 82.55) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ee13c5-641f-4aab-a89d-0d797b0d025f")
+	)
+	(wire
+		(pts
 			(xy 106.68 93.98) (xy 106.68 99.06)
 		)
 		(stroke
@@ -1660,7 +1778,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 88.9) (xy 111.76 88.9)
+			(xy 95.25 88.9) (xy 114.3 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1677,16 +1795,6 @@
 			(type default)
 		)
 		(uuid "65aac124-e72a-433f-8c4f-ccbc8c9f6d07")
-	)
-	(wire
-		(pts
-			(xy 111.76 88.9) (xy 114.3 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aab4c16-d047-46df-a0e5-ee20b4bd743e")
 	)
 	(wire
 		(pts
@@ -1770,13 +1878,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 104.14) (xy 177.8 107.95)
+			(xy 102.87 74.93) (xy 102.87 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a1c00f3-f314-4bc1-886e-9365c55a34de")
+		(uuid "9dfd770a-87d2-44f5-be87-0587062a7dfb")
 	)
 	(wire
 		(pts
@@ -1790,17 +1898,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 104.14) (xy 175.26 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a063f681-41fc-4376-834c-d60e56f9c9ce")
-	)
-	(wire
-		(pts
-			(xy 102.87 81.28) (xy 102.87 96.52)
+			(xy 102.87 73.66) (xy 102.87 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1817,16 +1915,6 @@
 			(type default)
 		)
 		(uuid "aac72669-9740-454c-b210-fadae66b3c4a")
-	)
-	(wire
-		(pts
-			(xy 111.76 104.14) (xy 114.3 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdb23168-f970-40a4-9b82-7940aa5cc55c")
 	)
 	(wire
 		(pts
@@ -1878,17 +1966,7 @@
 		)
 		(uuid "ec477001-9b61-4c28-b5a2-3ce08ac5c59d")
 	)
-	(wire
-		(pts
-			(xy 111.76 85.09) (xy 111.76 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2cfbf38-77a7-40bd-a227-59b78dcaf548")
-	)
-	(text "EIVE -> photoconductive (common cathode on \ntheir 4 cell photodiode)\nSOURCE -> photovoltaic? assumption because \nof lower current consumed.\n\nsolar_flux = 1.3608e3 # W/m\nflux2lux_LEO = 98 # lux, 1 W/m² = 98 lux\nsolar_lux = solar_flux * flux2lux_LEO = 133358.4\nId_per_lux_typical = 6.3  * 1e-9 # A/lx typical\nId_per_lux_min = 5 * 1e-9 # A/lx min\n\nmax_curr_typical = Id_per_lux_typical * solar_lux\n3.3V / max_curr_typical = 3927.8329959681864\n\nR = 3.9k\n\nCould maybe go a bit lower on this..."
+	(text "EIVE -> photoconductive (common cathode on \ntheir 4 cell photodiode)\nSOURCE -> photovoltaic? assumption because \nof lower current consumed.\n\nsolar_flux = 1.3608e3 # W/m^{2} (also called solar irradiance)\nflux2lux_LEO = 98 # lux, 1 W/m² = 98 lux\nsolar_lux = solar_flux * flux2lux_LEO = 133358.4\nId_per_lux_typical = 6.3  * 1e-9 # A/lx typical\nId_per_lux_min = 5 * 1e-9 # A/lx min\n\nmax_curr_typical = Id_per_lux_typical * solar_lux\n3.3V / max_curr_typical = 3927.8329959681864\n\nR = 3.9k\n\nCould maybe go a bit lower on this..."
 		(exclude_from_sim no)
 		(at 121.92 69.85 0)
 		(effects
@@ -1932,101 +2010,93 @@
 		)
 		(uuid "63391813-3ee9-4f81-ac54-a93d5e052712")
 	)
-	(hierarchical_label "OUT4"
-		(shape input)
-		(at 33.02 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "037403b3-2347-4ea9-9537-7aa728dd05a2")
-	)
-	(hierarchical_label "OUT3"
-		(shape input)
-		(at 33.02 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1a47923d-3b9d-4ae6-860f-41da5a446e20")
-	)
-	(hierarchical_label "OUT1"
-		(shape input)
-		(at 33.02 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2ff583b7-a3f2-4b73-a0ab-71212d74024a")
-	)
-	(hierarchical_label "OUT2"
-		(shape input)
-		(at 111.76 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "666920d4-8fa8-4f77-a22c-b768f39b6fc4")
-	)
-	(hierarchical_label "OUT4"
-		(shape input)
-		(at 175.26 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6d658fa0-666a-4f0f-814e-96f7108f25c1")
-	)
-	(hierarchical_label "OUT1"
-		(shape input)
-		(at 111.76 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a53d1b6-1e8e-447c-94c7-51411947d80f")
-	)
-	(hierarchical_label "OUT2"
-		(shape input)
+	(label "OUT2"
 		(at 33.02 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "8741ec3c-2a7c-4d4f-b653-cc86ace127e3")
+		(uuid "4290ce51-961a-4394-8a11-b730552434a6")
 	)
-	(hierarchical_label "OUT3"
-		(shape input)
-		(at 177.8 107.95 0)
+	(label "OUT3"
+		(at 175.26 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "b91aee89-82ab-46f6-9a23-e73e1fb350cb")
+		(uuid "4f4aa7d8-23ae-432b-bcb1-f02d2851b1fb")
+	)
+	(label "OUT4"
+		(at 33.02 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "728ae169-5c94-4923-b5f5-b5a9a59c6b90")
+	)
+	(label "OUT1"
+		(at 33.02 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76205c06-8165-4ba2-964d-c4284c45d82e")
+	)
+	(label "OUT4"
+		(at 175.26 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8dfaec8f-b798-4cfc-be5b-82998d732023")
+	)
+	(label "OUT1"
+		(at 114.3 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efb2f3ef-cfbd-4372-9407-7ea9923ee9eb")
+	)
+	(label "OUT2"
+		(at 114.3 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3532503-053a-450e-afbd-7b31346e4fa9")
+	)
+	(label "OUT3"
+		(at 33.02 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f68bcc7b-a51f-4f0d-aed3-0c508416c0e1")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -3066,17 +3136,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 102.87 81.28 0)
+		(lib_id "power:GND")
+		(at 106.68 83.82 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca021553-8177-4687-b3ee-e84d0774fe8e")
-		(property "Reference" "#PWR07"
-			(at 102.87 85.09 0)
+		(uuid "bd1e7ab5-df00-40e3-85df-03f3b4ae892b")
+		(property "Reference" "#PWR05"
+			(at 106.68 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,8 +3154,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 102.87 76.6318 0)
+		(property "Value" "GND"
+			(at 106.68 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +3163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 81.28 0)
+			(at 106.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3172,143 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 81.28 0)
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a8e9eab-454a-4d90-9831-4414367b5456")
+		)
+		(instances
+			(project "PCBassProShop"
+				(path "/1410c7f8-e2b9-4be8-9c91-5e92ba002382"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c32a3010-167d-4ddc-90a9-f5946d482896")
+		(property "Reference" "C9"
+			(at 109.601 77.5278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 109.601 79.9521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 107.6452 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "276c1f92-24b1-48e2-b36c-461844e597bf")
+		)
+		(pin "2"
+			(uuid "167e94fa-9388-40b3-9298-33e7b8b22c77")
+		)
+		(instances
+			(project ""
+				(path "/1410c7f8-e2b9-4be8-9c91-5e92ba002382"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 102.87 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca021553-8177-4687-b3ee-e84d0774fe8e")
+		(property "Reference" "#PWR07"
+			(at 102.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 102.87 69.0118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3317,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 102.87 81.28 0)
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3693,7 @@
 			)
 			(uuid "f82229cf-519c-420d-80aa-b033b984e236")
 		)
-		(pin "OUT" input
+		(pin "OUT" output
 			(at 95.25 88.9 0)
 			(effects
 				(font
@@ -3555,7 +3761,7 @@
 			)
 			(uuid "6b8ece75-76d8-4613-a6fd-dabc05983f7e")
 		)
-		(pin "OUT" input
+		(pin "OUT" output
 			(at 193.04 104.14 180)
 			(effects
 				(font
@@ -3623,7 +3829,7 @@
 			)
 			(uuid "caf2c823-efef-4ae2-88b9-8d1fac805f9d")
 		)
-		(pin "OUT" input
+		(pin "OUT" output
 			(at 95.25 104.14 0)
 			(effects
 				(font
@@ -3692,7 +3898,7 @@
 			)
 			(uuid "b2647e6e-808b-4d75-bc9f-5b0d4b28d590")
 		)
-		(pin "OUT" input
+		(pin "OUT" output
 			(at 193.04 88.9 180)
 			(effects
 				(font

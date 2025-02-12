@@ -3,22 +3,22 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.7"
+      "Version": "8.0.4"
     },
-    "CreationDate": "2023-11-23T17:05:24-08:00"
+    "CreationDate": "2025-02-12T02:42:20-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "sfh2430_breakout",
-      "GUID": "73666832-3433-4305-9f62-7265616b6f75",
-      "Revision": "rev?"
+      "Name": "PCBassProShop",
+      "GUID": "50434261-7373-4507-926f-53686f702e6b",
+      "Revision": "3.1.0"
     },
     "Size": {
-      "X": 44.84,
-      "Y": 44.84
+      "X": 44.1,
+      "Y": 44.1
     },
     "LayerNumber": 2,
-    "BoardThickness": 1.6,
+    "BoardThickness": 0.156,
     "Finish": "None"
   },
   "DesignRules": [
@@ -28,58 +28,58 @@
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.25,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "sfh2430_breakout-F_Cu.gbr",
+      "Path": "PCBassProShop-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sfh2430_breakout-B_Cu.gbr",
+      "Path": "PCBassProShop-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sfh2430_breakout-F_Paste.gbr",
+      "Path": "PCBassProShop-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sfh2430_breakout-B_Paste.gbr",
+      "Path": "PCBassProShop-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sfh2430_breakout-F_Silkscreen.gbr",
+      "Path": "PCBassProShop-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sfh2430_breakout-B_Silkscreen.gbr",
+      "Path": "PCBassProShop-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sfh2430_breakout-F_Mask.gbr",
+      "Path": "PCBassProShop-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "sfh2430_breakout-B_Mask.gbr",
+      "Path": "PCBassProShop-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "sfh2430_breakout-Edge_Cuts.gbr",
+      "Path": "PCBassProShop-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sfh2430_breakout-User_1.gbr",
+      "Path": "PCBassProShop-User_1.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
@@ -100,19 +100,19 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.018,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.51,
+      "Thickness": 0.1,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.018,
       "Name": "B.Cu"
     },
     {
