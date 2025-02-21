@@ -60,13 +60,8 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|155024999|68431001|00000000-0000-0000-0000-00005da732c6|00000000-0000-0000-0000-00005ee7673b",
         "footprint_type_mismatch|146052000|55018000|00000000-0000-0000-0000-000061c47b99|00000000-0000-0000-0000-000000000000",
-        "footprint_type_mismatch|150460000|104143333|641daece-676b-4e24-b687-2365a4caf64d|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|155700000|142920000|d43c8d27-72f2-4636-a0d4-ec792f033129|f4995dfb-76e2-41fa-be16-7374cdd42ba9",
-        "silk_overlap|168650000|142920000|63db1d43-8d84-4d15-8b7e-21d75495e67e|a3493736-ed1d-4e87-be89-cc67aee2e3e2",
-        "silk_overlap|168714000|142920000|63db1d43-8d84-4d15-8b7e-21d75495e67e|a51c76ae-6442-4cf2-852f-060d942ff9ec",
-        "silk_overlap|178250001|82174838|540b9f4d-c0b3-45be-9815-5b394e806c26|00000000-0000-0000-0000-0000627a65d8"
+        "footprint_type_mismatch|150460000|104143333|641daece-676b-4e24-b687-2365a4caf64d|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -141,7 +136,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.5,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.15,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.25,
@@ -478,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mainboard.kicad_pro",
+    "filename": "ADCS_board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -539,9 +534,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/RF/RF1_ANT": "50ohm"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "USB",
@@ -553,11 +546,11 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "mainboard.net",
+      "netlist": "ADCS_board.net",
       "plot": "gerbers_v06c_20241124/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "mainboard.step",
+      "step": "ADCS_board.step",
       "svg": "",
       "vrml": ""
     },
@@ -596,7 +589,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -747,6 +740,156 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 1",
+          "name": "Supplier 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 1 ",
+          "name": "Supplier 1 ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 1 P/N ",
+          "name": "Supplier 1 P/N ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 1 Price @ Qty ",
+          "name": "Supplier 1 Price @ Qty ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 1 Unit Price ",
+          "name": "Supplier 1 Unit Price ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 2 ",
+          "name": "Supplier 2 ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 2 P/N vv ",
+          "name": "Supplier 2 P/N vv ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 2 Price @ Qty ",
+          "name": "Supplier 2 Price @ Qty ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 2 Unit Price ",
+          "name": "Supplier 2 Unit Price ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Unit Price",
+          "name": "Unit Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Unit Price (Proto)",
+          "name": "Unit Price (Proto)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power Rating",
+          "name": "Power Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC P/N Flight",
+          "name": "LCSC P/N Flight",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey Part Number",
+          "name": "DigiKey Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Harness Name",
+          "name": "Harness Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB P/N",
+          "name": "JLCPCB P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC P/N",
+          "name": "LCSC P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfr ",
+          "name": "Mfr ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfr P/N ",
+          "name": "Mfr P/N ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PATREV",
+          "name": "PATREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -814,6 +957,10 @@
       "Avionics"
     ],
     [
+      "bd12d853-45fb-4cd3-9f6b-6ea1429ddbab",
+      "Photodiode Enable"
+    ],
+    [
       "00000000-0000-0000-0000-00005cec60eb",
       "Connectors"
     ],
@@ -822,16 +969,48 @@
       "Power"
     ],
     [
-      "00000000-0000-0000-0000-00005cec6476",
-      "Burn Wires"
-    ],
-    [
       "a393ea4a-5f4e-4c0f-917f-6d28e91dd546",
       "Watchdog"
     ],
     [
-      "00000000-0000-0000-0000-00005cec6281",
-      "RF"
+      "64c9d02f-f2a5-4afc-bcbd-2b44a6c6a2d8",
+      "Sun Pyramid Mux"
+    ],
+    [
+      "3a5fb9a8-17a9-4130-add4-b3d4d675b6b4",
+      "Enable_ADCS"
+    ],
+    [
+      "a3d832b6-a1cc-4410-a8d7-1698d429804f",
+      "IMU_and_Magnetometer"
+    ],
+    [
+      "0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4",
+      "GPS"
+    ],
+    [
+      "b9527fb8-079c-4c5f-8562-b366187602ac",
+      "Enable_GPS"
+    ],
+    [
+      "67b17ff2-5f27-4a28-98e8-ddccf930f803",
+      "Photodiodes"
+    ],
+    [
+      "bf054148-62e0-4cf7-809c-5cbf4e6f48f2",
+      "Magnetorquer Drivers"
+    ],
+    [
+      "67beb92b-917b-42f4-9398-707556a28567",
+      "Magdrv Current Monitor Mux"
+    ],
+    [
+      "18b4321a-5d6b-428b-9299-fbbcca773709",
+      "Enable_Magnetometer1"
+    ],
+    [
+      "3b6c2f97-efd5-4c49-a83f-261db6b2deb3",
+      "Enable_IMU"
     ]
   ],
   "text_variables": {}

@@ -5,7 +5,11 @@
 	(uuid "58914ca9-9cbb-49da-9107-4d99a1c17ed3")
 	(paper "A4")
 	(title_block
+		(title "GPS")
+		(date "2025-02-05")
+		(rev "v1")
 		(company "Stanford Student Space Initiative")
+		(comment 1 "Sage Wu")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
@@ -4141,7 +4145,7 @@
 				(justify left top)
 			)
 		)
-		(property "source_resistor" "3.3k"
+		(property "source_resistor" "10k"
 			(at 103.8098 118.11 0)
 			(show_name yes)
 			(effects
@@ -4181,7 +4185,7 @@
 			(uuid "d001edbc-4bd2-43cd-bef2-f08056993c83")
 		)
 		(instances
-			(project "mainboard"
+			(project "ADCS_board"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4"
 					(page "12")
 				)
