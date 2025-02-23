@@ -141,7 +141,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.5,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.25,
@@ -478,7 +478,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mainboard.kicad_pro",
+    "filename": "ADCS_board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -539,7 +539,9 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/RF/RF1_ANT": "50ohm"
+    },
     "netclass_patterns": [
       {
         "netclass": "USB",
@@ -551,11 +553,11 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "mainboard.net",
+      "netlist": "ADCS_board.net",
       "plot": "gerbers_v06c_20241124/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "mainboard.step",
+      "step": "ADCS_board.step",
       "svg": "",
       "vrml": ""
     },
@@ -594,7 +596,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -745,156 +747,6 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier 1",
-          "name": "Supplier 1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier 1 ",
-          "name": "Supplier 1 ",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier 1 P/N ",
-          "name": "Supplier 1 P/N ",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier 1 Price @ Qty ",
-          "name": "Supplier 1 Price @ Qty ",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier 1 Unit Price ",
-          "name": "Supplier 1 Unit Price ",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier 2 ",
-          "name": "Supplier 2 ",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier 2 P/N vv ",
-          "name": "Supplier 2 P/N vv ",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier 2 Price @ Qty ",
-          "name": "Supplier 2 Price @ Qty ",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier 2 Unit Price ",
-          "name": "Supplier 2 Unit Price ",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Tolerance",
-          "name": "Tolerance",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Unit Price",
-          "name": "Unit Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Unit Price (Proto)",
-          "name": "Unit Price (Proto)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Power Rating",
-          "name": "Power Rating",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC P/N Flight",
-          "name": "LCSC P/N Flight",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DigiKey Part Number",
-          "name": "DigiKey Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Harness Name",
-          "name": "Harness Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB P/N",
-          "name": "JLCPCB P/N",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC P/N",
-          "name": "LCSC P/N",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mfr ",
-          "name": "Mfr ",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mfr P/N ",
-          "name": "Mfr P/N ",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PATREV",
-          "name": "PATREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
         }
       ],
       "filter_string": "",
@@ -962,10 +814,6 @@
       "Avionics"
     ],
     [
-      "bd12d853-45fb-4cd3-9f6b-6ea1429ddbab",
-      "Photodiode Enable 1"
-    ],
-    [
       "00000000-0000-0000-0000-00005cec60eb",
       "Connectors"
     ],
@@ -974,44 +822,16 @@
       "Power"
     ],
     [
-      "6310c0a6-29b2-4b99-899b-2b078f9251dd",
-      "Photodiode Enable 2"
+      "00000000-0000-0000-0000-00005cec6476",
+      "Burn Wires"
     ],
     [
       "a393ea4a-5f4e-4c0f-917f-6d28e91dd546",
       "Watchdog"
     ],
     [
-      "a3d832b6-a1cc-4410-a8d7-1698d429804f",
-      "IMU_and_Magnetometer"
-    ],
-    [
-      "0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4",
-      "GPS"
-    ],
-    [
-      "b9527fb8-079c-4c5f-8562-b366187602ac",
-      "Enable_GPS"
-    ],
-    [
-      "67b17ff2-5f27-4a28-98e8-ddccf930f803",
-      "Photodiodes"
-    ],
-    [
-      "bf054148-62e0-4cf7-809c-5cbf4e6f48f2",
-      "Magnetorquer Drivers"
-    ],
-    [
-      "18b4321a-5d6b-428b-9299-fbbcca773709",
-      "Enable_Magnetometer1"
-    ],
-    [
-      "301fbadb-99d7-41a9-899c-082578502aa3",
-      "Enable_Magnetometer2"
-    ],
-    [
-      "3b6c2f97-efd5-4c49-a83f-261db6b2deb3",
-      "Enable_IMU"
+      "00000000-0000-0000-0000-00005cec6281",
+      "RF"
     ]
   ],
   "text_variables": {}
