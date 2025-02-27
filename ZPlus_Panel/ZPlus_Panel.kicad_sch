@@ -2336,6 +2336,18 @@
 		)
 		(uuid "ffb1625c-b50d-4713-9278-a7b8d65f54c6")
 	)
+	(text "Connector to ADCS"
+		(exclude_from_sim no)
+		(at 103.886 39.116 0)
+		(effects
+			(font
+				(size 3 3)
+				(italic yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d0df292-f77c-4219-8a28-f27d83e393b9")
+	)
 	(text "NOTE: Components labeled \"do not install\" (DNI) are not populated by default"
 		(exclude_from_sim no)
 		(at 178.054 164.973 0)
@@ -2358,6 +2370,18 @@
 			(justify right bottom)
 		)
 		(uuid "38f6c5ec-f0a5-4e50-b223-b493cb8a704f")
+	)
+	(text "Connector to PiCubed"
+		(exclude_from_sim no)
+		(at 216.408 39.37 0)
+		(effects
+			(font
+				(size 3 3)
+				(italic yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "9336e4c1-20e8-4791-aefc-98a47d568412")
 	)
 	(text "Photo Diodes "
 		(exclude_from_sim no)
@@ -3216,7 +3240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ssi_connector:Molex_205338-0004"
+		(property "Footprint" "ssi_connector:Molex_5055670431"
 			(at 74.93 60.96 0)
 			(effects
 				(font
