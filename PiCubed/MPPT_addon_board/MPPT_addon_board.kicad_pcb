@@ -4060,7 +4060,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "dd5ceb0c-5bd1-43a5-838b-7029aef878a9")
 		)
-		(model "${SAMWISE_AVIONICS}/3D_models/ssi_IC/LT8490.step"
+		(model "${SAMWISE_AVIONICS}/3D_models/ssi_IC/LT8490-mezzanine.step"
 			(offset
 				(xyz -129.1 121.8 1.4)
 			)
@@ -9946,7 +9946,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "d7857423-34a7-443d-a222-0758f0592aef")
 		)
-		(model "${SAMWISE_AVIONICS}/3D_models/ssi_IC/LT8490.step"
+		(model "${SAMWISE_AVIONICS}/3D_models/ssi_IC/LT8490-mezzanine.step"
 			(offset
 				(xyz -129.1 121.8 1.4)
 			)
@@ -11607,6 +11607,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "475481f6-ac88-4604-83e4-24a1c807d285")
+		)
+		(model "${SAMWISE_AVIONICS}/3D_models/ssi_connector/HW-09-08-SM-D-280-SM-A.step"
+			(offset
+				(xyz 0 0 1.25)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "ssi_drawings:logo_sandwich"
