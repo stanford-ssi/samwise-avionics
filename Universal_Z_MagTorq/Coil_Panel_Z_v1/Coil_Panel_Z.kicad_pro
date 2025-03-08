@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_issues|128322951|67448165|1fa7a267-00e3-4b7e-bf8a-dac761c58ddc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|128735049|67648165|a80ea3b9-fcb4-41ab-9eb1-89e309a7c508|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -508,7 +517,7 @@
       "plot": "Coil_Panel_Z_gerbers_(ADDNUM)/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../Downloads/New_Z_universal_updatedCenterCutMK1.step",
+      "step": "Coil_Z_universal_STEP.step",
       "svg": "",
       "vrml": ""
     },
