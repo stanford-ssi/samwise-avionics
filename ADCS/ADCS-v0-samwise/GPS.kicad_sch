@@ -1876,6 +1876,12 @@
 		(uuid "5550d3ed-f87d-4bd5-a5bb-9d62dd0038eb")
 	)
 	(junction
+		(at 128.27 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62fe2058-d84c-4bac-9f5c-a60aaef054e4")
+	)
+	(junction
 		(at 241.3 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1989,6 +1995,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 118.11) (xy 128.27 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4188d510-ec0f-47a2-af80-c16afe2833a6")
+	)
+	(wire
+		(pts
 			(xy 193.04 66.04) (xy 193.04 95.25)
 		)
 		(stroke
@@ -2069,6 +2085,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 120.65) (xy 152.4 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd0b787-35e9-4830-9f4f-9494b3ca1c1b")
+	)
+	(wire
+		(pts
 			(xy 200.66 102.87) (xy 200.66 107.95)
 		)
 		(stroke
@@ -2099,7 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 120.65) (xy 152.4 120.65)
+			(xy 115.57 120.65) (xy 128.27 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2176,6 +2202,16 @@
 			(type default)
 		)
 		(uuid "fce4fd02-80b5-4c04-83d5-3cb3ecd8cc92")
+	)
+	(wire
+		(pts
+			(xy 128.27 118.11) (xy 128.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3ed778-5d39-4441-ba70-a76700997e55")
 	)
 	(text "Power Enable Circuitry"
 		(exclude_from_sim no)
@@ -2318,18 +2354,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "V_BCKP"
-		(shape input)
-		(at 152.4 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f3d22d75-3c5d-43c5-8fd1-850d9274c282")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -3989,7 +4013,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 209.55 107.95 0)
 			(effects
 				(font

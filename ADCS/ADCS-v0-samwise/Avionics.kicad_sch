@@ -6357,15 +6357,16 @@
 		)
 		(uuid "41a928a3-bd9b-43bd-8297-5d71eab965be")
 	)
-	(text "ADCS design explanation doc: https://docs.google.com/document/d/1kCIeIKDs0vaQMCwJgZbtulsbNorGdGYH6ISKnDgNObU/edit?usp=sharing"
+	(text "Link to this board's design document for future travellers"
 		(exclude_from_sim no)
 		(at 230.632 20.574 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 3 3)
 				(thickness 0.4)
 				(bold yes)
 			)
+			(href "https://docs.google.com/document/d/1kCIeIKDs0vaQMCwJgZbtulsbNorGdGYH6ISKnDgNObU/edit?usp=sharing")
 		)
 		(uuid "429f1d14-bef2-464a-b89d-439998352f31")
 	)
@@ -6909,7 +6910,7 @@
 	)
 	(global_label "IMU_INT2"
 		(shape input)
-		(at 147.32 140.97 0)
+		(at 147.32 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6919,7 +6920,7 @@
 		)
 		(uuid "247d1c6d-9c0d-4d19-9abe-64b8e676b442")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.1177 140.97 0)
+			(at 158.1177 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7943,7 +7944,7 @@
 	)
 	(global_label "I2C0_SCL"
 		(shape output)
-		(at 147.32 143.51 0)
+		(at 147.32 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7953,7 +7954,7 @@
 		)
 		(uuid "c636d94a-215c-484b-a34e-199b07c3fe35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.42 143.51 0)
+			(at 158.42 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
