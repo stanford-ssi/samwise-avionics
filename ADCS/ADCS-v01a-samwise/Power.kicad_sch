@@ -2952,6 +2952,17 @@
 		)
 		(uuid "c6e8b959-613a-455e-a506-ae484e0d0f18")
 	)
+	(text "Use kelvin sense technique for layout!"
+		(exclude_from_sim no)
+		(at 132.842 157.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://download.tek.com/document/2110_2Wire4WireKelvinResistanceAppNote.pdf")
+		)
+		(uuid "e9dd338f-69e1-4845-98ff-20cfb1bcf98a")
+	)
 	(global_label "PWR_SDA"
 		(shape bidirectional)
 		(at 217.17 143.51 0)
@@ -6809,7 +6820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 211.836 132.334 90)
 			(effects
 				(font
@@ -6879,7 +6890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 201.676 132.334 90)
 			(effects
 				(font
@@ -7509,7 +7520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.454 54.864 90)
 			(effects
 				(font

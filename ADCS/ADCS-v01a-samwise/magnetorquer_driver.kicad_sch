@@ -529,165 +529,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_US"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.032 -1.27)
-					(mid 0 -0.5572)
-					(end -2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -4255,174 +4096,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 147.32 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29c967e0-06d2-4ac5-b3c6-fd2e54d15044")
-		(property "Reference" "C24"
-			(at 151.13 103.5049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u"
-			(at 151.13 106.0449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet 2" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6dbdbf9-89a5-4a01-b62f-925e71a31f4b")
-		)
-		(pin "2"
-			(uuid "ce410890-0a36-4758-b1c0-67305a077baf")
-		)
-		(instances
-			(project "mainboard"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/bf054148-62e0-4cf7-809c-5cbf4e6f48f2"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 129.54 48.26 270)
 		(unit 1)
@@ -5159,6 +4832,175 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 25.4 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c14810b-998c-49b1-a91b-865af085d3c3")
+		(property "Reference" "C9"
+			(at 29.21 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 29.21 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 26.3652 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet 2" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VENDOR" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77d03389-ef99-420d-be9c-3b72e1502f69")
+		)
+		(pin "1"
+			(uuid "fd7c2089-12b9-445c-bf87-33de11528396")
+		)
+		(instances
+			(project "ADCS_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/bf054148-62e0-4cf7-809c-5cbf4e6f48f2"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 240.03 46.99 0)
 		(unit 1)
@@ -5291,16 +5133,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 24.13 93.98 0)
+		(lib_id "Device:C")
+		(at 147.32 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "54b2f069-76ff-4fd9-8d19-fa9a5c760325")
-		(property "Reference" "C33"
-			(at 27.94 92.0749 0)
+		(fields_autoplaced yes)
+		(uuid "585dd366-4b03-4165-b3a1-7f0b2701dd0a")
+		(property "Reference" "C24"
+			(at 151.13 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,8 +5151,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u"
-			(at 27.94 94.6149 0)
+		(property "Value" "22u"
+			(at 151.13 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5161,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 24.13 93.98 0)
+			(at 148.2852 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +5170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 93.98 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,8 +5178,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 24.13 93.98 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +5188,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 24.13 93.98 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +5197,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 24.13 93.98 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +5206,7 @@
 			)
 		)
 		(property "Datasheet 2" ""
-			(at 24.13 93.98 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5215,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 24.13 93.98 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,7 +5224,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 24.13 93.98 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5233,7 @@
 			)
 		)
 		(property "Field8" ""
-			(at 24.13 93.98 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,7 +5242,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 24.13 93.98 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5251,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 24.13 93.98 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5260,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 24.13 93.98 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5269,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 24.13 93.98 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5278,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 24.13 93.98 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,16 +5286,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "5f69863c-0374-4e2e-87e2-3a688ba17c5e")
-		)
 		(pin "2"
-			(uuid "1658991b-1c3d-4708-b0d2-1bc1f026482b")
+			(uuid "9d1819c6-ecbe-4562-bd72-77ae5a181fbe")
+		)
+		(pin "1"
+			(uuid "8dfa9b01-db84-4d91-9248-d3cb23016613")
 		)
 		(instances
-			(project "mainboard"
+			(project "ADCS_board"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/bf054148-62e0-4cf7-809c-5cbf4e6f48f2"
-					(reference "C33")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5622,6 +5465,175 @@
 			(project "mainboard"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/bf054148-62e0-4cf7-809c-5cbf4e6f48f2"
 					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 24.13 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6095be43-804f-41a7-90f2-e5d2a08d4119")
+		(property "Reference" "C33"
+			(at 27.94 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 27.94 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 25.0952 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet 2" ""
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VENDOR" ""
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3853a4a-2cd5-4ad7-9770-d5ebf77a7a34")
+		)
+		(pin "1"
+			(uuid "673b60dd-4d65-4a1d-909e-b9d238512321")
+		)
+		(instances
+			(project "ADCS_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/bf054148-62e0-4cf7-809c-5cbf4e6f48f2"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -9285,174 +9297,6 @@
 			(project "mainboard"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/bf054148-62e0-4cf7-809c-5cbf4e6f48f2"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 25.4 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea499231-ba52-4116-83a4-4e37b2979ebc")
-		(property "Reference" "C9"
-			(at 29.21 173.3549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u"
-			(at 29.21 175.8949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet 2" ""
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b14eeb8a-8d49-426e-9285-c5412a37d423")
-		)
-		(pin "2"
-			(uuid "4fc257ed-0b21-4b99-b401-adcfc6d69ddc")
-		)
-		(instances
-			(project "mainboard"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/bf054148-62e0-4cf7-809c-5cbf4e6f48f2"
-					(reference "C9")
 					(unit 1)
 				)
 			)
