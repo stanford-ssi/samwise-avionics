@@ -547,11 +547,59 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfr",
+          "name": "Mfr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfr P/N",
+          "name": "Mfr P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 1",
+          "name": "Supplier 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 1 P/N",
+          "name": "Supplier 1 P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 2",
+          "name": "Supplier 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 2 P/N",
+          "name": "Supplier 2 P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
