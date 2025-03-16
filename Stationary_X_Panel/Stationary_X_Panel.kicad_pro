@@ -468,7 +468,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -486,10 +486,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Stationary_X_Panel_20241203/",
+      "plot": "Stationary_X_Panel_Mar15",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "new_X_Y_Panels.step",
+      "step": "new_X_Y_Panels_mar15.step",
       "svg": "",
       "vrml": ""
     },
@@ -547,59 +547,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mfr",
-          "name": "Mfr",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mfr P/N",
-          "name": "Mfr P/N",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier 1",
-          "name": "Supplier 1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier 1 P/N",
-          "name": "Supplier 1 P/N",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier 2",
-          "name": "Supplier 2",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier 2 P/N",
-          "name": "Supplier 2 P/N",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },

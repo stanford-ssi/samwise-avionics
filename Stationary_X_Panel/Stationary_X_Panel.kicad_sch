@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Stationary X Panel")
-		(date "2024-12-03")
-		(rev "1c")
+		(date "2025-03-15")
+		(rev "1.4")
 		(company "blame- finn2@stanford.edu")
 		(comment 1 "Stanford, CA 94305-9505")
 		(comment 2 "350 Jane Stanford Way")
@@ -1813,12 +1813,6 @@
 		(uuid "38d17f42-bf97-4a25-b846-70479733f9f5")
 	)
 	(junction
-		(at 165.1 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a487b9f-5684-4eba-a7c5-5bf8d30616f6")
-	)
-	(junction
 		(at 102.87 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1867,12 +1861,6 @@
 		(uuid "95af9a4a-eb37-4772-b996-39e5bd360ed5")
 	)
 	(junction
-		(at 118.11 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c751929-8bf4-4369-b95a-51fe73d5c4e3")
-	)
-	(junction
 		(at 53.34 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1895,12 +1883,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce574b23-a26f-4cc0-ab0e-369c79842d98")
-	)
-	(junction
-		(at 118.11 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e86569dc-9f65-4731-933b-2aaabafecba7")
 	)
 	(junction
 		(at 148.59 83.82)
@@ -1952,16 +1934,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 45.72) (xy 118.11 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06aab422-9825-4723-b8a1-ee4a3347b931")
-	)
-	(wire
-		(pts
 			(xy 49.53 101.6) (xy 66.04 101.6)
 		)
 		(stroke
@@ -1972,7 +1944,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 91.44) (xy 127 91.44)
+			(xy 114.3 91.44) (xy 127 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2192,7 +2164,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 45.72) (xy 127 45.72)
+			(xy 114.3 45.72) (xy 127 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2249,16 +2221,6 @@
 			(type default)
 		)
 		(uuid "82a0eeb0-9533-4db6-a721-7417c182798c")
-	)
-	(wire
-		(pts
-			(xy 114.3 91.44) (xy 118.11 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88980ac6-ed71-483c-b9cb-65f82b6dfa83")
 	)
 	(wire
 		(pts
@@ -2332,6 +2294,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 33.02) (xy 212.09 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4cecc21-4189-4e47-966d-26f0fc9296e2")
+	)
+	(wire
+		(pts
 			(xy 53.34 144.78) (xy 57.15 144.78)
 		)
 		(stroke
@@ -2339,6 +2311,16 @@
 			(type default)
 		)
 		(uuid "c7170158-5a2d-4b02-ad88-1885267b15fd")
+	)
+	(wire
+		(pts
+			(xy 240.03 33.02) (xy 240.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78480d0-77cd-4ab5-9b38-163942919140")
 	)
 	(wire
 		(pts
@@ -2362,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 45.72) (xy 165.1 45.72)
+			(xy 160.02 45.72) (xy 172.72 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2392,13 +2374,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 45.72) (xy 172.72 45.72)
+			(xy 224.79 34.29) (xy 224.79 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0c98056-35ba-43c5-848d-71ab5c394e39")
+		(uuid "e5e778b7-9262-4dd5-af88-54f18f5dafeb")
 	)
 	(wire
 		(pts
@@ -3066,6 +3048,17 @@
 			"C5GAGewGgHyc1WTrwMmr/g9vwf/t9v8Ana4STNR7fosAAAAASUVORK5CYII="
 		)
 	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 219.71 23.622 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a13055d-2944-41fc-a26a-92f5ff881cc7")
+	)
 	(text "Structure & Sun Pyramid Mounting"
 		(exclude_from_sim no)
 		(at 111.76 106.68 0)
@@ -3181,6 +3174,28 @@
 		)
 		(uuid "8f9ffc42-e628-42c4-81e3-ba09d01e3d78")
 	)
+	(global_label "SC1-6_+"
+		(shape bidirectional)
+		(at 212.09 34.29 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3114467a-ded6-4de6-8ec1-235dbc865105")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.09 47.3974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VSOLAR"
 		(shape input)
 		(at 60.96 144.78 0)
@@ -3199,6 +3214,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SC7-12_+"
+		(shape bidirectional)
+		(at 224.79 34.29 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b569ea2-46a4-4473-bcde-079ff6f14984")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.79 48.6069 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3269,6 +3306,28 @@
 			)
 		)
 	)
+	(global_label "SC1-6_+"
+		(shape bidirectional)
+		(at 127 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92a74222-2f47-4b28-8c3c-41693e8e53d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.1074 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BURN"
 		(shape input)
 		(at 50.8 153.67 0)
@@ -3286,6 +3345,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SC7-12_+"
+		(shape bidirectional)
+		(at 172.72 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e55c6d0c-ed46-4abe-ba47-22f1d643a6af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.0369 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3437,73 +3518,6 @@
 			(project "new_X_Y_Panels"
 				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
 					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 118.11 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "047af8aa-2a4f-4154-893c-bc923492ff99")
-		(property "Reference" "TP3"
-			(at 120.65 93.4719 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 120.65 96.0119 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 118.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afe76636-17a1-4d2d-8c60-dad7d8f2bdcf")
-		)
-		(instances
-			(project ""
-				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -4636,6 +4650,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 240.03 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d250409-0dc1-4740-a731-9a2f6ecb0af0")
+		(property "Reference" "#PWR07"
+			(at 240.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 239.9792 38.2778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3fbf734-6ea8-47e6-8596-3fa54ce4d865")
+		)
+		(instances
+			(project "Stationary_X_Panel"
+				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ssi_solarcell:SM101K07TF")
 		(at 172.72 73.66 0)
 		(unit 1)
@@ -4927,7 +5007,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 165.1 45.72 0)
+		(at 224.79 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4936,7 +5016,7 @@
 		(fields_autoplaced yes)
 		(uuid "50a89967-9d70-4da7-9d1c-32e16dfb7e17")
 		(property "Reference" "TP2"
-			(at 167.64 41.1479 0)
+			(at 227.33 28.4479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4945,7 +5025,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 167.64 43.6879 0)
+			(at 227.33 30.9879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4954,7 +5034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 45.72 0)
+			(at 229.87 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +5043,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 45.72 0)
+			(at 229.87 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +5052,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 165.1 45.72 0)
+			(at 224.79 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,16 +5816,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 118.11 45.72 0)
+		(at 240.03 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "76e50eb4-8f1f-4d0b-b7d9-7e4483b74101")
-		(property "Reference" "TP1"
-			(at 120.65 41.1479 0)
+		(uuid "7dad5556-c96c-4da5-8266-2ca4110df0e1")
+		(property "Reference" "TP3"
+			(at 242.57 28.4479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5834,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 120.65 43.6879 0)
+			(at 242.57 30.9879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +5843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 45.72 0)
+			(at 245.11 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 45.72 0)
+			(at 245.11 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +5861,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 118.11 45.72 0)
+			(at 240.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,12 +5870,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c8a571c-dfdc-4f94-a039-9c9c6dafd0d7")
+			(uuid "5b090d8e-3933-4cfc-b32d-8a6408d4b436")
 		)
 		(instances
-			(project ""
+			(project "Stationary_X_Panel"
 				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
-					(reference "TP1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6078,6 +6158,73 @@
 			(project "new_X_Y_Panels"
 				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
 					(reference "SC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 212.09 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96a683d0-4b68-4a6f-809e-56c64cb41192")
+		(property "Reference" "TP1"
+			(at 214.63 28.4479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 214.63 30.9879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 212.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8196041e-88a1-46e2-aea6-489187c6aec4")
+		)
+		(instances
+			(project "Stationary_X_Panel"
+				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
