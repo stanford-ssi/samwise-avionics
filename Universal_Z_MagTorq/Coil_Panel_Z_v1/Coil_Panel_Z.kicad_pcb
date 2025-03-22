@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Magneton")
-		(date "2025-03-15")
+		(date "2025-03-21")
 		(rev "1.1")
 		(comment 1 "Designed by: Eric Liu      ")
 		(comment 2 "Retrofitted by: River Dowdy")
@@ -186,6 +186,14 @@
 	(net 6 "unconnected-(H1-Pad1)_1")
 	(net 7 "unconnected-(H3-Pad1)_1")
 	(net 8 "unconnected-(H4-Pad1)")
+	(net 9 "unconnected-(H1-Pad1)")
+	(net 10 "unconnected-(H1-Pad1)_2")
+	(net 11 "unconnected-(H2-Pad1)_1")
+	(net 12 "unconnected-(H2-Pad1)_2")
+	(net 13 "unconnected-(H3-Pad1)")
+	(net 14 "unconnected-(H3-Pad1)_2")
+	(net 15 "unconnected-(H4-Pad1)_1")
+	(net 16 "unconnected-(H4-Pad1)_2")
 	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
 		(layer "F.Cu")
 		(uuid "1885e048-d0f7-48dc-ba01-f9e5d6b894f8")
@@ -284,7 +292,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "unconnected-(H3-Pad1)_1")
+			(net 13 "unconnected-(H3-Pad1)")
 			(pinfunction "1")
 			(pintype "input+no_connect")
 			(uuid "71f0756c-7ac4-43eb-bffc-ee00cc807ae7")
@@ -293,7 +301,7 @@
 			(at 0 0)
 			(size 3.8 3.8)
 			(layers "F.Cu" "F.Mask")
-			(net 7 "unconnected-(H3-Pad1)_1")
+			(net 14 "unconnected-(H3-Pad1)_2")
 			(pinfunction "1")
 			(pintype "input+no_connect")
 			(uuid "d9f1605b-2f0c-4f5a-a49a-5a0288aea5cd")
@@ -1566,7 +1574,7 @@
 			(at 0 0)
 			(size 3.8 3.8)
 			(layers "F.Cu" "F.Mask")
-			(net 8 "unconnected-(H4-Pad1)")
+			(net 16 "unconnected-(H4-Pad1)_2")
 			(pinfunction "1")
 			(pintype "input+no_connect")
 			(uuid "f24877a4-86f9-4829-939a-47f6def5de0f")
@@ -1575,7 +1583,7 @@
 			(at 0 0)
 			(size 3.8 3.8)
 			(layers "B.Cu" "B.Mask")
-			(net 8 "unconnected-(H4-Pad1)")
+			(net 15 "unconnected-(H4-Pad1)_1")
 			(pinfunction "1")
 			(pintype "input+no_connect")
 			(uuid "8bd6091c-c80f-4cdd-ac39-f0abc91180b9")
@@ -1689,7 +1697,7 @@
 			(at 0 0)
 			(size 3.8 3.8)
 			(layers "F.Cu" "F.Mask")
-			(net 1 "unconnected-(H2-Pad1)")
+			(net 12 "unconnected-(H2-Pad1)_2")
 			(pinfunction "1")
 			(pintype "input+no_connect")
 			(uuid "f872cd64-e01a-4f1d-9d41-3f7a38c886f4")
@@ -1698,7 +1706,7 @@
 			(at 0 0)
 			(size 3.8 3.8)
 			(layers "B.Cu" "B.Mask")
-			(net 1 "unconnected-(H2-Pad1)")
+			(net 11 "unconnected-(H2-Pad1)_1")
 			(pinfunction "1")
 			(pintype "input+no_connect")
 			(uuid "40daf75c-5bcf-4d7d-aef3-b33ac149bfe0")
@@ -1803,7 +1811,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 6 "unconnected-(H1-Pad1)_1")
+			(net 10 "unconnected-(H1-Pad1)_2")
 			(pinfunction "1")
 			(pintype "input+no_connect")
 			(uuid "e2c04d2d-b17d-4ed1-857d-5889a006a0d2")
@@ -1821,7 +1829,7 @@
 			(at 0 0)
 			(size 3.8 3.8)
 			(layers "B.Cu" "B.Mask")
-			(net 6 "unconnected-(H1-Pad1)_1")
+			(net 9 "unconnected-(H1-Pad1)")
 			(pinfunction "1")
 			(pintype "input+no_connect")
 			(uuid "5dce5234-76ec-43d0-9085-259ff19fdbc9")
@@ -2403,7 +2411,7 @@
 			)
 		)
 	)
-	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
+	(footprint "ssi_connector:NetTie-2_SMD_Pad0.18mm"
 		(layer "B.Cu")
 		(uuid "a32064e5-9fe6-4183-bdd0-7385ac918b63")
 		(at 99.579 147.699)
@@ -2413,7 +2421,7 @@
 			(at 0 1.2 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "335898b2-72c5-46d6-9079-74ab966aecd3")
+			(uuid "4a7d268c-ddda-4832-a793-5aa0c6812ed0")
 			(effects
 				(font
 					(size 1 1)
@@ -2426,7 +2434,7 @@
 			(at 0 -1.2 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b820cb4b-15ef-4642-ac5c-0c23f1101adb")
+			(uuid "9dceaa9c-55e5-44b2-a51e-d130a2162eb2")
 			(effects
 				(font
 					(size 1 1)
@@ -2439,7 +2447,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "72090d31-ea48-449f-a23b-781a3e0b9b15")
+			(uuid "9f88501a-6082-4b01-8f29-978348e53fec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,7 +2459,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84a67be8-0295-4f5e-9f84-aeeb9eaf0e3c")
+			(uuid "7d8dc78d-2ac9-4301-af9f-26fe34d2faff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,7 +2475,7 @@
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
-				(xy -0.5 0.25) (xy 0.5 0.25) (xy 0.5 -0.25) (xy -0.5 -0.25)
+				(xy -0.5 0.09) (xy 0.5 0.09) (xy 0.5 -0.09) (xy -0.5 -0.09)
 			)
 			(stroke
 				(width 0)
@@ -2475,11 +2483,11 @@
 			)
 			(fill yes)
 			(layer "B.Cu")
-			(uuid "0a2e8b8f-4171-4f54-90b3-a4407439547e")
+			(uuid "5ce76aca-d86d-4a78-aa18-c70df2358871")
 		)
 		(pad "1" smd circle
 			(at -0.5 0)
-			(size 0.5 0.5)
+			(size 0.18 0.18)
 			(layers "B.Cu")
 			(net 3 "COIL_2")
 			(pinfunction "1")
@@ -2488,7 +2496,7 @@
 		)
 		(pad "2" smd circle
 			(at 0.5 0)
-			(size 0.5 0.5)
+			(size 0.18 0.18)
 			(layers "B.Cu")
 			(net 2 "COIL_1")
 			(pinfunction "2")
@@ -4190,6 +4198,14 @@
 		(uuid "26d81f3c-3048-43e8-8eb9-f7abbfcb53f2")
 	)
 	(segment
+		(start 102.669 147.699)
+		(end 102.684 147.684)
+		(width 0.18)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "5ed3038c-29bb-44d4-b3f7-41becbff2f2c")
+	)
+	(segment
 		(start 105.304 145.064)
 		(end 105.304 141.374)
 		(width 0.25)
@@ -4198,20 +4214,12 @@
 		(uuid "6629fdf5-3377-47e3-b39a-1762688d2e7d")
 	)
 	(segment
-		(start 102.684 147.684)
-		(end 100.094 147.684)
+		(start 100.079 147.699)
+		(end 102.669 147.699)
 		(width 0.18)
 		(layer "B.Cu")
 		(net 2)
-		(uuid "887f0e20-58ac-41fb-a678-a6b89cc52b2f")
-	)
-	(segment
-		(start 100.094 147.684)
-		(end 100.079 147.699)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "9cb5a26f-f87e-451a-a78f-e641672804eb")
+		(uuid "cc03fcec-b2af-4179-9d5c-ac1e2896fac9")
 	)
 	(segment
 		(start 162.194 73.714)
