@@ -2289,7 +2289,7 @@
 		)
 		(uuid "d440541d-7cbe-4cbc-af5a-f83086ce1f89")
 	)
-	(global_label "RX_FROM_MICRO"
+	(global_label "RX_TO_GPS"
 		(shape input)
 		(at 151.13 115.57 180)
 		(fields_autoplaced yes)
@@ -2301,7 +2301,7 @@
 		)
 		(uuid "73b11f06-ce28-4e27-baba-5c685e00337f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.3171 115.57 0)
+			(at 138.3367 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2333,7 @@
 			)
 		)
 	)
-	(global_label "TX_TO_MICRO"
+	(global_label "TX_FROM_GPS"
 		(shape output)
 		(at 151.13 113.03 180)
 		(fields_autoplaced yes)
@@ -2345,7 +2345,7 @@
 		)
 		(uuid "a20cb3ca-6532-4f2e-980d-bc239788818e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.4619 113.03 0)
+			(at 135.7967 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2504,7 +2504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6900a43e-0f47-464f-9b18-a079d22c8802")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 245.11 69.85 0)
 			(effects
 				(font
@@ -2743,7 +2743,7 @@
 		(instances
 			(project "mainboard"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2829,7 +2829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a64861d1-cbda-4a58-a73e-3274dd27643c")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 245.11 58.42 0)
 			(effects
 				(font
@@ -3068,7 +3068,7 @@
 		(instances
 			(project "mainboard"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4004,7 +4004,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 205.74 111.252 0)
 			(effects
 				(font

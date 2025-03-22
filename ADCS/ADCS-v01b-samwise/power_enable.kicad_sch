@@ -12,6 +12,142 @@
 		(comment 1 "RE: Flynn Dreilinger")
 	)
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "adcs:NDS8434"
 			(pin_names
 				(offset 1.016)
@@ -721,151 +857,6 @@
 				)
 			)
 		)
-		(symbol "pycubed_mainboard:10NF_10000PF-50V-10%(0603)"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.524 2.921 0)
-				(effects
-					(font
-						(size 1.4986 1.4986)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "10NF_10000PF-50V-10%(0603)"
-				(at 1.524 -2.159 0)
-				(effects
-					(font
-						(size 1.4986 1.4986)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "10NF_10000PF-50V-10%(0603)_1_0"
-				(rectangle
-					(start -2.032 0.508)
-					(end 2.032 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 1.524)
-					(end 2.032 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 165.1 92.71)
@@ -898,6 +889,12 @@
 		(uuid "7b3f040c-7cbe-4b56-abb8-5feda01ff4d7")
 	)
 	(junction
+		(at 175.26 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8525f747-aa9f-42d4-809b-ade702969f82")
+	)
+	(junction
 		(at 182.88 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -908,12 +905,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a3c5ec4-e7f3-4b20-8494-f5d473937e3b")
-	)
-	(junction
-		(at 175.26 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab2bb45c-3f28-4876-b99d-93226f63c315")
 	)
 	(junction
 		(at 130.81 87.63)
@@ -930,16 +921,6 @@
 			(type default)
 		)
 		(uuid "1aca2438-cbd5-434f-80a9-7d686f7238fe")
-	)
-	(wire
-		(pts
-			(xy 175.26 100.33) (xy 182.88 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22188851-f4a3-43b3-a09c-a5b40863bc97")
 	)
 	(wire
 		(pts
@@ -960,6 +941,16 @@
 			(type default)
 		)
 		(uuid "50cc309e-72c1-41ad-aa8e-6893b26f7867")
+	)
+	(wire
+		(pts
+			(xy 175.26 100.33) (xy 182.88 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578bccb8-3af8-4046-bf3c-723ebe5f9569")
 	)
 	(wire
 		(pts
@@ -1166,7 +1157,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4.7k"
 			(at 121.92 102.87 0)
 			(effects
 				(font
@@ -1367,7 +1358,7 @@
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
-					(reference "R17")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/67b17ff2-5f27-4a28-98e8-ddccf930f803/bd12d853-45fb-4cd3-9f6b-6ea1429ddbab"
@@ -1375,11 +1366,11 @@
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/18b4321a-5d6b-428b-9299-fbbcca773709"
-					(reference "R57")
+					(reference "R24")
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/3b6c2f97-efd5-4c49-a83f-261db6b2deb3"
-					(reference "R72")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -1568,7 +1559,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "${source_resistor}"
+		(property "Value" "3.3k"
 			(at 132.5118 94.0308 90)
 			(effects
 				(font
@@ -1770,19 +1761,19 @@
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
-					(reference "R52")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/67b17ff2-5f27-4a28-98e8-ddccf930f803/bd12d853-45fb-4cd3-9f6b-6ea1429ddbab"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/18b4321a-5d6b-428b-9299-fbbcca773709"
-					(reference "R58")
+					(reference "R25")
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/3b6c2f97-efd5-4c49-a83f-261db6b2deb3"
-					(reference "R73")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -2053,7 +2044,7 @@
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
-					(reference "Q6")
+					(reference "Q4")
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/67b17ff2-5f27-4a28-98e8-ddccf930f803/bd12d853-45fb-4cd3-9f6b-6ea1429ddbab"
@@ -2061,27 +2052,27 @@
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/18b4321a-5d6b-428b-9299-fbbcca773709"
-					(reference "Q8")
+					(reference "Q5")
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/3b6c2f97-efd5-4c49-a83f-261db6b2deb3"
-					(reference "Q12")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pycubed_mainboard:10NF_10000PF-50V-10%(0603)")
-		(at 182.88 105.41 0)
+		(lib_id "Device:C")
+		(at 182.88 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5ed923c6-3dc0-4721-afb5-18bf5ead5ee0")
-		(property "Reference" "C79"
-			(at 177.292 101.727 0)
+		(property "Reference" "C65"
+			(at 178.054 101.6 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -2090,7 +2081,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 176.403 106.426 0)
+			(at 176.53 106.426 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -2099,7 +2090,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 182.88 105.41 0)
+			(at 183.8452 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,8 +2098,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 182.88 105.41 0)
+		(property "Datasheet" "~"
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,8 +2107,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 182.88 105.41 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +2117,7 @@
 			)
 		)
 		(property "Supplier 1" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2126,7 @@
 			)
 		)
 		(property "Unit Price" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,7 +2135,7 @@
 			)
 		)
 		(property "Unit Price (Proto)" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2144,7 @@
 			)
 		)
 		(property "JLCPCB P/N" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2153,7 @@
 			)
 		)
 		(property "LCSC P/N" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2162,7 @@
 			)
 		)
 		(property "LCSC P/N Flight" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2171,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2180,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2189,7 @@
 			)
 		)
 		(property "Datasheet 2" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +2198,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,7 +2207,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,7 +2216,7 @@
 			)
 		)
 		(property "Field8" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +2225,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +2234,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +2243,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +2252,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2261,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 182.88 105.41 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,11 +2278,11 @@
 		(instances
 			(project "mainboard"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
-					(reference "C79")
+					(reference "C65")
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
-					(reference "C59")
+					(reference "C56")
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/67b17ff2-5f27-4a28-98e8-ddccf930f803/bd12d853-45fb-4cd3-9f6b-6ea1429ddbab"
@@ -2299,27 +2290,27 @@
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/18b4321a-5d6b-428b-9299-fbbcca773709"
-					(reference "C61")
+					(reference "C58")
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/3b6c2f97-efd5-4c49-a83f-261db6b2deb3"
-					(reference "C65")
+					(reference "C62")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pycubed_mainboard:10NF_10000PF-50V-10%(0603)")
-		(at 175.26 105.41 0)
+		(lib_id "Device:C")
+		(at 175.26 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8d29511f-58e7-489e-ab3c-7de13966611f")
-		(property "Reference" "C78"
-			(at 169.672 101.727 0)
+		(property "Reference" "C64"
+			(at 169.926 101.6 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -2328,7 +2319,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 168.783 106.426 0)
+			(at 168.91 106.426 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -2337,7 +2328,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 175.26 105.41 0)
+			(at 176.2252 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,8 +2336,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 175.26 105.41 0)
+		(property "Datasheet" "~"
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,8 +2345,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 175.26 105.41 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +2355,7 @@
 			)
 		)
 		(property "Supplier 1" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +2364,7 @@
 			)
 		)
 		(property "Unit Price" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +2373,7 @@
 			)
 		)
 		(property "Unit Price (Proto)" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2382,7 @@
 			)
 		)
 		(property "JLCPCB P/N" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2391,7 @@
 			)
 		)
 		(property "LCSC P/N" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2400,7 @@
 			)
 		)
 		(property "LCSC P/N Flight" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +2409,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +2418,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,7 +2427,7 @@
 			)
 		)
 		(property "Datasheet 2" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2436,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2454,7 +2445,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2454,7 @@
 			)
 		)
 		(property "Field8" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2463,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +2472,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2481,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2490,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2499,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 175.26 105.41 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,11 +2516,11 @@
 		(instances
 			(project "mainboard"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
-					(reference "C78")
+					(reference "C64")
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
-					(reference "C58")
+					(reference "C55")
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/67b17ff2-5f27-4a28-98e8-ddccf930f803/bd12d853-45fb-4cd3-9f6b-6ea1429ddbab"
@@ -2537,11 +2528,11 @@
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/18b4321a-5d6b-428b-9299-fbbcca773709"
-					(reference "C60")
+					(reference "C57")
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/3b6c2f97-efd5-4c49-a83f-261db6b2deb3"
-					(reference "C64")
+					(reference "C61")
 					(unit 1)
 				)
 			)

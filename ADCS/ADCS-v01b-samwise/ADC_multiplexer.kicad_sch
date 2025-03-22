@@ -516,176 +516,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -790,18 +620,6 @@
 		(uuid "1278d3bf-3903-49e3-b185-0c945d980dbd")
 	)
 	(junction
-		(at 177.8 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48a5fb45-ee54-4b6e-a981-dcb142852379")
-	)
-	(junction
-		(at 187.96 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "563ddb5c-af99-47a1-a09d-f35c91424e08")
-	)
-	(junction
 		(at 158.75 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -812,18 +630,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8580e87e-451c-41d0-afb3-b44d909591ab")
-	)
-	(junction
-		(at 177.8 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca51731f-83d8-4e1a-8e3e-174f76cd7960")
-	)
-	(junction
-		(at 158.75 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2e5fdbf-6138-433f-8549-58c096d9cfc8")
 	)
 	(wire
 		(pts
@@ -857,7 +663,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 110.49) (xy 177.8 110.49)
+			(xy 171.45 110.49) (xy 204.47 110.49)
 		)
 		(stroke
 			(width 0)
@@ -884,16 +690,6 @@
 			(type default)
 		)
 		(uuid "21c86d62-ce25-46c1-a4b1-0b633dd787e3")
-	)
-	(wire
-		(pts
-			(xy 171.45 113.03) (xy 187.96 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23bbce4b-1794-41b7-a982-9e2f1a607ba0")
 	)
 	(wire
 		(pts
@@ -937,16 +733,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 110.49) (xy 204.47 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47cdc5e6-9035-46df-a16d-00c941fa51b7")
-	)
-	(wire
-		(pts
 			(xy 173.99 128.27) (xy 173.99 135.89)
 		)
 		(stroke
@@ -977,16 +763,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 99.06) (xy 187.96 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e398fd9-515d-4209-9c1f-ffd2064a82e8")
-	)
-	(wire
-		(pts
 			(xy 139.7 113.03) (xy 146.05 113.03)
 		)
 		(stroke
@@ -1007,17 +783,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 99.06) (xy 177.8 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d0acd09-aa35-4bf3-b2f9-c5e507f81661")
-	)
-	(wire
-		(pts
-			(xy 158.75 90.17) (xy 158.75 95.25)
+			(xy 158.75 90.17) (xy 158.75 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1034,16 +800,6 @@
 			(type default)
 		)
 		(uuid "9f2e10c2-9d21-4be5-a600-691a9e9e62fd")
-	)
-	(wire
-		(pts
-			(xy 187.96 106.68) (xy 187.96 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a85c5dad-f2a1-41b2-accf-f37423580712")
 	)
 	(wire
 		(pts
@@ -1064,16 +820,6 @@
 			(type default)
 		)
 		(uuid "b9fa00f5-0ee5-420e-8b98-48d8f8e9b38e")
-	)
-	(wire
-		(pts
-			(xy 158.75 95.25) (xy 158.75 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba3b7820-e31f-4a91-b605-fb38c70ada7c")
 	)
 	(wire
 		(pts
@@ -1117,43 +863,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 95.25) (xy 187.96 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd83aa6c-da46-410c-b6d9-6edaeb1be409")
-	)
-	(wire
-		(pts
-			(xy 177.8 106.68) (xy 177.8 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1e0ef43-c39d-447a-9774-dd1981d0451f")
-	)
-	(wire
-		(pts
-			(xy 187.96 113.03) (xy 204.47 113.03)
+			(xy 171.45 113.03) (xy 204.47 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e4af45a4-8aa7-4b1d-98a2-8a78c2887a96")
-	)
-	(wire
-		(pts
-			(xy 158.75 95.25) (xy 177.8 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7a528f2-d99d-4543-a30f-9f4ba119d16e")
 	)
 	(wire
 		(pts
@@ -1320,179 +1036,6 @@
 		(uuid "fc1187c9-33ea-43a1-a68c-e150513b9c61")
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 187.96 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "319d12d9-a369-4efe-87a3-84ce27223eed")
-		(property "Reference" "R9"
-			(at 190.5 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 190.5 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 188.976 103.124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet 2" ""
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d8eb490-29b6-412f-b630-c1b240dbc07f")
-		)
-		(pin "1"
-			(uuid "61cbf956-e1c9-45ff-928b-3cd046987935")
-		)
-		(instances
-			(project "ADCS_board"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72/64c9d02f-f2a5-4afc-bcbd-2b44a6c6a2d8"
-					(reference "R9")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72/67beb92b-917b-42f4-9398-707556a28567"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Analog_DAC:ADS7830")
 		(at 158.75 120.65 0)
 		(unit 1)
@@ -1603,7 +1146,7 @@
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72/67beb92b-917b-42f4-9398-707556a28567"
-					(reference "U16")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -1628,7 +1171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 152.4 97.7899 0)
 			(effects
 				(font
@@ -1862,7 +1405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8705d145-1d3d-4d3c-b9dc-51b28292b83e")
-		(property "Reference" "C62"
+		(property "Reference" "C59"
 			(at 185.42 125.7299 0)
 			(effects
 				(font
@@ -1871,7 +1414,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 185.42 128.2699 0)
 			(effects
 				(font
@@ -2015,184 +1558,11 @@
 		(instances
 			(project "ADCS_board"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72/64c9d02f-f2a5-4afc-bcbd-2b44a6c6a2d8"
-					(reference "C62")
+					(reference "C59")
 					(unit 1)
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72/67beb92b-917b-42f4-9398-707556a28567"
-					(reference "C63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 177.8 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c759f795-255e-457c-9a34-2d02a6b2f63c")
-		(property "Reference" "R7"
-			(at 180.34 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 180.34 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 178.816 103.124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet 2" ""
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9507baa3-fe1c-49a9-a0f4-56c03b8bb1e0")
-		)
-		(pin "1"
-			(uuid "364e9ed0-5b06-4eae-b4fe-ac0d20d0e506")
-		)
-		(instances
-			(project "ADCS_board"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72/64c9d02f-f2a5-4afc-bcbd-2b44a6c6a2d8"
-					(reference "R7")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72/67beb92b-917b-42f4-9398-707556a28567"
-					(reference "R46")
+					(reference "C60")
 					(unit 1)
 				)
 			)
