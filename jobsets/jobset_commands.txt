@@ -1,0 +1,8 @@
+**NOTE TO ANYONE WHO WANTS TO MAKE AN EDIT**
+On MacOS at least, you MUST copy and paste this in every time you edit the command. Otherwise, MacOS will automatically correct the hyphens to a dash and the command will fail once you save it.x
+
+Windows:
+python ${KICAD9_3RD_PARTY}/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py --highlight-pin1 selected --name-format ibom_%f_%D --extra-data-file ${PROJECTNAME}.kicad_pcb ${PROJECTNAME}.kicad_pcb
+
+MacOS:
+${KICAD9_TEMPLATE_DIR}/../../Frameworks/Python.framework/Versions/Current/bin/python3 ${KICAD9_3RD_PARTY}/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py --highlight-pin1 "selected" --name-format "ibom_%f_%D" --extra-data-file "${PROJECTNAME}.kicad_pcb" ${PROJECTNAME}.kicad_pcb
