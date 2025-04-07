@@ -7,7 +7,7 @@
 	(title_block
 		(title "Z+ Panel")
 		(date "2025-04-07")
-		(rev "2.3")
+		(rev "2.4")
 		(company "Stanford Student Space Initiative")
 		(comment 1 "Kaitlyn Letherer")
 	)
@@ -918,6 +918,12 @@
 		(uuid "4c0619b9-cc95-4965-9eb6-05f692e319fd")
 	)
 	(junction
+		(at 181.61 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e280b4e-2466-4917-830e-96f1d3ab67ed")
+	)
+	(junction
 		(at 137.16 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -946,6 +952,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ffbd8b2-4a85-4c49-b55d-44f2631942fa")
+	)
+	(junction
+		(at 181.61 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a316a74d-d69f-4adc-bfb9-f8da053f17b6")
 	)
 	(junction
 		(at 158.75 102.87)
@@ -1093,6 +1105,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 78.74) (xy 199.39 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4388bdaa-91cc-4955-9e79-b2c3ba51ae39")
+	)
+	(wire
+		(pts
 			(xy 151.13 92.71) (xy 158.75 92.71)
 		)
 		(stroke
@@ -1123,6 +1145,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 88.9) (xy 181.61 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e6b0a8-7469-45ab-8b53-f48094bebd00")
+	)
+	(wire
+		(pts
 			(xy 158.75 102.87) (xy 158.75 113.03)
 		)
 		(stroke
@@ -1140,6 +1172,16 @@
 			(type default)
 		)
 		(uuid "594114aa-a463-40e5-932e-adc272f88382")
+	)
+	(wire
+		(pts
+			(xy 199.39 72.39) (xy 181.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd881e8-1183-41e5-a7fb-a7b28d35a525")
 	)
 	(wire
 		(pts
@@ -1273,6 +1315,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 86.36) (xy 199.39 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b945c592-3693-429b-a3ed-35d4a6378633")
+	)
+	(wire
+		(pts
 			(xy 74.93 82.55) (xy 74.93 91.44)
 		)
 		(stroke
@@ -1333,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 71.12) (xy 181.61 73.66)
+			(xy 181.61 71.12) (xy 181.61 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1370,6 +1422,16 @@
 			(type default)
 		)
 		(uuid "f99e4e39-4885-47ff-a68f-b66903874e16")
+	)
+	(wire
+		(pts
+			(xy 181.61 72.39) (xy 181.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb88968b-421f-4931-b060-f61baa9611bf")
 	)
 	(label "IN1-"
 		(at 74.93 82.55 0)
@@ -1939,6 +2001,76 @@
 			(project "ZPlus_Panel"
 				(path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3/909ca4d1-d444-4413-80b9-98fd7346028a"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e8d3944-10f0-4370-a98f-37685694f691")
+		(property "Reference" "C5"
+			(at 202.311 81.3378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 202.311 83.7621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 200.3552 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "64536dca-9259-4ad7-a0e9-c25660f61f23")
+		)
+		(pin "1"
+			(uuid "fad21326-a5a0-4c55-ba76-739dc2eebbd1")
+		)
+		(instances
+			(project ""
+				(path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3/909ca4d1-d444-4413-80b9-98fd7346028a"
+					(reference "C5")
 					(unit 1)
 				)
 			)
