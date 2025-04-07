@@ -1,0 +1,1787 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d1c53b76-2e08-4b1c-8f57-455af0869351")
+	(paper "A")
+	(title_block
+		(title "ADCS Main Board")
+		(date "2025-03-23")
+		(rev "v1.2")
+		(company "Stanford Student Space Initiative")
+		(comment 1 "Sage Wu")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ssi_transistor:DMP2040USS-13"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at -7.62 10.287 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DMP2040USS-13"
+				(at -7.493 -12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ssi_transistor:DMP2040USS-13"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/irf7404pbf.pdf?fileId=5546d462533600a4015355fa31be1ba0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field4" "ON Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Field7" "IRF7404TRPBF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Field8" "SO-8 ON Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "DMP2040USS-13_0_0"
+				(polyline
+					(pts
+						(xy -7.62 10.16) (xy 7.62 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -10.16) (xy -7.62 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 10.16) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy -7.62 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "Source"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "Source"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "Source"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "Gate"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "Drain"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "Drain"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "Drain"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "Drain"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Power Enable"
+		(exclude_from_sim no)
+		(at 130.81 69.85 0)
+		(effects
+			(font
+				(size 2.159 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c2485a3-54b0-468a-b2cb-8b17e32eacfd")
+	)
+	(text "check that the correct part is on the BOM: DMP2040USS-13"
+		(exclude_from_sim no)
+		(at 175.26 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6f80907-104e-4416-8561-d343a4d783ed")
+	)
+	(junction
+		(at 165.1 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00894c8e-a686-45cf-beeb-a52b750b205d")
+	)
+	(junction
+		(at 130.81 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19717b21-05b3-4148-b0c4-a09543567c61")
+	)
+	(junction
+		(at 179.07 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d311765-8ed4-4d49-9117-923e6db2298b")
+	)
+	(junction
+		(at 165.1 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e083a4b-a40c-41cc-b7dc-8549fd75c200")
+	)
+	(junction
+		(at 139.7 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "635e5822-00f4-4f81-a2b1-5170e927ef5b")
+	)
+	(junction
+		(at 165.1 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b3f040c-7cbe-4b56-abb8-5feda01ff4d7")
+	)
+	(junction
+		(at 175.26 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8525f747-aa9f-42d4-809b-ade702969f82")
+	)
+	(junction
+		(at 182.88 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8725cb02-e609-4233-a49f-6d4c2fa64c10")
+	)
+	(junction
+		(at 130.81 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0a2e1dd-a5b8-4e8e-800d-5abc3154f88f")
+	)
+	(wire
+		(pts
+			(xy 130.81 97.79) (xy 139.7 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03df3e38-9383-484d-8de9-084e60484a45")
+	)
+	(wire
+		(pts
+			(xy 130.81 87.63) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14275331-8d82-499d-85cc-6f9596b59736")
+	)
+	(wire
+		(pts
+			(xy 165.1 100.33) (xy 165.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aca2438-cbd5-434f-80a9-7d686f7238fe")
+	)
+	(wire
+		(pts
+			(xy 185.42 100.33) (xy 182.88 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1e81c4-4174-4570-8c88-10b68e75088b")
+	)
+	(wire
+		(pts
+			(xy 165.1 100.33) (xy 175.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cc309e-72c1-41ad-aa8e-6893b26f7867")
+	)
+	(wire
+		(pts
+			(xy 125.73 97.79) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53985ba6-32ec-4098-bdd2-650f21bfdb36")
+	)
+	(wire
+		(pts
+			(xy 175.26 100.33) (xy 182.88 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578bccb8-3af8-4046-bf3c-723ebe5f9569")
+	)
+	(wire
+		(pts
+			(xy 165.1 92.71) (xy 165.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b53c8b-871c-4e6e-a1f1-0e0424aff3f0")
+	)
+	(wire
+		(pts
+			(xy 165.1 82.55) (xy 165.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df6cbef-d17b-4b94-8dbb-b115511a2690")
+	)
+	(wire
+		(pts
+			(xy 175.26 107.95) (xy 179.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970b8bc3-4161-4186-9560-dfe748c69d8f")
+	)
+	(wire
+		(pts
+			(xy 113.03 97.79) (xy 118.11 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ceca7c3-4121-457b-a4d2-d97710406b64")
+	)
+	(wire
+		(pts
+			(xy 130.81 96.52) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d76330b-5c88-44bd-b946-ef7d9503e72f")
+	)
+	(wire
+		(pts
+			(xy 130.81 87.63) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e589b80-f38b-4db2-be62-964a97c0fcee")
+	)
+	(wire
+		(pts
+			(xy 179.07 107.95) (xy 182.88 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1855aa-cb01-406b-ae96-578deff6ca45")
+	)
+	(wire
+		(pts
+			(xy 165.1 87.63) (xy 165.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9dc45f8-f78a-4426-9f14-2d6486d62212")
+	)
+	(wire
+		(pts
+			(xy 179.07 111.76) (xy 179.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccfbf1f5-7669-4b1e-b2e5-4476acf82d4e")
+	)
+	(wire
+		(pts
+			(xy 139.7 87.63) (xy 139.7 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1b13d1-a930-4aed-b676-e2a1a023f973")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 130.81 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28cab75-aa84-4964-a046-68fb93fc8a9a")
+	)
+	(wire
+		(pts
+			(xy 139.7 82.55) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9ebd8f-f30a-4f6a-9723-892348dddb38")
+	)
+	(hierarchical_label "EN"
+		(shape bidirectional)
+		(at 113.03 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "623fa1e4-997f-467c-8d83-522521f2882f")
+	)
+	(hierarchical_label "VBUS_IN"
+		(shape input)
+		(at 128.27 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8016583f-8129-4d47-aa35-a5efcb2a0bbd")
+	)
+	(hierarchical_label "VBUS_OUT"
+		(shape input)
+		(at 185.42 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7b07cd1-281e-4847-b4a4-ae9dd56bb1ff")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 121.92 97.79 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b5e3469-4ba2-47da-b84d-e48287e0bd9f")
+		(property "Reference" "R2"
+			(at 122.428 101.092 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 122.428 103.632 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 121.666 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3076cfb-0b4e-42e4-a13b-a0ec13d4a334")
+		)
+		(pin "2"
+			(uuid "34a22da1-0e35-44c5-a57d-56bb4c4c76de")
+		)
+		(instances
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/67b17ff2-5f27-4a28-98e8-ddccf930f803/bd12d853-45fb-4cd3-9f6b-6ea1429ddbab"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/18b4321a-5d6b-428b-9299-fbbcca773709"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/3b6c2f97-efd5-4c49-a83f-261db6b2deb3"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 182.88 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12521796-8cf7-488b-acc7-351a72d86563")
+		(property "Reference" "#FLG02"
+			(at 182.88 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 182.88 95.2754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20af96bd-7997-45e3-98ea-991fcde25f6d")
+		)
+		(instances
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
+					(reference "#FLG05")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
+					(reference "#FLG0101")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/67b17ff2-5f27-4a28-98e8-ddccf930f803/bd12d853-45fb-4cd3-9f6b-6ea1429ddbab"
+					(reference "#FLG02")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/18b4321a-5d6b-428b-9299-fbbcca773709"
+					(reference "#FLG0102")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/3b6c2f97-efd5-4c49-a83f-261db6b2deb3"
+					(reference "#FLG0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "127dff99-1c34-4333-9206-83ef23b0258f")
+		(property "Reference" "#PWR04"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd7338a5-6a60-4503-aa02-11a62768f589")
+		)
+		(instances
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/67b17ff2-5f27-4a28-98e8-ddccf930f803/bd12d853-45fb-4cd3-9f6b-6ea1429ddbab"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/18b4321a-5d6b-428b-9299-fbbcca773709"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/3b6c2f97-efd5-4c49-a83f-261db6b2deb3"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 130.81 92.71 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fdea3de-bbdd-487b-bcd9-d13ab0ebded0")
+		(property "Reference" "R1"
+			(at 129.286 91.313 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 129.286 93.98 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 131.826 92.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 130.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 130.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68ddec68-2aaa-409c-9a75-b3cf38d69246")
+		)
+		(pin "2"
+			(uuid "8312ba7e-a8ea-4e57-b4fd-95025dac8164")
+		)
+		(instances
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/67b17ff2-5f27-4a28-98e8-ddccf930f803/bd12d853-45fb-4cd3-9f6b-6ea1429ddbab"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/18b4321a-5d6b-428b-9299-fbbcca773709"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/3b6c2f97-efd5-4c49-a83f-261db6b2deb3"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ssi_transistor:DMP2040USS-13")
+		(at 152.4 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52c875de-cbcc-4211-ac48-ad63c8efdcd8")
+		(property "Reference" "Q2"
+			(at 152.4 75.6158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMP2040USS-13"
+			(at 152.4 78.1558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ssi_transistor:DMP2040USS-13"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irf7404pbf.pdf?fileId=5546d462533600a4015355fa31be1ba0"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-Channel MOSFET"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" "DMP2040USS-13"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" "DMP2022LSS-13"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2e9900e-f7ab-4ea6-8021-311495753c56")
+		)
+		(pin "2"
+			(uuid "5ebc0991-e52f-4bcb-8893-afe8552bf7ee")
+		)
+		(pin "3"
+			(uuid "1e4b5001-4804-4f55-9add-1a013380e25d")
+		)
+		(pin "4"
+			(uuid "129b03c9-b672-406c-b94f-02e778a2aabb")
+		)
+		(pin "5"
+			(uuid "7de9575c-7b85-4f58-9928-57eeef8e1658")
+		)
+		(pin "6"
+			(uuid "412680c4-e865-4f8a-afc8-6b6465d8b9c7")
+		)
+		(pin "7"
+			(uuid "0bf84bfe-29c3-4552-b936-15b3b007a1fd")
+		)
+		(pin "8"
+			(uuid "66460619-17fe-4d9f-a238-30a261b7a472")
+		)
+		(instances
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/67b17ff2-5f27-4a28-98e8-ddccf930f803/bd12d853-45fb-4cd3-9f6b-6ea1429ddbab"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/18b4321a-5d6b-428b-9299-fbbcca773709"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/3b6c2f97-efd5-4c49-a83f-261db6b2deb3"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 182.88 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ed923c6-3dc0-4721-afb5-18bf5ead5ee0")
+		(property "Reference" "C4"
+			(at 178.054 101.6 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 176.53 106.426 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 183.8452 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9e27d63-1cf3-450a-ad27-9e6d3e8ad728")
+		)
+		(pin "2"
+			(uuid "df8bf9a4-a6f0-44b9-8966-0599e141347b")
+		)
+		(instances
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
+					(reference "C65")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
+					(reference "C56")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/67b17ff2-5f27-4a28-98e8-ddccf930f803/bd12d853-45fb-4cd3-9f6b-6ea1429ddbab"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/18b4321a-5d6b-428b-9299-fbbcca773709"
+					(reference "C58")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/3b6c2f97-efd5-4c49-a83f-261db6b2deb3"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d29511f-58e7-489e-ab3c-7de13966611f")
+		(property "Reference" "C3"
+			(at 169.926 101.6 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 168.91 106.426 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 176.2252 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11026f60-a08a-49c6-9d5c-4a5fc7e22f4a")
+		)
+		(pin "2"
+			(uuid "88964b38-f7c8-427e-ad5d-6e6935ec71ee")
+		)
+		(instances
+			(project "mainboard"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
+					(reference "C64")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
+					(reference "C55")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/67b17ff2-5f27-4a28-98e8-ddccf930f803/bd12d853-45fb-4cd3-9f6b-6ea1429ddbab"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/18b4321a-5d6b-428b-9299-fbbcca773709"
+					(reference "C57")
+					(unit 1)
+				)
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f/3b6c2f97-efd5-4c49-a83f-261db6b2deb3"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

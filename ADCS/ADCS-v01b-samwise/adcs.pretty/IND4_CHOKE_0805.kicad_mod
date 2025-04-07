@@ -1,0 +1,21 @@
+(footprint "IND4_CHOKE_0805" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 0) (layer "B.SilkS") hide
+      (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+    (tstamp 671d1c6a-89cc-41a6-9979-628ff75b4af1)
+  )
+  (fp_text value "IND CHK 90 OHM@100MHZ 330MA 25% 0805" (at 0 0) (layer "B.SilkS") hide
+      (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+    (tstamp fb268a60-ab0c-453f-95ef-0bfb3332d4d9)
+  )
+  (pad "1" smd rect (at 0.84988 -0.40005 180) (size 0.9144 0.4064) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6bd3d278-8b6c-4a4d-81c8-7f06544f2404))
+  (pad "2" smd rect (at -0.84989 -0.40005 180) (size 0.9144 0.4064) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 24dc13e5-8367-470f-a528-6003d6cb5aff))
+  (pad "3" smd rect (at -0.84989 0.40005 180) (size 0.9144 0.4064) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0505c00e-49c4-4a8e-a0b7-53553649ca90))
+  (pad "4" smd rect (at 0.84988 0.40005 180) (size 0.9144 0.4064) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e2c6d680-d998-4fe7-a664-5056c3add3fe))
+  (model "./wrlshp/A410926E-B023.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

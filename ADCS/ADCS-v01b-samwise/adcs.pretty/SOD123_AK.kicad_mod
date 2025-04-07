@@ -1,0 +1,19 @@
+(footprint "SOD123_AK" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 0) (layer "B.SilkS") hide
+      (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+    (tstamp 1927b92d-3a37-4710-b91e-db4e1cf20b6e)
+  )
+  (fp_text value "DIODE, SCHOTTKY, 20V VRRM, 2A IO, 45A SURGE, SOD-123F" (at 0 0) (layer "B.SilkS") hide
+      (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+    (tstamp aee66efe-4080-4861-bf8e-d2c9fed3a3ad)
+  )
+  (pad "A" smd rect (at 0 1.525 90) (size 0.85 1.2) (layers "F.Cu") (tstamp e844b55a-be97-4095-821c-21b0b1be7091))
+  (pad "K" smd rect (at 0 -1.525 90) (size 0.85 1.2) (layers "F.Cu") (tstamp 7aa368b7-2a2b-4b66-9d09-e6bacaaa1520))
+  (model "./wrlshp/15ADC0A7-9E49.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+)
