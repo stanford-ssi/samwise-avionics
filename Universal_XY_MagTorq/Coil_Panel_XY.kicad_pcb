@@ -9,7 +9,7 @@
 	(paper "A4" portrait)
 	(title_block
 		(title "Magnemite ")
-		(date "2025-03-15")
+		(date "2025-04-06")
 		(rev "2.2")
 		(comment 1 "Designed by: Eric Liu")
 	)
@@ -52,12 +52,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "Black")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "White")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -66,6 +68,7 @@
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
+				(color "FR4 natural")
 				(thickness 0.1)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -77,6 +80,7 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
+				(color "FR4 natural")
 				(thickness 0.4357)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -88,6 +92,7 @@
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
+				(color "FR4 natural")
 				(thickness 0.1)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -99,6 +104,7 @@
 			)
 			(layer "dielectric 4"
 				(type "core")
+				(color "FR4 natural")
 				(thickness 0.4357)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -110,6 +116,7 @@
 			)
 			(layer "dielectric 5"
 				(type "prepreg")
+				(color "FR4 natural")
 				(thickness 0.1)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -121,6 +128,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "White")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -128,6 +136,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "Black")
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -216,7 +225,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MountingHole_Pad"
 			(at 0 2.9 90)
 			(layer "F.Fab")
 			(uuid "a95096e2-f837-4577-9cf5-ac8ebcde4dca")
@@ -253,8 +262,8 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/befce6b8-1ac4-45d1-88c2-7273f5cb6f31")
-		(sheetname "Root")
-		(sheetfile "New_Coil_Panel_Y.kicad_sch")
+		(sheetname "/")
+		(sheetfile "Coil_Panel_XY.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -336,7 +345,7 @@
 				)
 			)
 		)
-		(property "Value" "Start/End of Coil Series"
+		(property "Value" "TestPointConnection"
 			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -375,9 +384,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/637582b7-6a28-4a0d-854c-0694224c04a3")
-		(sheetname "Root")
-		(sheetfile "New_Coil_Panel_Y.kicad_sch")
-		(attr through_hole)
+		(sheetname "/")
+		(sheetfile "Coil_Panel_XY.kicad_sch")
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -5.42 1.1)
 			(end -5.42 -2.1)
@@ -509,7 +518,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MountingHole_Pad"
 			(at 0 2.9 90)
 			(layer "F.Fab")
 			(uuid "215b9d2c-9889-45b0-a36f-6105b6b092c9")
@@ -546,8 +555,8 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/abbfeabb-7249-4677-9001-fed4817fb0d4")
-		(sheetname "Root")
-		(sheetfile "New_Coil_Panel_Y.kicad_sch")
+		(sheetname "/")
+		(sheetfile "Coil_Panel_XY.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -630,7 +639,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MountingHole_Pad"
 			(at 0 2.9 90)
 			(layer "F.Fab")
 			(uuid "d420ef38-54f0-4e9d-8192-1dc8090059bb")
@@ -667,8 +676,8 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/775d937e-30df-412f-beb0-07ed48e15902")
-		(sheetname "Root")
-		(sheetfile "New_Coil_Panel_Y.kicad_sch")
+		(sheetname "/")
+		(sheetfile "Coil_Panel_XY.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -751,7 +760,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MountingHole_Pad"
 			(at 0 2.9 90)
 			(layer "F.Fab")
 			(uuid "fe9cb24d-f309-42ec-a4e9-d71090a9a54b")
@@ -788,8 +797,8 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e7861f87-c398-409e-b8d1-81cf914a36d9")
-		(sheetname "Root")
-		(sheetfile "New_Coil_Panel_Y.kicad_sch")
+		(sheetname "/")
+		(sheetfile "Coil_Panel_XY.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -872,7 +881,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MountingHole_Pad"
 			(at 0 2.9 90)
 			(layer "F.Fab")
 			(uuid "0af31775-dcd3-4b57-9689-6f190e27acf8")
@@ -909,8 +918,8 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/cd734931-074f-44fd-9332-351c777236eb")
-		(sheetname "Root")
-		(sheetfile "New_Coil_Panel_Y.kicad_sch")
+		(sheetname "/")
+		(sheetfile "Coil_Panel_XY.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -993,7 +1002,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MountingHole_Pad"
 			(at 0 2.9 90)
 			(layer "F.Fab")
 			(uuid "244bfd41-137f-45f2-ae3f-7aae089fc02d")
@@ -1030,8 +1039,8 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/cedd2955-b0de-4ca9-a60c-4b89bb914524")
-		(sheetname "Root")
-		(sheetfile "New_Coil_Panel_Y.kicad_sch")
+		(sheetname "/")
+		(sheetfile "Coil_Panel_XY.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1155,8 +1164,8 @@
 		)
 		(property ki_fp_filters "Net*Tie*")
 		(path "/32d47209-b409-45da-aa68-d2bbc40eda27")
-		(sheetname "Root")
-		(sheetfile "New_Coil_Panel_Y.kicad_sch")
+		(sheetname "/")
+		(sheetfile "Coil_Panel_XY.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
@@ -1207,7 +1216,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2053380002"
+		(property "Value" "205338-0002"
 			(at -0.999998 11.43 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -1299,8 +1308,8 @@
 			)
 		)
 		(path "/6ca6a894-c29e-4a0d-a1a8-1ae0b5d0651e")
-		(sheetname "Root")
-		(sheetfile "New_Coil_Panel_Y.kicad_sch")
+		(sheetname "/")
+		(sheetfile "Coil_Panel_XY.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -5.374991 -0.425)
