@@ -954,12 +954,6 @@
 		(uuid "9ffbd8b2-4a85-4c49-b55d-44f2631942fa")
 	)
 	(junction
-		(at 181.61 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a316a74d-d69f-4adc-bfb9-f8da053f17b6")
-	)
-	(junction
 		(at 158.75 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1506,7 +1500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0164457c-3b36-4c71-a658-7f0d989886e7")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR?"
 			(at 62.23 82.55 0)
 			(effects
 				(font
@@ -1566,6 +1560,12 @@
 			(project "ZPlus_Panel"
 				(path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3/909ca4d1-d444-4413-80b9-98fd7346028a"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1634,6 +1634,12 @@
 		(instances
 			(project "ZPlus_Panel"
 				(path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3/909ca4d1-d444-4413-80b9-98fd7346028a"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
 					(reference "C1")
 					(unit 1)
 				)
@@ -1726,6 +1732,12 @@
 					(unit 3)
 				)
 			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
+					(reference "U1")
+					(unit 3)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1789,6 +1801,12 @@
 		(instances
 			(project "ZPlus_Panel"
 				(path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3/909ca4d1-d444-4413-80b9-98fd7346028a"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
 					(reference "R1")
 					(unit 1)
 				)
@@ -1860,6 +1878,12 @@
 					(unit 1)
 				)
 			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1871,7 +1895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40dff8f6-e6e7-4fef-a78e-c8cc5d2370e2")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR?"
 			(at 124.46 82.55 0)
 			(effects
 				(font
@@ -1934,6 +1958,12 @@
 					(unit 1)
 				)
 			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1946,7 +1976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46fae0c7-bd08-475a-a7aa-0a67db68bc8f")
-		(property "Reference" "D8"
+		(property "Reference" "D2"
 			(at 131.826 77.47 90)
 			(effects
 				(font
@@ -2001,6 +2031,12 @@
 			(project "ZPlus_Panel"
 				(path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3/909ca4d1-d444-4413-80b9-98fd7346028a"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2074,6 +2110,12 @@
 					(unit 1)
 				)
 			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2143,6 +2185,12 @@
 					(unit 1)
 				)
 			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2208,6 +2256,12 @@
 		(instances
 			(project "ZPlus_Panel"
 				(path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3/909ca4d1-d444-4413-80b9-98fd7346028a"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
 					(reference "C4")
 					(unit 1)
 				)
@@ -2298,6 +2352,12 @@
 					(unit 2)
 				)
 			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
+					(reference "U1")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2384,6 +2444,12 @@
 					(unit 1)
 				)
 			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2396,7 +2462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d07af4a0-ec6b-4e2b-84c5-877c4e3314de")
-		(property "Reference" "D7"
+		(property "Reference" "D1"
 			(at 69.596 77.47 90)
 			(effects
 				(font
@@ -2451,6 +2517,12 @@
 			(project "ZPlus_Panel"
 				(path "/05d9a1e4-9c36-4456-926c-95e6ea494ab3/909ca4d1-d444-4413-80b9-98fd7346028a"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2523,6 +2595,12 @@
 					(unit 1)
 				)
 			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2534,7 +2612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6546566-3b26-4e2f-9761-fc1548fd60e5")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR?"
 			(at 181.61 97.79 0)
 			(effects
 				(font
@@ -2597,6 +2675,18 @@
 					(unit 1)
 				)
 			)
+			(project "pd_and_ltc2051hs8"
+				(path "/56806b59-44e6-4270-87fd-423ea30576ea"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
