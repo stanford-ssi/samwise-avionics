@@ -1,7 +1,7 @@
 (footprint "USB_C_Receptacle_XKB_U262-161N-4BVC11"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB TYPE C, RA RCPT PCB, SMT, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401610E4%7e2A")
 	(tags "USB C Type-C Receptacle SMD")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dfd31b4d-5dea-4527-816d-2d28da47da92")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -63,8 +51,8 @@
 			)
 		)
 	)
-	(solder_paste_ratio -0.1)
-	(attr smd)
+	(solder_paste_margin_ratio -0.1)
+	(attr through_hole)
 	(fp_line
 		(start -4.36 -5.87)
 		(end 5.36 -5.87)
@@ -143,73 +131,73 @@
 	(pad "A1" smd rect
 		(at -2.7 -5.11)
 		(size 0.6 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "29eeef06-72cd-4468-baf5-b2fe97944748")
 	)
 	(pad "A4" smd rect
 		(at -1.9 -5.11)
 		(size 0.6 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b277c2a1-8265-4500-8cc9-e7b01d97a6f1")
 	)
 	(pad "A5" smd rect
 		(at -0.75 -5.11)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "da0e7181-b767-4387-8dc9-8754cd0542de")
 	)
 	(pad "A6" smd rect
 		(at 0.25 -5.11)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "05ef2ffa-1990-4e83-87c7-9531bafa1680")
 	)
 	(pad "A7" smd rect
 		(at 0.75 -5.11)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5676e732-dd3f-477e-b356-a921cae2d5ac")
 	)
 	(pad "A8" smd rect
 		(at 1.75 -5.11)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cdcad474-27a5-4fae-9558-b815960580bd")
 	)
 	(pad "A9" smd rect
 		(at 2.9 -5.11)
 		(size 0.6 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0431515d-5eb1-4f05-9b4a-3573d3c69e2f")
 	)
 	(pad "A12" smd rect
 		(at 3.7 -5.11)
 		(size 0.6 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c6acb50c-a588-4395-a794-0fe3d50089ea")
 	)
 	(pad "B5" smd rect
 		(at 2.25 -5.11)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fb89f167-32b0-4735-86f9-414e858100f8")
 	)
 	(pad "B6" smd rect
 		(at 1.25 -5.11)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6105b9e1-8903-4969-981a-b64c6b3bf35f")
 	)
 	(pad "B7" smd rect
 		(at -0.25 -5.11)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c8aedccb-c91b-4846-875d-a8565b76a0b0")
 	)
 	(pad "B8" smd rect
 		(at -1.25 -5.11)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "aabea307-18b0-4a94-a678-aef548d7f5bd")
 	)
 	(pad "S1" thru_hole oval
@@ -244,6 +232,7 @@
 		(remove_unused_layers no)
 		(uuid "3d949e26-2445-4ca4-8d73-7624c9afdcc8")
 	)
+	(embedded_fonts no)
 	(model "${SAMWISE_AVIONICS}/3D_models/ssi_connector/USB-C_pycubed.step"
 		(offset
 			(xyz 0.5 1.5 0)

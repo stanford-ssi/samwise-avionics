@@ -1,7 +1,7 @@
 (footprint "Molex_35362-1250"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "353621050 ")
 	(property "Reference" "REF**"
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bada9a93-43bc-4926-9946-fc0b9aa391e1")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -152,7 +140,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "e6b95ec5-8caa-49be-aacb-61fc4c09937a")
 	)
@@ -398,7 +386,8 @@
 		(remove_unused_layers no)
 		(uuid "7dea3ebd-7f1b-4a4b-9ec6-f80686fe74e3")
 	)
-	(model "${SAMWISE_AVIONICS}/3D_models/ssi_connector/35362-1050.step"
+	(embedded_fonts no)
+	(model "${SAMWISE_AVIONICS}/3D_models/ssi_connector/35362-1250.step"
 		(offset
 			(xyz 0 0 0)
 		)
