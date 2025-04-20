@@ -1,20 +1,24 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "449cf8c5-c442-4941-a52d-7a3f158a508b")
 	(paper "A4")
 	(title_block
 		(title "Magnemite")
-		(date "2024-05-07")
-		(rev "2.0")
+		(date "2025-04-06")
+		(rev "2.2")
 		(comment 1 "Designed by: Eric Liu")
 	)
 	(lib_symbols
 		(symbol "Device:NetTie_2"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -131,13 +135,18 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 6.35 0)
@@ -233,6 +242,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ssi_connector:205338-0002"
 			(pin_names
@@ -327,110 +337,6 @@
 				)
 			)
 			(symbol "205338-0002_0_0"
-				(rectangle
-					(start -6.985 -5.3975)
-					(end -5.3975 -4.7625)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -6.985 -2.8575)
-					(end -5.3975 -2.2225)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -6.985 2.2225)
-					(end -5.3975 2.8575)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -6.985 4.7625)
-					(end -5.3975 5.3975)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -6.35) (xy -6.35 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy -5.715 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy -5.715 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy -5.715 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 5.08) (xy -5.715 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -7.62 6.35) (xy -7.62 -6.35)
@@ -457,6 +363,110 @@
 				)
 				(polyline
 					(pts
+						(xy -7.62 5.08) (xy -5.715 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -5.715 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -5.715 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -5.715 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -6.35) (xy -6.35 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.985 4.7625)
+					(end -5.3975 5.3975)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 2.2225)
+					(end -5.3975 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 -2.8575)
+					(end -5.3975 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 -5.3975)
+					(end -5.3975 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
 						(xy -6.35 -7.62) (xy 7.62 -7.62)
 					)
 					(stroke
@@ -469,7 +479,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -7.62) (xy 7.62 7.62)
+						(xy 7.62 7.62) (xy -6.35 7.62)
 					)
 					(stroke
 						(width 0.254)
@@ -481,7 +491,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 7.62) (xy -6.35 7.62)
+						(xy 7.62 -7.62) (xy 7.62 7.62)
 					)
 					(stroke
 						(width 0.254)
@@ -564,10 +574,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ssi_connector:TestPointConnection"
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -692,7 +705,87 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "If Coil_1 (+): Out of Satellite On This Face\nIf Coil_2 (+): Into Satellite On This Face"
+		(exclude_from_sim no)
+		(at 110.49 125.73 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "14d206a2-65a8-4803-991a-bebdc0103654")
+	)
+	(text "MOLEX CONNECTOR\n"
+		(exclude_from_sim no)
+		(at 147.32 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d5df10f-2de1-4b77-86ea-f03c959680c1")
+	)
+	(text "This board takes in VBATT from port 1 & 2 via \nthe Molex connector and runs the current through \nthe embedded coils in the five copper layers. \n2 of the identical PCB boards will be soldered \ntogether to generate the desired amount of moment. \nThis schemetics represents only *1* of the boards. \n\nPer PCB board: \naverage x coil length (mm) = 113.54499999999999\naverage y coil length (mm) = 47.83999999999999\nnumber of turns n = 29-30\ncurrent per board (A) = 0.45630724992366367\nmoment generated per board (A⋅m2)= 0.3594053659451054"
+		(exclude_from_sim no)
+		(at 205.74 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d745632-a348-40ae-ab75-3833c7a200f2")
+	)
+	(text "COIL"
+		(exclude_from_sim no)
+		(at 184.15 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "425d818c-7155-4513-b7ac-1411fc1afc5a")
+	)
+	(text "DO NOT flip Coil_1 and Coil_2 here, otherwise\nthings will get messed up."
+		(exclude_from_sim no)
+		(at 198.12 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b2b0754-aa56-4574-a932-ba0a65c46801")
+	)
+	(text "HOLES"
+		(exclude_from_sim no)
+		(at 126.492 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cb7fc10-afc4-4a5d-a97d-8fb9d89774eb")
+	)
+	(text "Start/End of Coil Series"
+		(exclude_from_sim no)
+		(at 175.006 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84f4f76b-b96e-4e8e-b575-3a27b173d212")
 	)
 	(no_connect
 		(at 130.81 66.04)
@@ -795,74 +888,6 @@
 			(type default)
 		)
 		(uuid "ec6571d3-64c7-41e6-9302-1bcc0165e762")
-	)
-	(text "If Coil_1 (+): Out of Satellite On This Face\nIf Coil_2 (+): Into Satellite On This Face"
-		(exclude_from_sim no)
-		(at 110.49 125.73 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "14d206a2-65a8-4803-991a-bebdc0103654")
-	)
-	(text "MOLEX CONNECTOR\n"
-		(exclude_from_sim no)
-		(at 147.32 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d5df10f-2de1-4b77-86ea-f03c959680c1")
-	)
-	(text "This board takes in 12V from port 1 & 2 via \nthe Molex connector and runs the current through \nthe embedded coils in the five copper layers. \n2 of the identical PCB boards will be soldered \ntogether to generate the desired amount of moment. \nThis schemetics represents only *1* of the boards. \n\nPer PCB board: \naverage x coil length (mm) = 113.54499999999999\naverage y coil length (mm) = 47.83999999999999\nnumber of turns n = 29-30\ncurrent per board (A) = 0.45630724992366367\nmoment generated per board (A⋅m2)= 0.3594053659451054"
-		(exclude_from_sim no)
-		(at 205.74 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d745632-a348-40ae-ab75-3833c7a200f2")
-	)
-	(text "COIL"
-		(exclude_from_sim no)
-		(at 184.15 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "425d818c-7155-4513-b7ac-1411fc1afc5a")
-	)
-	(text "DO NOT flip Coil_1 and Coil_2 here, otherwise\nthings will get messed up."
-		(exclude_from_sim no)
-		(at 198.12 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b2b0754-aa56-4574-a932-ba0a65c46801")
-	)
-	(text "HOLES"
-		(exclude_from_sim no)
-		(at 124.46 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7cb7fc10-afc4-4a5d-a97d-8fb9d89774eb")
 	)
 	(global_label "COIL_2"
 		(shape bidirectional)
@@ -1075,7 +1100,7 @@
 		(at 186.69 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "637582b7-6a28-4a0d-854c-0694224c04a3")
@@ -1087,7 +1112,7 @@
 				)
 			)
 		)
-		(property "Value" "Start/End of Coil Series"
+		(property "Value" "TestPointConnection"
 			(at 186.69 58.42 0)
 			(effects
 				(font
@@ -1168,7 +1193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2053380002"
+		(property "Value" "205338-0002"
 			(at 163.322 107.95 0)
 			(effects
 				(font
@@ -1280,8 +1305,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "775d937e-30df-412f-beb0-07ed48e15902")
-		(property "Reference" "H1"
-			(at 139.7254 71.12 0)
+		(property "Reference" "H6"
+			(at 138.43 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,8 +1314,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 140.7668 71.12 0)
+		(property "Value" "MountingHole_Pad"
+			(at 140.462 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1392,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MountingHole_Pad"
 			(at 129.3368 63.5 0)
 			(effects
 				(font
@@ -1436,8 +1461,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "befce6b8-1ac4-45d1-88c2-7273f5cb6f31")
-		(property "Reference" "H1"
-			(at 115.5954 71.12 0)
+		(property "Reference" "H2"
+			(at 114.3 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,8 +1470,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 117.9068 71.12 0)
+		(property "Value" "MountingHole_Pad"
+			(at 116.6114 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +1539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd734931-074f-44fd-9332-351c777236eb")
-		(property "Reference" "H4"
+		(property "Reference" "H1"
 			(at 115.5954 63.5 0)
 			(effects
 				(font
@@ -1523,7 +1548,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MountingHole_Pad"
 			(at 117.9068 63.5 0)
 			(effects
 				(font
@@ -1592,8 +1617,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cedd2955-b0de-4ca9-a60c-4b89bb914524")
-		(property "Reference" "H2"
-			(at 127.0254 71.12 0)
+		(property "Reference" "H4"
+			(at 125.9586 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,8 +1626,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 129.3368 71.12 0)
+		(property "Value" "MountingHole_Pad"
+			(at 128.27 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1670,8 +1695,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7861f87-c398-409e-b8d1-81cf914a36d9")
-		(property "Reference" "H4"
-			(at 139.7254 63.5 0)
+		(property "Reference" "H5"
+			(at 138.176 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1679,7 +1704,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MountingHole_Pad"
 			(at 140.7668 63.5 0)
 			(effects
 				(font
@@ -1744,4 +1769,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

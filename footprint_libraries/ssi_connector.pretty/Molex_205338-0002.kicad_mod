@@ -1,12 +1,12 @@
 (footprint "Molex_205338-0002"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.999998 -11.43 0)
 		(layer "F.SilkS")
-		(uuid "c70c3110-57bb-4bbc-90ef-398b25e50976")
+		(uuid "4e4017dd-842a-4b2b-8f79-491a3d3e3227")
 		(effects
 			(font
 				(size 1 1)
@@ -14,25 +14,14 @@
 			)
 		)
 	)
-	(property "Value" "Molex_205338-0002"
+	(property "Value" "205338-0002"
 		(at -0.999998 -11.43 0)
 		(layer "F.SilkS")
-		(uuid "7537ca96-37f7-4530-aa6e-ee7b515c81b9")
+		(hide yes)
+		(uuid "69f78c5b-43a3-4822-bc6b-7b8ff0a33a7a")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "64a39d05-11b8-4ed4-ad2b-62519b009565")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -41,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "da7045ae-be52-41ec-a8a9-7a33bd757129")
+		(uuid "5bd729ef-efc1-4a7a-9d93-a6cdae1a1c57")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e89dddf6-a25f-463e-92f6-d50140bb42cf")
+		(uuid "93f06aba-f822-41e2-a251-f57631728bac")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -273,39 +262,6 @@
 			)
 		)
 	)
-	(fp_text user "2053380002"
-		(at -0.999998 -20.059997 0)
-		(layer "F.SilkS")
-		(uuid "60711660-c01a-4cad-93fe-851713a5ef48")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "EMBOSSED_PACKAGE_TYPE"
-		(at -0.999998 -14.979997 0)
-		(layer "F.SilkS")
-		(uuid "98cc7722-feb4-4d42-9119-e67d8dc5b02c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "PICO-LOCK_2.0_PLUG_ASSY_SR_SMT_RA,_GOLD_PLATING_-2_CKT"
-		(at -0.999998 -17.519997 0)
-		(layer "F.SilkS")
-		(uuid "e0a80817-7032-47d4-8286-3c8b40369878")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "NOTE"
 		(at -5.374991 3.905001 0)
 		(layer "Cmts.User")
@@ -394,41 +350,31 @@
 			)
 		)
 	)
-	(fp_text user "2053380002"
-		(at -0.999998 -20.059997 0)
-		(layer "F.Fab")
-		(uuid "b8590ae0-327f-4eff-bb21-9805c8f1c643")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" smd rect
 		(at 0 0)
 		(size 1.1 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dda60292-82eb-4734-b974-d79b045c25b3")
 	)
 	(pad "2" smd rect
 		(at -2.000001 0)
 		(size 1.1 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cc373e6e-3c2a-46b8-a1f7-131ae4ea5079")
 	)
 	(pad "3" smd rect
 		(at 2.894998 -5.974999)
 		(size 1.35 2.899999)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "45c7f860-49ea-44e4-bbb2-e63837101c31")
 	)
 	(pad "4" smd rect
 		(at -4.894997 -5.974999)
 		(size 1.35 2.899999)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e41db89f-a5cd-443b-ad96-e7a0e8a8f7dd")
 	)
+	(embedded_fonts no)
 	(model "${SAMWISE_AVIONICS}/3D_models/ssi_connector/205338-0002.step"
 		(offset
 			(xyz 0 0 0)

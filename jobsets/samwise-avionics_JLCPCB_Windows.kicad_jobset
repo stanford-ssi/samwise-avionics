@@ -1,0 +1,230 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "1062055a-a42d-41c1-b7b9-f8cfe4ad82e8",
+      "settings": {
+        "black_and_white": false,
+        "color_theme": "KiCad Classic",
+        "description": "",
+        "drawing_sheet": "",
+        "format": "pdf",
+        "hpgl_page_size": "default",
+        "hpgl_pen_size": 1.0,
+        "hpgl_plot_origin": "A3",
+        "min_pen_width": 847,
+        "output_dir": "",
+        "page_size": "auto",
+        "pdf_hierarchical_links": true,
+        "pdf_metadata": true,
+        "pdf_property_popups": true,
+        "plot_all": true,
+        "plot_drawing_sheet": true,
+        "use_background_color": true
+      },
+      "type": "sch_export_plot_pdf"
+    },
+    {
+      "description": "",
+      "id": "ebc9bbc4-83ae-4f41-9433-9580b50c2c89",
+      "settings": {
+        "board_only": false,
+        "board_outlines_chaining_epsilon": 0.01,
+        "cut_vias_in_body": false,
+        "description": "",
+        "export_board_body": true,
+        "export_components": true,
+        "export_inner_copper": false,
+        "export_pads": false,
+        "export_silkscreen": true,
+        "export_soldermask": true,
+        "export_tracks": false,
+        "export_zones": false,
+        "fill_all_vias": false,
+        "format": "step",
+        "fuse_shapes": false,
+        "include_dnp": false,
+        "include_unspecified": true,
+        "occt_format": 0,
+        "optimize_step": true,
+        "output_filename": "${PROJECTNAME}_v${REVISION}_${CURRENT_DATE}.step",
+        "overwrite": true,
+        "subst_models": true,
+        "use_drill_origin": false,
+        "use_grid_origin": false,
+        "user_origin.x": 143.41,
+        "user_origin.y": 100.438,
+        "vrml_model_dir": "",
+        "vrml_relative_paths": false
+      },
+      "type": "pcb_export_3d"
+    },
+    {
+      "description": "",
+      "id": "bbc08833-ea9f-4590-ba86-11a0ee267b40",
+      "settings": {
+        "command": "python ${KICAD9_3RD_PARTY}/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py --highlight-pin1 selected --name-format ibom_%f_%D --extra-data-file ${PROJECTNAME}.kicad_pcb ${PROJECTNAME}.kicad_pcb",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "ibom.log",
+        "record_output": false
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "",
+      "id": "b9bf6f88-3448-4f9a-8c53-073c170a8ff5",
+      "settings": {
+        "black_and_white": true,
+        "create_gerber_job_file": true,
+        "crossout_dnp_footprints_on_fab_layers": true,
+        "description": "",
+        "disable_aperture_macros": false,
+        "drawing_sheet": "",
+        "drill_shape": 2,
+        "hide_dnp_footprints_on_fab_layers": false,
+        "include_netlist_attributes": true,
+        "layers": [
+          "B.Cu",
+          "B.Mask",
+          "B.Paste",
+          "B.SilkS",
+          "In30.Cu",
+          "In29.Cu",
+          "In28.Cu",
+          "In27.Cu",
+          "In26.Cu",
+          "In25.Cu",
+          "In24.Cu",
+          "In23.Cu",
+          "In22.Cu",
+          "In21.Cu",
+          "In20.Cu",
+          "In19.Cu",
+          "In18.Cu",
+          "In17.Cu",
+          "In16.Cu",
+          "In15.Cu",
+          "In14.Cu",
+          "In13.Cu",
+          "In12.Cu",
+          "In11.Cu",
+          "In10.Cu",
+          "In9.Cu",
+          "In8.Cu",
+          "In7.Cu",
+          "In6.Cu",
+          "In5.Cu",
+          "In4.Cu",
+          "In3.Cu",
+          "In2.Cu",
+          "In1.Cu",
+          "F.Cu",
+          "F.Mask",
+          "F.Paste",
+          "F.SilkS",
+          "Edge.Cuts"
+        ],
+        "layers_to_include_on_all_layers": [],
+        "mirror": false,
+        "negative": false,
+        "output_filename": "gerbers_${PROJECTNAME}_v${REVISION}_gen${CURRENT_DATE}",
+        "plot_drawing_sheet": false,
+        "plot_footprint_values": true,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "precision": 6,
+        "sketch_dnp_footprints_on_fab_layers": true,
+        "sketch_pads_on_fab_layers": false,
+        "subtract_solder_mask_from_silk": true,
+        "use_drill_origin": false,
+        "use_protel_file_extension": true,
+        "use_x2_format": true
+      },
+      "type": "pcb_export_gerbers"
+    },
+    {
+      "description": "",
+      "id": "396558b1-2f44-4a64-860a-0aa0787bb6f1",
+      "settings": {
+        "description": "",
+        "drill_origin": "abs",
+        "excellon.combine_pth_npth": false,
+        "excellon.minimal_header": false,
+        "excellon.mirror_y": false,
+        "excellon.oval_drill_route": false,
+        "format": "excellon",
+        "generate_map": true,
+        "gerber_precision": 5,
+        "map_format": "gerberx2",
+        "output_dir": "gerbers_${PROJECTNAME}_v${REVISION}_gen${CURRENT_DATE}",
+        "units": "mm",
+        "zero_format": "decimal"
+      },
+      "type": "pcb_export_drill"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "Schematic PDF",
+      "id": "4a37c759-be9a-4ba6-89b0-7e29822ce3c3",
+      "only": [
+        "1062055a-a42d-41c1-b7b9-f8cfe4ad82e8"
+      ],
+      "settings": {
+        "output_path": "${KIPRJMOD}/"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "STEP File",
+      "id": "235e0236-4c93-4e07-8ec4-26f435e293bd",
+      "only": [
+        "ebc9bbc4-83ae-4f41-9433-9580b50c2c89"
+      ],
+      "settings": {
+        "output_path": "${KIPRJMOD}/"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "JLCPCB Gerbers",
+      "id": "540115e5-33cf-487c-9454-684fc1849847",
+      "only": [
+        "b9bf6f88-3448-4f9a-8c53-073c170a8ff5",
+        "396558b1-2f44-4a64-860a-0aa0787bb6f1"
+      ],
+      "settings": {
+        "output_path": "${KIPRJMOD}/gerbers"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "JLCPCB Gerber ZIP",
+      "id": "feafa408-960c-4acc-a7c7-cc55950f3415",
+      "only": [
+        "b9bf6f88-3448-4f9a-8c53-073c170a8ff5",
+        "396558b1-2f44-4a64-860a-0aa0787bb6f1"
+      ],
+      "settings": {
+        "format": "zip",
+        "output_path": "${KIPRJMOD}/gerbers/gerbers_${PROJECTNAME}_gen${CURRENT_DATE}.zip"
+      },
+      "type": "archive"
+    },
+    {
+      "description": "iBOM",
+      "id": "1a57202d-7b72-40f9-a524-1d8e1c27e13e",
+      "only": [
+        "bbc08833-ea9f-4590-ba86-11a0ee267b40"
+      ],
+      "settings": {
+        "output_path": "${KIPRJMOD}/"
+      },
+      "type": "folder"
+    }
+  ]
+}

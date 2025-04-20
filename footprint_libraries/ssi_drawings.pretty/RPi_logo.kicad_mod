@@ -1,7 +1,7 @@
 (footprint "RPi_logo"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9935cbee-dc60-4b4b-af80-3e8546dd3f73")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -64,7 +52,7 @@
 			)
 		)
 	)
-	(attr smd exclude_from_bom)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom)
 	(fp_poly
 		(pts
 			(xy 0.925499 -2.698819) (xy 0.932768 -2.698134) (xy 0.940196 -2.696964) (xy 0.947791 -2.695277) (xy 0.955559 -2.693038)
@@ -692,7 +680,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "b87fb710-727b-4b8e-9a9b-1641c2708ad6")
 	)
@@ -700,4 +688,5 @@
 		(uuid "611f3559-cb94-4338-8eb1-f3509dcb87a1")
 		(members "b87fb710-727b-4b8e-9a9b-1641c2708ad6")
 	)
+	(embedded_fonts no)
 )

@@ -1,7 +1,7 @@
 (footprint "totoro"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -26,19 +26,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "B.Fab")
-		(hide yes)
-		(uuid "f1186a72-f84a-4f07-b717-d14b362f18a1")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify mirror)
 		)
 	)
 	(property "Datasheet" ""
@@ -67,7 +54,7 @@
 			(justify mirror)
 		)
 	)
-	(attr smd exclude_from_bom)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
 	(fp_line
 		(start -5.27 1.05)
 		(end -5.26922 1.101488)
@@ -39789,7 +39776,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "26261e71-2b34-4b35-af0c-5d1181265e61")
 	)
@@ -39823,7 +39810,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "70c0ab62-f0df-4241-99aa-0208e1d085fd")
 	)
@@ -39861,7 +39848,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "9af8ee08-5bcf-4dc4-b67b-f3bf761c5ce6")
 	)
@@ -41856,4 +41843,5 @@
 			"fff42a83-419f-4d53-919b-3fdd3a7a377c"
 		)
 	)
+	(embedded_fonts no)
 )

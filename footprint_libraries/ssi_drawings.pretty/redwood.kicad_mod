@@ -1,9 +1,9 @@
 (footprint "redwood"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "G***"
+	(property "Reference" "REF***"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -25,19 +25,6 @@
 				(size 1.524 1.524)
 				(thickness 0.3)
 			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "B.Fab")
-		(hide yes)
-		(uuid "bbfcc530-fa0f-4081-92ca-49aeeca084e1")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify mirror)
 		)
 	)
 	(property "Datasheet" ""
@@ -80,7 +67,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "061d85de-4b3b-4a68-a0e6-51cad7c7d091")
 	)
@@ -98,7 +85,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c71336b4-0203-4609-8eed-f816eecfcc8a")
 	)
@@ -800,8 +787,9 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4a3c1aab-2b23-44d4-a547-5ac656e0fd7e")
 	)
+	(embedded_fonts no)
 )
