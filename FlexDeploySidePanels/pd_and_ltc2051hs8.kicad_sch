@@ -888,6 +888,12 @@
 		(uuid "0cfecf40-2b45-43b6-872c-013c3d84c143")
 	)
 	(junction
+		(at 181.61 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3186c3fd-dec2-4906-8df0-7e4c2a02a5bf")
+	)
+	(junction
 		(at 137.16 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -928,6 +934,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59f448c5-d999-482c-b8f1-7b88279d0871")
+	)
+	(junction
+		(at 181.61 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63746703-6a91-4795-85a4-2dcb917fa0e1")
 	)
 	(junction
 		(at 74.93 74.93)
@@ -1040,6 +1052,16 @@
 			(type default)
 		)
 		(uuid "1c4b33db-826d-4221-91b1-3b74dfd46f9f")
+	)
+	(wire
+		(pts
+			(xy 181.61 72.39) (xy 181.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "227426af-0da7-40c9-bfd5-97b973e39dea")
 	)
 	(wire
 		(pts
@@ -1180,6 +1202,16 @@
 			(type default)
 		)
 		(uuid "6e232b41-ba3a-40ff-8728-a2c626e7eb46")
+	)
+	(wire
+		(pts
+			(xy 199.39 86.36) (xy 199.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7368e3c6-5511-429a-8f7a-06f197def673")
 	)
 	(wire
 		(pts
@@ -1333,13 +1365,33 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 71.12) (xy 181.61 73.66)
+			(xy 181.61 71.12) (xy 181.61 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c59832b6-407e-4e4f-bdcd-fc69d727bc73")
+	)
+	(wire
+		(pts
+			(xy 199.39 91.44) (xy 181.61 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88826f6-3e63-4762-89df-4d11495a66ed")
+	)
+	(wire
+		(pts
+			(xy 181.61 72.39) (xy 199.39 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8be3ecf-0782-44ad-a46b-b6dd34906a53")
 	)
 	(wire
 		(pts
@@ -1350,6 +1402,16 @@
 			(type default)
 		)
 		(uuid "cb5c4700-d61b-4877-a8f5-f44943f4e022")
+	)
+	(wire
+		(pts
+			(xy 199.39 78.74) (xy 199.39 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa8bc91-3ecd-431b-8f8b-561c70ec93f8")
 	)
 	(wire
 		(pts
@@ -1444,7 +1506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0164457c-3b36-4c71-a658-7f0d989886e7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR041"
 			(at 62.23 82.55 0)
 			(effects
 				(font
@@ -1839,7 +1901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40dff8f6-e6e7-4fef-a78e-c8cc5d2370e2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR043"
 			(at 124.46 82.55 0)
 			(effects
 				(font
@@ -1920,7 +1982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46fae0c7-bd08-475a-a7aa-0a67db68bc8f")
-		(property "Reference" "D2"
+		(property "Reference" "D52"
 			(at 131.826 77.47 90)
 			(effects
 				(font
@@ -1981,6 +2043,75 @@
 			(project "FlexDeploySidePanels"
 				(path "/7c71387c-e05e-4505-8a0a-e2df06580c59/e05c6afc-bc87-49e4-8367-b1587162d970"
 					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fb009f7-bbf8-48b1-a422-35551a1dcf3c")
+		(property "Reference" "C5"
+			(at 204.1906 80.7974 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1nF"
+			(at 204.1906 86.7156 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 200.3552 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40ef751b-49bb-482c-9fc8-77ca3822804c")
+		)
+		(pin "2"
+			(uuid "6d4bbdf8-8d35-46db-9161-375727373ebc")
+		)
+		(instances
+			(project "FlexDeploySidePanels"
+				(path "/7c71387c-e05e-4505-8a0a-e2df06580c59/e05c6afc-bc87-49e4-8367-b1587162d970"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2330,7 +2461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d07af4a0-ec6b-4e2b-84c5-877c4e3314de")
-		(property "Reference" "D1"
+		(property "Reference" "D51"
 			(at 69.596 77.47 90)
 			(effects
 				(font
@@ -2480,7 +2611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6546566-3b26-4e2f-9761-fc1548fd60e5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR040"
 			(at 181.61 97.79 0)
 			(effects
 				(font
