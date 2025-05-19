@@ -3873,6 +3873,12 @@
 		(uuid "9a90527b-b6c1-4f35-9c6b-c19c9e8fc6b8")
 	)
 	(junction
+		(at 166.37 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af8ca514-d366-4487-b4f3-a4b078480263")
+	)
+	(junction
 		(at 125.73 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4658,6 +4664,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 40.64) (xy 173.99 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f7904e-4d61-49a6-9ac6-f3b9a0906db1")
+	)
+	(wire
+		(pts
 			(xy 166.37 78.74) (xy 157.48 78.74)
 		)
 		(stroke
@@ -5130,6 +5146,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBATT_REG"
+		(shape bidirectional)
+		(at 173.99 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "466f8a85-9a8e-4afa-91d6-681964a2e6b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.3125 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
