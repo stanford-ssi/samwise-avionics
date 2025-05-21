@@ -4044,16 +4044,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 76.2) (xy 220.98 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fbf9ea1-414a-4d74-885b-f1ddfbd06bd4")
-	)
-	(wire
-		(pts
 			(xy 27.94 133.35) (xy 29.21 133.35)
 		)
 		(stroke
@@ -4194,7 +4184,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 76.2) (xy 208.28 73.66)
+			(xy 218.44 76.2) (xy 218.44 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5328,7 +5318,7 @@
 	)
 	(global_label "GPIO_17"
 		(shape bidirectional)
-		(at 208.28 76.2 180)
+		(at 218.44 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5338,7 +5328,7 @@
 		)
 		(uuid "7ba87ad5-b33a-4de8-bf32-f038faaa447e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.1346 76.2 0)
+			(at 207.2946 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,28 +5620,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_27"
-		(shape bidirectional)
-		(at 220.98 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd8a9d82-57ef-4cc2-8136-4689e66f60ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.8346 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7552,7 +7520,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 208.28 73.66 0)
+		(at 218.44 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7561,7 +7529,7 @@
 		(fields_autoplaced yes)
 		(uuid "599d2c6f-d7e0-4e10-a370-a973158c4672")
 		(property "Reference" "TP1"
-			(at 209.677 69.1458 0)
+			(at 219.837 69.1458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +7538,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 209.677 71.5701 0)
+			(at 219.837 71.5701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +7547,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 213.36 73.66 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,7 +7556,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 73.66 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,7 +7565,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 208.28 73.66 0)
+			(at 218.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8396,73 +8364,6 @@
 			(project "mainboard"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec60eb"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 220.98 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6f3c5d7-8ca6-4c2c-97e8-ec57e7ec7198")
-		(property "Reference" "TP2"
-			(at 222.377 69.1458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 222.377 71.5701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 226.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "185a2936-dd22-4621-8a6b-be78eaad574b")
-		)
-		(instances
-			(project "ADCS_board"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec60eb"
-					(reference "TP2")
 					(unit 1)
 				)
 			)

@@ -741,7 +741,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U10"
 				(at 0 11.6375 0)
 				(effects
 					(font
@@ -805,10 +805,10 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -8.89 3.81 0)
 					(length 2.54)
-					(name "VCC"
+					(name "SLCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -823,10 +823,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin output line
 					(at -8.89 1.27 0)
 					(length 2.54)
-					(name "GND"
+					(name "MISO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -841,10 +841,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin input line
 					(at -8.89 -1.27 0)
 					(length 2.54)
-					(name "NC"
+					(name "MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -859,10 +859,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -8.89 -3.81 0)
 					(length 2.54)
-					(name "DRDY"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -877,10 +877,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 8.89 3.81 180)
 					(length 2.54)
-					(name "SCLK"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -895,10 +895,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 8.89 1.27 180)
 					(length 2.54)
-					(name "MISO"
+					(name "SSN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -913,10 +913,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 8.89 -1.27 180)
 					(length 2.54)
-					(name "MOSI"
+					(name "DRDY"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -934,7 +934,7 @@
 				(pin input line
 					(at 8.89 -3.81 180)
 					(length 2.54)
-					(name "SSN"
+					(name "I2C_EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1049,8 +1049,8 @@
 		(uuid "7a4eb519-114b-49da-9fc6-0a3beb95d40b")
 	)
 	(no_connect
-		(at 104.14 86.36)
-		(uuid "8a715ed1-0020-44c1-b4c0-448b8dda2c17")
+		(at 121.92 86.36)
+		(uuid "904743f3-11bc-43f1-982f-766ca62d6289")
 	)
 	(no_connect
 		(at 179.07 106.68)
@@ -1089,6 +1089,16 @@
 			(type default)
 		)
 		(uuid "16b686b6-c062-45fe-9f55-9a943effe017")
+	)
+	(wire
+		(pts
+			(xy 100.33 86.36) (xy 100.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ebf50ca-eb15-4a3d-999f-a54b5c3e9de5")
 	)
 	(wire
 		(pts
@@ -1132,13 +1142,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 81.28) (xy 100.33 81.28)
+			(xy 104.14 86.36) (xy 100.33 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56c6c064-668b-4f4f-af54-c30e05318cda")
+		(uuid "51e13954-9539-47af-b8f0-580aed4c2701")
 	)
 	(wire
 		(pts
@@ -1209,16 +1219,6 @@
 			(type default)
 		)
 		(uuid "74d578df-dfed-4df1-9811-698518bd2ce9")
-	)
-	(wire
-		(pts
-			(xy 121.92 86.36) (xy 123.19 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dacd383-530e-463d-b11d-ab26691cb21e")
 	)
 	(wire
 		(pts
@@ -1382,16 +1382,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 81.28) (xy 100.33 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e98dac34-cf84-4628-836f-c711a1b58461")
-	)
-	(wire
-		(pts
 			(xy 213.36 90.17) (xy 213.36 93.98)
 		)
 		(stroke
@@ -1411,12 +1401,12 @@
 		(uuid "f6b7627d-93f2-45e0-862f-cde2ff405271")
 	)
 	(label "3V3_MAGNMETER"
-		(at 104.14 78.74 180)
+		(at 123.19 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "07a751a1-4e4a-48ed-898e-b6b55c3299f7")
 	)
@@ -1518,22 +1508,22 @@
 	)
 	(global_label "MISO_MAGMETER"
 		(shape output)
-		(at 123.19 81.28 0)
+		(at 104.14 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "56a02330-618a-4132-a204-ad2aa72a0cf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.8818 81.28 0)
+			(at 86.4482 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1562,22 +1552,22 @@
 	)
 	(global_label "MOSI_MAGMETER"
 		(shape input)
-		(at 123.19 83.82 0)
+		(at 104.14 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7a9c27c3-34fa-4c6c-bd37-648d16a76f52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.8818 83.82 0)
+			(at 86.4482 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1604,9 +1594,9 @@
 			)
 		)
 	)
-	(global_label "SCLK_MAGMETER"
-		(shape input)
-		(at 123.19 78.74 0)
+	(global_label "MAGMETER_DRDY"
+		(shape output)
+		(at 123.19 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1614,9 +1604,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d88d97d7-0292-4079-a9f0-b650e99ceaed")
+		(uuid "b66735df-3519-4836-b0ae-7deacef6874d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.0632 78.74 0)
+			(at 141.1842 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,9 +1616,31 @@
 			)
 		)
 	)
+	(global_label "SCLK_MAGMETER"
+		(shape input)
+		(at 104.14 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d88d97d7-0292-4079-a9f0-b650e99ceaed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.2668 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCS_MAGMETER"
 		(shape input)
-		(at 123.19 86.36 0)
+		(at 123.19 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1638,7 +1650,7 @@
 		)
 		(uuid "e0d6b4b2-8a19-4f81-bb15-8d41b3a605c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.9746 86.36 0)
+			(at 139.9746 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

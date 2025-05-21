@@ -4300,6 +4300,16 @@
 		)
 		(uuid "48088a94-9a9d-43bb-8a6e-bb3613080861")
 	)
+	(text "May 20: bit bang UART - has not been changed to proper HW config yet"
+		(exclude_from_sim no)
+		(at 211.836 162.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5bda65fa-d6fd-45c2-96b8-2620e382ed75")
+	)
 	(text "NOTE: Components labeled \"do not install\" (DNI) are not populated by default"
 		(exclude_from_sim no)
 		(at 312.42 234.95 0)
@@ -7729,28 +7739,6 @@
 			)
 		)
 	)
-	(global_label "GPIO_27"
-		(shape bidirectional)
-		(at 147.32 171.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ffb66dd-1926-4ce0-8130-6ca453e5fa3c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.4654 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UART_FROM_DEBUG"
 		(shape input)
 		(at 147.32 176.53 0)
@@ -8160,6 +8148,28 @@
 		(uuid "77c0001b-cddb-4777-8d51-22e435375f02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.6381 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAGMETER_DRDY"
+		(shape input)
+		(at 147.32 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bae9872-96c4-48a1-a976-a92f0eedf568")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3142 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
