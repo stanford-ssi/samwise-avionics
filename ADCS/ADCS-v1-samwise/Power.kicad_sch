@@ -7,7 +7,7 @@
 	(title_block
 		(title "ADCS Main Board")
 		(date "2025-05-22")
-		(rev "1.6")
+		(rev "1.7")
 		(company "Stanford Student Space Initiative")
 		(comment 1 "Sage Wu")
 		(comment 2 "From PiCubed")
@@ -2878,16 +2878,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 104.14) (xy 69.85 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1675b9bf-1cac-4fa2-98a2-1e8cd1cdfebf")
-	)
-	(wire
-		(pts
 			(xy 91.44 64.77) (xy 96.52 64.77)
 		)
 		(stroke
@@ -3976,16 +3966,6 @@
 		)
 		(uuid "fd0b0237-b6fd-4114-920d-25766fd5360f")
 	)
-	(label "ADCS_EN_OUT"
-		(at 152.4 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "20c1d9e6-c63b-470e-be18-348f55974fd2")
-	)
 	(global_label "ADCS_EN"
 		(shape input)
 		(at 45.72 110.49 180)
@@ -4140,28 +4120,6 @@
 			)
 		)
 	)
-	(global_label "Q1_SOURCE"
-		(shape bidirectional)
-		(at 69.85 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae06136b-ff55-4ace-928a-73fe0600d09d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4994 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PWR_SCL"
 		(shape input)
 		(at 234.95 142.24 0)
@@ -4184,7 +4142,7 @@
 			)
 		)
 	)
-	(global_label "Q1_DRAIN"
+	(global_label "ADCS_EN_OUT"
 		(shape bidirectional)
 		(at 105.41 111.76 0)
 		(fields_autoplaced yes)
@@ -4196,7 +4154,7 @@
 		)
 		(uuid "c19ce623-9939-4dfa-8ca4-93488cabcd71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.765 111.76 0)
+			(at 121.5749 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)

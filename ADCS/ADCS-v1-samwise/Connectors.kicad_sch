@@ -7,11 +7,303 @@
 	(title_block
 		(title "ADCS Main Board")
 		(date "2025-05-22")
-		(rev "1.6")
+		(rev "1.7")
 		(company "Stanford Student Space Initiative")
 		(comment 1 "Sage Wu")
 	)
 	(lib_symbols
+		(symbol "205338-0002_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J*"
+				(at 8.89 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "205338-0002"
+				(at 8.89 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ssi_connector:Molex_205338-0002"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "205338-0002_1_0_0"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -6.35 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -5.715 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -5.715 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -5.715 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -5.715 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -6.35) (xy -6.35 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.985 4.7625)
+					(end -5.3975 5.3975)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 2.2225)
+					(end -5.3975 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 -2.8575)
+					(end -5.3975 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 -5.3975)
+					(end -5.3975 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -7.62) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy -6.35 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "SHIELD1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "SHIELD2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
 			(pin_names
 				(offset 1.016)
@@ -1861,6 +2153,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -2706,7 +3148,7 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "B"
+			(property "PARTREV" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2716,7 +3158,18 @@
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
+			(property "STANDARD" ""
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2726,17 +3179,7 @@
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "2.6 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Molex"
+			(property "MANUFACTURER" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3608,6 +4051,18 @@
 		)
 	)
 	(rectangle
+		(start 139.7 17.78)
+		(end 190.5 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1d6a2d49-4213-4f23-a646-5226a56767ff)
+	)
+	(rectangle
 		(start 182.88 54.61)
 		(end 278.13 99.06)
 		(stroke
@@ -3673,7 +4128,7 @@
 		)
 		(uuid "36506126-cce3-4f5f-aeb2-8fe2ca903f72")
 	)
-	(text "Magnetorquers"
+	(text "Magnetorquers (2.6mm)"
 		(exclude_from_sim no)
 		(at 84.328 90.932 0)
 		(effects
@@ -3707,6 +4162,16 @@
 			(justify left bottom)
 		)
 		(uuid "7cbdce00-4536-474a-8acb-af85379eeed9")
+	)
+	(text "USBC will power VBATT_REG if main\nPiCubed power connection is not present"
+		(exclude_from_sim no)
+		(at 161.798 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9158e054-8535-49e7-9595-9461b2a91843")
 	)
 	(text "Test Points"
 		(exclude_from_sim no)
@@ -3881,6 +4346,12 @@
 		(uuid "b6d6e01c-66a4-4b30-aa2d-33491265d3f0")
 	)
 	(junction
+		(at 156.21 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b752b679-4e44-43bf-860a-aa61cca81a3e")
+	)
+	(junction
 		(at 27.94 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3987,6 +4458,16 @@
 			(type default)
 		)
 		(uuid "022c64ca-8649-4709-acc2-2d8762a0bdb3")
+	)
+	(wire
+		(pts
+			(xy 156.21 40.64) (xy 125.73 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0614e0f7-5ef6-49f6-806a-c0be8142d1f2")
 	)
 	(wire
 		(pts
@@ -4167,6 +4648,16 @@
 			(type default)
 		)
 		(uuid "345cb8c7-05df-4042-8d41-69db22162b4b")
+	)
+	(wire
+		(pts
+			(xy 156.21 33.02) (xy 156.21 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353adae4-7222-4f28-8175-bd0e3caef834")
 	)
 	(wire
 		(pts
@@ -4420,7 +4911,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 40.64) (xy 125.73 40.64)
+			(xy 166.37 40.64) (xy 156.21 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4620,6 +5111,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 33.02) (xy 156.21 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9bbf720-031a-4fdc-bc78-aef628635b3d")
+	)
+	(wire
+		(pts
 			(xy 66.04 48.26) (xy 67.31 48.26)
 		)
 		(stroke
@@ -4677,6 +5178,16 @@
 			(type default)
 		)
 		(uuid "d68c2d53-2651-4a17-9ab1-dcde9eae455f")
+	)
+	(wire
+		(pts
+			(xy 168.91 33.02) (xy 172.72 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d749def7-a5ea-4acf-8df0-11bb7b7d3a17")
 	)
 	(wire
 		(pts
@@ -4972,7 +5483,7 @@
 			)
 		)
 	)
-	(global_label "3V3_TEST"
+	(global_label "3.3V"
 		(shape bidirectional)
 		(at 246.38 86.36 180)
 		(fields_autoplaced yes)
@@ -4984,7 +5495,7 @@
 		)
 		(uuid "240eb2c5-88cf-4e6c-9433-8d3fdcc43241")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.3276 86.36 0)
+			(at 238.9841 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,6 +5523,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBATT_REG"
+		(shape bidirectional)
+		(at 172.72 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28f5a7ff-fb7f-4daf-b18a-782fd43459ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.0425 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5456,7 +5989,7 @@
 			)
 		)
 	)
-	(global_label "Q1_DRAIN"
+	(global_label "ADCS_EN_OUT"
 		(shape bidirectional)
 		(at 265.43 87.63 180)
 		(fields_autoplaced yes)
@@ -5468,7 +6001,7 @@
 		)
 		(uuid "94d6b13d-fa65-4e88-9bef-87c545450e0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.075 87.63 0)
+			(at 249.2651 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +6011,7 @@
 			)
 		)
 	)
-	(global_label "Q1_SOURCE"
+	(global_label "VBATT_SENSE"
 		(shape bidirectional)
 		(at 265.43 95.25 180)
 		(fields_autoplaced yes)
@@ -5490,7 +6023,7 @@
 		)
 		(uuid "9b33734a-1f85-41df-8685-3c3f5c65e9a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.0794 95.25 0)
+			(at 249.749 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,64 +8089,71 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "2.6 mm"
+		(property "Height" ""
 			(at 175.26 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "Manufacturer_Name" ""
 			(at 175.26 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Standard" "Manufacturer Recommendations"
+		(property "Standard" ""
 			(at 175.26 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "PARTREV" "B"
+		(property "PARTREV" ""
 			(at 175.26 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "STANDARD" ""
 			(at 175.26 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.6 mm"
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
 			(at 175.26 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Molex"
+		(property "MANUFACTURER" ""
 			(at 175.26 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7699,6 +8239,83 @@
 			(project "ADCS_board"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec60eb"
 					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 165.1 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57806a65-da3c-4d54-a489-43d7d5994d41")
+		(property "Reference" "D4"
+			(at 165.4175 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CMSH1-40M"
+			(at 165.4175 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ssi_diode:DIOM5226X262N"
+			(at 165.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMSH3-20M_40M_60M_100M.PDF"
+			(at 165.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 165.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 165.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac828b22-3d2a-411e-aacc-f2d66537a7f5")
+		)
+		(pin "2"
+			(uuid "9bcb425b-4427-4726-b201-f19a11f4efd9")
+		)
+		(instances
+			(project "ADCS_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec60eb"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8340,7 +8957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "2.6 mm"
+		(property "Height" ""
 			(at 175.26 129.54 0)
 			(effects
 				(font
@@ -8348,7 +8965,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "Manufacturer_Name" ""
 			(at 175.26 129.54 0)
 			(effects
 				(font
@@ -8356,7 +8973,7 @@
 				)
 			)
 		)
-		(property "Standard" "Manufacturer Recommendations"
+		(property "Standard" ""
 			(at 175.26 129.54 0)
 			(effects
 				(font
@@ -8364,16 +8981,7 @@
 				)
 			)
 		)
-		(property "PARTREV" "B"
-			(at 175.26 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "PARTREV" ""
 			(at 175.26 129.54 0)
 			(effects
 				(font
@@ -8382,7 +8990,17 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.6 mm"
+		(property "STANDARD" ""
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
 			(at 175.26 129.54 0)
 			(effects
 				(font
@@ -8391,7 +9009,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Molex"
+		(property "MANUFACTURER" ""
 			(at 175.26 129.54 0)
 			(effects
 				(font
@@ -8422,6 +9040,7 @@
 		)
 	)
 	(symbol
+		(lib_name "205338-0002_1")
 		(lib_id "ssi_connector:205338-0002")
 		(at 175.26 147.32 0)
 		(unit 1)
@@ -8482,6 +9101,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
@@ -8490,9 +9110,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Standard" "Manufacturer Recommendations"
+		(property "Standard" ""
 			(at 175.26 147.32 0)
 			(effects
 				(font
@@ -8507,9 +9128,10 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "STANDARD" ""
 			(at 175.26 147.32 0)
 			(effects
 				(font
@@ -8525,6 +9147,7 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Molex"
@@ -8534,6 +9157,7 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8939,7 +9563,7 @@
 		(fields_autoplaced yes)
 		(uuid "df43e2ad-d58d-418b-96db-6926074d8052")
 		(property "Reference" "J10"
-			(at 106.172 109.3357 0)
+			(at 106.68 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,7 +9572,7 @@
 			)
 		)
 		(property "Value" "2053380002"
-			(at 106.172 111.76 0)
+			(at 106.68 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,7 +9580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ssi_connector:Molex_205338-0002"
+		(property "Footprint" ""
 			(at 106.172 114.1843 0)
 			(effects
 				(font
@@ -8998,6 +9622,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Standard" "Manufacturer Recommendations"
@@ -9016,6 +9641,7 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
@@ -9045,6 +9671,7 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9103,6 +9730,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9129,6 +9757,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
@@ -9137,17 +9766,39 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Standard" "Manufacturer Recommendations"
+		(property "Standard" ""
 			(at 97.79 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "PARTREV" "B"
+		(property "PARTREV" ""
+			(at 97.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 97.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
 			(at 97.79 147.32 0)
 			(effects
 				(font
@@ -9156,31 +9807,14 @@
 				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "MANUFACTURER" ""
 			(at 97.79 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.6 mm"
-			(at 97.79 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Molex"
-			(at 97.79 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9366,7 +10000,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdf53a3b-1bfe-4e10-95ab-287124ded8ba")
 		(property "Reference" "J11"
-			(at 106.172 127.1157 0)
+			(at 106.68 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9375,7 +10009,7 @@
 			)
 		)
 		(property "Value" "2053380002"
-			(at 106.172 129.54 0)
+			(at 106.68 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9383,7 +10017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ssi_connector:Molex_205338-0002"
+		(property "Footprint" ""
 			(at 106.172 131.9643 0)
 			(effects
 				(font
@@ -9425,6 +10059,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Standard" "Manufacturer Recommendations"
@@ -9443,6 +10078,7 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
@@ -9472,6 +10108,7 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "1"
