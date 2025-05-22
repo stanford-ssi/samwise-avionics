@@ -7,7 +7,7 @@
 	(title_block
 		(title "ADCS Main Board")
 		(date "2025-05-21")
-		(rev "1.4")
+		(rev "1.5")
 		(company "Stanford Student Space Initiative")
 		(comment 1 "Sage Wu")
 	)
@@ -809,6 +809,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 120.65 88.9)
+		(end 135.89 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2590d5f8-0728-4eae-b9be-415fd577d55f)
+	)
 	(text "Power Enable"
 		(exclude_from_sim no)
 		(at 130.81 69.85 0)
@@ -819,6 +831,17 @@
 			(justify left bottom)
 		)
 		(uuid "3c2485a3-54b0-468a-b2cb-8b17e32eacfd")
+	)
+	(text "increase to 10K for fear that RP2350b was\nsinking too much current as output."
+		(exclude_from_sim no)
+		(at 95.758 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "403949b9-1d44-4f5f-b90d-8604fa2a07d5")
 	)
 	(text "check that the correct part is on the BOM: DMP2040USS-13"
 		(exclude_from_sim no)
@@ -1371,7 +1394,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "10k"
 			(at 129.286 93.98 0)
 			(effects
 				(font
@@ -1540,6 +1563,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Field7" "IRF7404TRPBF"
@@ -1549,6 +1573,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Field8" "SO-8 ON Semiconductor"
@@ -1558,6 +1583,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(pin "1"

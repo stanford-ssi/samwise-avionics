@@ -7,7 +7,7 @@
 	(title_block
 		(title "ADCS Main Board")
 		(date "2025-05-21")
-		(rev "1.4")
+		(rev "1.5")
 		(company "Stanford Student Space Initiative")
 		(comment 1 "Sage Wu")
 	)
@@ -1006,7 +1006,7 @@
 		)
 		(uuid "d5ce0def-645c-4379-9679-e04bffbf894f")
 	)
-	(text "Magnetometers"
+	(text "Magnetometer"
 		(exclude_from_sim no)
 		(at 113.03 65.024 0)
 		(effects
@@ -1883,6 +1883,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Standard" "Manufacturer Recommendations"
@@ -1891,6 +1892,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PATREV" "1.0"
