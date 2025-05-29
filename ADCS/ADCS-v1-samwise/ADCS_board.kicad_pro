@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 0.875
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -78,7 +78,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
@@ -99,9 +99,9 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -131,10 +131,10 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.09,
-        "min_connection": 0.13,
+        "min_connection": 0.09,
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.3,
+        "min_hole_clearance": 0.17,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -261,7 +261,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1943100|1282700|686f60f3-d811-4c4b-a8f6-e6fdd7a6509a|e8ecd2b6-79b9-4d2c-b996-ee80084f4f76|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72",
+        "desired design"
+      ],
+      [
+        "multiple_net_names|3352800|2057400|34a329a3-5f4a-4ed8-8641-12784a70afed|5060dc86-ff4b-493d-ab96-2b4ee38fe33c|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72",
+        ""
+      ],
+      [
+        "multiple_net_names|3352800|2082800|da9783d6-e7de-4c3d-9fba-409701430a0b|50ee7060-995d-4185-a4ac-890ec1b948d1|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72",
+        ""
+      ],
+      [
+        "multiple_net_names|3365500|1485900|c636d94a-215c-484b-a34e-199b07c3fe35|dda477d1-e46d-4caf-a295-06ffccb07522|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72",
+        ""
+      ],
+      [
+        "multiple_net_names|3365500|1587500|1fed1d17-e3c5-4b17-8119-cdc07ab8c1f1|c8c54850-7b1d-4c02-a1ca-fd39dedbe308|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72|/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5a72",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -466,8 +487,8 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -790,10 +811,6 @@
     [
       "64c9d02f-f2a5-4afc-bcbd-2b44a6c6a2d8",
       "Sun Pyramid Mux"
-    ],
-    [
-      "3a5fb9a8-17a9-4130-add4-b3d4d675b6b4",
-      "Enable_ADCS"
     ],
     [
       "a3d832b6-a1cc-4410-a8d7-1698d429804f",
