@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "ADCS Main Board")
-		(date "2025-04-07")
-		(rev "1.2")
+		(date "2025-05-22")
+		(rev "1.7")
 		(company "Stanford Student Space Initiative")
 		(comment 1 "Sage Wu")
 	)
@@ -737,7 +737,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ssi_IC:RM3100-CB_AliExpress"
+		(symbol "ssi_IC:RM3100-CB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -793,7 +793,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RM3100-CB_AliExpress_1_1"
+			(symbol "RM3100-CB_1_1"
 				(rectangle
 					(start -6.35 7.62)
 					(end 6.35 -7.62)
@@ -808,7 +808,7 @@
 				(pin power_in line
 					(at -8.89 3.81 0)
 					(length 2.54)
-					(name "VCC"
+					(name "SLCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -823,10 +823,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin output line
 					(at -8.89 1.27 0)
 					(length 2.54)
-					(name "GND"
+					(name "MISO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -841,10 +841,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin input line
 					(at -8.89 -1.27 0)
 					(length 2.54)
-					(name "NC"
+					(name "MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -859,10 +859,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -8.89 -3.81 0)
 					(length 2.54)
-					(name "DRDY"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -877,10 +877,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 8.89 3.81 180)
 					(length 2.54)
-					(name "SCLK"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -895,10 +895,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 8.89 1.27 180)
 					(length 2.54)
-					(name "MISO"
+					(name "SCS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -913,10 +913,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 8.89 -1.27 180)
 					(length 2.54)
-					(name "MOSI"
+					(name "DRDY"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -931,10 +931,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 8.89 -3.81 180)
 					(length 2.54)
-					(name "SSN"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1006,7 +1006,7 @@
 		)
 		(uuid "d5ce0def-645c-4379-9679-e04bffbf894f")
 	)
-	(text "Magnetometers"
+	(text "Magnetometer"
 		(exclude_from_sim no)
 		(at 113.03 65.024 0)
 		(effects
@@ -1049,8 +1049,8 @@
 		(uuid "7a4eb519-114b-49da-9fc6-0a3beb95d40b")
 	)
 	(no_connect
-		(at 104.14 86.36)
-		(uuid "8a715ed1-0020-44c1-b4c0-448b8dda2c17")
+		(at 121.92 86.36)
+		(uuid "904743f3-11bc-43f1-982f-766ca62d6289")
 	)
 	(no_connect
 		(at 179.07 106.68)
@@ -1089,6 +1089,16 @@
 			(type default)
 		)
 		(uuid "16b686b6-c062-45fe-9f55-9a943effe017")
+	)
+	(wire
+		(pts
+			(xy 100.33 86.36) (xy 100.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ebf50ca-eb15-4a3d-999f-a54b5c3e9de5")
 	)
 	(wire
 		(pts
@@ -1132,13 +1142,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 81.28) (xy 100.33 81.28)
+			(xy 104.14 86.36) (xy 100.33 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56c6c064-668b-4f4f-af54-c30e05318cda")
+		(uuid "51e13954-9539-47af-b8f0-580aed4c2701")
 	)
 	(wire
 		(pts
@@ -1209,16 +1219,6 @@
 			(type default)
 		)
 		(uuid "74d578df-dfed-4df1-9811-698518bd2ce9")
-	)
-	(wire
-		(pts
-			(xy 121.92 86.36) (xy 123.19 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dacd383-530e-463d-b11d-ab26691cb21e")
 	)
 	(wire
 		(pts
@@ -1382,16 +1382,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 81.28) (xy 100.33 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e98dac34-cf84-4628-836f-c711a1b58461")
-	)
-	(wire
-		(pts
 			(xy 213.36 90.17) (xy 213.36 93.98)
 		)
 		(stroke
@@ -1411,12 +1401,12 @@
 		(uuid "f6b7627d-93f2-45e0-862f-cde2ff405271")
 	)
 	(label "3V3_MAGNMETER"
-		(at 104.14 78.74 180)
+		(at 123.19 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "07a751a1-4e4a-48ed-898e-b6b55c3299f7")
 	)
@@ -1518,22 +1508,22 @@
 	)
 	(global_label "MISO_MAGMETER"
 		(shape output)
-		(at 123.19 81.28 0)
+		(at 104.14 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "56a02330-618a-4132-a204-ad2aa72a0cf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.8818 81.28 0)
+			(at 86.4482 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1562,22 +1552,22 @@
 	)
 	(global_label "MOSI_MAGMETER"
 		(shape input)
-		(at 123.19 83.82 0)
+		(at 104.14 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7a9c27c3-34fa-4c6c-bd37-648d16a76f52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.8818 83.82 0)
+			(at 86.4482 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1604,9 +1594,9 @@
 			)
 		)
 	)
-	(global_label "SCLK_MAGMETER"
-		(shape input)
-		(at 123.19 78.74 0)
+	(global_label "MAGMETER_DRDY"
+		(shape output)
+		(at 123.19 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1614,9 +1604,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d88d97d7-0292-4079-a9f0-b650e99ceaed")
+		(uuid "b66735df-3519-4836-b0ae-7deacef6874d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.0632 78.74 0)
+			(at 141.1842 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,9 +1616,31 @@
 			)
 		)
 	)
+	(global_label "SCLK_MAGMETER"
+		(shape input)
+		(at 104.14 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d88d97d7-0292-4079-a9f0-b650e99ceaed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.2668 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCS_MAGMETER"
 		(shape input)
-		(at 123.19 86.36 0)
+		(at 123.19 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1638,7 +1650,7 @@
 		)
 		(uuid "e0d6b4b2-8a19-4f81-bb15-8d41b3a605c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.9746 86.36 0)
+			(at 139.9746 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,6 +1883,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Standard" "Manufacturer Recommendations"
@@ -1879,6 +1892,43 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PATREV" "1.0"
+			(at 198.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.87mm"
+			(at 194.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Bosch Sensortec"
+			(at 215.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "6"
@@ -1927,6 +1977,101 @@
 			(project ""
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ssi_IC:RM3100-CB")
+		(at 113.03 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6279b3ab-1398-4f65-8744-d08a07e3da15")
+		(property "Reference" "U10"
+			(at 113.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RM3100CB"
+			(at 113.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ssi_IC:RM3100CB"
+			(at 113.03 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.pnisensor.com/rm3100-cb/#download-rm3100-cb-manual"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d1549932-7225-4d7e-82e4-5494e5bf590e")
+		)
+		(pin "3"
+			(uuid "108fcfe0-3587-471a-8fb9-3aa7070de0d0")
+		)
+		(pin "4"
+			(uuid "dbdbc1e7-de62-4aec-a070-e90e1989d3c1")
+		)
+		(pin "5"
+			(uuid "1b6564ab-0957-4005-9a47-98c42deb33d8")
+		)
+		(pin "6"
+			(uuid "451a04f9-fd5c-4157-bf6b-ebd912d6bc29")
+		)
+		(pin "7"
+			(uuid "da053f13-c7f1-4da7-b053-16673d9b422f")
+		)
+		(pin "1"
+			(uuid "17d85d8f-98ae-417b-b496-79f0d30379cd")
+		)
+		(pin "2"
+			(uuid "dcdc567c-f1ca-48bc-8832-11abf5be0cbb")
+		)
+		(instances
+			(project ""
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -1999,101 +2144,6 @@
 			(project "mainboard"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
 					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ssi_IC:RM3100-CB_AliExpress")
-		(at 113.03 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7406fbd0-034f-489a-98e5-5d7edaae0d2b")
-		(property "Reference" "U10"
-			(at 113.03 70.9125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RM3100CB"
-			(at 113.03 73.3368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ssi_IC:RM3100CB"
-			(at 113.03 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.pnisensor.com/rm3100-cb/#download-rm3100-cb-manual"
-			(at 113.03 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 113.03 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "6cd3ca04-3d85-42b0-b871-5b9ce98c27fd")
-		)
-		(pin "3"
-			(uuid "e219210f-dac2-4afe-8a1a-30eafaec6602")
-		)
-		(pin "8"
-			(uuid "0bc6ad66-85ab-48c0-9c8e-014bcd1cd9bc")
-		)
-		(pin "2"
-			(uuid "832059aa-49f1-46a5-8169-6a7d1aa1a70f")
-		)
-		(pin "7"
-			(uuid "d95bb973-b2d4-42f7-a674-c3331d63288d")
-		)
-		(pin "1"
-			(uuid "8c560896-8469-4166-b433-aadc2136aeec")
-		)
-		(pin "5"
-			(uuid "10cae005-f50f-4b3b-9209-cfb82560e9ad")
-		)
-		(pin "4"
-			(uuid "6ec95729-0276-44fb-b127-76e87d0844d7")
-		)
-		(instances
-			(project "mainboard"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
-					(reference "U10")
 					(unit 1)
 				)
 			)

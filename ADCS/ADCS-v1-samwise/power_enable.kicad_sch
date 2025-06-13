@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "ADCS Main Board")
-		(date "2025-04-07")
-		(rev "1.2")
+		(date "2025-05-22")
+		(rev "1.7")
 		(company "Stanford Student Space Initiative")
 		(comment 1 "Sage Wu")
 	)
@@ -809,6 +809,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 120.65 88.9)
+		(end 135.89 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2590d5f8-0728-4eae-b9be-415fd577d55f)
+	)
 	(text "Power Enable"
 		(exclude_from_sim no)
 		(at 130.81 69.85 0)
@@ -819,6 +831,17 @@
 			(justify left bottom)
 		)
 		(uuid "3c2485a3-54b0-468a-b2cb-8b17e32eacfd")
+	)
+	(text "increase to 10K for fear that RP2350b was\nsinking too much current as output."
+		(exclude_from_sim no)
+		(at 95.758 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "403949b9-1d44-4f5f-b90d-8604fa2a07d5")
 	)
 	(text "check that the correct part is on the BOM: DMP2040USS-13"
 		(exclude_from_sim no)
@@ -1177,10 +1200,6 @@
 		)
 		(instances
 			(project "mainboard"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
-					(reference "R18")
-					(unit 1)
-				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
 					(reference "R8")
 					(unit 1)
@@ -1259,10 +1278,6 @@
 		)
 		(instances
 			(project "mainboard"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
-					(reference "#FLG05")
-					(unit 1)
-				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
 					(reference "#FLG0101")
 					(unit 1)
@@ -1341,10 +1356,6 @@
 		)
 		(instances
 			(project "mainboard"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
-					(reference "#PWR059")
-					(unit 1)
-				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
 					(reference "#PWR0108")
 					(unit 1)
@@ -1383,7 +1394,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "10k"
 			(at 129.286 93.98 0)
 			(effects
 				(font
@@ -1436,10 +1447,6 @@
 		)
 		(instances
 			(project "mainboard"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
-					(reference "R19")
-					(unit 1)
-				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
 					(reference "R9")
 					(unit 1)
@@ -1549,6 +1556,36 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" "ON Semiconductor"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Field7" "IRF7404TRPBF"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Field8" "SO-8 ON Semiconductor"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2e9900e-f7ab-4ea6-8021-311495753c56")
 		)
@@ -1575,10 +1612,6 @@
 		)
 		(instances
 			(project "mainboard"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
-					(reference "Q1")
-					(unit 1)
-				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
 					(reference "Q4")
 					(unit 1)
@@ -1669,10 +1702,6 @@
 		)
 		(instances
 			(project "mainboard"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
-					(reference "C65")
-					(unit 1)
-				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
 					(reference "C56")
 					(unit 1)
@@ -1763,10 +1792,6 @@
 		)
 		(instances
 			(project "mainboard"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde/3a5fb9a8-17a9-4130-add4-b3d4d675b6b4"
-					(reference "C64")
-					(unit 1)
-				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4/b9527fb8-079c-4c5f-8562-b366187602ac"
 					(reference "C55")
 					(unit 1)
