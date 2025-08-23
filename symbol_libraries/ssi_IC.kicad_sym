@@ -17133,7 +17133,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 6.604 0)
+			(at 0 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17177,8 +17177,8 @@
 		)
 		(symbol "TPS70960DBVR_1_1"
 			(rectangle
-				(start -7.62 5.08)
-				(end 7.62 -3.81)
+				(start -10.16 6.35)
+				(end 10.16 -8.89)
 				(stroke
 					(width 0)
 					(type solid)
@@ -17188,7 +17188,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 2.54 0)
+				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -17205,26 +17205,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 -1.27 0)
-				(length 2.54)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 0 -6.35 90)
+				(at -12.7 -1.27 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -17241,8 +17223,26 @@
 					)
 				)
 			)
+			(pin input line
+				(at -12.7 -6.35 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
-				(at 10.16 2.54 180)
+				(at 12.7 3.81 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -17260,7 +17260,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -1.27 180)
+				(at 12.7 -6.35 180)
 				(length 2.54)
 				(name "NC"
 					(effects
