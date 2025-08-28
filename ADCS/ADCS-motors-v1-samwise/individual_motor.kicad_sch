@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Reaction Wheel Motor Board")
-		(date "2025-04-07")
-		(rev "1.1")
+		(date "2025-08-27")
+		(rev "1.2")
 		(company "Stanford Student Space Initiative")
 		(comment 1 "Carson Lauer")
 	)
@@ -1962,12 +1962,6 @@
 		(uuid "3c74a6f6-fe8d-4216-92d3-2d115f750648")
 	)
 	(junction
-		(at 85.09 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47eeb661-cc8d-4873-8179-e7db0af336e5")
-	)
-	(junction
 		(at 83.82 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2127,23 +2121,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 78.74) (xy 97.79 78.74)
+			(xy 88.9 78.74) (xy 97.79 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0449ceb9-0439-4961-a5af-bf9939fc9206")
-	)
-	(wire
-		(pts
-			(xy 66.04 102.87) (xy 66.04 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08089aeb-a6a2-4f5e-be6b-f281573220b1")
 	)
 	(wire
 		(pts
@@ -2167,16 +2151,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 82.55) (xy 66.04 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0daf52aa-a9dc-4271-be1e-6faca2aa6efd")
-	)
-	(wire
-		(pts
 			(xy 161.29 53.34) (xy 160.02 53.34)
 		)
 		(stroke
@@ -2194,16 +2168,6 @@
 			(type default)
 		)
 		(uuid "1651c841-9731-41b7-b369-153a951e93c9")
-	)
-	(wire
-		(pts
-			(xy 85.09 82.55) (xy 66.04 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "168a1463-f026-4f59-b338-0ca47f03fea4")
 	)
 	(wire
 		(pts
@@ -2244,16 +2208,6 @@
 			(type default)
 		)
 		(uuid "2186bade-4859-4c1a-a637-01043d6e7335")
-	)
-	(wire
-		(pts
-			(xy 66.04 92.71) (xy 66.04 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "277ce467-c761-4da3-bd4e-04ab399a5901")
 	)
 	(wire
 		(pts
@@ -2324,26 +2278,6 @@
 			(type default)
 		)
 		(uuid "489268ee-0ff9-4d5f-9e83-e2e0db631572")
-	)
-	(wire
-		(pts
-			(xy 55.88 102.87) (xy 55.88 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4975751a-4123-4c93-9c88-a1288b25ceba")
-	)
-	(wire
-		(pts
-			(xy 55.88 76.2) (xy 55.88 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ab97594-246d-45d0-9acc-5d1970737f1e")
 	)
 	(wire
 		(pts
@@ -2587,16 +2521,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 78.74) (xy 85.09 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fc2404d-0a3c-40c4-b5a4-be8ed0d0a715")
-	)
-	(wire
-		(pts
 			(xy 96.52 91.44) (xy 97.79 91.44)
 		)
 		(stroke
@@ -2737,16 +2661,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 76.2) (xy 55.88 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb1a424a-ca3c-4def-bf9d-0faecb899a55")
-	)
-	(wire
-		(pts
 			(xy 50.8 62.23) (xy 50.8 63.5)
 		)
 		(stroke
@@ -2814,16 +2728,6 @@
 			(type default)
 		)
 		(uuid "ccf7ce9d-2394-4d11-aef0-b8433fae74dc")
-	)
-	(wire
-		(pts
-			(xy 77.47 78.74) (xy 85.09 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd22e322-c349-4f2c-96ef-283a79871959")
 	)
 	(wire
 		(pts
@@ -2914,26 +2818,6 @@
 			(type default)
 		)
 		(uuid "e60e69fc-87b8-4495-ab22-d26940d139b2")
-	)
-	(wire
-		(pts
-			(xy 55.88 92.71) (xy 55.88 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea4c2d02-c3a5-4924-b79d-99a271ca88b8")
-	)
-	(wire
-		(pts
-			(xy 92.71 73.66) (xy 92.71 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecb0ff6e-387d-49b6-ae86-b1977be9b100")
 	)
 	(wire
 		(pts
@@ -3322,7 +3206,7 @@
 	)
 	(hierarchical_label "nSLEEP"
 		(shape input)
-		(at 77.47 78.74 180)
+		(at 88.9 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3491,106 +3375,6 @@
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/d31281b4-eddd-487e-8ed5-75d78854524d"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 55.88 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ef61b4e-deda-4968-bbfd-e15ce7d14eb2")
-		(property "Reference" "D10"
-			(at 58.42 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GREEN LED"
-			(at 58.42 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 55.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
-			(at 55.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 55.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 55.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 55.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fdf0c4d6-c523-446e-8039-65b3a946cfb8")
-		)
-		(pin "2"
-			(uuid "fc68769c-3f11-46b6-9212-2d684b35943f")
-		)
-		(instances
-			(project "motor_board"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/08b1e189-2a38-4e17-9df4-49e0abe87b81"
-					(reference "D10")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/81c2bef0-2c84-4044-8bf4-15ef89caa954"
-					(reference "D12")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/8cad1885-43e4-44e2-80dd-d2e7f96a9265"
-					(reference "D13")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/d31281b4-eddd-487e-8ed5-75d78854524d"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4232,85 +4016,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 66.04 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5761d477-d265-440d-bd30-8ea1bc616f54")
-		(property "Reference" "R55"
-			(at 60.96 88.646 90)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 63.5 88.646 90)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 67.056 89.154 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 66.04 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a5517e6-d484-47ea-82c9-8447e445ce09")
-		)
-		(pin "2"
-			(uuid "c7216d4c-db26-4367-b555-89623c97687c")
-		)
-		(instances
-			(project "motor_board"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/08b1e189-2a38-4e17-9df4-49e0abe87b81"
-					(reference "R55")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/81c2bef0-2c84-4044-8bf4-15ef89caa954"
-					(reference "R58")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/8cad1885-43e4-44e2-80dd-d2e7f96a9265"
-					(reference "R59")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/d31281b4-eddd-487e-8ed5-75d78854524d"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 92.71 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4742,85 +4447,6 @@
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/d31281b4-eddd-487e-8ed5-75d78854524d"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 55.88 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82244855-763f-44d9-81cd-c0919e225a46")
-		(property "Reference" "R60"
-			(at 50.8 88.646 90)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 53.34 88.646 90)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 56.896 89.154 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 55.88 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2775e9f2-c75a-4575-8fde-965c6d5b3334")
-		)
-		(pin "2"
-			(uuid "e557f195-2a55-44d1-a86a-e14dfc271cbd")
-		)
-		(instances
-			(project "motor_board"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/08b1e189-2a38-4e17-9df4-49e0abe87b81"
-					(reference "R60")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/81c2bef0-2c84-4044-8bf4-15ef89caa954"
-					(reference "R65")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/8cad1885-43e4-44e2-80dd-d2e7f96a9265"
-					(reference "R66")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/d31281b4-eddd-487e-8ed5-75d78854524d"
-					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -5333,183 +4959,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 66.04 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d4eb11a-1888-42ba-88d3-eddd68824bae")
-		(property "Reference" "D4"
-			(at 68.58 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GREEN LED"
-			(at 68.58 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 66.04 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
-			(at 66.04 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 66.04 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 66.04 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 66.04 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b43dbf3-a0b1-4e9e-86a5-6af971e93144")
-		)
-		(pin "2"
-			(uuid "8d60396b-0f1a-4af2-b774-75b7ac69370f")
-		)
-		(instances
-			(project "motor_board"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/08b1e189-2a38-4e17-9df4-49e0abe87b81"
-					(reference "D4")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/81c2bef0-2c84-4044-8bf4-15ef89caa954"
-					(reference "D8")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/8cad1885-43e4-44e2-80dd-d2e7f96a9265"
-					(reference "D9")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/d31281b4-eddd-487e-8ed5-75d78854524d"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a11aa703-01d5-4406-a0bd-cb99fc7d855f")
-		(property "Reference" "#PWR028"
-			(at 66.04 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.548 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca2346a2-5f62-4c49-befe-0ff969246c5c")
-		)
-		(instances
-			(project "motor_board"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/08b1e189-2a38-4e17-9df4-49e0abe87b81"
-					(reference "#PWR028")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/81c2bef0-2c84-4044-8bf4-15ef89caa954"
-					(reference "#PWR032")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/8cad1885-43e4-44e2-80dd-d2e7f96a9265"
-					(reference "#PWR035")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/d31281b4-eddd-487e-8ed5-75d78854524d"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 171.45 53.34 0)
 		(unit 1)
@@ -5820,83 +5269,6 @@
 				)
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/d31281b4-eddd-487e-8ed5-75d78854524d"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 55.88 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bdfbbd9b-1ce1-42fc-a00a-cc961b3037d3")
-		(property "Reference" "#PWR041"
-			(at 55.88 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 56.388 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ea4f772-a11c-4d43-92d0-464ce5609152")
-		)
-		(instances
-			(project "motor_board"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/08b1e189-2a38-4e17-9df4-49e0abe87b81"
-					(reference "#PWR041")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/81c2bef0-2c84-4044-8bf4-15ef89caa954"
-					(reference "#PWR044")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/8cad1885-43e4-44e2-80dd-d2e7f96a9265"
-					(reference "#PWR045")
-					(unit 1)
-				)
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/c83b0c2f-2d19-4aec-a657-bda2046fb347/d31281b4-eddd-487e-8ed5-75d78854524d"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
