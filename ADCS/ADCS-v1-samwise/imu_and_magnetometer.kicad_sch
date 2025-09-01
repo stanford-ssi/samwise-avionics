@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "ADCS Main Board")
-		(date "2025-05-22")
-		(rev "1.7")
+		(date "2025-08-21")
+		(rev "1.8")
 		(company "Stanford Student Space Initiative")
 		(comment 1 "Sage Wu")
 	)
@@ -1400,7 +1400,7 @@
 		)
 		(uuid "f6b7627d-93f2-45e0-862f-cde2ff405271")
 	)
-	(label "3V3_MAGNMETER"
+	(label "3V3_MAGMETER"
 		(at 123.19 78.74 0)
 		(effects
 			(font
@@ -1430,7 +1430,7 @@
 		)
 		(uuid "f6d5246c-74f8-4b59-9bb4-efcac1e7283e")
 	)
-	(label "3V3_MAGNMETER"
+	(label "3V3_MAGMETER"
 		(at 76.2 109.22 0)
 		(effects
 			(font
@@ -1484,7 +1484,7 @@
 			)
 		)
 	)
-	(global_label "EN_MAGNMETER"
+	(global_label "EN_MAGMETER"
 		(shape input)
 		(at 45.72 104.14 180)
 		(fields_autoplaced yes)
@@ -1496,7 +1496,7 @@
 		)
 		(uuid "4c0e3c82-9d26-4ad6-ba08-e196583d6b1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.8144 104.14 0)
+			(at 30.1449 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +1822,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "525df686-e614-43cf-979a-84d472dce43f")
 		(property "Reference" "U11"
 			(at 194.31 92.3755 0)
@@ -1896,16 +1895,17 @@
 			)
 		)
 		(property "PATREV" "1.0"
-			(at 198.12 120.65 0)
+			(at 237.236 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 208.28 95.25 0)
+			(at 221.488 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,16 +1914,17 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.87mm"
-			(at 194.31 116.84 0)
+			(at 232.918 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Bosch Sensortec"
-			(at 215.9 116.84 0)
+			(at 214.122 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
