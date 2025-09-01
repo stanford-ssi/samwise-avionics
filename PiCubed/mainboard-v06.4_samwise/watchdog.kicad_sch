@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "PiCubed Mainboard")
-		(date "2025-08-29")
-		(rev "6.5")
+		(date "2025-04-04")
+		(rev "6.4")
 		(company "Stanford Student Space Initiative")
 		(comment 1 "Ethan Brinser, Milly Wong, Lundeen Cahilly")
 	)
@@ -1349,16 +1349,6 @@
 		)
 		(uuid "c672fcd7-f01c-497e-93ce-4279d2a0f95d")
 	)
-	(text "6V"
-		(exclude_from_sim no)
-		(at 78.74 38.862 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d8389f6e-a561-44b2-af46-c883b802fd69")
-	)
 	(junction
 		(at 200.66 130.81)
 		(diameter 0)
@@ -1496,10 +1486,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6d63ce1-1329-45fe-85c8-3e208ac7266e")
-	)
-	(no_connect
-		(at 48.26 52.07)
-		(uuid "423a7e27-48a6-4c47-823d-7a9cd38ce998")
 	)
 	(wire
 		(pts
@@ -5101,21 +5087,21 @@
 		(dnp no)
 		(uuid "d0431416-70f0-4c65-b9d1-183a1f133d57")
 		(property "Reference" "D7"
-			(at 24.892 54.356 0)
+			(at 31.496 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "CMSH1-40M"
-			(at 22.352 45.212 0)
+			(at 40.64 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "ssi_diode:DIOM5226X262N"
