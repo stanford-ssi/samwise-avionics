@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Reaction Wheel Motor Board")
-		(date "2025-08-28")
+		(date "2025-09-03")
 		(rev "1.2")
 		(company "Stanford Student Space Initiative")
 		(comment 1 "Carson Lauer")
@@ -421,6 +421,156 @@
 				)
 			)
 			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2645,6 +2795,12 @@
 		(uuid "c53ea1a4-9668-46f5-92dd-391434532115")
 	)
 	(junction
+		(at 149.86 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db2afb1c-4a9b-4e72-a7df-7d8538792af1")
+	)
+	(junction
 		(at 227.33 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3532,6 +3688,16 @@
 		)
 		(uuid "79ea0485-f135-46ea-b4c6-71a970ceec97")
 	)
+	(wire
+		(pts
+			(xy 149.86 76.2) (xy 149.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b226bfd-9a37-4c1b-b169-a9ed4355cf89")
+	)
 	(polyline
 		(pts
 			(xy 234.95 50.8) (xy 256.54 50.8)
@@ -3954,7 +4120,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 76.2) (xy 160.02 76.2)
+			(xy 162.56 76.2) (xy 149.86 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4111,6 +4277,16 @@
 			(type default)
 		)
 		(uuid "c49e62fe-12c7-4505-a31a-712bef231ec4")
+	)
+	(wire
+		(pts
+			(xy 149.86 76.2) (xy 143.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5040c8d-5f26-4451-a5a6-115a744269a6")
 	)
 	(wire
 		(pts
@@ -4421,6 +4597,16 @@
 			(type default)
 		)
 		(uuid "ef44f9c6-b960-4402-8219-52f05914ad56")
+	)
+	(wire
+		(pts
+			(xy 149.86 91.44) (xy 149.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1280137-72c9-4e57-89f1-1d6bbbe3bc2b")
 	)
 	(wire
 		(pts
@@ -5272,7 +5458,7 @@
 	)
 	(global_label "3.3V"
 		(shape bidirectional)
-		(at 160.02 76.2 180)
+		(at 143.51 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5282,7 +5468,7 @@
 		)
 		(uuid "fdebb83f-3adf-4eb8-a3d5-3574dcb90b43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.7035 76.2 0)
+			(at 136.1935 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10871,6 +11057,140 @@
 			(project "mainboard"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 149.86 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa3d3c9c-1905-4aba-83a3-5ed9c721c4ab")
+		(property "Reference" "D3"
+			(at 147.066 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CMSH1-40M"
+			(at 147.32 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ssi_diode:DIOM5226X262N"
+			(at 149.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMSH1-40M-TR13-PBFREE/4807415"
+			(at 149.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 149.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04f60cce-bccc-4750-90d4-f139d4dca789")
+		)
+		(pin "2"
+			(uuid "dce19ed0-b50e-407f-a634-811a86360daa")
+		)
+		(instances
+			(project "motor_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af786ae8-63f0-450e-a3a8-601114c1360b")
+		(property "Reference" "#PWR028"
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 150.368 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "268f590e-2810-450c-b8bc-42665d7a67a4")
+		)
+		(instances
+			(project "motor_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
