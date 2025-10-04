@@ -1,5 +1,6 @@
 # SAMWISE Avionics Repository
 Welcome to the SAMWISE GitHub Avionics repository! Here, we (try to) keep the most updated versions of all of our circuit boards accessible to the public.
+[Link to the Wiki for onboarding info and general resources](https://github.com/stanford-ssi/samwise-wiki/wiki/Avionics)
 
 ## General Layout
 Individual boards have their own folders to ease merging of branches. Symbol libraries, footprint libraries, and 3D models are in separate top-level folders. Project templates (for starting out) and jobsets (for project export) are in other top-level folders. Unused, old boards are in the unused_boards folder.
