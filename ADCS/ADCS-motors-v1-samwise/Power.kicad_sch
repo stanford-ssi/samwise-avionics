@@ -291,7 +291,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
+		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
 			)
@@ -310,7 +310,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "D_Schottky"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -336,7 +336,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode"
+			(property "Description" "Schottky diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -345,25 +345,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -381,10 +363,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_0_1"
+			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -419,7 +401,7 @@
 					)
 				)
 			)
-			(symbol "D_1_1"
+			(symbol "D_Schottky_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1897,6 +1879,12 @@
 		(uuid "66745f3d-f6a0-436b-b206-5ba880732a97")
 	)
 	(junction
+		(at 124.46 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66cf509c-5410-4e22-b771-0b50a40a013b")
+	)
+	(junction
 		(at 125.73 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1931,12 +1919,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b027ccbc-e528-4459-8e01-aa5e90d4d865")
-	)
-	(junction
-		(at 33.02 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf7597cd-1883-4792-a1b7-0755e3f8e293")
 	)
 	(junction
 		(at 132.08 46.99)
@@ -2018,6 +2000,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 91.44) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1432e509-fdb0-4d1e-8669-2eeb38eb08ca")
+	)
+	(wire
+		(pts
 			(xy 52.07 43.18) (xy 57.15 43.18)
 		)
 		(stroke
@@ -2025,16 +2017,6 @@
 			(type default)
 		)
 		(uuid "1c966b2c-f516-41aa-a176-df9b8e0ad53b")
-	)
-	(wire
-		(pts
-			(xy 33.02 78.74) (xy 33.02 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e408839-a53f-40b0-b57f-b1c112bd529f")
 	)
 	(wire
 		(pts
@@ -2085,16 +2067,6 @@
 			(type default)
 		)
 		(uuid "3028d6e1-56bb-4a0f-93f7-7b5378035b8b")
-	)
-	(wire
-		(pts
-			(xy 33.02 60.96) (xy 33.02 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "302f9740-d7eb-48d3-87be-696223b883eb")
 	)
 	(wire
 		(pts
@@ -2188,16 +2160,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 99.06) (xy 125.73 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43c4feba-41bd-4f27-ac91-8deaddfaa53b")
-	)
-	(wire
-		(pts
 			(xy 57.15 43.18) (xy 57.15 48.26)
 		)
 		(stroke
@@ -2288,7 +2250,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 60.96) (xy 33.02 60.96)
+			(xy 27.94 60.96) (xy 39.37 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2388,16 +2350,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 88.9) (xy 33.02 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "721eb2b0-39da-423f-8d55-66f3175407dc")
-	)
-	(wire
-		(pts
 			(xy 52.07 50.8) (xy 54.61 50.8)
 		)
 		(stroke
@@ -2445,6 +2397,16 @@
 			(type default)
 		)
 		(uuid "7b9bbe56-9c53-428f-95e6-a3f4b9e15756")
+	)
+	(wire
+		(pts
+			(xy 124.46 78.74) (xy 123.19 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf7d36a-26d1-491b-9df4-2fc761fdc792")
 	)
 	(wire
 		(pts
@@ -2608,23 +2570,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 78.74) (xy 123.19 78.74)
+			(xy 125.73 78.74) (xy 124.46 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2933d8e-434a-4c01-8564-be47dd6b3bc6")
-	)
-	(wire
-		(pts
-			(xy 125.73 78.74) (xy 125.73 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9f5a7ce-478b-41f5-9d19-9f2683b3d505")
 	)
 	(wire
 		(pts
@@ -2685,16 +2637,6 @@
 			(type default)
 		)
 		(uuid "cc547831-4494-457a-9040-aeb8b031d6c2")
-	)
-	(wire
-		(pts
-			(xy 125.73 88.9) (xy 125.73 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd826ab2-373c-4236-9d42-7b03cac49157")
 	)
 	(polyline
 		(pts
@@ -2778,13 +2720,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 60.96) (xy 39.37 60.96)
+			(xy 124.46 83.82) (xy 124.46 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e62d973b-74d6-45ad-af75-d9e342754a5a")
+		(uuid "e48ed292-f422-4128-9beb-6f8bc09babb0")
 	)
 	(wire
 		(pts
@@ -4489,161 +4431,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 33.02 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "096c087c-b554-4e07-9c1a-09e36910d29e")
-		(property "Reference" "vbatt1"
-			(at 35.56 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GREEN LED"
-			(at 35.56 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 33.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
-			(at 33.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 33.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 33.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 33.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f97e4c4-56b7-4552-8e26-bd0f5988e9a6")
-		)
-		(pin "2"
-			(uuid "39752a2f-34df-488c-85d9-b5349b3e42ef")
-		)
-		(instances
-			(project "motor_board"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
-					(reference "vbatt1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 33.02 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0df3a5ac-a059-4267-b95c-42e5d941441b")
-		(property "Reference" "R74"
-			(at 27.94 74.676 90)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Value" "120"
-			(at 30.48 74.676 90)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 34.036 75.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfef4aab-a79f-4a16-9fae-9058f4d5bb32")
-		)
-		(pin "2"
-			(uuid "ef095358-90be-4a45-b2df-c638f07d9686")
-		)
-		(instances
-			(project "motor_board"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
-					(reference "R74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 246.38 54.61 0)
 		(unit 1)
@@ -4710,94 +4497,6 @@
 			(project "mainboard"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 125.73 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7631c829-0c83-41e4-af3a-9e5eeb9b44dd")
-		(property "Reference" "3V3"
-			(at 128.27 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GREEN LED"
-			(at 128.27 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cde5b35-f663-4708-8bce-629b26bb0e66")
-		)
-		(pin "2"
-			(uuid "b21ad293-5e36-455f-9753-85c79a20473c")
-		)
-		(instances
-			(project ""
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
-					(reference "3V3")
 					(unit 1)
 				)
 			)
@@ -4942,73 +4641,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 125.73 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "906681d8-5fd2-43e2-ad27-305bf849b52f")
-		(property "Reference" "R52"
-			(at 120.65 84.836 90)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 123.19 84.836 90)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 126.746 85.344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 125.73 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24508b53-06c3-44a5-8c89-31bcf52258f1")
-		)
-		(pin "2"
-			(uuid "10254692-9aad-4690-ba5e-94068a99d6b4")
-		)
-		(instances
-			(project "motor_board"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
-					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 64.77 76.2 0)
 		(unit 1)
@@ -5081,6 +4713,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 124.46 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa3d3c9c-1905-4aba-83a3-5ed9c721c4ab")
+		(property "Reference" "D3"
+			(at 121.666 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CMSH1-40M"
+			(at 121.92 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ssi_diode:DIOM5226X262N"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMSH1-40M-TR13-PBFREE/4807415"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04f60cce-bccc-4750-90d4-f139d4dca789")
+		)
+		(pin "2"
+			(uuid "dce19ed0-b50e-407f-a634-811a86360daa")
+		)
+		(instances
+			(project "motor_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af786ae8-63f0-450e-a3a8-601114c1360b")
+		(property "Reference" "#PWR028"
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.968 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "268f590e-2810-450c-b8bc-42665d7a67a4")
+		)
+		(instances
+			(project "motor_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 76.2 0)
 		(unit 1)
@@ -5147,71 +4913,6 @@
 			(project "mainboard"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bdbe39da-9a63-4fbc-9ce9-30cee31a4fdd")
-		(property "Reference" "#PWR08"
-			(at 125.73 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 126.238 107.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56682137-8e08-457b-8b67-b3af3d10acfa")
-		)
-		(instances
-			(project ""
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5351,71 +5052,6 @@
 			(project "mainboard"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 33.02 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f93d9604-e0df-4029-874f-f6c7becca813")
-		(property "Reference" "#PWR058"
-			(at 33.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.528 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cf8ad9e-408f-4fa8-993b-309b287e26ed")
-		)
-		(instances
-			(project "motor_board"
-				(path "/db20b18b-d25a-428e-8229-70a189e1de75/00000000-0000-0000-0000-00005cec5dde"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
