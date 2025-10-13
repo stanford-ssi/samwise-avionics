@@ -4280,14 +4280,6 @@
 		(uuid "f98e7321-8171-4231-8a99-9205f92f8414")
 	)
 	(no_connect
-		(at 153.67 226.06)
-		(uuid "1d2033e4-0707-401a-a47b-60059326f782")
-	)
-	(no_connect
-		(at 153.67 231.14)
-		(uuid "79eed936-6603-4460-a2a5-cd6694a6ed4a")
-	)
-	(no_connect
 		(at 241.3 68.58)
 		(uuid "8f3f8039-cd9d-4a6e-b4d3-d6d4753dd0d7")
 	)
@@ -4304,20 +4296,8 @@
 		(uuid "b8913a2a-f76f-4264-8138-ac99a0f1395a")
 	)
 	(no_connect
-		(at 153.67 220.98)
-		(uuid "c37038b5-3171-4596-a744-f98f6e84b3ef")
-	)
-	(no_connect
 		(at 153.67 182.88)
 		(uuid "e20b123a-c9cd-48be-80c2-e42d15bf4948")
-	)
-	(no_connect
-		(at 153.67 223.52)
-		(uuid "ef4476a7-5590-4885-a4a3-7196e73697bc")
-	)
-	(no_connect
-		(at 153.67 228.6)
-		(uuid "fda891b0-1d34-4329-a6f0-cb01231c979c")
 	)
 	(wire
 		(pts
@@ -6385,6 +6365,28 @@
 			)
 		)
 	)
+	(global_label "MAGNETOMETER_CS"
+		(shape input)
+		(at 153.67 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "135f2bb2-fb3d-43a1-852c-ff9d5b4f9953")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.0227 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "WATCHDOG_FEED"
 		(shape output)
 		(at 153.67 218.44 0)
@@ -6398,6 +6400,28 @@
 		(uuid "1894c801-3689-48a0-aae5-d0b1324b0862")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 171.6038 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAGNETOMETER_TX"
+		(shape input)
+		(at 153.67 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18eae325-270b-46ce-97e3-df65a4f74097")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.7203 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6605,6 +6629,28 @@
 			)
 		)
 	)
+	(global_label "MAGNETOMETER_DRDY"
+		(shape input)
+		(at 153.67 231.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a08e61d-e5c9-49ae-bf83-0c8cd4017133")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.4418 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "nSCS_4"
 		(shape output)
 		(at 156.21 162.56 0)
@@ -6671,6 +6717,28 @@
 			)
 		)
 	)
+	(global_label "MAGNETOMETER_RX"
+		(shape input)
+		(at 153.67 223.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88159e09-e25f-4fcd-8b4e-987fcd5405ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.0227 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "nSCS_2"
 		(shape output)
 		(at 156.21 121.92 0)
@@ -6684,6 +6752,28 @@
 		(uuid "8bc7d8d2-3bd8-43b3-8b20-28b181e42c9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 165.5561 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAGNETOMETER_SCK"
+		(shape input)
+		(at 153.67 228.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ce92f10-69c2-43aa-846a-1e355976373c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.2927 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

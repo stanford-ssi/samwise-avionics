@@ -1740,7 +1740,7 @@
 			(uuid "c38a7713-670a-4611-8afe-125e0d1c41ee")
 		)
 		(instances
-			(project "mainboard"
+			(project "ADCS_board"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
 					(reference "#PWR058")
 					(unit 1)
@@ -1806,7 +1806,7 @@
 			(uuid "3b21c2a6-4709-4da3-b9e0-3d0143dddafe")
 		)
 		(instances
-			(project "mainboard"
+			(project "ADCS_board"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
 					(reference "#PWR079")
 					(unit 1)
@@ -1975,7 +1975,7 @@
 			(uuid "f2c0e153-921d-442a-a044-0d4e096da661")
 		)
 		(instances
-			(project ""
+			(project "ADCS_board"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
 					(reference "U11")
 					(unit 1)
@@ -2070,7 +2070,7 @@
 			(uuid "dcdc567c-f1ca-48bc-8832-11abf5be0cbb")
 		)
 		(instances
-			(project ""
+			(project "ADCS_board"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
 					(reference "U10")
 					(unit 1)
@@ -2142,7 +2142,7 @@
 					(unit 1)
 				)
 			)
-			(project "mainboard"
+			(project "ADCS_board"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
 					(reference "#PWR0101")
 					(unit 1)
@@ -2208,7 +2208,7 @@
 			(uuid "de6b778f-e710-41bc-90f4-d1ccd63283d8")
 		)
 		(instances
-			(project "mainboard"
+			(project "ADCS_board"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
 					(reference "#PWR022")
 					(unit 1)
@@ -2280,7 +2280,7 @@
 					(unit 1)
 				)
 			)
-			(project "mainboard"
+			(project "ADCS_board"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
 					(reference "#PWR0102")
 					(unit 1)
@@ -2350,7 +2350,7 @@
 			(uuid "83feb5a4-3eb1-4d19-8d37-919f8d574298")
 		)
 		(instances
-			(project ""
+			(project "ADCS_board"
 				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
 					(reference "C63")
 					(unit 1)
@@ -2436,6 +2436,16 @@
 					(page "2")
 				)
 			)
+			(project ""
+				(path "/a3d832b6-a1cc-4410-a8d7-1698d429804f"
+					(page "")
+				)
+			)
+			(project "ADCS_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
+					(page "6")
+				)
+			)
 		)
 	)
 	(sheet
@@ -2516,12 +2526,16 @@
 					(page "4")
 				)
 			)
+			(project ""
+				(path "/a3d832b6-a1cc-4410-a8d7-1698d429804f"
+					(page "")
+				)
+			)
+			(project "ADCS_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75/a3d832b6-a1cc-4410-a8d7-1698d429804f"
+					(page "9")
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
