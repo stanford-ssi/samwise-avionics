@@ -476,6 +476,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -487,7 +488,7 @@
   },
   "meta": {
     "filename": "ADCS_board.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -502,6 +503,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -519,6 +521,7 @@
         "microvia_drill": 0.1,
         "name": "50ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.283,
         "via_diameter": 0.6,
@@ -536,6 +539,7 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.23495,
         "via_diameter": 0.5842,
@@ -544,10 +548,20 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/GPS/RF_IN": [
+        "50ohm"
+      ],
+      "Net-(J6-In)": [
+        "50ohm"
+      ],
+      "Net-(J7-In)": [
+        "50ohm"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "USB",
@@ -768,12 +782,20 @@
       "Power"
     ],
     [
+      "18b4321a-5d6b-428b-9299-fbbcca773709",
+      "Enable_Magnetometer1"
+    ],
+    [
       "a393ea4a-5f4e-4c0f-917f-6d28e91dd546",
       "Watchdog"
     ],
     [
       "64c9d02f-f2a5-4afc-bcbd-2b44a6c6a2d8",
       "Sun Pyramid Mux"
+    ],
+    [
+      "3b6c2f97-efd5-4c49-a83f-261db6b2deb3",
+      "Enable_IMU"
     ],
     [
       "a3d832b6-a1cc-4410-a8d7-1698d429804f",
@@ -798,14 +820,6 @@
     [
       "67beb92b-917b-42f4-9398-707556a28567",
       "Magdrv Current Monitor Mux"
-    ],
-    [
-      "18b4321a-5d6b-428b-9299-fbbcca773709",
-      "Enable_Magnetometer1"
-    ],
-    [
-      "3b6c2f97-efd5-4c49-a83f-261db6b2deb3",
-      "Enable_IMU"
     ]
   ],
   "text_variables": {}
